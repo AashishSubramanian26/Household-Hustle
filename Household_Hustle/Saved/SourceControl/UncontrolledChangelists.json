@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/joshj/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/Blueprints/BP_TimedChores.uasset",
+				"C:/Users/joshj/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/Maps/FirstPersonMap.umap",
+				"C:/Users/joshj/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/Blueprints/GM_TimedChores.uasset",
+				"C:/Users/joshj/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/Blueprints/WBP_UI.uasset",
+				"C:/Users/joshj/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/Blueprints/WBP_EndScreenTO.uasset",
 				"C:/Users/Aashish Subramanian/OneDrive/Documents/GitHub/Household-Hustle/Household_Hustle/Content/StarterContent/Architecture/Floor_400x400.uasset",
 				"C:/Users/Aashish Subramanian/OneDrive/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/UI/8g0HKnL.uasset",
 				"C:/Users/Aashish Subramanian/OneDrive/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/UI/Dot.uasset",
