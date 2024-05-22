@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/Kuba/Documents/GitHub/Household-Hustle/Household_Hustle/Content/Interactable/BP_TaskList.uasset",
+				"C:/Users/Kuba/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/Kuba/Documents/GitHub/Household-Hustle/Household_Hustle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/RQ/642WKFDQRWZFECT8CO9HNL.uasset",
+				"C:/Users/Kuba/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/Blueprints/GM_TimedChores.uasset",
+				"C:/Users/Kuba/Documents/GitHub/Household-Hustle/Household_Hustle/Content/Interactable/TaskList/BP_TaskList.uasset",
+				"C:/Users/Kuba/Documents/GitHub/Household-Hustle/Household_Hustle/Content/Interactable/TaskList/BP_ListWidget.uasset",
+				"C:/Users/Kuba/Documents/GitHub/Household-Hustle/Household_Hustle/Content/Interactable/TaskList/WBP_ListWidget.uasset",
 				"C:/Users/joshj/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/Blueprints/BP_TimedChores.uasset",
 				"C:/Users/joshj/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/Maps/FirstPersonMap.umap",
 				"C:/Users/joshj/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/Blueprints/GM_TimedChores.uasset",
