@@ -5,20 +5,24 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/Aashish Subramanian/OneDrive/Documents/GitHub/Household-Hustle/Household_Hustle/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Users/Aashish Subramanian/OneDrive/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/UI/Dot.uasset",
+				"C:/Users/Aashish Subramanian/OneDrive/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/UI/WBP_Center.uasset",
+				"C:/Users/Aashish Subramanian/OneDrive/Documents/GitHub/Household-Hustle/Household_Hustle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/TK/TF3Q3AS2GD7ADZX3N4USGG.uasset",
+				"C:/Users/Aashish Subramanian/OneDrive/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/Aashish Subramanian/OneDrive/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/Blueprints/Items/BP_Plate.uasset",
+				"C:/Users/Aashish Subramanian/OneDrive/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/Blueprints/Items/letter/BP_Letter.uasset",
+				"C:/Users/Aashish Subramanian/OneDrive/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/Blueprints/Items/Plate/BP_Plate.uasset",
+				"C:/Users/Aashish Subramanian/OneDrive/Documents/GitHub/Household-Hustle/Household_Hustle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/ZB/G2DD7RRDWXSBI3IFOTSH5V.uasset",
+				"C:/Users/Aashish Subramanian/OneDrive/Documents/GitHub/Household-Hustle/Household_Hustle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/6N/770NXUC2WXVTJOVZ5MNHCN.uasset",
 				"C:/Users/joshj/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/Blueprints/BP_TimedChores.uasset",
 				"C:/Users/joshj/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/Maps/FirstPersonMap.umap",
 				"C:/Users/joshj/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/Blueprints/GM_TimedChores.uasset",
 				"C:/Users/joshj/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/Blueprints/WBP_UI.uasset",
 				"C:/Users/joshj/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/Blueprints/WBP_EndScreenTO.uasset",
-				"C:/Users/Aashish Subramanian/OneDrive/Documents/GitHub/Household-Hustle/Household_Hustle/Content/StarterContent/Architecture/Floor_400x400.uasset",
 				"C:/Users/Aashish Subramanian/OneDrive/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/UI/8g0HKnL.uasset",
-				"C:/Users/Aashish Subramanian/OneDrive/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/UI/Dot.uasset",
-				"C:/Users/Aashish Subramanian/OneDrive/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/UI/WBP_Center.uasset",
 				"C:/Users/Aashish Subramanian/OneDrive/Documents/GitHub/Household-Hustle/Household_Hustle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/I7/NC8L4C5426HKRMQIWXNI0G.uasset",
-				"C:/Users/Aashish Subramanian/OneDrive/Documents/GitHub/Household-Hustle/Household_Hustle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/TK/TF3Q3AS2GD7ADZX3N4USGG.uasset",
-				"C:/Users/Aashish Subramanian/OneDrive/Documents/GitHub/Household-Hustle/Household_Hustle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/KR/D6CTZ2AITCPOZQ8BEU24MO.uasset",
-				"C:/Users/Aashish Subramanian/OneDrive/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
-				"C:/Users/Aashish Subramanian/OneDrive/Documents/GitHub/Household-Hustle/Household_Hustle/Content/FirstPerson/Blueprints/Items/BP_Plate.uasset"
+				"C:/Users/Aashish Subramanian/OneDrive/Documents/GitHub/Household-Hustle/Household_Hustle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/KR/D6CTZ2AITCPOZQ8BEU24MO.uasset"
 			]
 		}
 	]
