@@ -1,0 +1,6 @@
+---,taskDifficulties
+Monday,"(0,0,0)"
+Tuesday,"(0,0,1,1)"
+Wednesday,"(0,1,1,1, 2)"
+Thursday,"(0,1,1, 1, 2, 2)"
+Friday,"(1, 1, 1, 2, 2, 2, 2)"
