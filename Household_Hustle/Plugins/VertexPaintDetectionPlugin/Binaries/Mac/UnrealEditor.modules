@@ -1,0 +1,11 @@
+{
+	"BuildId": "27405482",
+	"Modules": 
+	{
+		"RVPDPEditor": "UnrealEditor-RVPDPEditor.dylib",
+		"RVPDPRapidJson": "UnrealEditor-RVPDPRapidJson.dylib",
+		"RVPDPToolbarButton": "UnrealEditor-RVPDPToolbarButton.dylib",
+		"VertexPaintDetectionPlugin": "UnrealEditor-VertexPaintDetectionPlugin.dylib",
+		"VertexPaintDetection_Uncooked": "UnrealEditor-VertexPaintDetection_Uncooked.dylib"
+	}
+}

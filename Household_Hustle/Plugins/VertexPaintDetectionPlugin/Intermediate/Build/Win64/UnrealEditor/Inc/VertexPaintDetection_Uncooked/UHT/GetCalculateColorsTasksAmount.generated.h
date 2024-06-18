@@ -1,0 +1,64 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "GetCalculateColorsTasksAmount.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef VERTEXPAINTDETECTION_UNCOOKED_GetCalculateColorsTasksAmount_generated_h
+#error "GetCalculateColorsTasksAmount.generated.h already included, missing '#pragma once' in GetCalculateColorsTasksAmount.h"
+#endif
+#define VERTEXPAINTDETECTION_UNCOOKED_GetCalculateColorsTasksAmount_generated_h
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetection_Uncooked_GetCalculateColorsTasksAmount_h_15_SPARSE_DATA
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetection_Uncooked_GetCalculateColorsTasksAmount_h_15_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetection_Uncooked_GetCalculateColorsTasksAmount_h_15_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetection_Uncooked_GetCalculateColorsTasksAmount_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetection_Uncooked_GetCalculateColorsTasksAmount_h_15_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetection_Uncooked_GetCalculateColorsTasksAmount_h_15_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUGetCalculateColorsTasksAmount(); \
+	friend struct Z_Construct_UClass_UGetCalculateColorsTasksAmount_Statics; \
+public: \
+	DECLARE_CLASS(UGetCalculateColorsTasksAmount, UVertexPaintFunctionWrapper, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VertexPaintDetection_Uncooked"), NO_API) \
+	DECLARE_SERIALIZER(UGetCalculateColorsTasksAmount)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetection_Uncooked_GetCalculateColorsTasksAmount_h_15_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGetCalculateColorsTasksAmount(UGetCalculateColorsTasksAmount&&); \
+	NO_API UGetCalculateColorsTasksAmount(const UGetCalculateColorsTasksAmount&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGetCalculateColorsTasksAmount); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGetCalculateColorsTasksAmount); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UGetCalculateColorsTasksAmount) \
+	NO_API virtual ~UGetCalculateColorsTasksAmount();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetection_Uncooked_GetCalculateColorsTasksAmount_h_12_PROLOG
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetection_Uncooked_GetCalculateColorsTasksAmount_h_15_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetection_Uncooked_GetCalculateColorsTasksAmount_h_15_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetection_Uncooked_GetCalculateColorsTasksAmount_h_15_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetection_Uncooked_GetCalculateColorsTasksAmount_h_15_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetection_Uncooked_GetCalculateColorsTasksAmount_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetection_Uncooked_GetCalculateColorsTasksAmount_h_15_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetection_Uncooked_GetCalculateColorsTasksAmount_h_15_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetection_Uncooked_GetCalculateColorsTasksAmount_h_15_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VERTEXPAINTDETECTION_UNCOOKED_API UClass* StaticClass<class UGetCalculateColorsTasksAmount>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetection_Uncooked_GetCalculateColorsTasksAmount_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

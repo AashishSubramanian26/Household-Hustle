@@ -1,0 +1,78 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Async/VertexPaintDetectionTaskQueue.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FCalculateColorsInfo;
+#ifdef VERTEXPAINTDETECTIONPLUGIN_VertexPaintDetectionTaskQueue_generated_h
+#error "VertexPaintDetectionTaskQueue.generated.h already included, missing '#pragma once' in VertexPaintDetectionTaskQueue.h"
+#endif
+#define VERTEXPAINTDETECTIONPLUGIN_VertexPaintDetectionTaskQueue_generated_h
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Async_VertexPaintDetectionTaskQueue_h_14_DELEGATE \
+VERTEXPAINTDETECTIONPLUGIN_API void FTaskRemovedFromQueue_DelegateWrapper(const FMulticastScriptDelegate& TaskRemovedFromQueue, FCalculateColorsInfo const& taskRemoved);
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Async_VertexPaintDetectionTaskQueue_h_21_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FTaskQueueIDInfo_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FTaskQueueIDInfo>();
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Async_VertexPaintDetectionTaskQueue_h_33_SPARSE_DATA
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Async_VertexPaintDetectionTaskQueue_h_33_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Async_VertexPaintDetectionTaskQueue_h_33_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Async_VertexPaintDetectionTaskQueue_h_33_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Async_VertexPaintDetectionTaskQueue_h_33_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Async_VertexPaintDetectionTaskQueue_h_33_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVertexPaintDetectionTaskQueue(); \
+	friend struct Z_Construct_UClass_UVertexPaintDetectionTaskQueue_Statics; \
+public: \
+	DECLARE_CLASS(UVertexPaintDetectionTaskQueue, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VertexPaintDetectionPlugin"), NO_API) \
+	DECLARE_SERIALIZER(UVertexPaintDetectionTaskQueue)
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Async_VertexPaintDetectionTaskQueue_h_33_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVertexPaintDetectionTaskQueue(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVertexPaintDetectionTaskQueue(UVertexPaintDetectionTaskQueue&&); \
+	NO_API UVertexPaintDetectionTaskQueue(const UVertexPaintDetectionTaskQueue&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVertexPaintDetectionTaskQueue); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVertexPaintDetectionTaskQueue); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVertexPaintDetectionTaskQueue) \
+	NO_API virtual ~UVertexPaintDetectionTaskQueue();
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Async_VertexPaintDetectionTaskQueue_h_30_PROLOG
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Async_VertexPaintDetectionTaskQueue_h_33_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Async_VertexPaintDetectionTaskQueue_h_33_SPARSE_DATA \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Async_VertexPaintDetectionTaskQueue_h_33_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Async_VertexPaintDetectionTaskQueue_h_33_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Async_VertexPaintDetectionTaskQueue_h_33_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Async_VertexPaintDetectionTaskQueue_h_33_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Async_VertexPaintDetectionTaskQueue_h_33_INCLASS_NO_PURE_DECLS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Async_VertexPaintDetectionTaskQueue_h_33_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UClass* StaticClass<class UVertexPaintDetectionTaskQueue>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Async_VertexPaintDetectionTaskQueue_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

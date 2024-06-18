@@ -1,0 +1,92 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "FunctionLibs/VertexPaintTasksFunctionLibrary.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class UVertexPaintDetectionComponent;
+struct FVertexDetectAdditionalDataToPassThrough;
+struct FVertexDetectGetColorsOnlyStruct;
+struct FVertexDetectGetColorsWithinAreaStruct;
+struct FVertexDetectInfoStruct;
+struct FVertexPaintAtLocationStruct;
+struct FVertexPaintColorSnippetStruct;
+struct FVertexPaintGroupSnippetStruct;
+struct FVertexPainthWithinAreaStruct;
+struct FVertexPaintOnEntireMeshStruct;
+struct FVertexPaintSetMeshComponentVertexColors;
+struct FVertexPaintSetMeshComponentVertexColorsUsingSerializedString;
+#ifdef VERTEXPAINTDETECTIONPLUGIN_VertexPaintTasksFunctionLibrary_generated_h
+#error "VertexPaintTasksFunctionLibrary.generated.h already included, missing '#pragma once' in VertexPaintTasksFunctionLibrary.h"
+#endif
+#define VERTEXPAINTDETECTIONPLUGIN_VertexPaintTasksFunctionLibrary_generated_h
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintTasksFunctionLibrary_h_30_SPARSE_DATA
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintTasksFunctionLibrary_h_30_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintTasksFunctionLibrary_h_30_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintTasksFunctionLibrary_h_30_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetMeshComponentVertexColorsUsingSerializedString_Wrapper); \
+	DECLARE_FUNCTION(execSetMeshComponentVertexColors_Wrapper); \
+	DECLARE_FUNCTION(execPaintGroupSnippetOnMesh_Wrapper); \
+	DECLARE_FUNCTION(execPaintColorSnippetOnMesh_Wrappers); \
+	DECLARE_FUNCTION(execPaintOnEntireMesh_Wrapper); \
+	DECLARE_FUNCTION(execPaintOnMeshWithinArea_Wrapper); \
+	DECLARE_FUNCTION(execPaintOnMeshAtLocation_Wrapper); \
+	DECLARE_FUNCTION(execGetColorsWithinArea_Wrapper); \
+	DECLARE_FUNCTION(execGetAllVertexColorsOnly_Wrapper); \
+	DECLARE_FUNCTION(execGetClosestVertexDataOnMesh_Wrapper);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintTasksFunctionLibrary_h_30_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintTasksFunctionLibrary_h_30_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVertexPaintTasksFunctionLibrary(); \
+	friend struct Z_Construct_UClass_UVertexPaintTasksFunctionLibrary_Statics; \
+public: \
+	DECLARE_CLASS(UVertexPaintTasksFunctionLibrary, UBlueprintFunctionLibrary, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VertexPaintDetectionPlugin"), NO_API) \
+	DECLARE_SERIALIZER(UVertexPaintTasksFunctionLibrary)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintTasksFunctionLibrary_h_30_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVertexPaintTasksFunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVertexPaintTasksFunctionLibrary(UVertexPaintTasksFunctionLibrary&&); \
+	NO_API UVertexPaintTasksFunctionLibrary(const UVertexPaintTasksFunctionLibrary&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVertexPaintTasksFunctionLibrary); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVertexPaintTasksFunctionLibrary); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVertexPaintTasksFunctionLibrary) \
+	NO_API virtual ~UVertexPaintTasksFunctionLibrary();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintTasksFunctionLibrary_h_27_PROLOG
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintTasksFunctionLibrary_h_30_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintTasksFunctionLibrary_h_30_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintTasksFunctionLibrary_h_30_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintTasksFunctionLibrary_h_30_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintTasksFunctionLibrary_h_30_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintTasksFunctionLibrary_h_30_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintTasksFunctionLibrary_h_30_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintTasksFunctionLibrary_h_30_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UClass* StaticClass<class UVertexPaintTasksFunctionLibrary>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintTasksFunctionLibrary_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

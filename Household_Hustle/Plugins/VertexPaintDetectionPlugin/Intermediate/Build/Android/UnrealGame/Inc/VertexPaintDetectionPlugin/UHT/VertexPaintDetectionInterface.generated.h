@@ -1,0 +1,153 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "VertexPaintDetectionInterface.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+class UClothingAssetBase; struct FVertexDetectClothSettingsStruct;
+class UMaterialInterface;
+class UPrimitiveComponent;
+class USkeletalMeshComponent;
+class UVertexPaintDetectionComponent;
+struct FColor;
+struct FVertexDetectAdditionalDataToPassThrough;
+struct FVertexDetectAvarageColorInAreaInfo;
+struct FVertexDetectClosestVertexDataResultStruct;
+struct FVertexDetectEstimatedColorAtHitLocationResultStruct;
+struct FVertexDetectGetColorsOnlyStruct;
+struct FVertexDetectGetColorsWithinAreaStruct;
+struct FVertexDetectInfoStruct;
+struct FVertexDetectPaintTaskResultInfo;
+struct FVertexDetectTaskResultInfo;
+struct FVertexPaintAtLocationStruct;
+struct FVertexPaintColorSnippetStruct;
+struct FVertexPainthWithinAreaStruct;
+struct FVertexPaintOnEntireMeshStruct;
+struct FVertexPaintSetMeshComponentVertexColors;
+struct FVertexPaintSetMeshComponentVertexColorsUsingSerializedString;
+struct FVertexPaintStruct;
+struct FVertexPaintWithinAreaResults;
+#ifdef VERTEXPAINTDETECTIONPLUGIN_VertexPaintDetectionInterface_generated_h
+#error "VertexPaintDetectionInterface.generated.h already included, missing '#pragma once' in VertexPaintDetectionInterface.h"
+#endif
+#define VERTEXPAINTDETECTIONPLUGIN_VertexPaintDetectionInterface_generated_h
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionInterface_h_35_SPARSE_DATA
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionInterface_h_35_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionInterface_h_35_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionInterface_h_35_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void ClothEndOverlappingMesh_Implementation(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 item) {}; \
+	virtual void ClothBeginOverlappingMesh_Implementation(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 item) {}; \
+	virtual TMap<UClothingAssetBase*,FVertexDetectClothSettingsStruct> GetSkeletalMeshClothPhysicsSettings_Implementation(USkeletalMeshComponent* skeletalMeshComponentTryingToGetClothSettingsFor) { return TMap<UClothingAssetBase*,FVertexDetectClothSettingsStruct>(); }; \
+	virtual void ColorsAppliedOnActor_Implementation(FVertexDetectTaskResultInfo const& taskResultInfo, FVertexDetectPaintTaskResultInfo const& paintTaskResultInfo, FVertexPaintStruct const& paintedOnActorSettings, FVertexDetectAdditionalDataToPassThrough const& additionalData) {}; \
+	virtual void PaintedOnActor_SetMeshComponentVertexColorsUsingSerializedString_Implementation(FVertexDetectTaskResultInfo const& taskResultInfo, FVertexDetectPaintTaskResultInfo const& paintTaskResultInfo, FVertexPaintSetMeshComponentVertexColorsUsingSerializedString const& setMeshComponentVertexColorUsingSerializedStringSettings, FVertexDetectAdditionalDataToPassThrough const& additionalData) {}; \
+	virtual void PaintedOnActor_SetMeshComponentVertexColors_Implementation(FVertexDetectTaskResultInfo const& taskResultInfo, FVertexDetectPaintTaskResultInfo const& paintTaskResultInfo, FVertexPaintSetMeshComponentVertexColors const& setMeshComponentVertexColorSettings, FVertexDetectAdditionalDataToPassThrough const& additionalData) {}; \
+	virtual void PaintedOnActor_PaintColorSnippet_Implementation(FVertexDetectTaskResultInfo const& taskResultInfo, FVertexDetectPaintTaskResultInfo const& paintTaskResultInfo, FVertexPaintColorSnippetStruct const& paintedColorSnippetSettings, FVertexDetectAdditionalDataToPassThrough const& additionalData) {}; \
+	virtual void PaintedOnActor_EntireMesh_Implementation(FVertexDetectTaskResultInfo const& taskResultInfo, FVertexDetectPaintTaskResultInfo const& paintTaskResultInfo, FVertexPaintOnEntireMeshStruct const& paintedEntireMeshSettings, FVertexDetectAdditionalDataToPassThrough const& additionalData) {}; \
+	virtual void PaintedOnActor_WithinArea_Implementation(FVertexDetectTaskResultInfo const& taskResultInfo, FVertexDetectPaintTaskResultInfo const& paintTaskResultInfo, FVertexPainthWithinAreaStruct const& paintedWithinAreaSettings, FVertexPaintWithinAreaResults const& withinAreaResults, FVertexDetectAdditionalDataToPassThrough const& additionalData) {}; \
+	virtual void PaintedOnActor_AtLocation_Implementation(FVertexDetectTaskResultInfo const& taskResultInfo, FVertexDetectPaintTaskResultInfo const& paintTaskResultInfo, FVertexPaintAtLocationStruct const& paintedAtLocationSettings, FVertexDetectClosestVertexDataResultStruct const& closestVertexColorResult, FVertexDetectEstimatedColorAtHitLocationResultStruct const& estimatedColorAtHitLocationResult, FVertexDetectAvarageColorInAreaInfo const& avarageColorInAreaInfo, FVertexDetectAdditionalDataToPassThrough const& additionalData) {}; \
+	virtual void GetColorsWithinArea_Implementation(FVertexDetectTaskResultInfo const& taskResultInfo, FVertexDetectGetColorsWithinAreaStruct const& getColorsWithinAreaSettings, FVertexPaintWithinAreaResults const& withinAreaResults, FVertexDetectAdditionalDataToPassThrough const& additionalData) {}; \
+	virtual void GetAllVertexColorsOnlyOnActor_Implementation(FVertexDetectTaskResultInfo const& taskResultInfo, FVertexDetectGetColorsOnlyStruct const& gotAllVertexColorsWithSettings, FVertexDetectAdditionalDataToPassThrough const& additionalData) {}; \
+	virtual void GetClosestVertexDataOnActor_Implementation(FVertexDetectTaskResultInfo const& taskResultInfo, FVertexDetectInfoStruct const& detectedMeshWithSettings, FVertexDetectClosestVertexDataResultStruct const& closestVertexColorResult, FVertexDetectEstimatedColorAtHitLocationResultStruct const& estimatedColorAtHitLocationResult, FVertexDetectAvarageColorInAreaInfo const& avarageColorInAreaInfo, FVertexDetectAdditionalDataToPassThrough const& additionalData) {}; \
+	virtual void OverrideVertexColorToApply_Implementation(UVertexPaintDetectionComponent* associatedPaintComponent, UPrimitiveComponent* meshApplyingColorsTo, int32 currentLOD, int32 currentVertexIndex, UMaterialInterface* materialVertexIsOn, bool isVertexOnCloth, FName const& boneVertexIsOn, FVector const& vertexPositionInWorldSpace, FVector const& vertexNormal, FColor const& currentVertexColor, EPhysicalSurface currentVertexMostDominantPhysicsSurface, float currentVertexMostDominantPhysicsSurfaceValue, FColor const& updatedVertexColorToApply, bool wantsToApplyUpdatedVertexColor, bool& applyUpdatedOrOverridenVertexColors, bool& overrideVertexColorsToApply, FColor& vertexColorsToOverrideWith) {}; \
+ \
+	DECLARE_FUNCTION(execClothEndOverlappingMesh); \
+	DECLARE_FUNCTION(execClothBeginOverlappingMesh); \
+	DECLARE_FUNCTION(execGetSkeletalMeshClothPhysicsSettings); \
+	DECLARE_FUNCTION(execColorsAppliedOnActor); \
+	DECLARE_FUNCTION(execPaintedOnActor_SetMeshComponentVertexColorsUsingSerializedString); \
+	DECLARE_FUNCTION(execPaintedOnActor_SetMeshComponentVertexColors); \
+	DECLARE_FUNCTION(execPaintedOnActor_PaintColorSnippet); \
+	DECLARE_FUNCTION(execPaintedOnActor_EntireMesh); \
+	DECLARE_FUNCTION(execPaintedOnActor_WithinArea); \
+	DECLARE_FUNCTION(execPaintedOnActor_AtLocation); \
+	DECLARE_FUNCTION(execGetColorsWithinArea); \
+	DECLARE_FUNCTION(execGetAllVertexColorsOnlyOnActor); \
+	DECLARE_FUNCTION(execGetClosestVertexDataOnActor); \
+	DECLARE_FUNCTION(execOverrideVertexColorToApply);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionInterface_h_35_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionInterface_h_35_CALLBACK_WRAPPERS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionInterface_h_35_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVertexPaintDetectionInterface(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVertexPaintDetectionInterface(UVertexPaintDetectionInterface&&); \
+	NO_API UVertexPaintDetectionInterface(const UVertexPaintDetectionInterface&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVertexPaintDetectionInterface); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVertexPaintDetectionInterface); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVertexPaintDetectionInterface) \
+	NO_API virtual ~UVertexPaintDetectionInterface();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionInterface_h_35_GENERATED_UINTERFACE_BODY() \
+private: \
+	static void StaticRegisterNativesUVertexPaintDetectionInterface(); \
+	friend struct Z_Construct_UClass_UVertexPaintDetectionInterface_Statics; \
+public: \
+	DECLARE_CLASS(UVertexPaintDetectionInterface, UInterface, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Interface), CASTCLASS_None, TEXT("/Script/VertexPaintDetectionPlugin"), NO_API) \
+	DECLARE_SERIALIZER(UVertexPaintDetectionInterface)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionInterface_h_35_GENERATED_BODY \
+	PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionInterface_h_35_GENERATED_UINTERFACE_BODY() \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionInterface_h_35_ENHANCED_CONSTRUCTORS \
+private: \
+	PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionInterface_h_35_INCLASS_IINTERFACE_NO_PURE_DECLS \
+protected: \
+	virtual ~IVertexPaintDetectionInterface() {} \
+public: \
+	typedef UVertexPaintDetectionInterface UClassType; \
+	typedef IVertexPaintDetectionInterface ThisClass; \
+	static void Execute_ClothBeginOverlappingMesh(UObject* O, UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 item); \
+	static void Execute_ClothEndOverlappingMesh(UObject* O, UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 item); \
+	static void Execute_ColorsAppliedOnActor(UObject* O, FVertexDetectTaskResultInfo const& taskResultInfo, FVertexDetectPaintTaskResultInfo const& paintTaskResultInfo, FVertexPaintStruct const& paintedOnActorSettings, FVertexDetectAdditionalDataToPassThrough const& additionalData); \
+	static void Execute_GetAllVertexColorsOnlyOnActor(UObject* O, FVertexDetectTaskResultInfo const& taskResultInfo, FVertexDetectGetColorsOnlyStruct const& gotAllVertexColorsWithSettings, FVertexDetectAdditionalDataToPassThrough const& additionalData); \
+	static void Execute_GetClosestVertexDataOnActor(UObject* O, FVertexDetectTaskResultInfo const& taskResultInfo, FVertexDetectInfoStruct const& detectedMeshWithSettings, FVertexDetectClosestVertexDataResultStruct const& closestVertexColorResult, FVertexDetectEstimatedColorAtHitLocationResultStruct const& estimatedColorAtHitLocationResult, FVertexDetectAvarageColorInAreaInfo const& avarageColorInAreaInfo, FVertexDetectAdditionalDataToPassThrough const& additionalData); \
+	static void Execute_GetColorsWithinArea(UObject* O, FVertexDetectTaskResultInfo const& taskResultInfo, FVertexDetectGetColorsWithinAreaStruct const& getColorsWithinAreaSettings, FVertexPaintWithinAreaResults const& withinAreaResults, FVertexDetectAdditionalDataToPassThrough const& additionalData); \
+	static TMap<UClothingAssetBase*,FVertexDetectClothSettingsStruct> Execute_GetSkeletalMeshClothPhysicsSettings(UObject* O, USkeletalMeshComponent* skeletalMeshComponentTryingToGetClothSettingsFor); \
+	static void Execute_OverrideVertexColorToApply(UObject* O, UVertexPaintDetectionComponent* associatedPaintComponent, UPrimitiveComponent* meshApplyingColorsTo, int32 currentLOD, int32 currentVertexIndex, UMaterialInterface* materialVertexIsOn, bool isVertexOnCloth, FName const& boneVertexIsOn, FVector const& vertexPositionInWorldSpace, FVector const& vertexNormal, FColor const& currentVertexColor, EPhysicalSurface currentVertexMostDominantPhysicsSurface, float currentVertexMostDominantPhysicsSurfaceValue, FColor const& updatedVertexColorToApply, bool wantsToApplyUpdatedVertexColor, bool& applyUpdatedOrOverridenVertexColors, bool& overrideVertexColorsToApply, FColor& vertexColorsToOverrideWith); \
+	static void Execute_PaintedOnActor_AtLocation(UObject* O, FVertexDetectTaskResultInfo const& taskResultInfo, FVertexDetectPaintTaskResultInfo const& paintTaskResultInfo, FVertexPaintAtLocationStruct const& paintedAtLocationSettings, FVertexDetectClosestVertexDataResultStruct const& closestVertexColorResult, FVertexDetectEstimatedColorAtHitLocationResultStruct const& estimatedColorAtHitLocationResult, FVertexDetectAvarageColorInAreaInfo const& avarageColorInAreaInfo, FVertexDetectAdditionalDataToPassThrough const& additionalData); \
+	static void Execute_PaintedOnActor_EntireMesh(UObject* O, FVertexDetectTaskResultInfo const& taskResultInfo, FVertexDetectPaintTaskResultInfo const& paintTaskResultInfo, FVertexPaintOnEntireMeshStruct const& paintedEntireMeshSettings, FVertexDetectAdditionalDataToPassThrough const& additionalData); \
+	static void Execute_PaintedOnActor_PaintColorSnippet(UObject* O, FVertexDetectTaskResultInfo const& taskResultInfo, FVertexDetectPaintTaskResultInfo const& paintTaskResultInfo, FVertexPaintColorSnippetStruct const& paintedColorSnippetSettings, FVertexDetectAdditionalDataToPassThrough const& additionalData); \
+	static void Execute_PaintedOnActor_SetMeshComponentVertexColors(UObject* O, FVertexDetectTaskResultInfo const& taskResultInfo, FVertexDetectPaintTaskResultInfo const& paintTaskResultInfo, FVertexPaintSetMeshComponentVertexColors const& setMeshComponentVertexColorSettings, FVertexDetectAdditionalDataToPassThrough const& additionalData); \
+	static void Execute_PaintedOnActor_SetMeshComponentVertexColorsUsingSerializedString(UObject* O, FVertexDetectTaskResultInfo const& taskResultInfo, FVertexDetectPaintTaskResultInfo const& paintTaskResultInfo, FVertexPaintSetMeshComponentVertexColorsUsingSerializedString const& setMeshComponentVertexColorUsingSerializedStringSettings, FVertexDetectAdditionalDataToPassThrough const& additionalData); \
+	static void Execute_PaintedOnActor_WithinArea(UObject* O, FVertexDetectTaskResultInfo const& taskResultInfo, FVertexDetectPaintTaskResultInfo const& paintTaskResultInfo, FVertexPainthWithinAreaStruct const& paintedWithinAreaSettings, FVertexPaintWithinAreaResults const& withinAreaResults, FVertexDetectAdditionalDataToPassThrough const& additionalData); \
+	virtual UObject* _getUObject() const { return nullptr; }
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionInterface_h_32_PROLOG
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionInterface_h_43_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionInterface_h_35_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionInterface_h_35_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionInterface_h_35_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionInterface_h_35_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionInterface_h_35_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionInterface_h_35_CALLBACK_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionInterface_h_35_INCLASS_IINTERFACE_NO_PURE_DECLS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UClass* StaticClass<class UVertexPaintDetectionInterface>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionInterface_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

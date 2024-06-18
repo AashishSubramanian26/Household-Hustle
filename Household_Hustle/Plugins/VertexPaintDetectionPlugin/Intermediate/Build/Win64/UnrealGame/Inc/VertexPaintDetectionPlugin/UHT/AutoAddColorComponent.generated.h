@@ -1,0 +1,99 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Components/AutoAddColorComponent.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+class UPrimitiveComponent;
+class UPrimitiveComponent; struct FAutoAddColorSettings;
+struct FVertexDetectAdditionalDataToPassThrough;
+struct FVertexDetectPaintTaskResultInfo;
+struct FVertexDetectTaskResultInfo;
+#ifdef VERTEXPAINTDETECTIONPLUGIN_AutoAddColorComponent_generated_h
+#error "AutoAddColorComponent.generated.h already included, missing '#pragma once' in AutoAddColorComponent.h"
+#endif
+#define VERTEXPAINTDETECTIONPLUGIN_AutoAddColorComponent_generated_h
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_13_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FAutoAddColorSettings_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FAutoAddColorSettings>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_40_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FAutoPaintTaskResults_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FAutoPaintTaskResults>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_52_SPARSE_DATA
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_52_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_52_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_52_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execStartNewRoundOfTasks); \
+	DECLARE_FUNCTION(execAutoPaintDelayFinished); \
+	DECLARE_FUNCTION(execAutoPaintedActorDestroyed); \
+	DECLARE_FUNCTION(execPaintTaskFinished); \
+	DECLARE_FUNCTION(execGetIsAutoPainting); \
+	DECLARE_FUNCTION(execGetMeshesBeingAutoPainted); \
+	DECLARE_FUNCTION(execResumeAutoPaintingMesh); \
+	DECLARE_FUNCTION(execPauseAutoPaintingMesh); \
+	DECLARE_FUNCTION(execStopAutoPaintingMesh); \
+	DECLARE_FUNCTION(execStopAllAutoPainting);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_52_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_52_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUAutoAddColorComponent(); \
+	friend struct Z_Construct_UClass_UAutoAddColorComponent_Statics; \
+public: \
+	DECLARE_CLASS(UAutoAddColorComponent, UVertexPaintDetectionComponent, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Config), CASTCLASS_None, TEXT("/Script/VertexPaintDetectionPlugin"), NO_API) \
+	DECLARE_SERIALIZER(UAutoAddColorComponent)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_52_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAutoAddColorComponent(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAutoAddColorComponent(UAutoAddColorComponent&&); \
+	NO_API UAutoAddColorComponent(const UAutoAddColorComponent&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAutoAddColorComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAutoAddColorComponent); \
+	DEFINE_ABSTRACT_DEFAULT_CONSTRUCTOR_CALL(UAutoAddColorComponent) \
+	NO_API virtual ~UAutoAddColorComponent();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_49_PROLOG
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_52_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_52_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_52_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_52_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_52_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_52_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_52_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_52_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UClass* StaticClass<class UAutoAddColorComponent>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

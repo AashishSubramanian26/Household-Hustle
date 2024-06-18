@@ -1,0 +1,12 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\VertexPaintDetectionPlugin\\Module.VertexPaintDetectionPlugin.1.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\VertexPaintDetectionPlugin\\Module.VertexPaintDetectionPlugin.2.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\VertexPaintDetectionPlugin\\Module.VertexPaintDetectionPlugin.3.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\VertexPaintDetectionPlugin\\Module.VertexPaintDetectionPlugin.4.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\VertexPaintDetectionPlugin\\Module.VertexPaintDetectionPlugin.5.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\VertexPaintDetectionPlugin\\Module.VertexPaintDetectionPlugin.6.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\VertexPaintDetectionPlugin\\Module.VertexPaintDetectionPlugin.7.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\VertexPaintDetectionPlugin\\Module.VertexPaintDetectionPlugin.8.cpp.obj"
+	]
+}
