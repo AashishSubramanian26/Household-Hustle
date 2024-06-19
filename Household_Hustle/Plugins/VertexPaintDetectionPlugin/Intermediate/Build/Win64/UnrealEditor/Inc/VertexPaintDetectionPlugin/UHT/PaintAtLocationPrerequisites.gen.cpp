@@ -52,7 +52,9 @@ void EmptyLinkFunctionForGeneratedCodePaintAtLocationPrerequisites() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_VertexPaintDetectionPlugin_EVertexPaintAtLocationFallOffType_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Paint At Location Falloff Type\n" },
+#endif
 		{ "InwardFallOff.DisplayName", "Inward Fall Off" },
 		{ "InwardFallOff.Name", "EVertexPaintAtLocationFallOffType::InwardFallOff" },
 		{ "InwardFallOff.Tooltip", "Fall Off Inwardly, Gets Weaker Toward the Min AoE and Stronger toward the Max AoE, from distanceToBaseFallOffFrom. " },
@@ -63,7 +65,9 @@ void EmptyLinkFunctionForGeneratedCodePaintAtLocationPrerequisites() {}
 		{ "SphericalFallOff.DisplayName", "Spherical Fall Off" },
 		{ "SphericalFallOff.Name", "EVertexPaintAtLocationFallOffType::SphericalFallOff" },
 		{ "SphericalFallOff.Tooltip", "Fall Offs evenly In and Outwards to all directions. For instance if you change the distanceToBaseFallOffFrom to be Between the Min and Max AoE, then it will be stronger there, and weaker out toward Min and Max range. " },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Paint At Location Falloff Type" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumParams Z_Construct_UEnum_VertexPaintDetectionPlugin_EVertexPaintAtLocationFallOffType_Statics::EnumParams = {
@@ -119,9 +123,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationFallOffSettings_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Paint at Location FallOff Settings\n" },
+#endif
 		{ "ModuleRelativePath", "Prerequisites/PaintAtLocationPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Paint at Location FallOff Settings" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationFallOffSettings_Statics::NewStructOps()
@@ -133,10 +141,12 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationFallOffSettings_Statics::NewProp_paintAtLocationFallOffType_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintAtLocationPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Which type of FallOff we should use. The Default is the most common use case. Hover over each of them to get more info of what they do." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationFallOffSettings_Statics::NewProp_paintAtLocationFallOffType = { "paintAtLocationFallOffType", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintAtLocationFallOffSettings, paintAtLocationFallOffType), Z_Construct_UEnum_VertexPaintDetectionPlugin_EVertexPaintAtLocationFallOffType, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationFallOffSettings_Statics::NewProp_paintAtLocationFallOffType_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationFallOffSettings_Statics::NewProp_paintAtLocationFallOffType_MetaData) }; // 136706612
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationFallOffSettings_Statics::NewProp_paintAtLocationFallOffType = { "paintAtLocationFallOffType", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintAtLocationFallOffSettings, paintAtLocationFallOffType), Z_Construct_UEnum_VertexPaintDetectionPlugin_EVertexPaintAtLocationFallOffType, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationFallOffSettings_Statics::NewProp_paintAtLocationFallOffType_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationFallOffSettings_Statics::NewProp_paintAtLocationFallOffType_MetaData) }; // 2289573312
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationFallOffSettings_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationFallOffSettings_Statics::NewProp_paintAtLocationFallOffType_Underlying,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationFallOffSettings_Statics::NewProp_paintAtLocationFallOffType,
@@ -208,9 +218,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Paint at Location Area Settings\n" },
+#endif
 		{ "ModuleRelativePath", "Prerequisites/PaintAtLocationPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Paint at Location Area Settings" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::NewStructOps()
@@ -221,7 +235,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::NewProp_areaOfEffectRangeStart_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintAtLocationPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Area of Effect Range to Start at. Doesn't have to be 0, can for example be 100 if the max is for example 200 if you want to paint a Hollow circle." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::NewProp_areaOfEffectRangeStart = { "areaOfEffectRangeStart", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintAtLocationAreaSettings, areaOfEffectRangeStart), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::NewProp_areaOfEffectRangeStart_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::NewProp_areaOfEffectRangeStart_MetaData) };
@@ -229,7 +245,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::NewProp_areaOfEffectRangeEnd_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintAtLocationPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Area of Effect Range to End at" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::NewProp_areaOfEffectRangeEnd = { "areaOfEffectRangeEnd", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintAtLocationAreaSettings, areaOfEffectRangeEnd), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::NewProp_areaOfEffectRangeEnd_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::NewProp_areaOfEffectRangeEnd_MetaData) };
@@ -237,15 +255,19 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::NewProp_fallOffSettings_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintAtLocationPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Falloff Settings such as strength, distance to base it on, and type of FallOff we should use. The Default is the most common use case. Hover over each of them to get more info of what they do." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::NewProp_fallOffSettings = { "fallOffSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintAtLocationAreaSettings, fallOffSettings), Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationFallOffSettings, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::NewProp_fallOffSettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::NewProp_fallOffSettings_MetaData) }; // 3276590851
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::NewProp_fallOffSettings = { "fallOffSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintAtLocationAreaSettings, fallOffSettings), Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationFallOffSettings, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::NewProp_fallOffSettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::NewProp_fallOffSettings_MetaData) }; // 3255367203
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::NewProp_VertexNormalToHitNormal_MinimumDotProductToGetPainted_StaticMesh_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintAtLocationPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If the Vertex Normal and Hit Normal Dot is Min this then apply colors. Great if you for instance have a Snow Storm and you only want one side of a House or something to get Painted with Snow as the Particles hits it. \nIf 1, then only the vertices on the same side of the Hit Normal get affected, so if it's a wall only the same wall. With -0.1 the vertices around Corners can get painted as well, with -1 to Paint all Vertices within the Area of effect gets painted. Note that this means Paint can become applied on the other side of a wall as well which may be undesirable." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::NewProp_VertexNormalToHitNormal_MinimumDotProductToGetPainted_StaticMesh = { "VertexNormalToHitNormal_MinimumDotProductToGetPainted_StaticMesh", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintAtLocationAreaSettings, VertexNormalToHitNormal_MinimumDotProductToGetPainted_StaticMesh), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::NewProp_VertexNormalToHitNormal_MinimumDotProductToGetPainted_StaticMesh_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::NewProp_VertexNormalToHitNormal_MinimumDotProductToGetPainted_StaticMesh_MetaData) };
@@ -253,7 +275,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::NewProp_VertexNormalToHitNormal_MinimumDotProductToGetPainted_SkeletalMesh_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintAtLocationPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If the Vertex Normal and Hit Normal Dot is Min this then apply colors. Great if you for instance have a Snow Storm and you only want one side of a House or something to get Painted with Snow as the Particles hits it. \nIf 1, then only the vertices on the same side of the Hit Normal get affected, so if it's a wall only the same wall. With -0.1 the vertices around Corners can get painted as well, with -1 to Paint all Vertices within the Area of effect gets painted. Note that this means Paint can become applied on the other side of a wall as well which may be undesirable." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::NewProp_VertexNormalToHitNormal_MinimumDotProductToGetPainted_SkeletalMesh = { "VertexNormalToHitNormal_MinimumDotProductToGetPainted_SkeletalMesh", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintAtLocationAreaSettings, VertexNormalToHitNormal_MinimumDotProductToGetPainted_SkeletalMesh), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::NewProp_VertexNormalToHitNormal_MinimumDotProductToGetPainted_SkeletalMesh_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::NewProp_VertexNormalToHitNormal_MinimumDotProductToGetPainted_SkeletalMesh_MetaData) };
@@ -334,9 +358,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Detect When Painting\n" },
+#endif
 		{ "ModuleRelativePath", "Prerequisites/PaintAtLocationPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Detect When Painting" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::NewStructOps()
@@ -347,7 +375,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::NewProp_runGetClosestVertexDataOnMeshBeforeApplyingPaint_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintAtLocationPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If we run Get Closest Vertex Data on Mesh and it's Event Before Painting. Useful if you for instance want to Run SFX based on the colors before we applied the Paint Job, like if a Rain Drop landed on a Dry Cap, so it's SFX could be that of the Dry Cap and not the Wet Cap, since it wasn't wet before the rain drop hit, but it got wet when it did." },
+#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::NewProp_runGetClosestVertexDataOnMeshBeforeApplyingPaint_SetBit(void* Obj)
@@ -359,7 +389,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::NewProp_runGetClosestVertexDataOnMeshAfterApplyingPaint_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintAtLocationPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If we run Get Closest Vertex Data on Mesh and it's Event After Painting." },
+#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::NewProp_runGetClosestVertexDataOnMeshAfterApplyingPaint_SetBit(void* Obj)
@@ -371,15 +403,19 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::NewProp_getAverageColorInAreaSettings_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintAtLocationPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Can get the Average Color in an Area Range, which could be useful if you have for instance a Make-up game and want to see if the player has painted the majority of a characters cheek. Area Range has to be above 0 to get the average in that range." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::NewProp_getAverageColorInAreaSettings = { "getAverageColorInAreaSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectWhenPaintingSettings, getAverageColorInAreaSettings), Z_Construct_UScriptStruct_FVertexDetectGetAverageColorStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::NewProp_getAverageColorInAreaSettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::NewProp_getAverageColorInAreaSettings_MetaData) }; // 1635215642
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::NewProp_getAverageColorInAreaSettings = { "getAverageColorInAreaSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectWhenPaintingSettings, getAverageColorInAreaSettings), Z_Construct_UScriptStruct_FVertexDetectGetAverageColorStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::NewProp_getAverageColorInAreaSettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::NewProp_getAverageColorInAreaSettings_MetaData) }; // 553421060
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::NewProp_useCustomHitFundementalsForDetection_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintAtLocationPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If false it will use the Paint at Location Hit Fundementals. If true will use the detect fundementals passed through here." },
+#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::NewProp_useCustomHitFundementalsForDetection_SetBit(void* Obj)
@@ -391,10 +427,12 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::NewProp_detectHitFundementals_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintAtLocationPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "By having a seperate detect hit, you can Paint on one location, but Detect on another location, within the same job. For instance if you have something dripping on a wall, and you want to detect ahead of where you want to paint, and depending on the result shrink/enlarge the drip." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::NewProp_detectHitFundementals = { "detectHitFundementals", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectWhenPaintingSettings, detectHitFundementals), Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::NewProp_detectHitFundementals_MetaData), Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::NewProp_detectHitFundementals_MetaData) }; // 2674751082
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::NewProp_detectHitFundementals = { "detectHitFundementals", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectWhenPaintingSettings, detectHitFundementals), Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::NewProp_detectHitFundementals_MetaData), Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::NewProp_detectHitFundementals_MetaData) }; // 3986548766
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::NewProp_runGetClosestVertexDataOnMeshBeforeApplyingPaint,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::NewProp_runGetClosestVertexDataOnMeshAfterApplyingPaint,
@@ -468,9 +506,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Paint At Location\n" },
+#endif
 		{ "ModuleRelativePath", "Prerequisites/PaintAtLocationPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Paint At Location" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewStructOps()
@@ -483,31 +525,37 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 		{ "ModuleRelativePath", "Prerequisites/PaintAtLocationPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_hitFundementals = { "hitFundementals", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintAtLocationStruct, hitFundementals), Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_hitFundementals_MetaData), Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_hitFundementals_MetaData) }; // 2674751082
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_hitFundementals = { "hitFundementals", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintAtLocationStruct, hitFundementals), Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_hitFundementals_MetaData), Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_hitFundementals_MetaData) }; // 3986548766
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_paintAtAreaSettings_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintAtLocationPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Area of Effect of the Paint Job" },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_paintAtAreaSettings = { "paintAtAreaSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintAtLocationStruct, paintAtAreaSettings), Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_paintAtAreaSettings_MetaData), Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_paintAtAreaSettings_MetaData) }; // 478858837
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_paintAtAreaSettings = { "paintAtAreaSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintAtLocationStruct, paintAtAreaSettings), Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_paintAtAreaSettings_MetaData), Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_paintAtAreaSettings_MetaData) }; // 2965991643
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_getEstimatedColorAtHitLocationSettings_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintAtLocationPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This will Return the color as close to the actual Hit Location as possible, which is very useful if you have Meshes with few vertices and you want to run SFX or VFX based on the Color of the Hit location and not the closest vertex color in case there is a diff, which it might have if the mesh have few vertices. \nThe task may take a bit longer to calculate if Mesh has alot of vertices, so you have the option to only get it if the Mesh has a Max Amount of Vertices." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_getEstimatedColorAtHitLocationSettings = { "getEstimatedColorAtHitLocationSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintAtLocationStruct, getEstimatedColorAtHitLocationSettings), Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_getEstimatedColorAtHitLocationSettings_MetaData), Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_getEstimatedColorAtHitLocationSettings_MetaData) }; // 4047601044
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_getEstimatedColorAtHitLocationSettings = { "getEstimatedColorAtHitLocationSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintAtLocationStruct, getEstimatedColorAtHitLocationSettings), Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_getEstimatedColorAtHitLocationSettings_MetaData), Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_getEstimatedColorAtHitLocationSettings_MetaData) }; // 4015115612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_getClosestVertexDataCombo_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintAtLocationPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If we should run Get Closest Vertex Data before and/or after Painting, useful if you for instance want to Run SFX before Painting, like if a Rain Drop landed on a Dry Cap, then the SFX of that should be that of a Dry Cap, then it should Paint it Wet. You can even run the Get Closest Vertex Data at a different hit location if you wish, so for instance if you have something dripping on a wall, and you want to detect ahead of where you want to paint, and depending on the result shrink/enlarge the drip." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_getClosestVertexDataCombo = { "getClosestVertexDataCombo", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintAtLocationStruct, getClosestVertexDataCombo), Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_getClosestVertexDataCombo_MetaData), Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_getClosestVertexDataCombo_MetaData) }; // 3638559154
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_getClosestVertexDataCombo = { "getClosestVertexDataCombo", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintAtLocationStruct, getClosestVertexDataCombo), Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_getClosestVertexDataCombo_MetaData), Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_getClosestVertexDataCombo_MetaData) }; // 461968758
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_hitFundementals,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewProp_paintAtAreaSettings,
@@ -536,22 +584,22 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 		}
 		return Z_Registration_Info_UScriptStruct_VertexPaintAtLocationStruct.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintAtLocationPrerequisites_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintAtLocationPrerequisites_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintAtLocationPrerequisites_h_Statics::EnumInfo[] = {
-		{ EVertexPaintAtLocationFallOffType_StaticEnum, TEXT("EVertexPaintAtLocationFallOffType"), &Z_Registration_Info_UEnum_EVertexPaintAtLocationFallOffType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 136706612U) },
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintAtLocationPrerequisites_h_Statics::EnumInfo[] = {
+		{ EVertexPaintAtLocationFallOffType_StaticEnum, TEXT("EVertexPaintAtLocationFallOffType"), &Z_Registration_Info_UEnum_EVertexPaintAtLocationFallOffType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2289573312U) },
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintAtLocationPrerequisites_h_Statics::ScriptStructInfo[] = {
-		{ FVertexDetectPaintAtLocationFallOffSettings::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationFallOffSettings_Statics::NewStructOps, TEXT("VertexDetectPaintAtLocationFallOffSettings"), &Z_Registration_Info_UScriptStruct_VertexDetectPaintAtLocationFallOffSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectPaintAtLocationFallOffSettings), 3276590851U) },
-		{ FVertexDetectPaintAtLocationAreaSettings::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::NewStructOps, TEXT("VertexDetectPaintAtLocationAreaSettings"), &Z_Registration_Info_UScriptStruct_VertexDetectPaintAtLocationAreaSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectPaintAtLocationAreaSettings), 478858837U) },
-		{ FVertexDetectWhenPaintingSettings::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::NewStructOps, TEXT("VertexDetectWhenPaintingSettings"), &Z_Registration_Info_UScriptStruct_VertexDetectWhenPaintingSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectWhenPaintingSettings), 3638559154U) },
-		{ FVertexPaintAtLocationStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewStructOps, TEXT("VertexPaintAtLocationStruct"), &Z_Registration_Info_UScriptStruct_VertexPaintAtLocationStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintAtLocationStruct), 4077106337U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintAtLocationPrerequisites_h_Statics::ScriptStructInfo[] = {
+		{ FVertexDetectPaintAtLocationFallOffSettings::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationFallOffSettings_Statics::NewStructOps, TEXT("VertexDetectPaintAtLocationFallOffSettings"), &Z_Registration_Info_UScriptStruct_VertexDetectPaintAtLocationFallOffSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectPaintAtLocationFallOffSettings), 3255367203U) },
+		{ FVertexDetectPaintAtLocationAreaSettings::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics::NewStructOps, TEXT("VertexDetectPaintAtLocationAreaSettings"), &Z_Registration_Info_UScriptStruct_VertexDetectPaintAtLocationAreaSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectPaintAtLocationAreaSettings), 2965991643U) },
+		{ FVertexDetectWhenPaintingSettings::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics::NewStructOps, TEXT("VertexDetectWhenPaintingSettings"), &Z_Registration_Info_UScriptStruct_VertexDetectWhenPaintingSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectWhenPaintingSettings), 461968758U) },
+		{ FVertexPaintAtLocationStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics::NewStructOps, TEXT("VertexPaintAtLocationStruct"), &Z_Registration_Info_UScriptStruct_VertexPaintAtLocationStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintAtLocationStruct), 447931U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintAtLocationPrerequisites_h_2530522085(TEXT("/Script/VertexPaintDetectionPlugin"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintAtLocationPrerequisites_h_2335651549(TEXT("/Script/VertexPaintDetectionPlugin"),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintAtLocationPrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintAtLocationPrerequisites_h_Statics::ScriptStructInfo),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintAtLocationPrerequisites_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintAtLocationPrerequisites_h_Statics::EnumInfo));
+		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintAtLocationPrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintAtLocationPrerequisites_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintAtLocationPrerequisites_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintAtLocationPrerequisites_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

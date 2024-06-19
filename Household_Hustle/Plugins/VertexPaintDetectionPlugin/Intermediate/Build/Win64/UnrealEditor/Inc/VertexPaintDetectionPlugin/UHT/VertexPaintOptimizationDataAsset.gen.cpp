@@ -46,9 +46,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FPaintOnLO
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FPaintOnLODSettingsStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Paint On LOD Settings Struct\n" },
+#endif
 		{ "ModuleRelativePath", "DataAssets/VertexPaintOptimizationDataAsset.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Paint On LOD Settings Struct" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FPaintOnLODSettingsStruct_Statics::NewStructOps()
@@ -171,7 +175,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FPaintOnLO
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_AddToSkeletalMeshNumOfLODsToPaint_Statics::NewProp_skeletalMesh = { "skeletalMesh", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintOptimizationDataAsset_eventAddToSkeletalMeshNumOfLODsToPaint_Parms, skeletalMesh), Z_Construct_UClass_USkeletalMesh_NoRegister, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_AddToSkeletalMeshNumOfLODsToPaint_Statics::NewProp_paintOnLODSettings = { "paintOnLODSettings", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintOptimizationDataAsset_eventAddToSkeletalMeshNumOfLODsToPaint_Parms, paintOnLODSettings), Z_Construct_UScriptStruct_FPaintOnLODSettingsStruct, METADATA_PARAMS(0, nullptr) }; // 3161950216
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_AddToSkeletalMeshNumOfLODsToPaint_Statics::NewProp_paintOnLODSettings = { "paintOnLODSettings", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintOptimizationDataAsset_eventAddToSkeletalMeshNumOfLODsToPaint_Parms, paintOnLODSettings), Z_Construct_UScriptStruct_FPaintOnLODSettingsStruct, METADATA_PARAMS(0, nullptr) }; // 3789772124
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_AddToSkeletalMeshNumOfLODsToPaint_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_AddToSkeletalMeshNumOfLODsToPaint_Statics::NewProp_skeletalMesh,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_AddToSkeletalMeshNumOfLODsToPaint_Statics::NewProp_paintOnLODSettings,
@@ -212,7 +216,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FPaintOnLO
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_AddToStaticMeshNumOfLODsToPaint_Statics::NewProp_staticMesh = { "staticMesh", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintOptimizationDataAsset_eventAddToStaticMeshNumOfLODsToPaint_Parms, staticMesh), Z_Construct_UClass_UStaticMesh_NoRegister, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_AddToStaticMeshNumOfLODsToPaint_Statics::NewProp_paintOnLODSettings = { "paintOnLODSettings", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintOptimizationDataAsset_eventAddToStaticMeshNumOfLODsToPaint_Parms, paintOnLODSettings), Z_Construct_UScriptStruct_FPaintOnLODSettingsStruct, METADATA_PARAMS(0, nullptr) }; // 3161950216
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_AddToStaticMeshNumOfLODsToPaint_Statics::NewProp_paintOnLODSettings = { "paintOnLODSettings", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintOptimizationDataAsset_eventAddToStaticMeshNumOfLODsToPaint_Parms, paintOnLODSettings), Z_Construct_UScriptStruct_FPaintOnLODSettingsStruct, METADATA_PARAMS(0, nullptr) }; // 3789772124
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_AddToStaticMeshNumOfLODsToPaint_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_AddToStaticMeshNumOfLODsToPaint_Statics::NewProp_staticMesh,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_AddToStaticMeshNumOfLODsToPaint_Statics::NewProp_paintOnLODSettings,
@@ -251,9 +255,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FPaintOnLO
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetSkeletalMeshNumOfLODsToPaint_Statics::NewProp_ReturnValue_ValueProp = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FPaintOnLODSettingsStruct, METADATA_PARAMS(0, nullptr) }; // 3161950216
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetSkeletalMeshNumOfLODsToPaint_Statics::NewProp_ReturnValue_ValueProp = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FPaintOnLODSettingsStruct, METADATA_PARAMS(0, nullptr) }; // 3789772124
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetSkeletalMeshNumOfLODsToPaint_Statics::NewProp_ReturnValue_Key_KeyProp = { "ReturnValue_Key", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_USkeletalMesh_NoRegister, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FMapPropertyParams Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetSkeletalMeshNumOfLODsToPaint_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintOptimizationDataAsset_eventGetSkeletalMeshNumOfLODsToPaint_Parms, ReturnValue), EMapPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 3161950216
+	const UECodeGen_Private::FMapPropertyParams Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetSkeletalMeshNumOfLODsToPaint_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintOptimizationDataAsset_eventGetSkeletalMeshNumOfLODsToPaint_Parms, ReturnValue), EMapPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 3789772124
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetSkeletalMeshNumOfLODsToPaint_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetSkeletalMeshNumOfLODsToPaint_Statics::NewProp_ReturnValue_ValueProp,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetSkeletalMeshNumOfLODsToPaint_Statics::NewProp_ReturnValue_Key_KeyProp,
@@ -263,7 +267,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FPaintOnLO
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetSkeletalMeshNumOfLODsToPaint_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Optimization|Paint on LODs" },
 		{ "ModuleRelativePath", "DataAssets/VertexPaintOptimizationDataAsset.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "How many LODs to Paint on Static Meshes that are Added here, given that it has that many LODs. Also if the amount set is the max amount that should be stored. Meshes that aren't added here will be painted on all their LODs." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetSkeletalMeshNumOfLODsToPaint_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintOptimizationDataAsset, nullptr, "GetSkeletalMeshNumOfLODsToPaint", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetSkeletalMeshNumOfLODsToPaint_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetSkeletalMeshNumOfLODsToPaint_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetSkeletalMeshNumOfLODsToPaint_Statics::VertexPaintOptimizationDataAsset_eventGetSkeletalMeshNumOfLODsToPaint_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetSkeletalMeshNumOfLODsToPaint_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetSkeletalMeshNumOfLODsToPaint_Statics::Function_MetaDataParams) };
@@ -293,9 +299,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FPaintOnLO
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetStaticMeshNumOfLODsToPaint_Statics::NewProp_ReturnValue_ValueProp = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FPaintOnLODSettingsStruct, METADATA_PARAMS(0, nullptr) }; // 3161950216
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetStaticMeshNumOfLODsToPaint_Statics::NewProp_ReturnValue_ValueProp = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FPaintOnLODSettingsStruct, METADATA_PARAMS(0, nullptr) }; // 3789772124
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetStaticMeshNumOfLODsToPaint_Statics::NewProp_ReturnValue_Key_KeyProp = { "ReturnValue_Key", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UStaticMesh_NoRegister, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FMapPropertyParams Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetStaticMeshNumOfLODsToPaint_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintOptimizationDataAsset_eventGetStaticMeshNumOfLODsToPaint_Parms, ReturnValue), EMapPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 3161950216
+	const UECodeGen_Private::FMapPropertyParams Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetStaticMeshNumOfLODsToPaint_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintOptimizationDataAsset_eventGetStaticMeshNumOfLODsToPaint_Parms, ReturnValue), EMapPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 3789772124
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetStaticMeshNumOfLODsToPaint_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetStaticMeshNumOfLODsToPaint_Statics::NewProp_ReturnValue_ValueProp,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetStaticMeshNumOfLODsToPaint_Statics::NewProp_ReturnValue_Key_KeyProp,
@@ -305,7 +311,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FPaintOnLO
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetStaticMeshNumOfLODsToPaint_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Optimization|Paint on LODs" },
 		{ "ModuleRelativePath", "DataAssets/VertexPaintOptimizationDataAsset.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "How many LODs to Paint on Static Meshes that are Added here, given that it has that many LODs. Also if the amount set is the max amount that should be stored. Meshes that aren't added here will be painted on all their LODs." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetStaticMeshNumOfLODsToPaint_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintOptimizationDataAsset, nullptr, "GetStaticMeshNumOfLODsToPaint", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetStaticMeshNumOfLODsToPaint_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetStaticMeshNumOfLODsToPaint_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetStaticMeshNumOfLODsToPaint_Statics::VertexPaintOptimizationDataAsset_eventGetStaticMeshNumOfLODsToPaint_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetStaticMeshNumOfLODsToPaint_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetStaticMeshNumOfLODsToPaint_Statics::Function_MetaDataParams) };
@@ -429,13 +437,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FPaintOnLO
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintOptimizationDataAsset_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UVertexPaintOptimizationDataAsset_Statics::FuncInfo[] = {
 #if WITH_EDITOR
-		{ &Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_AddToSkeletalMeshNumOfLODsToPaint, "AddToSkeletalMeshNumOfLODsToPaint" }, // 525514192
+		{ &Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_AddToSkeletalMeshNumOfLODsToPaint, "AddToSkeletalMeshNumOfLODsToPaint" }, // 3700571183
 #endif //WITH_EDITOR
 #if WITH_EDITOR
-		{ &Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_AddToStaticMeshNumOfLODsToPaint, "AddToStaticMeshNumOfLODsToPaint" }, // 3387861109
+		{ &Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_AddToStaticMeshNumOfLODsToPaint, "AddToStaticMeshNumOfLODsToPaint" }, // 1991172714
 #endif //WITH_EDITOR
-		{ &Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetSkeletalMeshNumOfLODsToPaint, "GetSkeletalMeshNumOfLODsToPaint" }, // 3758509970
-		{ &Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetStaticMeshNumOfLODsToPaint, "GetStaticMeshNumOfLODsToPaint" }, // 111809967
+		{ &Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetSkeletalMeshNumOfLODsToPaint, "GetSkeletalMeshNumOfLODsToPaint" }, // 3907975845
+		{ &Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_GetStaticMeshNumOfLODsToPaint, "GetStaticMeshNumOfLODsToPaint" }, // 3396435425
 #if WITH_EDITOR
 		{ &Z_Construct_UFunction_UVertexPaintOptimizationDataAsset_RemoveFromSkeletalMeshNumOfLODsToPaint, "RemoveFromSkeletalMeshNumOfLODsToPaint" }, // 1467815102
 #endif //WITH_EDITOR
@@ -447,32 +455,38 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FPaintOnLO
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintOptimizationDataAsset_Statics::Class_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//-------------------------------------------------------\n" },
+#endif
 		{ "IncludePath", "DataAssets/VertexPaintOptimizationDataAsset.h" },
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "DataAssets/VertexPaintOptimizationDataAsset.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UVertexPaintOptimizationDataAsset_Statics::NewProp_staticMeshNumOfLODsToPaint_ValueProp = { "staticMeshNumOfLODsToPaint", nullptr, (EPropertyFlags)0x0000000000020001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FPaintOnLODSettingsStruct, METADATA_PARAMS(0, nullptr) }; // 3161950216
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UVertexPaintOptimizationDataAsset_Statics::NewProp_staticMeshNumOfLODsToPaint_ValueProp = { "staticMeshNumOfLODsToPaint", nullptr, (EPropertyFlags)0x0000000000020001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FPaintOnLODSettingsStruct, METADATA_PARAMS(0, nullptr) }; // 3789772124
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UVertexPaintOptimizationDataAsset_Statics::NewProp_staticMeshNumOfLODsToPaint_Key_KeyProp = { "staticMeshNumOfLODsToPaint_Key", nullptr, (EPropertyFlags)0x0000000000020001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UStaticMesh_NoRegister, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintOptimizationDataAsset_Statics::NewProp_staticMeshNumOfLODsToPaint_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Optimization|Paint on LODs" },
 		{ "ModuleRelativePath", "DataAssets/VertexPaintOptimizationDataAsset.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "How many LODs to Paint on Static Meshes that are Added here, given that it has that many LODs. Also if the amount set is the max amount that should be stored. Meshes that aren't added here will be painted on all their LODs." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UVertexPaintOptimizationDataAsset_Statics::NewProp_staticMeshNumOfLODsToPaint = { "staticMeshNumOfLODsToPaint", nullptr, (EPropertyFlags)0x0040000000020001, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVertexPaintOptimizationDataAsset, staticMeshNumOfLODsToPaint), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintOptimizationDataAsset_Statics::NewProp_staticMeshNumOfLODsToPaint_MetaData), Z_Construct_UClass_UVertexPaintOptimizationDataAsset_Statics::NewProp_staticMeshNumOfLODsToPaint_MetaData) }; // 3161950216
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UVertexPaintOptimizationDataAsset_Statics::NewProp_skeletalMeshNumOfLODsToPaint_ValueProp = { "skeletalMeshNumOfLODsToPaint", nullptr, (EPropertyFlags)0x0000000000020001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FPaintOnLODSettingsStruct, METADATA_PARAMS(0, nullptr) }; // 3161950216
+	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UVertexPaintOptimizationDataAsset_Statics::NewProp_staticMeshNumOfLODsToPaint = { "staticMeshNumOfLODsToPaint", nullptr, (EPropertyFlags)0x0040000000020001, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVertexPaintOptimizationDataAsset, staticMeshNumOfLODsToPaint), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintOptimizationDataAsset_Statics::NewProp_staticMeshNumOfLODsToPaint_MetaData), Z_Construct_UClass_UVertexPaintOptimizationDataAsset_Statics::NewProp_staticMeshNumOfLODsToPaint_MetaData) }; // 3789772124
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UVertexPaintOptimizationDataAsset_Statics::NewProp_skeletalMeshNumOfLODsToPaint_ValueProp = { "skeletalMeshNumOfLODsToPaint", nullptr, (EPropertyFlags)0x0000000000020001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FPaintOnLODSettingsStruct, METADATA_PARAMS(0, nullptr) }; // 3789772124
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UVertexPaintOptimizationDataAsset_Statics::NewProp_skeletalMeshNumOfLODsToPaint_Key_KeyProp = { "skeletalMeshNumOfLODsToPaint_Key", nullptr, (EPropertyFlags)0x0000000000020001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_USkeletalMesh_NoRegister, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintOptimizationDataAsset_Statics::NewProp_skeletalMeshNumOfLODsToPaint_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Optimization|Paint on LODs" },
 		{ "ModuleRelativePath", "DataAssets/VertexPaintOptimizationDataAsset.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "How many LODs to Paint on Static Meshes that are Added here, given that it has that many LODs. Also if the amount set is the max amount that should be stored. Meshes that aren't added here will be painted on all their LODs." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UVertexPaintOptimizationDataAsset_Statics::NewProp_skeletalMeshNumOfLODsToPaint = { "skeletalMeshNumOfLODsToPaint", nullptr, (EPropertyFlags)0x0040000000020001, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVertexPaintOptimizationDataAsset, skeletalMeshNumOfLODsToPaint), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintOptimizationDataAsset_Statics::NewProp_skeletalMeshNumOfLODsToPaint_MetaData), Z_Construct_UClass_UVertexPaintOptimizationDataAsset_Statics::NewProp_skeletalMeshNumOfLODsToPaint_MetaData) }; // 3161950216
+	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UVertexPaintOptimizationDataAsset_Statics::NewProp_skeletalMeshNumOfLODsToPaint = { "skeletalMeshNumOfLODsToPaint", nullptr, (EPropertyFlags)0x0040000000020001, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVertexPaintOptimizationDataAsset, skeletalMeshNumOfLODsToPaint), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintOptimizationDataAsset_Statics::NewProp_skeletalMeshNumOfLODsToPaint_MetaData), Z_Construct_UClass_UVertexPaintOptimizationDataAsset_Statics::NewProp_skeletalMeshNumOfLODsToPaint_MetaData) }; // 3789772124
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UVertexPaintOptimizationDataAsset_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintOptimizationDataAsset_Statics::NewProp_staticMeshNumOfLODsToPaint_ValueProp,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintOptimizationDataAsset_Statics::NewProp_staticMeshNumOfLODsToPaint_Key_KeyProp,
@@ -515,19 +529,19 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FPaintOnLO
 	UVertexPaintOptimizationDataAsset::UVertexPaintOptimizationDataAsset(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UVertexPaintOptimizationDataAsset);
 	UVertexPaintOptimizationDataAsset::~UVertexPaintOptimizationDataAsset() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_DataAssets_VertexPaintOptimizationDataAsset_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_DataAssets_VertexPaintOptimizationDataAsset_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_DataAssets_VertexPaintOptimizationDataAsset_h_Statics::ScriptStructInfo[] = {
-		{ FPaintOnLODSettingsStruct::StaticStruct, Z_Construct_UScriptStruct_FPaintOnLODSettingsStruct_Statics::NewStructOps, TEXT("PaintOnLODSettingsStruct"), &Z_Registration_Info_UScriptStruct_PaintOnLODSettingsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FPaintOnLODSettingsStruct), 3161950216U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_DataAssets_VertexPaintOptimizationDataAsset_h_Statics::ScriptStructInfo[] = {
+		{ FPaintOnLODSettingsStruct::StaticStruct, Z_Construct_UScriptStruct_FPaintOnLODSettingsStruct_Statics::NewStructOps, TEXT("PaintOnLODSettingsStruct"), &Z_Registration_Info_UScriptStruct_PaintOnLODSettingsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FPaintOnLODSettingsStruct), 3789772124U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_DataAssets_VertexPaintOptimizationDataAsset_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UVertexPaintOptimizationDataAsset, UVertexPaintOptimizationDataAsset::StaticClass, TEXT("UVertexPaintOptimizationDataAsset"), &Z_Registration_Info_UClass_UVertexPaintOptimizationDataAsset, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UVertexPaintOptimizationDataAsset), 299531104U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_DataAssets_VertexPaintOptimizationDataAsset_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UVertexPaintOptimizationDataAsset, UVertexPaintOptimizationDataAsset::StaticClass, TEXT("UVertexPaintOptimizationDataAsset"), &Z_Registration_Info_UClass_UVertexPaintOptimizationDataAsset, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UVertexPaintOptimizationDataAsset), 1885719167U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_DataAssets_VertexPaintOptimizationDataAsset_h_2171309125(TEXT("/Script/VertexPaintDetectionPlugin"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_DataAssets_VertexPaintOptimizationDataAsset_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_DataAssets_VertexPaintOptimizationDataAsset_h_Statics::ClassInfo),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_DataAssets_VertexPaintOptimizationDataAsset_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_DataAssets_VertexPaintOptimizationDataAsset_h_Statics::ScriptStructInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_DataAssets_VertexPaintOptimizationDataAsset_h_1449074336(TEXT("/Script/VertexPaintDetectionPlugin"),
+		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_DataAssets_VertexPaintOptimizationDataAsset_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_DataAssets_VertexPaintOptimizationDataAsset_h_Statics::ClassInfo),
+		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_DataAssets_VertexPaintOptimizationDataAsset_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_DataAssets_VertexPaintOptimizationDataAsset_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

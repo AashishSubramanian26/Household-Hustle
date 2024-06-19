@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Household_Hustle.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Household_Hustle.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Household_HustleEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\UpgradeLog.htm" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Household_Hustle">
+      <UniqueIdentifier>{00A6356F-25AA-31A8-B69E-077A28466A4B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Household_Hustle\Household_Hustle.Build.cs">
+      <Filter>Source\Household_Hustle</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Household_Hustle\Household_Hustle.cpp">
+      <Filter>Source\Household_Hustle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Household_Hustle\Household_Hustle.h">
+      <Filter>Source\Household_Hustle</Filter>
+    </ClInclude>
+    <Filter Include="Source\Household_Hustle\Private">
+      <UniqueIdentifier>{F8FA09C9-E2F2-358E-86B4-94A11F3EF122}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Household_Hustle\Private\TestClass.cpp">
+      <Filter>Source\Household_Hustle\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Household_Hustle\Public">
+      <UniqueIdentifier>{67B5B658-2F63-38F3-8760-ED89E9EB3A22}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Household_Hustle\Public\TestClass.h">
+      <Filter>Source\Household_Hustle\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

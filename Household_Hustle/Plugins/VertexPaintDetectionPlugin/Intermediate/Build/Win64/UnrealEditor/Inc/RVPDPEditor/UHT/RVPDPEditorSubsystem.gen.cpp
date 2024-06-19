@@ -475,7 +475,9 @@ void EmptyLinkFunctionForGeneratedCodeRVPDPEditorSubsystem() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_URVPDPEditorSubsystem_AddEditorNotification_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "RVPDPEditorSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Adds a Editor Notification in the Bottom Right Corner" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URVPDPEditorSubsystem_AddEditorNotification_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URVPDPEditorSubsystem, nullptr, "AddEditorNotification", nullptr, nullptr, Z_Construct_UFunction_URVPDPEditorSubsystem_AddEditorNotification_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URVPDPEditorSubsystem_AddEditorNotification_Statics::PropPointers), sizeof(Z_Construct_UFunction_URVPDPEditorSubsystem_AddEditorNotification_Statics::RVPDPEditorSubsystem_eventAddEditorNotification_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URVPDPEditorSubsystem_AddEditorNotification_Statics::Function_MetaDataParams), Z_Construct_UFunction_URVPDPEditorSubsystem_AddEditorNotification_Statics::Function_MetaDataParams) };
@@ -506,7 +508,7 @@ void EmptyLinkFunctionForGeneratedCodeRVPDPEditorSubsystem() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_URVPDPEditorSubsystem_AddGroupColorSnippet_Statics::NewProp_groupSnippetInfo = { "groupSnippetInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(RVPDPEditorSubsystem_eventAddGroupColorSnippet_Parms, groupSnippetInfo), Z_Construct_UScriptStruct_FVertexDetectGroupColorSnippetInfo, METADATA_PARAMS(0, nullptr) }; // 3428583167
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_URVPDPEditorSubsystem_AddGroupColorSnippet_Statics::NewProp_groupSnippetInfo = { "groupSnippetInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(RVPDPEditorSubsystem_eventAddGroupColorSnippet_Parms, groupSnippetInfo), Z_Construct_UScriptStruct_FVertexDetectGroupColorSnippetInfo, METADATA_PARAMS(0, nullptr) }; // 4034582278
 	void Z_Construct_UFunction_URVPDPEditorSubsystem_AddGroupColorSnippet_Statics::NewProp_success_SetBit(void* Obj)
 	{
 		((RVPDPEditorSubsystem_eventAddGroupColorSnippet_Parms*)Obj)->success = 1;
@@ -900,7 +902,9 @@ void EmptyLinkFunctionForGeneratedCodeRVPDPEditorSubsystem() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_URVPDPEditorSubsystem_GetObjectNameFromSoftObjectPtr_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Editor Utilities" },
 		{ "ModuleRelativePath", "RVPDPEditorSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Blueprint callable function to get the object name from soft ptr ref so we can avoid resolving them and bringing them into memory in order to display names etc. \nIf Editor Only!" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URVPDPEditorSubsystem_GetObjectNameFromSoftObjectPtr_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URVPDPEditorSubsystem, nullptr, "GetObjectNameFromSoftObjectPtr", nullptr, nullptr, Z_Construct_UFunction_URVPDPEditorSubsystem_GetObjectNameFromSoftObjectPtr_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URVPDPEditorSubsystem_GetObjectNameFromSoftObjectPtr_Statics::PropPointers), sizeof(Z_Construct_UFunction_URVPDPEditorSubsystem_GetObjectNameFromSoftObjectPtr_Statics::RVPDPEditorSubsystem_eventGetObjectNameFromSoftObjectPtr_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URVPDPEditorSubsystem_GetObjectNameFromSoftObjectPtr_Statics::Function_MetaDataParams), Z_Construct_UFunction_URVPDPEditorSubsystem_GetObjectNameFromSoftObjectPtr_Statics::Function_MetaDataParams) };
@@ -952,7 +956,9 @@ void EmptyLinkFunctionForGeneratedCodeRVPDPEditorSubsystem() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_URVPDPEditorSubsystem_GetObjectsOfClass_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Editor Utilities" },
 		{ "ModuleRelativePath", "RVPDPEditorSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets all the objects of a specific class from the project. Note that it doesn't work with BP assets. More performant if you only get objects from content folder and not Engine, Plugins folders etc. since otherwise we have to load the asset. \nIf Editor Only!" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URVPDPEditorSubsystem_GetObjectsOfClass_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URVPDPEditorSubsystem, nullptr, "GetObjectsOfClass", nullptr, nullptr, Z_Construct_UFunction_URVPDPEditorSubsystem_GetObjectsOfClass_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URVPDPEditorSubsystem_GetObjectsOfClass_Statics::PropPointers), sizeof(Z_Construct_UFunction_URVPDPEditorSubsystem_GetObjectsOfClass_Statics::RVPDPEditorSubsystem_eventGetObjectsOfClass_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URVPDPEditorSubsystem_GetObjectsOfClass_Statics::Function_MetaDataParams), Z_Construct_UFunction_URVPDPEditorSubsystem_GetObjectsOfClass_Statics::Function_MetaDataParams) };
@@ -1005,7 +1011,9 @@ void EmptyLinkFunctionForGeneratedCodeRVPDPEditorSubsystem() {}
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Editor Utilities" },
 		{ "DeterminesOutputType", "objectsToGet" },
 		{ "ModuleRelativePath", "RVPDPEditorSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets all the objects of a specific class from the project but in soft pointer form. Note that it doesn't work with BP assets. More performant if you only get objects from content folder and not Engine, Plugins folders etc. since otherwise we have to load the asset. \nNOTE Loading all things may be very heavy (and not necessary) if getting things like Materials or Static Meshes! \nIf Editor Only!" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URVPDPEditorSubsystem_GetObjectsOfClassAsSoftPtrs_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URVPDPEditorSubsystem, nullptr, "GetObjectsOfClassAsSoftPtrs", nullptr, nullptr, Z_Construct_UFunction_URVPDPEditorSubsystem_GetObjectsOfClassAsSoftPtrs_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URVPDPEditorSubsystem_GetObjectsOfClassAsSoftPtrs_Statics::PropPointers), sizeof(Z_Construct_UFunction_URVPDPEditorSubsystem_GetObjectsOfClassAsSoftPtrs_Statics::RVPDPEditorSubsystem_eventGetObjectsOfClassAsSoftPtrs_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URVPDPEditorSubsystem_GetObjectsOfClassAsSoftPtrs_Statics::Function_MetaDataParams), Z_Construct_UFunction_URVPDPEditorSubsystem_GetObjectsOfClassAsSoftPtrs_Statics::Function_MetaDataParams) };
@@ -1232,7 +1240,9 @@ void EmptyLinkFunctionForGeneratedCodeRVPDPEditorSubsystem() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_URVPDPEditorSubsystem_GetSoftObjectPathFromSoftObjectPtr_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Editor Utilities" },
 		{ "ModuleRelativePath", "RVPDPEditorSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Blueprint callable function to get the object path from soft ptr ref so we can avoid resolving them and bringing them into memory in order to display path names etc. \nIf Editor Only!" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URVPDPEditorSubsystem_GetSoftObjectPathFromSoftObjectPtr_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URVPDPEditorSubsystem, nullptr, "GetSoftObjectPathFromSoftObjectPtr", nullptr, nullptr, Z_Construct_UFunction_URVPDPEditorSubsystem_GetSoftObjectPathFromSoftObjectPtr_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URVPDPEditorSubsystem_GetSoftObjectPathFromSoftObjectPtr_Statics::PropPointers), sizeof(Z_Construct_UFunction_URVPDPEditorSubsystem_GetSoftObjectPathFromSoftObjectPtr_Statics::RVPDPEditorSubsystem_eventGetSoftObjectPathFromSoftObjectPtr_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14820401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URVPDPEditorSubsystem_GetSoftObjectPathFromSoftObjectPtr_Statics::Function_MetaDataParams), Z_Construct_UFunction_URVPDPEditorSubsystem_GetSoftObjectPathFromSoftObjectPtr_Statics::Function_MetaDataParams) };
@@ -1801,7 +1811,9 @@ void EmptyLinkFunctionForGeneratedCodeRVPDPEditorSubsystem() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_URVPDPEditorSubsystem_SavePackageWrapper_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "RVPDPEditorSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Auto Saves this package so the user doesn't have to manually press save after doing changes" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URVPDPEditorSubsystem_SavePackageWrapper_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URVPDPEditorSubsystem, nullptr, "SavePackageWrapper", nullptr, nullptr, Z_Construct_UFunction_URVPDPEditorSubsystem_SavePackageWrapper_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URVPDPEditorSubsystem_SavePackageWrapper_Statics::PropPointers), sizeof(Z_Construct_UFunction_URVPDPEditorSubsystem_SavePackageWrapper_Statics::RVPDPEditorSubsystem_eventSavePackageWrapper_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URVPDPEditorSubsystem_SavePackageWrapper_Statics::Function_MetaDataParams), Z_Construct_UFunction_URVPDPEditorSubsystem_SavePackageWrapper_Statics::Function_MetaDataParams) };
@@ -1837,7 +1849,9 @@ void EmptyLinkFunctionForGeneratedCodeRVPDPEditorSubsystem() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsOptimizationsDataAssetToUse_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "RVPDPEditorSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets which Optimization Data Asset on the custom settings. Also tells the subsystem to update it's references" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsOptimizationsDataAssetToUse_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URVPDPEditorSubsystem, nullptr, "SetCustomSettingsOptimizationsDataAssetToUse", nullptr, nullptr, Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsOptimizationsDataAssetToUse_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsOptimizationsDataAssetToUse_Statics::PropPointers), sizeof(Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsOptimizationsDataAssetToUse_Statics::RVPDPEditorSubsystem_eventSetCustomSettingsOptimizationsDataAssetToUse_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsOptimizationsDataAssetToUse_Statics::Function_MetaDataParams), Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsOptimizationsDataAssetToUse_Statics::Function_MetaDataParams) };
@@ -1873,7 +1887,9 @@ void EmptyLinkFunctionForGeneratedCodeRVPDPEditorSubsystem() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsVertexPaintColorSnippetReferenceDataAssetToUse_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "RVPDPEditorSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets which color snippet reference data asset to use that stores references to Color snippet Data Asset." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsVertexPaintColorSnippetReferenceDataAssetToUse_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URVPDPEditorSubsystem, nullptr, "SetCustomSettingsVertexPaintColorSnippetReferenceDataAssetToUse", nullptr, nullptr, Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsVertexPaintColorSnippetReferenceDataAssetToUse_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsVertexPaintColorSnippetReferenceDataAssetToUse_Statics::PropPointers), sizeof(Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsVertexPaintColorSnippetReferenceDataAssetToUse_Statics::RVPDPEditorSubsystem_eventSetCustomSettingsVertexPaintColorSnippetReferenceDataAssetToUse_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsVertexPaintColorSnippetReferenceDataAssetToUse_Statics::Function_MetaDataParams), Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsVertexPaintColorSnippetReferenceDataAssetToUse_Statics::Function_MetaDataParams) };
@@ -1909,7 +1925,9 @@ void EmptyLinkFunctionForGeneratedCodeRVPDPEditorSubsystem() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsVertexPaintMaterialToUse_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "RVPDPEditorSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets which vertex paint material to use that stores all materials we've added with vertexcolors." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsVertexPaintMaterialToUse_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URVPDPEditorSubsystem, nullptr, "SetCustomSettingsVertexPaintMaterialToUse", nullptr, nullptr, Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsVertexPaintMaterialToUse_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsVertexPaintMaterialToUse_Statics::PropPointers), sizeof(Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsVertexPaintMaterialToUse_Statics::RVPDPEditorSubsystem_eventSetCustomSettingsVertexPaintMaterialToUse_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsVertexPaintMaterialToUse_Statics::Function_MetaDataParams), Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsVertexPaintMaterialToUse_Statics::Function_MetaDataParams) };
@@ -1971,7 +1989,9 @@ void EmptyLinkFunctionForGeneratedCodeRVPDPEditorSubsystem() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_URVPDPEditorSubsystem_SetEngineSpecificButtonSettings_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "RVPDPEditorSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Can set Button Settings depending on Engine Version" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URVPDPEditorSubsystem_SetEngineSpecificButtonSettings_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URVPDPEditorSubsystem, nullptr, "SetEngineSpecificButtonSettings", nullptr, nullptr, Z_Construct_UFunction_URVPDPEditorSubsystem_SetEngineSpecificButtonSettings_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URVPDPEditorSubsystem_SetEngineSpecificButtonSettings_Statics::PropPointers), sizeof(Z_Construct_UFunction_URVPDPEditorSubsystem_SetEngineSpecificButtonSettings_Statics::RVPDPEditorSubsystem_eventSetEngineSpecificButtonSettings_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URVPDPEditorSubsystem_SetEngineSpecificButtonSettings_Statics::Function_MetaDataParams), Z_Construct_UFunction_URVPDPEditorSubsystem_SetEngineSpecificButtonSettings_Statics::Function_MetaDataParams) };
@@ -2112,8 +2132,8 @@ void EmptyLinkFunctionForGeneratedCodeRVPDPEditorSubsystem() {}
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_URVPDPEditorSubsystem_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_URVPDPEditorSubsystem_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_AddColorSnippetTag, "AddColorSnippetTag" }, // 2889372042
-		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_AddEditorNotification, "AddEditorNotification" }, // 1847512748
-		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_AddGroupColorSnippet, "AddGroupColorSnippet" }, // 1483545561
+		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_AddEditorNotification, "AddEditorNotification" }, // 3735822447
+		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_AddGroupColorSnippet, "AddGroupColorSnippet" }, // 399357092
 		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_AddMeshColorSnippet, "AddMeshColorSnippet" }, // 2570853819
 		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_AddSkeletalMeshAmountOfLODsToPaintByDefault, "AddSkeletalMeshAmountOfLODsToPaintByDefault" }, // 515823667
 		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_AddStaticMeshAndAmountOfLODsToPaintByDefault, "AddStaticMeshAndAmountOfLODsToPaintByDefault" }, // 2665202269
@@ -2121,14 +2141,14 @@ void EmptyLinkFunctionForGeneratedCodeRVPDPEditorSubsystem() {}
 		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_ClearAllAvailableColorSnippetCacheTagContainer, "ClearAllAvailableColorSnippetCacheTagContainer" }, // 3108667499
 		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_DoesColorSnippetTagExist, "DoesColorSnippetTagExist" }, // 3816513282
 		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_GetAllColorSnippetTagsDirectlyFromIni, "GetAllColorSnippetTagsDirectlyFromIni" }, // 4255715188
-		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_GetObjectNameFromSoftObjectPtr, "GetObjectNameFromSoftObjectPtr" }, // 329239026
-		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_GetObjectsOfClass, "GetObjectsOfClass" }, // 1471645644
-		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_GetObjectsOfClassAsSoftPtrs, "GetObjectsOfClassAsSoftPtrs" }, // 1545074175
+		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_GetObjectNameFromSoftObjectPtr, "GetObjectNameFromSoftObjectPtr" }, // 2549022079
+		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_GetObjectsOfClass, "GetObjectsOfClass" }, // 2058344430
+		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_GetObjectsOfClassAsSoftPtrs, "GetObjectsOfClassAsSoftPtrs" }, // 1819748739
 		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_GetPersistentLevelsWorld_Wrapper, "GetPersistentLevelsWorld_Wrapper" }, // 3635483074
 		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_GetSkeletalMeshComponentVertexCount_Wrapper, "GetSkeletalMeshComponentVertexCount_Wrapper" }, // 2631580302
 		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_GetSkeletalMeshLODCount_Wrapper, "GetSkeletalMeshLODCount_Wrapper" }, // 1824154157
 		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_GetSkeletalMeshVerticesAmount_Wrapper, "GetSkeletalMeshVerticesAmount_Wrapper" }, // 2367644682
-		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_GetSoftObjectPathFromSoftObjectPtr, "GetSoftObjectPathFromSoftObjectPtr" }, // 3192513737
+		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_GetSoftObjectPathFromSoftObjectPtr, "GetSoftObjectPathFromSoftObjectPtr" }, // 1390209848
 		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_GetStaticMeshComponentVertexCount_Wrapper, "GetStaticMeshComponentVertexCount_Wrapper" }, // 4215503614
 		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_GetStaticMeshLODCount_Wrapper, "GetStaticMeshLODCount_Wrapper" }, // 303171336
 		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_GetStaticMeshVerticesAmount_Wrapper, "GetStaticMeshVerticesAmount_Wrapper" }, // 1715232607
@@ -2142,11 +2162,11 @@ void EmptyLinkFunctionForGeneratedCodeRVPDPEditorSubsystem() {}
 		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_RemoveSkeletalMeshAmountOfLODsToPaintByDefault, "RemoveSkeletalMeshAmountOfLODsToPaintByDefault" }, // 2218275569
 		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_RemoveStaticMeshAndAmountOfLODsToPaintByDefault, "RemoveStaticMeshAndAmountOfLODsToPaintByDefault" }, // 2228534056
 		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_RenameColorSnippetTag, "RenameColorSnippetTag" }, // 2412026593
-		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_SavePackageWrapper, "SavePackageWrapper" }, // 3507895781
-		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsOptimizationsDataAssetToUse, "SetCustomSettingsOptimizationsDataAssetToUse" }, // 2811316615
-		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsVertexPaintColorSnippetReferenceDataAssetToUse, "SetCustomSettingsVertexPaintColorSnippetReferenceDataAssetToUse" }, // 3024046491
-		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsVertexPaintMaterialToUse, "SetCustomSettingsVertexPaintMaterialToUse" }, // 3968865808
-		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_SetEngineSpecificButtonSettings, "SetEngineSpecificButtonSettings" }, // 2999021051
+		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_SavePackageWrapper, "SavePackageWrapper" }, // 1946631883
+		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsOptimizationsDataAssetToUse, "SetCustomSettingsOptimizationsDataAssetToUse" }, // 3246233679
+		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsVertexPaintColorSnippetReferenceDataAssetToUse, "SetCustomSettingsVertexPaintColorSnippetReferenceDataAssetToUse" }, // 4054724640
+		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_SetCustomSettingsVertexPaintMaterialToUse, "SetCustomSettingsVertexPaintMaterialToUse" }, // 3408301692
+		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_SetEngineSpecificButtonSettings, "SetEngineSpecificButtonSettings" }, // 3965212006
 		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_UpdateGroupColorSnippetID, "UpdateGroupColorSnippetID" }, // 2606126526
 		{ &Z_Construct_UFunction_URVPDPEditorSubsystem_UpdateMeshColorSnippetID, "UpdateMeshColorSnippetID" }, // 1471622600
 	};
@@ -2190,15 +2210,15 @@ void EmptyLinkFunctionForGeneratedCodeRVPDPEditorSubsystem() {}
 	URVPDPEditorSubsystem::URVPDPEditorSubsystem() {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(URVPDPEditorSubsystem);
 	URVPDPEditorSubsystem::~URVPDPEditorSubsystem() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_RVPDPEditor_RVPDPEditorSubsystem_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_RVPDPEditor_RVPDPEditorSubsystem_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_RVPDPEditor_RVPDPEditorSubsystem_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_URVPDPEditorSubsystem, URVPDPEditorSubsystem::StaticClass, TEXT("URVPDPEditorSubsystem"), &Z_Registration_Info_UClass_URVPDPEditorSubsystem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(URVPDPEditorSubsystem), 1296283109U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_RVPDPEditor_RVPDPEditorSubsystem_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_URVPDPEditorSubsystem, URVPDPEditorSubsystem::StaticClass, TEXT("URVPDPEditorSubsystem"), &Z_Registration_Info_UClass_URVPDPEditorSubsystem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(URVPDPEditorSubsystem), 1446917343U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_RVPDPEditor_RVPDPEditorSubsystem_h_1791833143(TEXT("/Script/RVPDPEditor"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_RVPDPEditor_RVPDPEditorSubsystem_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_RVPDPEditor_RVPDPEditorSubsystem_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_RVPDPEditor_RVPDPEditorSubsystem_h_2402905566(TEXT("/Script/RVPDPEditor"),
+		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_RVPDPEditor_RVPDPEditorSubsystem_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_RVPDPEditor_RVPDPEditorSubsystem_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

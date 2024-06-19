@@ -137,7 +137,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UVertexPaintClothOverlapComponent_GetClothObjectsToSphereTrace_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Cloth Overlap Settings" },
 		{ "ModuleRelativePath", "Components/VertexPaintClothOverlapComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the Cloth Objects currently set to sphere trace." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintClothOverlapComponent_GetClothObjectsToSphereTrace_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintClothOverlapComponent, nullptr, "GetClothObjectsToSphereTrace", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintClothOverlapComponent_GetClothObjectsToSphereTrace_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintClothOverlapComponent_GetClothObjectsToSphereTrace_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintClothOverlapComponent_GetClothObjectsToSphereTrace_Statics::VertexPaintClothOverlapComponent_eventGetClothObjectsToSphereTrace_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintClothOverlapComponent_GetClothObjectsToSphereTrace_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintClothOverlapComponent_GetClothObjectsToSphereTrace_Statics::Function_MetaDataParams) };
@@ -198,7 +200,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UVertexPaintClothOverlapComponent_SetClothObjectsToSphereTrace_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Cloth Overlap Settings" },
 		{ "ModuleRelativePath", "Components/VertexPaintClothOverlapComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets the Cloth Objects it should sphere trace to." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintClothOverlapComponent_SetClothObjectsToSphereTrace_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintClothOverlapComponent, nullptr, "SetClothObjectsToSphereTrace", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintClothOverlapComponent_SetClothObjectsToSphereTrace_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintClothOverlapComponent_SetClothObjectsToSphereTrace_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintClothOverlapComponent_SetClothObjectsToSphereTrace_Statics::VertexPaintClothOverlapComponent_eventSetClothObjectsToSphereTrace_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintClothOverlapComponent_SetClothObjectsToSphereTrace_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintClothOverlapComponent_SetClothObjectsToSphereTrace_Statics::Function_MetaDataParams) };
@@ -239,7 +243,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UVertexPaintClothOverlapComponent_SetClothOverlapTracingEnabled_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Cloth Overlap Settings" },
 		{ "ModuleRelativePath", "Components/VertexPaintClothOverlapComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Activates / DeActivates Cloth Overlap Tracing. Useful if you don't want to have it activated all the time but enable it when you want to have more attention to detail on the cloth, like in a cutscene or something similar." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintClothOverlapComponent_SetClothOverlapTracingEnabled_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintClothOverlapComponent, nullptr, "SetClothOverlapTracingEnabled", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintClothOverlapComponent_SetClothOverlapTracingEnabled_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintClothOverlapComponent_SetClothOverlapTracingEnabled_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintClothOverlapComponent_SetClothOverlapTracingEnabled_Statics::VertexPaintClothOverlapComponent_eventSetClothOverlapTracingEnabled_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintClothOverlapComponent_SetClothOverlapTracingEnabled_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintClothOverlapComponent_SetClothOverlapTracingEnabled_Statics::Function_MetaDataParams) };
@@ -326,10 +332,10 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintClothOverlapComponent_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UVertexPaintClothOverlapComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UVertexPaintClothOverlapComponent_GetClothObjectsToSphereTrace, "GetClothObjectsToSphereTrace" }, // 491356350
+		{ &Z_Construct_UFunction_UVertexPaintClothOverlapComponent_GetClothObjectsToSphereTrace, "GetClothObjectsToSphereTrace" }, // 150182179
 		{ &Z_Construct_UFunction_UVertexPaintClothOverlapComponent_OnRep_ClothOverlapTracingEnabledRep, "OnRep_ClothOverlapTracingEnabledRep" }, // 3034406153
-		{ &Z_Construct_UFunction_UVertexPaintClothOverlapComponent_SetClothObjectsToSphereTrace, "SetClothObjectsToSphereTrace" }, // 3882457815
-		{ &Z_Construct_UFunction_UVertexPaintClothOverlapComponent_SetClothOverlapTracingEnabled, "SetClothOverlapTracingEnabled" }, // 509679142
+		{ &Z_Construct_UFunction_UVertexPaintClothOverlapComponent_SetClothObjectsToSphereTrace, "SetClothObjectsToSphereTrace" }, // 4260286609
+		{ &Z_Construct_UFunction_UVertexPaintClothOverlapComponent_SetClothOverlapTracingEnabled, "SetClothOverlapTracingEnabled" }, // 2106783644
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintClothOverlapComponent_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
@@ -348,7 +354,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintClothOverlapComponent_Statics::NewProp_clothOverlapTracingEnabled_MetaData[] = {
 		{ "Category", "Cloth Overlap Settings" },
 		{ "ModuleRelativePath", "Components/VertexPaintClothOverlapComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If we should run the traces" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UVertexPaintClothOverlapComponent_Statics::NewProp_clothOverlapTracingEnabled_SetBit(void* Obj)
@@ -360,7 +368,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintClothOverlapComponent_Statics::NewProp_clothVertexTraceRadius_MetaData[] = {
 		{ "Category", "Cloth Overlap Settings" },
 		{ "ModuleRelativePath", "Components/VertexPaintClothOverlapComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Size of each sphere trace on the cloth vertex position. Can be larger if you opt to only trace every other vertex or similar." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UVertexPaintClothOverlapComponent_Statics::NewProp_clothVertexTraceRadius = { "clothVertexTraceRadius", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVertexPaintClothOverlapComponent, clothVertexTraceRadius), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintClothOverlapComponent_Statics::NewProp_clothVertexTraceRadius_MetaData), Z_Construct_UClass_UVertexPaintClothOverlapComponent_Statics::NewProp_clothVertexTraceRadius_MetaData) };
@@ -368,7 +378,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintClothOverlapComponent_Statics::NewProp_clothVertexTraceIntervall_MetaData[] = {
 		{ "Category", "Cloth Overlap Settings" },
 		{ "ModuleRelativePath", "Components/VertexPaintClothOverlapComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "0 or 1 = Traces every vertex, 2 every other vertex etc. \nCan be used to optimize the tracing!" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UVertexPaintClothOverlapComponent_Statics::NewProp_clothVertexTraceIntervall = { "clothVertexTraceIntervall", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVertexPaintClothOverlapComponent, clothVertexTraceIntervall), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintClothOverlapComponent_Statics::NewProp_clothVertexTraceIntervall_MetaData), Z_Construct_UClass_UVertexPaintClothOverlapComponent_Statics::NewProp_clothVertexTraceIntervall_MetaData) };
@@ -376,7 +388,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintClothOverlapComponent_Statics::NewProp_debugClothSphereTraces_MetaData[] = {
 		{ "Category", "Cloth Overlap Settings" },
 		{ "ModuleRelativePath", "Components/VertexPaintClothOverlapComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Show the sphere trace locations" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UVertexPaintClothOverlapComponent_Statics::NewProp_debugClothSphereTraces_SetBit(void* Obj)
@@ -403,7 +417,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintClothOverlapComponent_Statics::NewProp_clothObjectsToSphereTrace_MetaData[] = {
 		{ "Category", "Cloth Overlap Settings" },
 		{ "ModuleRelativePath", "Components/VertexPaintClothOverlapComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Can set which channels it should overlap here, so in case you want it to overlap other channels other than the skeletal mesh component its attached to that is possible." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UVertexPaintClothOverlapComponent_Statics::NewProp_clothObjectsToSphereTrace = { "clothObjectsToSphereTrace", nullptr, (EPropertyFlags)0x0040000000010001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVertexPaintClothOverlapComponent, clothObjectsToSphereTrace), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintClothOverlapComponent_Statics::NewProp_clothObjectsToSphereTrace_MetaData), Z_Construct_UClass_UVertexPaintClothOverlapComponent_Statics::NewProp_clothObjectsToSphereTrace_MetaData) }; // 3930035403
@@ -494,19 +510,19 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UVertexPaintClothOverlapComponent);
 	UVertexPaintClothOverlapComponent::~UVertexPaintClothOverlapComponent() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_VertexPaintClothOverlapComponent_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_VertexPaintClothOverlapComponent_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_VertexPaintClothOverlapComponent_h_Statics::ScriptStructInfo[] = {
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_VertexPaintClothOverlapComponent_h_Statics::ScriptStructInfo[] = {
 		{ FVertexPaintClothOverlapComponentsStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintClothOverlapComponentsStruct_Statics::NewStructOps, TEXT("VertexPaintClothOverlapComponentsStruct"), &Z_Registration_Info_UScriptStruct_VertexPaintClothOverlapComponentsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintClothOverlapComponentsStruct), 3893402909U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_VertexPaintClothOverlapComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UVertexPaintClothOverlapComponent, UVertexPaintClothOverlapComponent::StaticClass, TEXT("UVertexPaintClothOverlapComponent"), &Z_Registration_Info_UClass_UVertexPaintClothOverlapComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UVertexPaintClothOverlapComponent), 2840588774U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_VertexPaintClothOverlapComponent_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UVertexPaintClothOverlapComponent, UVertexPaintClothOverlapComponent::StaticClass, TEXT("UVertexPaintClothOverlapComponent"), &Z_Registration_Info_UClass_UVertexPaintClothOverlapComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UVertexPaintClothOverlapComponent), 3642973627U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_VertexPaintClothOverlapComponent_h_286994266(TEXT("/Script/VertexPaintDetectionPlugin"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_VertexPaintClothOverlapComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_VertexPaintClothOverlapComponent_h_Statics::ClassInfo),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_VertexPaintClothOverlapComponent_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_VertexPaintClothOverlapComponent_h_Statics::ScriptStructInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_VertexPaintClothOverlapComponent_h_2924487635(TEXT("/Script/VertexPaintDetectionPlugin"),
+		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_VertexPaintClothOverlapComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_VertexPaintClothOverlapComponent_h_Statics::ClassInfo),
+		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_VertexPaintClothOverlapComponent_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_VertexPaintClothOverlapComponent_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

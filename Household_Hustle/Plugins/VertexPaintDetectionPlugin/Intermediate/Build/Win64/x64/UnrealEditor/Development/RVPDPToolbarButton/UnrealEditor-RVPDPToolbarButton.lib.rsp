@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-RVPDPToolbarButton.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Kuba\Documents\GitHub\Household-Hustle\Household_Hustle\Intermediate\Build\Win64\x64\Household_HustleEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.InclOrderUnreal5_0.h.obj"
+"C:\Users\Kuba\Documents\GitHub\Household-Hustle\Household_Hustle\Plugins\VertexPaintDetectionPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\RVPDPToolbarButton\Module.RVPDPToolbarButton.cpp.obj"
+"C:\Users\Kuba\Documents\GitHub\Household-Hustle\Household_Hustle\Plugins\VertexPaintDetectionPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\RVPDPToolbarButton\Default.rc2.res"
+/OUT:"C:\Users\Kuba\Documents\GitHub\Household-Hustle\Household_Hustle\Plugins\VertexPaintDetectionPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\RVPDPToolbarButton\UnrealEditor-RVPDPToolbarButton.lib"

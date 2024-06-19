@@ -60,9 +60,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClosestVertexPositionStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Found Vertex Position Data Struct\n" },
+#endif
 		{ "ModuleRelativePath", "Prerequisites/GetClosestVertexDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Found Vertex Position Data Struct" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectClosestVertexPositionStruct_Statics::NewStructOps()
@@ -142,9 +146,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClosestVertexNormalStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Found Vertex Normala Data Struct\n" },
+#endif
 		{ "ModuleRelativePath", "Prerequisites/GetClosestVertexDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Found Vertex Normala Data Struct" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectClosestVertexNormalStruct_Statics::NewStructOps()
@@ -245,9 +253,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Closest Vertex Data \n" },
+#endif
 		{ "ModuleRelativePath", "Prerequisites/GetClosestVertexDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Closest Vertex Data" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewStructOps()
@@ -258,7 +270,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexIndex_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/GetClosestVertexDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Closest Vertex inded of Hit Location" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexIndex = { "closestVertexIndex", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClosestVertexGeneralInfoStruct, closestVertexIndex), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexIndex_MetaData), Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexIndex_MetaData) };
@@ -266,7 +280,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestSection_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/GetClosestVertexDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Closest Section the Closest Vertex was at. May be useful if painting / detecting on skeletal mesh components." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestSection = { "closestSection", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClosestVertexGeneralInfoStruct, closestSection), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestSection_MetaData), Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestSection_MetaData) };
@@ -274,7 +290,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexColors_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/GetClosestVertexDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Closest Vertexes Colors" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexColors = { "closestVertexColors", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClosestVertexGeneralInfoStruct, closestVertexColors), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexColors_MetaData), Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexColors_MetaData) };
@@ -284,19 +302,21 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		{ "ModuleRelativePath", "Prerequisites/GetClosestVertexDataPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexPositionInfo = { "closestVertexPositionInfo", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClosestVertexGeneralInfoStruct, closestVertexPositionInfo), Z_Construct_UScriptStruct_FVertexDetectClosestVertexPositionStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexPositionInfo_MetaData), Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexPositionInfo_MetaData) }; // 3355561980
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexPositionInfo = { "closestVertexPositionInfo", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClosestVertexGeneralInfoStruct, closestVertexPositionInfo), Z_Construct_UScriptStruct_FVertexDetectClosestVertexPositionStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexPositionInfo_MetaData), Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexPositionInfo_MetaData) }; // 3164365631
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexNormalInfo_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/GetClosestVertexDataPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexNormalInfo = { "closestVertexNormalInfo", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClosestVertexGeneralInfoStruct, closestVertexNormalInfo), Z_Construct_UScriptStruct_FVertexDetectClosestVertexNormalStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexNormalInfo_MetaData), Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexNormalInfo_MetaData) }; // 4252140343
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexNormalInfo = { "closestVertexNormalInfo", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClosestVertexGeneralInfoStruct, closestVertexNormalInfo), Z_Construct_UScriptStruct_FVertexDetectClosestVertexNormalStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexNormalInfo_MetaData), Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexNormalInfo_MetaData) }; // 2063185648
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexMaterial_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/GetClosestVertexDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Material at the Closest Vertex" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexMaterial = { "closestVertexMaterial", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClosestVertexGeneralInfoStruct, closestVertexMaterial), Z_Construct_UClass_UMaterialInterface_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexMaterial_MetaData), Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexMaterial_MetaData) };
@@ -305,7 +325,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexUVAtEachUVChannel_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/GetClosestVertexDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "UVs at the Closest Vertex, each element in the array is for each UV Channel" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexUVAtEachUVChannel = { "closestVertexUVAtEachUVChannel", nullptr, (EPropertyFlags)0x0010000000020005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClosestVertexGeneralInfoStruct, closestVertexUVAtEachUVChannel), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexUVAtEachUVChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewProp_closestVertexUVAtEachUVChannel_MetaData) };
@@ -379,9 +401,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClosestVertexDataResultStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Vertex Painted Channel Result Struct\n" },
+#endif
 		{ "ModuleRelativePath", "Prerequisites/GetClosestVertexDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Vertex Painted Channel Result Struct" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectClosestVertexDataResultStruct_Statics::NewStructOps()
@@ -405,14 +431,14 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		{ "ModuleRelativePath", "Prerequisites/GetClosestVertexDataPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClosestVertexDataResultStruct_Statics::NewProp_closestVertexGeneralInfo = { "closestVertexGeneralInfo", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClosestVertexDataResultStruct, closestVertexGeneralInfo), Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClosestVertexDataResultStruct_Statics::NewProp_closestVertexGeneralInfo_MetaData), Z_Construct_UScriptStruct_FVertexDetectClosestVertexDataResultStruct_Statics::NewProp_closestVertexGeneralInfo_MetaData) }; // 1666048940
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClosestVertexDataResultStruct_Statics::NewProp_closestVertexGeneralInfo = { "closestVertexGeneralInfo", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClosestVertexDataResultStruct, closestVertexGeneralInfo), Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClosestVertexDataResultStruct_Statics::NewProp_closestVertexGeneralInfo_MetaData), Z_Construct_UScriptStruct_FVertexDetectClosestVertexDataResultStruct_Statics::NewProp_closestVertexGeneralInfo_MetaData) }; // 643457413
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClosestVertexDataResultStruct_Statics::NewProp_closestVertexPhysicalSurfaceInfo_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/GetClosestVertexDataPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClosestVertexDataResultStruct_Statics::NewProp_closestVertexPhysicalSurfaceInfo = { "closestVertexPhysicalSurfaceInfo", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClosestVertexDataResultStruct, closestVertexPhysicalSurfaceInfo), Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClosestVertexDataResultStruct_Statics::NewProp_closestVertexPhysicalSurfaceInfo_MetaData), Z_Construct_UScriptStruct_FVertexDetectClosestVertexDataResultStruct_Statics::NewProp_closestVertexPhysicalSurfaceInfo_MetaData) }; // 3059642996
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClosestVertexDataResultStruct_Statics::NewProp_closestVertexPhysicalSurfaceInfo = { "closestVertexPhysicalSurfaceInfo", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClosestVertexDataResultStruct, closestVertexPhysicalSurfaceInfo), Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClosestVertexDataResultStruct_Statics::NewProp_closestVertexPhysicalSurfaceInfo_MetaData), Z_Construct_UScriptStruct_FVertexDetectClosestVertexDataResultStruct_Statics::NewProp_closestVertexPhysicalSurfaceInfo_MetaData) }; // 4173758171
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVertexDetectClosestVertexDataResultStruct_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexDetectClosestVertexDataResultStruct_Statics::NewProp_closestVertexDataSuccessfullyAcquired,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexDetectClosestVertexDataResultStruct_Statics::NewProp_closestVertexGeneralInfo,
@@ -480,9 +506,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Vertex Detect Info\n" },
+#endif
 		{ "ModuleRelativePath", "Prerequisites/GetClosestVertexDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Vertex Detect Info" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::NewStructOps()
@@ -493,25 +523,29 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::NewProp_getAverageColorInAreaSettings_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/GetClosestVertexDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Can get the Average Color in an Area Range, which could be useful if you have for instance a Make-up game and want to see if the player has painted the majority of a characters cheek. Area Range has to be higher than 0 to get the average color." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::NewProp_getAverageColorInAreaSettings = { "getAverageColorInAreaSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectInfoStruct, getAverageColorInAreaSettings), Z_Construct_UScriptStruct_FVertexDetectGetAverageColorStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::NewProp_getAverageColorInAreaSettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::NewProp_getAverageColorInAreaSettings_MetaData) }; // 1635215642
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::NewProp_getAverageColorInAreaSettings = { "getAverageColorInAreaSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectInfoStruct, getAverageColorInAreaSettings), Z_Construct_UScriptStruct_FVertexDetectGetAverageColorStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::NewProp_getAverageColorInAreaSettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::NewProp_getAverageColorInAreaSettings_MetaData) }; // 553421060
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::NewProp_hitFundementals_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/GetClosestVertexDataPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::NewProp_hitFundementals = { "hitFundementals", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectInfoStruct, hitFundementals), Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::NewProp_hitFundementals_MetaData), Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::NewProp_hitFundementals_MetaData) }; // 2674751082
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::NewProp_hitFundementals = { "hitFundementals", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectInfoStruct, hitFundementals), Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::NewProp_hitFundementals_MetaData), Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::NewProp_hitFundementals_MetaData) }; // 3986548766
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::NewProp_getEstimatedColorAtHitLocationSettings_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/GetClosestVertexDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This will Return the color as close to the actual Hit Location as possible, which is very useful if you have Meshes with few vertices and you want to run SFX or VFX based on the Color of the Hit location and not the closest vertex color in case there is a diff, which it might have if the mesh have few vertices. \nThe task may take a bit longer to calculate if Mesh has alot of vertices, so you have the option to only get it if the Mesh has a Max Amount of Vertices. NOTE If getVertexColorSetting is set to onlyGetColors, but this is True, then it will still loop through colors." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::NewProp_getEstimatedColorAtHitLocationSettings = { "getEstimatedColorAtHitLocationSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectInfoStruct, getEstimatedColorAtHitLocationSettings), Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::NewProp_getEstimatedColorAtHitLocationSettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::NewProp_getEstimatedColorAtHitLocationSettings_MetaData) }; // 4047601044
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::NewProp_getEstimatedColorAtHitLocationSettings = { "getEstimatedColorAtHitLocationSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectInfoStruct, getEstimatedColorAtHitLocationSettings), Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::NewProp_getEstimatedColorAtHitLocationSettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::NewProp_getEstimatedColorAtHitLocationSettings_MetaData) }; // 4015115612
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::NewProp_getAverageColorInAreaSettings,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::NewProp_hitFundementals,
@@ -539,19 +573,19 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		}
 		return Z_Registration_Info_UScriptStruct_VertexDetectInfoStruct.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_GetClosestVertexDataPrerequisites_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_GetClosestVertexDataPrerequisites_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_GetClosestVertexDataPrerequisites_h_Statics::ScriptStructInfo[] = {
-		{ FVertexDetectClosestVertexPositionStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClosestVertexPositionStruct_Statics::NewStructOps, TEXT("VertexDetectClosestVertexPositionStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClosestVertexPositionStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClosestVertexPositionStruct), 3355561980U) },
-		{ FVertexDetectClosestVertexNormalStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClosestVertexNormalStruct_Statics::NewStructOps, TEXT("VertexDetectClosestVertexNormalStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClosestVertexNormalStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClosestVertexNormalStruct), 4252140343U) },
-		{ FVertexDetectClosestVertexGeneralInfoStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewStructOps, TEXT("VertexDetectClosestVertexGeneralInfoStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClosestVertexGeneralInfoStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClosestVertexGeneralInfoStruct), 1666048940U) },
-		{ FVertexDetectClosestVertexDataResultStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClosestVertexDataResultStruct_Statics::NewStructOps, TEXT("VertexDetectClosestVertexDataResultStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClosestVertexDataResultStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClosestVertexDataResultStruct), 3612237734U) },
-		{ FVertexDetectInfoStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::NewStructOps, TEXT("VertexDetectInfoStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectInfoStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectInfoStruct), 148266220U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_GetClosestVertexDataPrerequisites_h_Statics::ScriptStructInfo[] = {
+		{ FVertexDetectClosestVertexPositionStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClosestVertexPositionStruct_Statics::NewStructOps, TEXT("VertexDetectClosestVertexPositionStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClosestVertexPositionStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClosestVertexPositionStruct), 3164365631U) },
+		{ FVertexDetectClosestVertexNormalStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClosestVertexNormalStruct_Statics::NewStructOps, TEXT("VertexDetectClosestVertexNormalStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClosestVertexNormalStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClosestVertexNormalStruct), 2063185648U) },
+		{ FVertexDetectClosestVertexGeneralInfoStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics::NewStructOps, TEXT("VertexDetectClosestVertexGeneralInfoStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClosestVertexGeneralInfoStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClosestVertexGeneralInfoStruct), 643457413U) },
+		{ FVertexDetectClosestVertexDataResultStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClosestVertexDataResultStruct_Statics::NewStructOps, TEXT("VertexDetectClosestVertexDataResultStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClosestVertexDataResultStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClosestVertexDataResultStruct), 2836757760U) },
+		{ FVertexDetectInfoStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics::NewStructOps, TEXT("VertexDetectInfoStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectInfoStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectInfoStruct), 3278571087U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_GetClosestVertexDataPrerequisites_h_3661938074(TEXT("/Script/VertexPaintDetectionPlugin"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_GetClosestVertexDataPrerequisites_h_978546459(TEXT("/Script/VertexPaintDetectionPlugin"),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_GetClosestVertexDataPrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_GetClosestVertexDataPrerequisites_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_GetClosestVertexDataPrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_GetClosestVertexDataPrerequisites_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

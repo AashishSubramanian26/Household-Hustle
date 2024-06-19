@@ -58,9 +58,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintPhysicsSurfaceBlendingSettings_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Physics Surface Blending Settings\n" },
+#endif
 		{ "ModuleRelativePath", "Prerequisites/MaterialDataAssetPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Physics Surface Blending Settings" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexPaintPhysicsSurfaceBlendingSettings_Statics::NewStructOps()
@@ -181,9 +185,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Vertex Paint Material Data Asset Struct \n" },
+#endif
 		{ "ModuleRelativePath", "Prerequisites/MaterialDataAssetPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Vertex Paint Material Data Asset Struct" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct_Statics::NewStructOps()
@@ -194,7 +202,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct_Statics::NewProp_includeDefaultChannelWhenDetecting_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/MaterialDataAssetPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Will include the default channel when running detection where it will return 1 atDefault value in the VertexPaintDetectionComponent if nothing is painted over it. 0.5 if one thing is painted, 0.33 if two things is fully painted over it etc. \nCan be set to false if you have a material setup where whatever you're painting completely hides what is default." },
+#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct_Statics::NewProp_includeDefaultChannelWhenDetecting_SetBit(void* Obj)
@@ -237,7 +247,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	};
 #endif
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct_Statics::NewProp_paintedAtAlpha = { "paintedAtAlpha", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintMaterialDataAssetStruct, paintedAtAlpha), Z_Construct_UEnum_PhysicsCore_EPhysicalSurface, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct_Statics::NewProp_paintedAtAlpha_MetaData), Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct_Statics::NewProp_paintedAtAlpha_MetaData) }; // 2508321301
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct_Statics::NewProp_physicsSurfaceBlendingSettings_ValueProp = { "physicsSurfaceBlendingSettings", nullptr, (EPropertyFlags)0x0000000000020001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FVertexPaintPhysicsSurfaceBlendingSettings, METADATA_PARAMS(0, nullptr) }; // 1169206232
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct_Statics::NewProp_physicsSurfaceBlendingSettings_ValueProp = { "physicsSurfaceBlendingSettings", nullptr, (EPropertyFlags)0x0000000000020001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FVertexPaintPhysicsSurfaceBlendingSettings, METADATA_PARAMS(0, nullptr) }; // 2200052223
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct_Statics::NewProp_physicsSurfaceBlendingSettings_Key_KeyProp = { "physicsSurfaceBlendingSettings_Key", nullptr, (EPropertyFlags)0x0000000000020001, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UEnum_PhysicsCore_EPhysicalSurface, METADATA_PARAMS(0, nullptr) }; // 2508321301
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct_Statics::NewProp_physicsSurfaceBlendingSettings_MetaData[] = {
@@ -245,7 +255,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 		{ "ModuleRelativePath", "Prerequisites/MaterialDataAssetPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FMapPropertyParams Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct_Statics::NewProp_physicsSurfaceBlendingSettings = { "physicsSurfaceBlendingSettings", nullptr, (EPropertyFlags)0x0010000000020005, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintMaterialDataAssetStruct, physicsSurfaceBlendingSettings), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct_Statics::NewProp_physicsSurfaceBlendingSettings_MetaData), Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct_Statics::NewProp_physicsSurfaceBlendingSettings_MetaData) }; // 2508321301 1169206232
+	const UECodeGen_Private::FMapPropertyParams Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct_Statics::NewProp_physicsSurfaceBlendingSettings = { "physicsSurfaceBlendingSettings", nullptr, (EPropertyFlags)0x0010000000020005, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintMaterialDataAssetStruct, physicsSurfaceBlendingSettings), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct_Statics::NewProp_physicsSurfaceBlendingSettings_MetaData), Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct_Statics::NewProp_physicsSurfaceBlendingSettings_MetaData) }; // 2508321301 2200052223
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct_Statics::NewProp_includeDefaultChannelWhenDetecting,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct_Statics::NewProp_atDefault,
@@ -309,9 +319,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintParentPhysicsSurfaceStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Parent Physics Surface Struct\n" },
+#endif
 		{ "ModuleRelativePath", "Prerequisites/MaterialDataAssetPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Parent Physics Surface Struct" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexPaintParentPhysicsSurfaceStruct_Statics::NewStructOps()
@@ -352,17 +366,17 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 		}
 		return Z_Registration_Info_UScriptStruct_VertexPaintParentPhysicsSurfaceStruct.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_MaterialDataAssetPrerequisites_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_MaterialDataAssetPrerequisites_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_MaterialDataAssetPrerequisites_h_Statics::ScriptStructInfo[] = {
-		{ FVertexPaintPhysicsSurfaceBlendingSettings::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintPhysicsSurfaceBlendingSettings_Statics::NewStructOps, TEXT("VertexPaintPhysicsSurfaceBlendingSettings"), &Z_Registration_Info_UScriptStruct_VertexPaintPhysicsSurfaceBlendingSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintPhysicsSurfaceBlendingSettings), 1169206232U) },
-		{ FVertexPaintMaterialDataAssetStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct_Statics::NewStructOps, TEXT("VertexPaintMaterialDataAssetStruct"), &Z_Registration_Info_UScriptStruct_VertexPaintMaterialDataAssetStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintMaterialDataAssetStruct), 3331871051U) },
-		{ FVertexPaintParentPhysicsSurfaceStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintParentPhysicsSurfaceStruct_Statics::NewStructOps, TEXT("VertexPaintParentPhysicsSurfaceStruct"), &Z_Registration_Info_UScriptStruct_VertexPaintParentPhysicsSurfaceStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintParentPhysicsSurfaceStruct), 367238135U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_MaterialDataAssetPrerequisites_h_Statics::ScriptStructInfo[] = {
+		{ FVertexPaintPhysicsSurfaceBlendingSettings::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintPhysicsSurfaceBlendingSettings_Statics::NewStructOps, TEXT("VertexPaintPhysicsSurfaceBlendingSettings"), &Z_Registration_Info_UScriptStruct_VertexPaintPhysicsSurfaceBlendingSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintPhysicsSurfaceBlendingSettings), 2200052223U) },
+		{ FVertexPaintMaterialDataAssetStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct_Statics::NewStructOps, TEXT("VertexPaintMaterialDataAssetStruct"), &Z_Registration_Info_UScriptStruct_VertexPaintMaterialDataAssetStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintMaterialDataAssetStruct), 3512115456U) },
+		{ FVertexPaintParentPhysicsSurfaceStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintParentPhysicsSurfaceStruct_Statics::NewStructOps, TEXT("VertexPaintParentPhysicsSurfaceStruct"), &Z_Registration_Info_UScriptStruct_VertexPaintParentPhysicsSurfaceStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintParentPhysicsSurfaceStruct), 3835105565U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_MaterialDataAssetPrerequisites_h_1308392545(TEXT("/Script/VertexPaintDetectionPlugin"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_MaterialDataAssetPrerequisites_h_657214162(TEXT("/Script/VertexPaintDetectionPlugin"),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_MaterialDataAssetPrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_MaterialDataAssetPrerequisites_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_MaterialDataAssetPrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_MaterialDataAssetPrerequisites_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

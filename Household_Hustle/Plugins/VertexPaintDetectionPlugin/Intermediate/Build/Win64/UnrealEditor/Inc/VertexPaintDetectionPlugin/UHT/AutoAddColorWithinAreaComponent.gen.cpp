@@ -64,8 +64,8 @@ void EmptyLinkFunctionForGeneratedCodeAutoAddColorWithinAreaComponent() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UAutoAddColorWithinAreaComponent_AddAutoPaintWithinArea_Statics::NewProp_meshComponent = { "meshComponent", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AutoAddColorWithinAreaComponent_eventAddAutoPaintWithinArea_Parms, meshComponent), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UAutoAddColorWithinAreaComponent_AddAutoPaintWithinArea_Statics::NewProp_meshComponent_MetaData), Z_Construct_UFunction_UAutoAddColorWithinAreaComponent_AddAutoPaintWithinArea_Statics::NewProp_meshComponent_MetaData) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UAutoAddColorWithinAreaComponent_AddAutoPaintWithinArea_Statics::NewProp_paintWithinAreaSettings = { "paintWithinAreaSettings", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AutoAddColorWithinAreaComponent_eventAddAutoPaintWithinArea_Parms, paintWithinAreaSettings), Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct, METADATA_PARAMS(0, nullptr) }; // 958617516
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UAutoAddColorWithinAreaComponent_AddAutoPaintWithinArea_Statics::NewProp_autoAddColorSettings = { "autoAddColorSettings", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AutoAddColorWithinAreaComponent_eventAddAutoPaintWithinArea_Parms, autoAddColorSettings), Z_Construct_UScriptStruct_FAutoAddColorSettings, METADATA_PARAMS(0, nullptr) }; // 294965315
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UAutoAddColorWithinAreaComponent_AddAutoPaintWithinArea_Statics::NewProp_paintWithinAreaSettings = { "paintWithinAreaSettings", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AutoAddColorWithinAreaComponent_eventAddAutoPaintWithinArea_Parms, paintWithinAreaSettings), Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct, METADATA_PARAMS(0, nullptr) }; // 1823502113
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UAutoAddColorWithinAreaComponent_AddAutoPaintWithinArea_Statics::NewProp_autoAddColorSettings = { "autoAddColorSettings", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AutoAddColorWithinAreaComponent_eventAddAutoPaintWithinArea_Parms, autoAddColorSettings), Z_Construct_UScriptStruct_FAutoAddColorSettings, METADATA_PARAMS(0, nullptr) }; // 2463745312
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UAutoAddColorWithinAreaComponent_AddAutoPaintWithinArea_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UAutoAddColorWithinAreaComponent_AddAutoPaintWithinArea_Statics::NewProp_meshComponent,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UAutoAddColorWithinAreaComponent_AddAutoPaintWithinArea_Statics::NewProp_paintWithinAreaSettings,
@@ -75,7 +75,9 @@ void EmptyLinkFunctionForGeneratedCodeAutoAddColorWithinAreaComponent() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAutoAddColorWithinAreaComponent_AddAutoPaintWithinArea_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Auto Paint Component|Within Area" },
 		{ "ModuleRelativePath", "Components/AutoAddColorWithinAreaComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Adds a Mesh to be Auto painted with specific settings. If it's already been added then updated the settings with the new one. In AutoAddColorSettings you can set a delay between tasks, which is useful if you for instance is drying a character but it's going to fast, then you add maybe 0.1 or so to make it slower." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UAutoAddColorWithinAreaComponent_AddAutoPaintWithinArea_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAutoAddColorWithinAreaComponent, nullptr, "AddAutoPaintWithinArea", nullptr, nullptr, Z_Construct_UFunction_UAutoAddColorWithinAreaComponent_AddAutoPaintWithinArea_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UAutoAddColorWithinAreaComponent_AddAutoPaintWithinArea_Statics::PropPointers), sizeof(Z_Construct_UFunction_UAutoAddColorWithinAreaComponent_AddAutoPaintWithinArea_Statics::AutoAddColorWithinAreaComponent_eventAddAutoPaintWithinArea_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UAutoAddColorWithinAreaComponent_AddAutoPaintWithinArea_Statics::Function_MetaDataParams), Z_Construct_UFunction_UAutoAddColorWithinAreaComponent_AddAutoPaintWithinArea_Statics::Function_MetaDataParams) };
@@ -144,7 +146,7 @@ void EmptyLinkFunctionForGeneratedCodeAutoAddColorWithinAreaComponent() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UAutoAddColorWithinAreaComponent_AddAutoPaintWithinArea, "AddAutoPaintWithinArea" }, // 2446049912
+		{ &Z_Construct_UFunction_UAutoAddColorWithinAreaComponent_AddAutoPaintWithinArea, "AddAutoPaintWithinArea" }, // 16161134
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
@@ -162,7 +164,9 @@ void EmptyLinkFunctionForGeneratedCodeAutoAddColorWithinAreaComponent() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::NewProp_onlyPaintOnMovingMeshZ_MetaData[] = {
 		{ "Category", "Auto Paint|Within Area" },
 		{ "ModuleRelativePath", "Components/AutoAddColorWithinAreaComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Optimization so you have the option to only start another auto paint within area if any change has occured on the Mesh Location Z. For instance if a character actively walking down into a lake and not just standing in it. The draw back is that this component will have to tick to check if the change has happened." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::NewProp_onlyPaintOnMovingMeshZ_SetBit(void* Obj)
@@ -174,7 +178,9 @@ void EmptyLinkFunctionForGeneratedCodeAutoAddColorWithinAreaComponent() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::NewProp_onlyPaintOnMovingMeshXY_MetaData[] = {
 		{ "Category", "Auto Paint|Within Area" },
 		{ "ModuleRelativePath", "Components/AutoAddColorWithinAreaComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Optimization so you have the option to only start another auto paint within area if any change has occured on the Mesh Location XY. For instance if a character is swimming in a lake but is just floating at the surface and not swimming in any direction. The draw back is that this component will have to tick to check if the change has happened." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::NewProp_onlyPaintOnMovingMeshXY_SetBit(void* Obj)
@@ -186,7 +192,9 @@ void EmptyLinkFunctionForGeneratedCodeAutoAddColorWithinAreaComponent() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::NewProp_onlyPaintOnRotatedMesh_MetaData[] = {
 		{ "Category", "Auto Paint|Within Area" },
 		{ "ModuleRelativePath", "Components/AutoAddColorWithinAreaComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Optimization so you have the option to only start another auto paint within area if any change has occured on the Mesh Rotation. The draw back is that this component will have to tick to check if the change has happened." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::NewProp_onlyPaintOnRotatedMesh_SetBit(void* Obj)
@@ -198,7 +206,9 @@ void EmptyLinkFunctionForGeneratedCodeAutoAddColorWithinAreaComponent() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::NewProp_onlyPaintOnReScaledMesh_MetaData[] = {
 		{ "Category", "Auto Paint|Within Area" },
 		{ "ModuleRelativePath", "Components/AutoAddColorWithinAreaComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Optimization so you have the option to only start another auto paint within area if any change has occured on the Mesh Scale. The draw back is that this component will have to tick to check if the change has happened." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::NewProp_onlyPaintOnReScaledMesh_SetBit(void* Obj)
@@ -206,14 +216,14 @@ void EmptyLinkFunctionForGeneratedCodeAutoAddColorWithinAreaComponent() {}
 		((UAutoAddColorWithinAreaComponent*)Obj)->onlyPaintOnReScaledMesh = 1;
 	}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::NewProp_onlyPaintOnReScaledMesh = { "onlyPaintOnReScaledMesh", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UAutoAddColorWithinAreaComponent), &Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::NewProp_onlyPaintOnReScaledMesh_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::NewProp_onlyPaintOnReScaledMesh_MetaData), Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::NewProp_onlyPaintOnReScaledMesh_MetaData) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::NewProp_autoPaintingWithinAreaWithSettings_ValueProp = { "autoPaintingWithinAreaWithSettings", nullptr, (EPropertyFlags)0x0000008000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct, METADATA_PARAMS(0, nullptr) }; // 958617516
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::NewProp_autoPaintingWithinAreaWithSettings_ValueProp = { "autoPaintingWithinAreaWithSettings", nullptr, (EPropertyFlags)0x0000008000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct, METADATA_PARAMS(0, nullptr) }; // 1823502113
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::NewProp_autoPaintingWithinAreaWithSettings_Key_KeyProp = { "autoPaintingWithinAreaWithSettings_Key", nullptr, (EPropertyFlags)0x0000008000080000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::NewProp_autoPaintingWithinAreaWithSettings_MetaData[] = {
 		{ "ModuleRelativePath", "Components/AutoAddColorWithinAreaComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::NewProp_autoPaintingWithinAreaWithSettings = { "autoPaintingWithinAreaWithSettings", nullptr, (EPropertyFlags)0x0020088000000000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UAutoAddColorWithinAreaComponent, autoPaintingWithinAreaWithSettings), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::NewProp_autoPaintingWithinAreaWithSettings_MetaData), Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::NewProp_autoPaintingWithinAreaWithSettings_MetaData) }; // 958617516
+	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::NewProp_autoPaintingWithinAreaWithSettings = { "autoPaintingWithinAreaWithSettings", nullptr, (EPropertyFlags)0x0020088000000000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UAutoAddColorWithinAreaComponent, autoPaintingWithinAreaWithSettings), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::NewProp_autoPaintingWithinAreaWithSettings_MetaData), Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::NewProp_autoPaintingWithinAreaWithSettings_MetaData) }; // 1823502113
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::NewProp_meshComponentsToCheckIfMoved_ValueProp = { "meshComponentsToCheckIfMoved", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FTransform, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UAutoAddColorWithinAreaComponent_Statics::NewProp_meshComponentsToCheckIfMoved_Key_KeyProp = { "meshComponentsToCheckIfMoved_Key", nullptr, (EPropertyFlags)0x0000000000080000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
@@ -267,15 +277,15 @@ void EmptyLinkFunctionForGeneratedCodeAutoAddColorWithinAreaComponent() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UAutoAddColorWithinAreaComponent);
 	UAutoAddColorWithinAreaComponent::~UAutoAddColorWithinAreaComponent() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorWithinAreaComponent_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorWithinAreaComponent_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorWithinAreaComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UAutoAddColorWithinAreaComponent, UAutoAddColorWithinAreaComponent::StaticClass, TEXT("UAutoAddColorWithinAreaComponent"), &Z_Registration_Info_UClass_UAutoAddColorWithinAreaComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAutoAddColorWithinAreaComponent), 25894895U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorWithinAreaComponent_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UAutoAddColorWithinAreaComponent, UAutoAddColorWithinAreaComponent::StaticClass, TEXT("UAutoAddColorWithinAreaComponent"), &Z_Registration_Info_UClass_UAutoAddColorWithinAreaComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAutoAddColorWithinAreaComponent), 2580405391U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorWithinAreaComponent_h_2861628726(TEXT("/Script/VertexPaintDetectionPlugin"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorWithinAreaComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorWithinAreaComponent_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorWithinAreaComponent_h_522527368(TEXT("/Script/VertexPaintDetectionPlugin"),
+		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorWithinAreaComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorWithinAreaComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
