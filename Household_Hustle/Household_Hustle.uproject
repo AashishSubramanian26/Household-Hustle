@@ -3,13 +3,6 @@
 	"EngineAssociation": "5.3",
 	"Category": "",
 	"Description": "",
-	"Modules": [
-		{
-			"Name": "Household_Hustle",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
-	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
@@ -17,11 +10,6 @@
 			"TargetAllowList": [
 				"Editor"
 			]
-		},
-		{
-			"Name": "VertexPaintDetectionPlugin",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/e248813f07134ecfb10e65ba84e706c2"
 		}
 	]
 }

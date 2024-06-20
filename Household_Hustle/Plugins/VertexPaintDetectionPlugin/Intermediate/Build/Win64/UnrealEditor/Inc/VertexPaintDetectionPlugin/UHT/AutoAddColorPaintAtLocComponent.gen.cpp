@@ -63,8 +63,8 @@ void EmptyLinkFunctionForGeneratedCodeAutoAddColorPaintAtLocComponent() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UAutoAddColorPaintAtLocComponent_AddAutoPaintAtLocation_Statics::NewProp_meshComponent = { "meshComponent", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AutoAddColorPaintAtLocComponent_eventAddAutoPaintAtLocation_Parms, meshComponent), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UAutoAddColorPaintAtLocComponent_AddAutoPaintAtLocation_Statics::NewProp_meshComponent_MetaData), Z_Construct_UFunction_UAutoAddColorPaintAtLocComponent_AddAutoPaintAtLocation_Statics::NewProp_meshComponent_MetaData) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UAutoAddColorPaintAtLocComponent_AddAutoPaintAtLocation_Statics::NewProp_paintAtLocationSettings = { "paintAtLocationSettings", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AutoAddColorPaintAtLocComponent_eventAddAutoPaintAtLocation_Parms, paintAtLocationSettings), Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct, METADATA_PARAMS(0, nullptr) }; // 447931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UAutoAddColorPaintAtLocComponent_AddAutoPaintAtLocation_Statics::NewProp_autoAddColorSettings = { "autoAddColorSettings", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AutoAddColorPaintAtLocComponent_eventAddAutoPaintAtLocation_Parms, autoAddColorSettings), Z_Construct_UScriptStruct_FAutoAddColorSettings, METADATA_PARAMS(0, nullptr) }; // 2463745312
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UAutoAddColorPaintAtLocComponent_AddAutoPaintAtLocation_Statics::NewProp_paintAtLocationSettings = { "paintAtLocationSettings", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AutoAddColorPaintAtLocComponent_eventAddAutoPaintAtLocation_Parms, paintAtLocationSettings), Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct, METADATA_PARAMS(0, nullptr) }; // 4077106337
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UAutoAddColorPaintAtLocComponent_AddAutoPaintAtLocation_Statics::NewProp_autoAddColorSettings = { "autoAddColorSettings", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AutoAddColorPaintAtLocComponent_eventAddAutoPaintAtLocation_Parms, autoAddColorSettings), Z_Construct_UScriptStruct_FAutoAddColorSettings, METADATA_PARAMS(0, nullptr) }; // 294965315
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UAutoAddColorPaintAtLocComponent_AddAutoPaintAtLocation_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UAutoAddColorPaintAtLocComponent_AddAutoPaintAtLocation_Statics::NewProp_meshComponent,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UAutoAddColorPaintAtLocComponent_AddAutoPaintAtLocation_Statics::NewProp_paintAtLocationSettings,
@@ -74,9 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeAutoAddColorPaintAtLocComponent() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAutoAddColorPaintAtLocComponent_AddAutoPaintAtLocation_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Auto Paint Component|Paint At Location" },
 		{ "ModuleRelativePath", "Components/AutoAddColorPaintAtLocComponent.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Adds a Mesh to be Auto painted with specific settings. If it's already been added then updated the settings with the new one. In AutoAddColorSettings you can set a delay between tasks, which is useful if you for instance is drying a character but it's going to fast, then you add maybe 0.1 or so to make it slower." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UAutoAddColorPaintAtLocComponent_AddAutoPaintAtLocation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAutoAddColorPaintAtLocComponent, nullptr, "AddAutoPaintAtLocation", nullptr, nullptr, Z_Construct_UFunction_UAutoAddColorPaintAtLocComponent_AddAutoPaintAtLocation_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UAutoAddColorPaintAtLocComponent_AddAutoPaintAtLocation_Statics::PropPointers), sizeof(Z_Construct_UFunction_UAutoAddColorPaintAtLocComponent_AddAutoPaintAtLocation_Statics::AutoAddColorPaintAtLocComponent_eventAddAutoPaintAtLocation_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UAutoAddColorPaintAtLocComponent_AddAutoPaintAtLocation_Statics::Function_MetaDataParams), Z_Construct_UFunction_UAutoAddColorPaintAtLocComponent_AddAutoPaintAtLocation_Statics::Function_MetaDataParams) };
@@ -119,7 +117,7 @@ void EmptyLinkFunctionForGeneratedCodeAutoAddColorPaintAtLocComponent() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UAutoAddColorPaintAtLocComponent_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UAutoAddColorPaintAtLocComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UAutoAddColorPaintAtLocComponent_AddAutoPaintAtLocation, "AddAutoPaintAtLocation" }, // 4109589672
+		{ &Z_Construct_UFunction_UAutoAddColorPaintAtLocComponent_AddAutoPaintAtLocation, "AddAutoPaintAtLocation" }, // 3789177205
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UAutoAddColorPaintAtLocComponent_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
@@ -133,14 +131,14 @@ void EmptyLinkFunctionForGeneratedCodeAutoAddColorPaintAtLocComponent() {}
 		{ "ModuleRelativePath", "Components/AutoAddColorPaintAtLocComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UAutoAddColorPaintAtLocComponent_Statics::NewProp_autoPaintingAtLocationWithSettings_ValueProp = { "autoPaintingAtLocationWithSettings", nullptr, (EPropertyFlags)0x0000008000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct, METADATA_PARAMS(0, nullptr) }; // 447931
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UAutoAddColorPaintAtLocComponent_Statics::NewProp_autoPaintingAtLocationWithSettings_ValueProp = { "autoPaintingAtLocationWithSettings", nullptr, (EPropertyFlags)0x0000008000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct, METADATA_PARAMS(0, nullptr) }; // 4077106337
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UAutoAddColorPaintAtLocComponent_Statics::NewProp_autoPaintingAtLocationWithSettings_Key_KeyProp = { "autoPaintingAtLocationWithSettings_Key", nullptr, (EPropertyFlags)0x0000008000080000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAutoAddColorPaintAtLocComponent_Statics::NewProp_autoPaintingAtLocationWithSettings_MetaData[] = {
 		{ "ModuleRelativePath", "Components/AutoAddColorPaintAtLocComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UAutoAddColorPaintAtLocComponent_Statics::NewProp_autoPaintingAtLocationWithSettings = { "autoPaintingAtLocationWithSettings", nullptr, (EPropertyFlags)0x0040008000000000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UAutoAddColorPaintAtLocComponent, autoPaintingAtLocationWithSettings), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UAutoAddColorPaintAtLocComponent_Statics::NewProp_autoPaintingAtLocationWithSettings_MetaData), Z_Construct_UClass_UAutoAddColorPaintAtLocComponent_Statics::NewProp_autoPaintingAtLocationWithSettings_MetaData) }; // 447931
+	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UAutoAddColorPaintAtLocComponent_Statics::NewProp_autoPaintingAtLocationWithSettings = { "autoPaintingAtLocationWithSettings", nullptr, (EPropertyFlags)0x0040008000000000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UAutoAddColorPaintAtLocComponent, autoPaintingAtLocationWithSettings), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UAutoAddColorPaintAtLocComponent_Statics::NewProp_autoPaintingAtLocationWithSettings_MetaData), Z_Construct_UClass_UAutoAddColorPaintAtLocComponent_Statics::NewProp_autoPaintingAtLocationWithSettings_MetaData) }; // 4077106337
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UAutoAddColorPaintAtLocComponent_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAutoAddColorPaintAtLocComponent_Statics::NewProp_autoPaintingAtLocationWithSettings_ValueProp,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAutoAddColorPaintAtLocComponent_Statics::NewProp_autoPaintingAtLocationWithSettings_Key_KeyProp,
@@ -179,15 +177,15 @@ void EmptyLinkFunctionForGeneratedCodeAutoAddColorPaintAtLocComponent() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UAutoAddColorPaintAtLocComponent);
 	UAutoAddColorPaintAtLocComponent::~UAutoAddColorPaintAtLocComponent() {}
-	struct Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorPaintAtLocComponent_h_Statics
+	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorPaintAtLocComponent_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorPaintAtLocComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UAutoAddColorPaintAtLocComponent, UAutoAddColorPaintAtLocComponent::StaticClass, TEXT("UAutoAddColorPaintAtLocComponent"), &Z_Registration_Info_UClass_UAutoAddColorPaintAtLocComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAutoAddColorPaintAtLocComponent), 128672857U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorPaintAtLocComponent_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UAutoAddColorPaintAtLocComponent, UAutoAddColorPaintAtLocComponent::StaticClass, TEXT("UAutoAddColorPaintAtLocComponent"), &Z_Registration_Info_UClass_UAutoAddColorPaintAtLocComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAutoAddColorPaintAtLocComponent), 3327617946U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorPaintAtLocComponent_h_2004239179(TEXT("/Script/VertexPaintDetectionPlugin"),
-		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorPaintAtLocComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorPaintAtLocComponent_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorPaintAtLocComponent_h_4160686896(TEXT("/Script/VertexPaintDetectionPlugin"),
+		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorPaintAtLocComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorPaintAtLocComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

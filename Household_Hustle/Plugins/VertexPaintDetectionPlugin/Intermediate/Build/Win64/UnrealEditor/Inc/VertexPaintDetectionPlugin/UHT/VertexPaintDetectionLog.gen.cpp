@@ -49,13 +49,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintTaskSpecificDebugSymbolsSettings_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Task Specific Debug Symbols Settings\n" },
-#endif
 		{ "ModuleRelativePath", "Utility/VertexPaintDetectionLog.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Task Specific Debug Symbols Settings" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexPaintTaskSpecificDebugSymbolsSettings_Statics::NewStructOps()
@@ -66,9 +62,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintTaskSpecificDebugSymbolsSettings_Statics::NewProp_drawTaskDebugSymbols_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Debug Settings|Paint Within Area Symbols" },
 		{ "ModuleRelativePath", "Utility/VertexPaintDetectionLog.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This will Draw any Debug Symbols Related to the Task being done, for example the Bounds that we use if it's a Paint Within Area Task." },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexPaintTaskSpecificDebugSymbolsSettings_Statics::NewProp_drawTaskDebugSymbols_SetBit(void* Obj)
@@ -163,13 +157,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintGameThreadSpecificDebugSettings_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Game Thread Specific Debug Settings\n" },
-#endif
 		{ "ModuleRelativePath", "Utility/VertexPaintDetectionLog.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Game Thread Specific Debug Settings" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexPaintGameThreadSpecificDebugSettings_Statics::NewStructOps()
@@ -180,9 +170,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintGameThreadSpecificDebugSettings_Statics::NewProp_drawVertexPositionDebugPoint_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Debug Settings|Vertex Symbols" },
 		{ "ModuleRelativePath", "Utility/VertexPaintDetectionLog.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Draws a Debug Point for Each Vertex of the Mesh. \nNOTE! Only possible if running the Paint Job with Multithreading set to False, and can be quite expensive if the Mesh has a lot of Vertices." },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexPaintGameThreadSpecificDebugSettings_Statics::NewProp_drawVertexPositionDebugPoint_SetBit(void* Obj)
@@ -194,9 +182,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintGameThreadSpecificDebugSettings_Statics::NewProp_drawVertexPositionDebugPointIfGotPaintApplied_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Debug Settings|Vertex Symbols" },
 		{ "ModuleRelativePath", "Utility/VertexPaintDetectionLog.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Draws a Debug Point for the Vertex of the Mesh that got paint applied. \nNOTE! Only possible if running the Paint Job with Multithreading set to False, and can be quite expensive if the Mesh has a lot of Vertices." },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexPaintGameThreadSpecificDebugSettings_Statics::NewProp_drawVertexPositionDebugPointIfGotPaintApplied_SetBit(void* Obj)
@@ -208,9 +194,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintGameThreadSpecificDebugSettings_Statics::NewProp_drawClothVertexPositionDebugPoint_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Debug Settings|Vertex Symbols" },
 		{ "ModuleRelativePath", "Utility/VertexPaintDetectionLog.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Draws a Debug Point for Each Vertex of Cloths of the Mesh we're looping through. \nNOTE! Only possible if running the Paint Job with Multithreading set to False, and can be quite expensive if the Cloth has a lot of Vertices." },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexPaintGameThreadSpecificDebugSettings_Statics::NewProp_drawClothVertexPositionDebugPoint_SetBit(void* Obj)
@@ -222,9 +206,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintGameThreadSpecificDebugSettings_Statics::NewProp_drawVertexNormalDebugArrow_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Debug Settings|Vertex Symbols" },
 		{ "ModuleRelativePath", "Utility/VertexPaintDetectionLog.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Draws a Debug Arrow for each Vertex Normal. \nNOTE! Only possible if running the Paint Job with Multithreading set to False, and can be quite expensive if the Mesh has a lot of Vertices." },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexPaintGameThreadSpecificDebugSettings_Statics::NewProp_drawVertexNormalDebugArrow_SetBit(void* Obj)
@@ -236,9 +218,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintGameThreadSpecificDebugSettings_Statics::NewProp_drawPaintConditionsDebugSymbols_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Debug Settings|Paint Condition Symbols" },
 		{ "ModuleRelativePath", "Utility/VertexPaintDetectionLog.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This will draw any debug symbols for paint conditions used, if the paint condition has any. For instance Line of Sight Condition will draw a Line to indicate if it has line of sight or if blocked etc. \nNOTE! Only possible if running the Paint Job with Multithreading set to False, and can be quite expensive if the Mesh has a lot of Vertices." },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexPaintGameThreadSpecificDebugSettings_Statics::NewProp_drawPaintConditionsDebugSymbols_SetBit(void* Obj)
@@ -250,9 +230,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintGameThreadSpecificDebugSettings_Statics::NewProp_drawGameThreadSpecificDebugSymbolsDuration_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Debug Settings|Vertex Symbols" },
 		{ "ModuleRelativePath", "Utility/VertexPaintDetectionLog.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Duration of the Drawn Vertex Points. Can be very low if you're painting every frame." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexPaintGameThreadSpecificDebugSettings_Statics::NewProp_drawGameThreadSpecificDebugSymbolsDuration = { "drawGameThreadSpecificDebugSymbolsDuration", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintGameThreadSpecificDebugSettings, drawGameThreadSpecificDebugSymbolsDuration), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintGameThreadSpecificDebugSettings_Statics::NewProp_drawGameThreadSpecificDebugSymbolsDuration_MetaData), Z_Construct_UScriptStruct_FVertexPaintGameThreadSpecificDebugSettings_Statics::NewProp_drawGameThreadSpecificDebugSymbolsDuration_MetaData) };
@@ -337,13 +315,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Debug Settings\n" },
-#endif
 		{ "ModuleRelativePath", "Utility/VertexPaintDetectionLog.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Debug Settings" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewStructOps()
@@ -360,9 +334,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewProp_printLogsToScreen_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Debug Settings|Logs" },
 		{ "ModuleRelativePath", "Utility/VertexPaintDetectionLog.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If should print logs to screen." },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewProp_printLogsToScreen_SetBit(void* Obj)
@@ -374,9 +346,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewProp_printLogsToScreen_Duration_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Debug Settings|Logs" },
 		{ "ModuleRelativePath", "Utility/VertexPaintDetectionLog.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Duration of the Print Strings on the Screen" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewProp_printLogsToScreen_Duration = { "printLogsToScreen_Duration", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintDebugSettings, printLogsToScreen_Duration), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewProp_printLogsToScreen_Duration_MetaData), Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewProp_printLogsToScreen_Duration_MetaData) };
@@ -384,9 +354,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewProp_printLogsToOutputLog_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Debug Settings|Logs" },
 		{ "ModuleRelativePath", "Utility/VertexPaintDetectionLog.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If should print logs to output log." },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewProp_printLogsToOutputLog_SetBit(void* Obj)
@@ -398,22 +366,18 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewProp_gameThreadSpecificDebugSymbols_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Debug Settings|Vertex Symbols" },
 		{ "ModuleRelativePath", "Utility/VertexPaintDetectionLog.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Has options for drawing debug symbols for each vertex and paint conditions. Will only be visible if the task is run on the Game Thread, i.e. Multithreading set to false." },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewProp_gameThreadSpecificDebugSymbols = { "gameThreadSpecificDebugSymbols", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintDebugSettings, gameThreadSpecificDebugSymbols), Z_Construct_UScriptStruct_FVertexPaintGameThreadSpecificDebugSettings, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewProp_gameThreadSpecificDebugSymbols_MetaData), Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewProp_gameThreadSpecificDebugSymbols_MetaData) }; // 1408775368
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewProp_gameThreadSpecificDebugSymbols = { "gameThreadSpecificDebugSymbols", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintDebugSettings, gameThreadSpecificDebugSymbols), Z_Construct_UScriptStruct_FVertexPaintGameThreadSpecificDebugSettings, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewProp_gameThreadSpecificDebugSymbols_MetaData), Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewProp_gameThreadSpecificDebugSymbols_MetaData) }; // 1066416831
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewProp_taskSpecificDebugSymbols_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Debug Settings|Paint Within Area Symbols" },
 		{ "ModuleRelativePath", "Utility/VertexPaintDetectionLog.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This will Draw any Debug Symbols Related to the Task being done, for example the Bounds that we use if it's a Paint Within Area Task." },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewProp_taskSpecificDebugSymbols = { "taskSpecificDebugSymbols", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintDebugSettings, taskSpecificDebugSymbols), Z_Construct_UScriptStruct_FVertexPaintTaskSpecificDebugSymbolsSettings, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewProp_taskSpecificDebugSymbols_MetaData), Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewProp_taskSpecificDebugSymbols_MetaData) }; // 2060492001
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewProp_taskSpecificDebugSymbols = { "taskSpecificDebugSymbols", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintDebugSettings, taskSpecificDebugSymbols), Z_Construct_UScriptStruct_FVertexPaintTaskSpecificDebugSymbolsSettings, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewProp_taskSpecificDebugSymbols_MetaData), Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewProp_taskSpecificDebugSymbols_MetaData) }; // 1321545692
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewProp_worldTaskWasCreatedIn,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewProp_printLogsToScreen,
@@ -444,17 +408,17 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 		}
 		return Z_Registration_Info_UScriptStruct_VertexPaintDebugSettings.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Utility_VertexPaintDetectionLog_h_Statics
+	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Utility_VertexPaintDetectionLog_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Utility_VertexPaintDetectionLog_h_Statics::ScriptStructInfo[] = {
-		{ FVertexPaintTaskSpecificDebugSymbolsSettings::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintTaskSpecificDebugSymbolsSettings_Statics::NewStructOps, TEXT("VertexPaintTaskSpecificDebugSymbolsSettings"), &Z_Registration_Info_UScriptStruct_VertexPaintTaskSpecificDebugSymbolsSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintTaskSpecificDebugSymbolsSettings), 2060492001U) },
-		{ FVertexPaintGameThreadSpecificDebugSettings::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintGameThreadSpecificDebugSettings_Statics::NewStructOps, TEXT("VertexPaintGameThreadSpecificDebugSettings"), &Z_Registration_Info_UScriptStruct_VertexPaintGameThreadSpecificDebugSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintGameThreadSpecificDebugSettings), 1408775368U) },
-		{ FVertexPaintDebugSettings::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewStructOps, TEXT("VertexPaintDebugSettings"), &Z_Registration_Info_UScriptStruct_VertexPaintDebugSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintDebugSettings), 1082315985U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Utility_VertexPaintDetectionLog_h_Statics::ScriptStructInfo[] = {
+		{ FVertexPaintTaskSpecificDebugSymbolsSettings::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintTaskSpecificDebugSymbolsSettings_Statics::NewStructOps, TEXT("VertexPaintTaskSpecificDebugSymbolsSettings"), &Z_Registration_Info_UScriptStruct_VertexPaintTaskSpecificDebugSymbolsSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintTaskSpecificDebugSymbolsSettings), 1321545692U) },
+		{ FVertexPaintGameThreadSpecificDebugSettings::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintGameThreadSpecificDebugSettings_Statics::NewStructOps, TEXT("VertexPaintGameThreadSpecificDebugSettings"), &Z_Registration_Info_UScriptStruct_VertexPaintGameThreadSpecificDebugSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintGameThreadSpecificDebugSettings), 1066416831U) },
+		{ FVertexPaintDebugSettings::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintDebugSettings_Statics::NewStructOps, TEXT("VertexPaintDebugSettings"), &Z_Registration_Info_UScriptStruct_VertexPaintDebugSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintDebugSettings), 917895573U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Utility_VertexPaintDetectionLog_h_1423806428(TEXT("/Script/VertexPaintDetectionPlugin"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Utility_VertexPaintDetectionLog_h_1561449076(TEXT("/Script/VertexPaintDetectionPlugin"),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Utility_VertexPaintDetectionLog_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Utility_VertexPaintDetectionLog_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Utility_VertexPaintDetectionLog_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Utility_VertexPaintDetectionLog_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

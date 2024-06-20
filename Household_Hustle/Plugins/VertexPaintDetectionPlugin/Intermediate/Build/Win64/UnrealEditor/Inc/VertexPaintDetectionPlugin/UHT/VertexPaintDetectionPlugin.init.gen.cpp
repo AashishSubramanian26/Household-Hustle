@@ -43,7 +43,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintDetectionPlugin_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x264953B6,
+				0xF15F61F2,
 				0x49AFB940,
 				METADATA_PARAMS(0, nullptr)
 			};
@@ -51,5 +51,5 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintDetectionPlugin_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_VertexPaintDetectionPlugin.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_VertexPaintDetectionPlugin(Z_Construct_UPackage__Script_VertexPaintDetectionPlugin, TEXT("/Script/VertexPaintDetectionPlugin"), Z_Registration_Info_UPackage__Script_VertexPaintDetectionPlugin, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x264953B6, 0x49AFB940));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_VertexPaintDetectionPlugin(Z_Construct_UPackage__Script_VertexPaintDetectionPlugin, TEXT("/Script/VertexPaintDetectionPlugin"), Z_Registration_Info_UPackage__Script_VertexPaintDetectionPlugin, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xF15F61F2, 0x49AFB940));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

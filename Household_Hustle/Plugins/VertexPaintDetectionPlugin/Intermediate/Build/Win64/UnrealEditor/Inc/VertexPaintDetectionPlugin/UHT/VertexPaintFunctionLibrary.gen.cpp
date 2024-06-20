@@ -715,9 +715,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UVertexPaintFunctionLibrary_AdjustBoxCollisionToFillAreaBetweenTwoLocations_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Utilities" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This is useful if you're running Paint at Locations with very quick Motions, where the distance between the locations can be greater than the Area of Effect, for example if Painting a Canvas, then you can Fill in the Area between those locations using Paint Within Area and a Box Collision. \nThis Preppes the Box Collision by Moving it in the right location and Adjust the Extent of it to match the Area of Effect/Thickness and the distance between the locations." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_AdjustBoxCollisionToFillAreaBetweenTwoLocations_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "AdjustBoxCollisionToFillAreaBetweenTwoLocations", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_AdjustBoxCollisionToFillAreaBetweenTwoLocations_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_AdjustBoxCollisionToFillAreaBetweenTwoLocations_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_AdjustBoxCollisionToFillAreaBetweenTwoLocations_Statics::VertexPaintFunctionLibrary_eventAdjustBoxCollisionToFillAreaBetweenTwoLocations_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04822401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_AdjustBoxCollisionToFillAreaBetweenTwoLocations_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_AdjustBoxCollisionToFillAreaBetweenTwoLocations_Statics::Function_MetaDataParams) };
@@ -779,9 +777,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Utilities" },
 		{ "DisplayName", "CalcAABBWithoutUniformCheck" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Engines own CalcAABB has a requirement that the scale has to be uniform for some reason, so it doesn't work if for instance the characters scale is 1, 1, 0.5. This is the same logic but without the uniform check, and works as intended with our Paint Within Area checks." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_CalcAABBWithoutUniformCheck_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "CalcAABBWithoutUniformCheck", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_CalcAABBWithoutUniformCheck_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_CalcAABBWithoutUniformCheck_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_CalcAABBWithoutUniformCheck_Statics::VertexPaintFunctionLibrary_eventCalcAABBWithoutUniformCheck_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04C22401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_CalcAABBWithoutUniformCheck_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_CalcAABBWithoutUniformCheck_Statics::Function_MetaDataParams) };
@@ -881,9 +877,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UVertexPaintFunctionLibrary_DoesPhysicsSurfaceBelongToPhysicsSurfaceFamily_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Utilities" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Checks if Physics Surface we passes in, has been registered under a physics surface family, or if it is the parent of the family itself." },
-#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -943,9 +937,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "CPP_Default_lifetime", "5.000000" },
 		{ "CPP_Default_thickness", "3.000000" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Draws Debug Box of the primitive components Bounds." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_DrawPrimitiveComponentBoundsBox_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "DrawPrimitiveComponentBoundsBox", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_DrawPrimitiveComponentBoundsBox_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_DrawPrimitiveComponentBoundsBox_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_DrawPrimitiveComponentBoundsBox_Statics::VertexPaintFunctionLibrary_eventDrawPrimitiveComponentBoundsBox_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04822401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_DrawPrimitiveComponentBoundsBox_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_DrawPrimitiveComponentBoundsBox_Statics::Function_MetaDataParams) };
@@ -1000,9 +992,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllColorSnippetsUnderGroupSnippetAsString_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Color Snippets" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets all Color Snippet under the Tag Group Category. For instance if you have ColorSnippets.Test.TestSnippet1. Then if you run this with Test, then you would get TestSnipped1 and any other under Test.." },
-#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -1044,9 +1034,9 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsString_Wrapper_Statics::NewProp_meshComponent = { "meshComponent", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintFunctionLibrary_eventGetAllMeshColorSnippetsAsString_Wrapper_Parms, meshComponent), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsString_Wrapper_Statics::NewProp_meshComponent_MetaData), Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsString_Wrapper_Statics::NewProp_meshComponent_MetaData) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsString_Wrapper_Statics::NewProp_availableColorSnippetsAndDataAssets_ValueProp = { "availableColorSnippetsAndDataAssets", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FVertexDetectStoredColorSnippetInfo, METADATA_PARAMS(0, nullptr) }; // 1190266067
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsString_Wrapper_Statics::NewProp_availableColorSnippetsAndDataAssets_ValueProp = { "availableColorSnippetsAndDataAssets", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FVertexDetectStoredColorSnippetInfo, METADATA_PARAMS(0, nullptr) }; // 3403720996
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsString_Wrapper_Statics::NewProp_availableColorSnippetsAndDataAssets_Key_KeyProp = { "availableColorSnippetsAndDataAssets_Key", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FMapPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsString_Wrapper_Statics::NewProp_availableColorSnippetsAndDataAssets = { "availableColorSnippetsAndDataAssets", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintFunctionLibrary_eventGetAllMeshColorSnippetsAsString_Wrapper_Parms, availableColorSnippetsAndDataAssets), EMapPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 1190266067
+	const UECodeGen_Private::FMapPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsString_Wrapper_Statics::NewProp_availableColorSnippetsAndDataAssets = { "availableColorSnippetsAndDataAssets", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintFunctionLibrary_eventGetAllMeshColorSnippetsAsString_Wrapper_Parms, availableColorSnippetsAndDataAssets), EMapPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 3403720996
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsString_Wrapper_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsString_Wrapper_Statics::NewProp_meshComponent,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsString_Wrapper_Statics::NewProp_availableColorSnippetsAndDataAssets_ValueProp,
@@ -1058,9 +1048,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "BlueprintInternalUseOnly", "true" },
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Color Snippets" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets all the color snippets on a stored mesh and the associated color snippet data asset they are stored on. Can be used if you for example want to get all available snippets of a zombie and randomize which to use when spawning or similar." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsString_Wrapper_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "GetAllMeshColorSnippetsAsString_Wrapper", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsString_Wrapper_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsString_Wrapper_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsString_Wrapper_Statics::VertexPaintFunctionLibrary_eventGetAllMeshColorSnippetsAsString_Wrapper_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsString_Wrapper_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsString_Wrapper_Statics::Function_MetaDataParams) };
@@ -1115,9 +1103,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "BlueprintInternalUseOnly", "true" },
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Color Snippets" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets all the color snippets tags on a stored mesh and the associated color snippet data asset they are stored on. Can be used if you for example want to get all available snippets of a zombie and randomize which to use when spawning so you can always spawn a unique one or similar." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsTags_Wrapper_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "GetAllMeshColorSnippetsAsTags_Wrapper", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsTags_Wrapper_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsTags_Wrapper_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsTags_Wrapper_Statics::VertexPaintFunctionLibrary_eventGetAllMeshColorSnippetsAsTags_Wrapper_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsTags_Wrapper_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsTags_Wrapper_Statics::Function_MetaDataParams) };
@@ -1176,9 +1162,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "BlueprintInternalUseOnly", "true" },
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Color Snippets" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets all the color snippets tags on a stored mesh Under a Tag Category, and the associated Color Snippet Data Asset they are stored on. Can be used if you for example want to get All Available Snippets of a Zombie for a Certain Area" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsTagsUnderTagCategory_Wrapper_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "GetAllMeshColorSnippetsTagsUnderTagCategory_Wrapper", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsTagsUnderTagCategory_Wrapper_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsTagsUnderTagCategory_Wrapper_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsTagsUnderTagCategory_Wrapper_Statics::VertexPaintFunctionLibrary_eventGetAllMeshColorSnippetsTagsUnderTagCategory_Wrapper_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsTagsUnderTagCategory_Wrapper_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsTagsUnderTagCategory_Wrapper_Statics::Function_MetaDataParams) };
@@ -1271,9 +1255,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllTagsUnderTagCategory_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Utilities" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets all Tags under a Tag Category, for instance if you have a Category Zombie.SewerLevel and several tags under SewerLevel, then you will get all of those if you select SewerLevel." },
-#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -1330,8 +1312,8 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 	}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllVertexColorChannelsPhysicsSurfaceIsRegisteredTo_Wrapper_Statics::NewProp_successfull = { "successfull", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(VertexPaintFunctionLibrary_eventGetAllVertexColorChannelsPhysicsSurfaceIsRegisteredTo_Wrapper_Parms), &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllVertexColorChannelsPhysicsSurfaceIsRegisteredTo_Wrapper_Statics::NewProp_successfull_SetBit, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllVertexColorChannelsPhysicsSurfaceIsRegisteredTo_Wrapper_Statics::NewProp_ReturnValue_Inner_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllVertexColorChannelsPhysicsSurfaceIsRegisteredTo_Wrapper_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UEnum_VertexPaintDetectionPlugin_Enum_SurfaceAtChannel, METADATA_PARAMS(0, nullptr) }; // 226719945
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllVertexColorChannelsPhysicsSurfaceIsRegisteredTo_Wrapper_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintFunctionLibrary_eventGetAllVertexColorChannelsPhysicsSurfaceIsRegisteredTo_Wrapper_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 226719945
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllVertexColorChannelsPhysicsSurfaceIsRegisteredTo_Wrapper_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UEnum_VertexPaintDetectionPlugin_Enum_SurfaceAtChannel, METADATA_PARAMS(0, nullptr) }; // 2259707496
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllVertexColorChannelsPhysicsSurfaceIsRegisteredTo_Wrapper_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintFunctionLibrary_eventGetAllVertexColorChannelsPhysicsSurfaceIsRegisteredTo_Wrapper_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 2259707496
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllVertexColorChannelsPhysicsSurfaceIsRegisteredTo_Wrapper_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllVertexColorChannelsPhysicsSurfaceIsRegisteredTo_Wrapper_Statics::NewProp_WorldContextObject,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllVertexColorChannelsPhysicsSurfaceIsRegisteredTo_Wrapper_Statics::NewProp_material,
@@ -1346,9 +1328,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "BlueprintInternalUseOnly", "true" },
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Utilities" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets the Red, Green, Blue or Alpha Channel that the Physics Surface is registered to in the Editor Widget. Useful if you have a physics surface and you want to know what color channel that you should apply paint on just based on that. It can also return Default if it's set to that (i.e. what is on the material when nothing is on it), but if it can't get the info it will not be successfull." },
-#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -1453,7 +1433,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannel_Statics::NewProp_vertexColors = { "vertexColors", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintFunctionLibrary_eventGetAmountOfPaintedColorsForEachChannel_Parms, vertexColors), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannel_Statics::NewProp_vertexColors_MetaData), Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannel_Statics::NewProp_vertexColors_MetaData) };
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannel_Statics::NewProp_minColorAmountToBeConsidered = { "minColorAmountToBeConsidered", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintFunctionLibrary_eventGetAmountOfPaintedColorsForEachChannel_Parms, minColorAmountToBeConsidered), METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannel_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintFunctionLibrary_eventGetAmountOfPaintedColorsForEachChannel_Parms, ReturnValue), Z_Construct_UScriptStruct_FVertexDetectAmountOfPaintedColorsOfEachChannel, METADATA_PARAMS(0, nullptr) }; // 2121409895
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannel_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintFunctionLibrary_eventGetAmountOfPaintedColorsForEachChannel_Parms, ReturnValue), Z_Construct_UScriptStruct_FVertexDetectAmountOfPaintedColorsOfEachChannel, METADATA_PARAMS(0, nullptr) }; // 2551771758
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannel_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannel_Statics::NewProp_vertexColors_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannel_Statics::NewProp_vertexColors,
@@ -1466,9 +1446,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "CPP_Default_minColorAmountToBeConsidered", "0.010000" },
 		{ "DisplayName", "Get Amount of Painted Colors for Each Channel" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets the Amount of vertices with colors above the min amount, gets them in Percent from 0-100, as well as the average color value of the ones above the minimum. Useful if you want to check that you've painted the majority of something. \nNOTE You can get this by running a Paint or Detect Job as well, which is more performant as well since they can run on async thread!" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannel_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "GetAmountOfPaintedColorsForEachChannel", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannel_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannel_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannel_Statics::VertexPaintFunctionLibrary_eventGetAmountOfPaintedColorsForEachChannel_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannel_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannel_Statics::Function_MetaDataParams) };
@@ -1517,7 +1495,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannelAsync_Statics::NewProp_vertexColors = { "vertexColors", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintFunctionLibrary_eventGetAmountOfPaintedColorsForEachChannelAsync_Parms, vertexColors), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannelAsync_Statics::NewProp_vertexColors_MetaData), Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannelAsync_Statics::NewProp_vertexColors_MetaData) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannelAsync_Statics::NewProp_amountOfColorsOfEachChannel = { "amountOfColorsOfEachChannel", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintFunctionLibrary_eventGetAmountOfPaintedColorsForEachChannelAsync_Parms, amountOfColorsOfEachChannel), Z_Construct_UScriptStruct_FVertexDetectAmountOfPaintedColorsOfEachChannel, METADATA_PARAMS(0, nullptr) }; // 2121409895
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannelAsync_Statics::NewProp_amountOfColorsOfEachChannel = { "amountOfColorsOfEachChannel", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintFunctionLibrary_eventGetAmountOfPaintedColorsForEachChannelAsync_Parms, amountOfColorsOfEachChannel), Z_Construct_UScriptStruct_FVertexDetectAmountOfPaintedColorsOfEachChannel, METADATA_PARAMS(0, nullptr) }; // 2551771758
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannelAsync_Statics::NewProp_minColorAmountToBeConsidered = { "minColorAmountToBeConsidered", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintFunctionLibrary_eventGetAmountOfPaintedColorsForEachChannelAsync_Parms, minColorAmountToBeConsidered), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannelAsync_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannelAsync_Statics::NewProp_WorldContextObject,
@@ -1534,9 +1512,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Recommend Async Version of GetAmountOfPaintedColorsForEachChannelAsync(), which won't affect the FPS if there's alot of vertex colors to Loop Through! Calling it again before it finishes won't do anything. \nGets the Amount of vertices with colors above the min amount, gets them in Percent from 0-100, as well as the average color value of the ones above the minimum. Useful if you want to check that you've painted the majority of something. \nNOTE You can get this by running a Paint or Detect Job as well, but in some cases you may want to just run this, for instance if you've gotten colors of each bone and you want to check the % on just one bone. \nNOTE This does NOT return the amount for each physics surface, since that requires us to loop through the mesh sections etc.. If you want that, then you can simply run GetAllColorsOnly instead where you will get that in it's callback." },
-#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -1592,9 +1568,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "BlueprintInternalUseOnly", "true" },
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Utilities" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets the Amount of Calculate Colors Detection Tasks for Mesh Components in the Queue. Mainly useful to present it on widgets etc." },
-#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -1650,9 +1624,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "BlueprintInternalUseOnly", "true" },
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Utilities" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets the Amount of Calculate Colors Paint Tasks for Mesh Components in the Queue. Mainly useful to present it on widgets etc." },
-#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -1696,9 +1668,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetClothAssets_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Cloth" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns Skeletal Mesh Cloths if it ha any. Can be used in conjunction with UVertexPaintFunctionLibrary::SetChaosClothPhysics if you want to directly set physics on a cloth. Also useful when implementing interface GetSkeletalMeshClothPhysicsSettings on a BP and has to return physics setting for each Cloth the Mesh has. NOTE Affecting Cloth Physics is a UE5 exclusive feature, and Painting on Skeletal Meshes with Proxy Simulated Cloth is not supported, for example the Wind Walker Echo Character. Only Cloth created the regular way through the editor!" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetClothAssets_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "GetClothAssets", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetClothAssets_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetClothAssets_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetClothAssets_Statics::VertexPaintFunctionLibrary_eventGetClothAssets_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetClothAssets_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetClothAssets_Statics::Function_MetaDataParams) };
@@ -1746,9 +1716,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetColorSnippetReferenceDataAsset_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Utilities|Color Snippets" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If async thread then needs a valid world context object so we can get the cached one from game instance subsystems, otherwise if in game thread it can be null since we can also load it from the settings" },
-#endif
 		{ "WorldContext", "optionalWorldContextObject" },
 	};
 #endif
@@ -1815,9 +1783,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Getter if you just want to get the Vertex Colors of a Color Snippet." },
-#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -1980,9 +1946,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "CPP_Default_applyOnChannelsThatsChildOfPhysicsSurface", "true" },
 		{ "CPP_Default_applyOnChannelsWithSamePhysicsParents", "true" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get Vertex Color Amount to Apply on RGBA based off of what Physics Surface is Registered in the Editor Widget for each Channel. It can also checks the Parent Physics Surfaces that's been set in the Editor Widget, so if you for instance use this with Cobble-Sand, which isn't registered, but it's parent Sand is, then it can still accept it and whatever channel it is on. This is useful when you only know a Physical Surface and Material, and want to apply vertex colors to a mesh but are unsure of on which channels. \nIf Failed to get any colors on any channels they will all return 0. If Success on at least one channel, then channels that didn't have the surface registered can return something different." },
-#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -2031,9 +1995,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetComponentBoundsBottomWorldZ_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Utilities" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns a Box, Sphere, Static or Skeletal Mesh's Component Bounds Bottom World Z." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetComponentBoundsBottomWorldZ_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "GetComponentBoundsBottomWorldZ", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetComponentBoundsBottomWorldZ_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetComponentBoundsBottomWorldZ_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetComponentBoundsBottomWorldZ_Statics::VertexPaintFunctionLibrary_eventGetComponentBoundsBottomWorldZ_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetComponentBoundsBottomWorldZ_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetComponentBoundsBottomWorldZ_Statics::Function_MetaDataParams) };
@@ -2081,9 +2043,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetComponentBoundsTopWorldZ_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Utilities" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns a Box, Sphere, Static or Skeletal Mesh's Component Bounds Top World Z." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetComponentBoundsTopWorldZ_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "GetComponentBoundsTopWorldZ", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetComponentBoundsTopWorldZ_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetComponentBoundsTopWorldZ_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetComponentBoundsTopWorldZ_Statics::VertexPaintFunctionLibrary_eventGetComponentBoundsTopWorldZ_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetComponentBoundsTopWorldZ_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetComponentBoundsTopWorldZ_Statics::Function_MetaDataParams) };
@@ -2142,9 +2102,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "BlueprintInternalUseOnly", "true" },
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Color Snippets" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets all the color snippets tags on a stored mesh In a Tag Category, i.e. the direct children of the category and not tags under those, and the associated Color Snippet Data Asset they are stored on. \nFor instance if you have Enemy tags like ColorSnippet.Zombie, ColorSnippet.Zombie.Bloody, ColorSnippet.Zombie.Sewers.Filthy. If you would then run this with ColorSnippet.Zombie, you would get ColorSnippet.Zombie.Bloody and others directly under ColorSnippet.Zombie., and not .Sewers.Filthy." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshColorSnippetsTagsInTagCategory_Wrapper_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "GetMeshColorSnippetsTagsInTagCategory_Wrapper", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshColorSnippetsTagsInTagCategory_Wrapper_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshColorSnippetsTagsInTagCategory_Wrapper_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshColorSnippetsTagsInTagCategory_Wrapper_Statics::VertexPaintFunctionLibrary_eventGetMeshColorSnippetsTagsInTagCategory_Wrapper_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshColorSnippetsTagsInTagCategory_Wrapper_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshColorSnippetsTagsInTagCategory_Wrapper_Statics::Function_MetaDataParams) };
@@ -2211,9 +2169,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshColorSnippetTagInGroup_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Color Snippets" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Finds the Mesh's Specific Child Tag from the Group Snippet, if the Mesh has correct source mesh, relative location and rotation to the group so we can find it. Requires us to send in all of the Group Snippet Meshes so we can accurately get the Tag for the specific meshComponent." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshColorSnippetTagInGroup_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "GetMeshColorSnippetTagInGroup", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshColorSnippetTagInGroup_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshColorSnippetTagInGroup_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshColorSnippetTagInGroup_Statics::VertexPaintFunctionLibrary_eventGetMeshColorSnippetTagInGroup_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshColorSnippetTagInGroup_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshColorSnippetTagInGroup_Statics::Function_MetaDataParams) };
@@ -2266,9 +2222,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Utilities" },
 		{ "CPP_Default_lod", "0" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets the Amount of Vertices on LOD0 for the Mesh." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentAmountOfVerticesOnLOD_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "GetMeshComponentAmountOfVerticesOnLOD", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentAmountOfVerticesOnLOD_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentAmountOfVerticesOnLOD_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentAmountOfVerticesOnLOD_Statics::VertexPaintFunctionLibrary_eventGetMeshComponentAmountOfVerticesOnLOD_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentAmountOfVerticesOnLOD_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentAmountOfVerticesOnLOD_Statics::Function_MetaDataParams) };
@@ -2381,7 +2335,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 	}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentVertexColors_Wrapper_Statics::NewProp_getColorsForAllLODs = { "getColorsForAllLODs", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(VertexPaintFunctionLibrary_eventGetMeshComponentVertexColors_Wrapper_Parms), &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentVertexColors_Wrapper_Statics::NewProp_getColorsForAllLODs_SetBit, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentVertexColors_Wrapper_Statics::NewProp_getColorsUpToLOD = { "getColorsUpToLOD", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintFunctionLibrary_eventGetMeshComponentVertexColors_Wrapper_Parms, getColorsUpToLOD), METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentVertexColors_Wrapper_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010008000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintFunctionLibrary_eventGetMeshComponentVertexColors_Wrapper_Parms, ReturnValue), Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct, METADATA_PARAMS(0, nullptr) }; // 674529102
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentVertexColors_Wrapper_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010008000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintFunctionLibrary_eventGetMeshComponentVertexColors_Wrapper_Parms, ReturnValue), Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct, METADATA_PARAMS(0, nullptr) }; // 3535704024
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentVertexColors_Wrapper_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentVertexColors_Wrapper_Statics::NewProp_meshComponent,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentVertexColors_Wrapper_Statics::NewProp_success,
@@ -2395,9 +2349,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Utilities" },
 		{ "CPP_Default_getColorsUpToLOD", "0" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets the colors of the component either for All LODs if that is True, or up to a specified LOD. You can use GetAllVertexColorsOnly if you want to be more specific in what you get, for instance get the colors of each bones etc." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentVertexColors_Wrapper_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "GetMeshComponentVertexColors_Wrapper", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentVertexColors_Wrapper_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentVertexColors_Wrapper_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentVertexColors_Wrapper_Statics::VertexPaintFunctionLibrary_eventGetMeshComponentVertexColors_Wrapper_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentVertexColors_Wrapper_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentVertexColors_Wrapper_Statics::Function_MetaDataParams) };
@@ -2454,9 +2406,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Utilities" },
 		{ "CPP_Default_lod", "0" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets the colors of the component at Specified LOD, if it exist." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentVertexColorsAtLOD_Wrapper_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "GetMeshComponentVertexColorsAtLOD_Wrapper", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentVertexColorsAtLOD_Wrapper_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentVertexColorsAtLOD_Wrapper_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentVertexColorsAtLOD_Wrapper_Statics::VertexPaintFunctionLibrary_eventGetMeshComponentVertexColorsAtLOD_Wrapper_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentVertexColorsAtLOD_Wrapper_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentVertexColorsAtLOD_Wrapper_Statics::Function_MetaDataParams) };
@@ -2504,9 +2454,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetOptimizationDataAsset_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Utilities" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If async thread then needs a valid world context object so we can get the cached one from game instance subsystems, otherwise if in game thread it can be null since we can also load it from the settings" },
-#endif
 		{ "WorldContext", "optionalWorldContextObject" },
 	};
 #endif
@@ -2563,9 +2511,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Material" },
 		{ "DisplayName", "Get Parents Of Physics Surface" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Checks if physicalSurface is either a Parent itself, or a Child of a Family of Physics Surfaces. physicalSurface to check can't be Default." },
-#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -2624,9 +2570,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Utilities" },
 		{ "DeterminesOutputType", "physicalMaterialClass" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Checks if any of the Cached Physical Materials Assets in the Game Instance Subsystem uses the physics surface we pass through as paramater here, then returns the one it finds. We cache all of them since it's very expensive to run GetAssetsOfClass. \nIf PhysicsMaterialClasses is set to be something other than the Base PhysicsMaterialClass, like a custom class, then we will make a check to make sure it is that class. \nMake sure only one physics material uses a physics surface, otherwise you might get the wrong physics material. \nAlso make sure that you add the folder that has all the physics materials to Additional Directories to be Cooked in the Project Settings, in case there's a risk any of them isn't referenced by anything and won't get cooked, but has a physics surface that is registered in the editor widget." },
-#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -2668,9 +2612,9 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetPhysicsSurfaceFamilies_Wrapper_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintFunctionLibrary_eventGetPhysicsSurfaceFamilies_Wrapper_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetPhysicsSurfaceFamilies_Wrapper_Statics::NewProp_WorldContextObject_MetaData), Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetPhysicsSurfaceFamilies_Wrapper_Statics::NewProp_WorldContextObject_MetaData) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetPhysicsSurfaceFamilies_Wrapper_Statics::NewProp_ReturnValue_ValueProp = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FVertexPaintParentPhysicsSurfaceStruct, METADATA_PARAMS(0, nullptr) }; // 3835105565
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetPhysicsSurfaceFamilies_Wrapper_Statics::NewProp_ReturnValue_ValueProp = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FVertexPaintParentPhysicsSurfaceStruct, METADATA_PARAMS(0, nullptr) }; // 367238135
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetPhysicsSurfaceFamilies_Wrapper_Statics::NewProp_ReturnValue_Key_KeyProp = { "ReturnValue_Key", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UEnum_PhysicsCore_EPhysicalSurface, METADATA_PARAMS(0, nullptr) }; // 2508321301
-	const UECodeGen_Private::FMapPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetPhysicsSurfaceFamilies_Wrapper_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintFunctionLibrary_eventGetPhysicsSurfaceFamilies_Wrapper_Parms, ReturnValue), EMapPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 2508321301 3835105565
+	const UECodeGen_Private::FMapPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetPhysicsSurfaceFamilies_Wrapper_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintFunctionLibrary_eventGetPhysicsSurfaceFamilies_Wrapper_Parms, ReturnValue), EMapPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 2508321301 367238135
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetPhysicsSurfaceFamilies_Wrapper_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetPhysicsSurfaceFamilies_Wrapper_Statics::NewProp_WorldContextObject,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetPhysicsSurfaceFamilies_Wrapper_Statics::NewProp_ReturnValue_ValueProp,
@@ -2682,9 +2626,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Material" },
 		{ "DisplayName", "Get Physics Surface Families" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets the Physics Surfaces Family Tree, the Parents and which children that 'inherit' from them." },
-#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -2740,9 +2682,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetPhysicsSurfacesRegisteredToMaterial_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Utilities" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets All Physics Surfaces that are Registered to the Material, or it's Parent Material if it's an instance that isn't registered but the Parent is." },
-#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -2882,9 +2822,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "BlueprintInternalUseOnly", "true" },
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Utilities" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "optionalMaterialPhysicsSurfaceWasDetectedOn is used to check if the surfaces can blend  This will get loop through and get the Most Dominant Surface from the Physics Surface Array, so it and the physics Sruface Color Value array has to be in sync. This combines well with the Physics Result Structs you get from GetClosestVertexData or PaintAtLocation Callback Events. \nIf you provide the Material that the physics surfaces was on, it will also check the Blendable Surfaces that has been Registered in the Editor Widget, and check if any sent in here can Blend and become another Surface, if so, that surface could be the Most dominant one. For example if Red Channel is Sand, Blue Channel is Puddle, they can be set to blend into Mud in the Editor Widget. \n\nThis is very useful when you want to run SFX or VFX based on detected surfaces." },
-#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -2933,9 +2871,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetVertexPaintMaterialDataAsset_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Utilities" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If async thread then needs a valid world context object so we can get the cached one from game instance subsystems, otherwise if in game thread it can be null since we can also load it from the settings" },
-#endif
 		{ "WorldContext", "optionalWorldContextObject" },
 	};
 #endif
@@ -2977,9 +2913,9 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetVertexPaintMaterialInterface_Wrapper_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintFunctionLibrary_eventGetVertexPaintMaterialInterface_Wrapper_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetVertexPaintMaterialInterface_Wrapper_Statics::NewProp_WorldContextObject_MetaData), Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetVertexPaintMaterialInterface_Wrapper_Statics::NewProp_WorldContextObject_MetaData) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetVertexPaintMaterialInterface_Wrapper_Statics::NewProp_ReturnValue_ValueProp = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct, METADATA_PARAMS(0, nullptr) }; // 3512115456
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetVertexPaintMaterialInterface_Wrapper_Statics::NewProp_ReturnValue_ValueProp = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct, METADATA_PARAMS(0, nullptr) }; // 3331871051
 	const UECodeGen_Private::FSoftObjectPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetVertexPaintMaterialInterface_Wrapper_Statics::NewProp_ReturnValue_Key_KeyProp = { "ReturnValue_Key", nullptr, (EPropertyFlags)0x0004000000000000, UECodeGen_Private::EPropertyGenFlags::SoftObject, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UMaterialInterface_NoRegister, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FMapPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetVertexPaintMaterialInterface_Wrapper_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintFunctionLibrary_eventGetVertexPaintMaterialInterface_Wrapper_Parms, ReturnValue), EMapPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 3512115456
+	const UECodeGen_Private::FMapPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetVertexPaintMaterialInterface_Wrapper_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintFunctionLibrary_eventGetVertexPaintMaterialInterface_Wrapper_Parms, ReturnValue), EMapPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 3331871051
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetVertexPaintMaterialInterface_Wrapper_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetVertexPaintMaterialInterface_Wrapper_Statics::NewProp_WorldContextObject,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetVertexPaintMaterialInterface_Wrapper_Statics::NewProp_ReturnValue_ValueProp,
@@ -2991,9 +2927,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Material" },
 		{ "DisplayName", "Get Vertex Paint Material Interface" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets All Physics Surfaces that are Registered to the Material, or it's Parent Material if it's an instance that isn't registered but the Parent is." },
-#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -3052,9 +2986,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Material" },
 		{ "DisplayName", "Is Material Added To Paint On Material Data Asset" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If the Material is added in the paint on material TMap. Soft UMaterialInterface Ptr so it can be used with UMaterialInterface directly gotten from GetSoftPointerObjectsOfClass without resolving and casting, i.e. bringing them into memory." },
-#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -3153,9 +3085,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UVertexPaintFunctionLibrary_IsWorldValid_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Utilities" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Checks if the world is valid, that it is a game world and is not being teared down." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_IsWorldValid_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "IsWorldValid", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_IsWorldValid_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_IsWorldValid_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_IsWorldValid_Statics::VertexPaintFunctionLibrary_eventIsWorldValid_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_IsWorldValid_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_IsWorldValid_Statics::Function_MetaDataParams) };
@@ -3279,9 +3209,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "CPP_Default_ignoreSelf", "true" },
 		{ "CPP_Default_traceComplex", "false" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This function Multi Capsule Traces for Meshes Within the Radius, and make sure we get only get the Closest Hit of each Mesh. So the Hit Array that it returns is essentially ready to be used with Paint at Location on the Meshes using Hit Location. Use the hitResults .hitLocation to get location of the Trace, or .impactPoint to get the hit location on the mesh.  \nIf objectTypesToTraceFor is > 0 then we will trace with that, otherwise use the traceChannel. \nThis is very useful since we can paint on Multiple Meshes, but without any visible Seams between for instance Floors! \n\nNOTE If UE5 and TraceComplex is True then we can get the faceIndex and thus the Material if it's a Static Mesh Component. However, with Trace Complex you may need to set Static Meshes Double Geometry to True if it's something simple like a Floor, otherwise it can fail the mesh is not rotated just right." },
-#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -3361,9 +3289,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UVertexPaintFunctionLibrary_ReliableFColorToFLinearColor_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Utilities" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Engines own ToFColor and ToFLinear functions isn't 100%, i've had issues where it hadn't returned the correct amount, for instance a FColor Red channel that was 191, which should convert to 0.75 but got converted to 0.5 etc. So made own wrappers for Linear to FColor and vice versa." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_ReliableFColorToFLinearColor_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "ReliableFColorToFLinearColor", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_ReliableFColorToFLinearColor_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_ReliableFColorToFLinearColor_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_ReliableFColorToFLinearColor_Statics::VertexPaintFunctionLibrary_eventReliableFColorToFLinearColor_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14822401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_ReliableFColorToFLinearColor_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_ReliableFColorToFLinearColor_Statics::Function_MetaDataParams) };
@@ -3403,9 +3329,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UVertexPaintFunctionLibrary_ReliableFLinearToFColor_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Utilities" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Engines own ToFColor and ToFLinear functions isn't 100%, i've had issues where it hadn't returned the correct amount, for instance a FColor Red channel that was 191, which should convert to 0.75 but got converted to 0.5 etc. So made own wrappers for Linear to FColor and vice versa." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_ReliableFLinearToFColor_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "ReliableFLinearToFColor", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_ReliableFLinearToFColor_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_ReliableFLinearToFColor_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_ReliableFLinearToFColor_Statics::VertexPaintFunctionLibrary_eventReliableFLinearToFColor_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14822401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_ReliableFLinearToFColor_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_ReliableFLinearToFColor_Statics::Function_MetaDataParams) };
@@ -3541,7 +3465,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetChaosClothPhysics_Statics::NewProp_clothPhysicsSettings = { "clothPhysicsSettings", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintFunctionLibrary_eventSetChaosClothPhysics_Parms, clothPhysicsSettings), Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetChaosClothPhysics_Statics::NewProp_clothPhysicsSettings_MetaData), Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetChaosClothPhysics_Statics::NewProp_clothPhysicsSettings_MetaData) }; // 3419080287
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetChaosClothPhysics_Statics::NewProp_clothPhysicsSettings = { "clothPhysicsSettings", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintFunctionLibrary_eventSetChaosClothPhysics_Parms, clothPhysicsSettings), Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetChaosClothPhysics_Statics::NewProp_clothPhysicsSettings_MetaData), Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetChaosClothPhysics_Statics::NewProp_clothPhysicsSettings_MetaData) }; // 1205565192
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetChaosClothPhysics_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetChaosClothPhysics_Statics::NewProp_skeletalMeshComponent,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetChaosClothPhysics_Statics::NewProp_clothingAsset,
@@ -3551,9 +3475,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetChaosClothPhysics_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Cloth" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set Cloth Physics on the Cloth sent in for the Skeletal Mesh. Can use UVertexPaintFunctionLibrary::VertexPaintDetectionPlugin_GetClothingAssets() to get a Skeletal Meshes Clothing Assets in the order they're set in the Skeletal Mesh, so you have to be aware of which cloth is at which index. \nNOTE Affecting Cloth Physics is a UE5 exclusive feature, and Painting on Skeletal Meshes with Proxy Simulated Cloth might not be supported, for example the Wind Walker Echo Character. Only Cloth created the regular way through the editor is Supported!" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetChaosClothPhysics_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "SetChaosClothPhysics", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetChaosClothPhysics_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetChaosClothPhysics_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetChaosClothPhysics_Statics::VertexPaintFunctionLibrary_eventSetChaosClothPhysics_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04422401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetChaosClothPhysics_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetChaosClothPhysics_Statics::Function_MetaDataParams) };
@@ -3606,9 +3528,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "BlueprintInternalUseOnly", "true" },
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Vehicles" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Useful function for affecting the friction of a Chaos Wheeled Vehicle Wheel, used by the BPC_RuntimeVertexPaintAndDetectionComponent_VehicleWheel when it is driving over Meshes to make sure the vehicle gets it's friction affected then as well, just like when it's driving over landscapes. \nSince UE4's Chaos Wheeled Vehicle Component doesn't have the set friction multiplier function, i made a wrapper that runs it if it's UE5." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetChaosWheeledVehicleFrictionMultiplier_Wrapper_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "SetChaosWheeledVehicleFrictionMultiplier_Wrapper", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetChaosWheeledVehicleFrictionMultiplier_Wrapper_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetChaosWheeledVehicleFrictionMultiplier_Wrapper_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetChaosWheeledVehicleFrictionMultiplier_Wrapper_Statics::VertexPaintFunctionLibrary_eventSetChaosWheeledVehicleFrictionMultiplier_Wrapper_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetChaosWheeledVehicleFrictionMultiplier_Wrapper_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetChaosWheeledVehicleFrictionMultiplier_Wrapper_Statics::Function_MetaDataParams) };
@@ -3669,9 +3589,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetMeshConstantVertexColorsAndEnablesThem_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Utilities" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Just running SetMeshConstantVertexColors on Dynamic Mesh won't actually Enable Vertex Colors. This will run the SetMeshConstantVertexColors, but Enable the Vertex Colors as well with what you put in, so if you try to detect or paint afterwards, things will work as intended since we can get the correct result from FDynamicMesh3 Vertex Info." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetMeshConstantVertexColorsAndEnablesThem_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "SetMeshConstantVertexColorsAndEnablesThem", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetMeshConstantVertexColorsAndEnablesThem_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetMeshConstantVertexColorsAndEnablesThem_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetMeshConstantVertexColorsAndEnablesThem_Statics::VertexPaintFunctionLibrary_eventSetMeshConstantVertexColorsAndEnablesThem_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04822401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetMeshConstantVertexColorsAndEnablesThem_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetMeshConstantVertexColorsAndEnablesThem_Statics::Function_MetaDataParams) };
@@ -3730,9 +3648,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "CPP_Default_clearVertexColorsOfChangedMesh", "true" },
 		{ "DisplayName", "Set Skeletal Mesh And Release Resources" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Unlike just running SetSkeletalMesh(), this doesn't cause a crash when switching meshes if applying vertex colors on them since it runs ReleasesResurces first and BeginOverrideVertexColors etc., then calls the SetSkeletalMesh()." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetSkeletalMeshAndReleaseResources_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "SetSkeletalMeshAndReleaseResources", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetSkeletalMeshAndReleaseResources_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetSkeletalMeshAndReleaseResources_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetSkeletalMeshAndReleaseResources_Statics::VertexPaintFunctionLibrary_eventSetSkeletalMeshAndReleaseResources_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetSkeletalMeshAndReleaseResources_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetSkeletalMeshAndReleaseResources_Statics::Function_MetaDataParams) };
@@ -3790,9 +3706,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Utilities" },
 		{ "CPP_Default_clearVertexColorsOfChangedMesh", "true" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Releases and Blocks Vertex Colors before switching Static Mesh. Can choose to Clear the Vertex Colors of the newly switched mesh." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetStaticMeshAndReleaseResources_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "SetStaticMeshAndReleaseResources", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetStaticMeshAndReleaseResources_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetStaticMeshAndReleaseResources_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetStaticMeshAndReleaseResources_Statics::VertexPaintFunctionLibrary_eventSetStaticMeshAndReleaseResources_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetStaticMeshAndReleaseResources_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetStaticMeshAndReleaseResources_Statics::Function_MetaDataParams) };
@@ -3836,9 +3750,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UVertexPaintFunctionLibrary_UpdateChaosClothPhysicsWithExistingColors_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Cloth" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Updates Cloth Physics with the exisisting Vertex Colors. This is run on the game thread, and if the cloths have a lot of vertice the FPS may get affected. Recommend using the Async Variant to avoid this. \nThis function is useful if Vertex Colors has been changed by something else other than a paint job, or was pre-painetd in the editor and you want them to behave correctly. \nNOTE Affecting Cloth Physics is a UE5 exclusive feature, and Painting on Skeletal Meshes with Proxy Simulated Cloth is not supported, for example the Wind Walker Echo Character. Only Cloth created the regular way through the editor!" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_UpdateChaosClothPhysicsWithExistingColors_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "UpdateChaosClothPhysicsWithExistingColors", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_UpdateChaosClothPhysicsWithExistingColors_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_UpdateChaosClothPhysicsWithExistingColors_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_UpdateChaosClothPhysicsWithExistingColors_Statics::VertexPaintFunctionLibrary_eventUpdateChaosClothPhysicsWithExistingColors_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_UpdateChaosClothPhysicsWithExistingColors_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_UpdateChaosClothPhysicsWithExistingColors_Statics::Function_MetaDataParams) };
@@ -3892,9 +3804,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Updates Cloth Physics with the exisisting Vertex Colors. This will run on async when it is looping through the vertices of the cloths to get the average color and get the cloth physics settings for them, which is then uses when back at game thread to update the cloth physics. \nThis function is useful if Vertex Colors has been changed by something else other than a paint job, or was pre-painetd in the editor and you want them to behave correctly. \nNOTE Affecting Cloth Physics is a UE5 exclusive feature, and Painting on Skeletal Meshes with Proxy Simulated Cloth is not supported, for example the Wind Walker Echo Character. Only Cloth created the regular way through the editor!" },
-#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -3944,9 +3854,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Utilities" },
 		{ "DisplayName", "GetSkeletalMesh" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Utility function since 5.1 don't use the same get skeletal mesh in BP as 4.27 and 5.0. By using this we don't have to update the examples or Widget BP" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_VertexPaintDetectionPlugin_GetSkeletalMesh_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "VertexPaintDetectionPlugin_GetSkeletalMesh", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_VertexPaintDetectionPlugin_GetSkeletalMesh_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_VertexPaintDetectionPlugin_GetSkeletalMesh_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_VertexPaintDetectionPlugin_GetSkeletalMesh_Statics::VertexPaintFunctionLibrary_eventVertexPaintDetectionPlugin_GetSkeletalMesh_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_VertexPaintDetectionPlugin_GetSkeletalMesh_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_VertexPaintDetectionPlugin_GetSkeletalMesh_Statics::Function_MetaDataParams) };
@@ -3999,9 +3907,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Utilities" },
 		{ "DisplayName", "Sort Names Alphabetically" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sorts the TMap Alphabetically while matching the index. So you can send in a TMap of AssetNames and Indexes, and get a TMap back but with them in alphabetical order. Intended to be used with the Asset Registry->GetAssets...() functions, see example in the Vertex Paint Editor Utility Widget" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_VertexPaintDetectionPlugin_SortAssetsNamesAlphabetically_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "VertexPaintDetectionPlugin_SortAssetsNamesAlphabetically", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_VertexPaintDetectionPlugin_SortAssetsNamesAlphabetically_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_VertexPaintDetectionPlugin_SortAssetsNamesAlphabetically_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_VertexPaintDetectionPlugin_SortAssetsNamesAlphabetically_Statics::VertexPaintFunctionLibrary_eventVertexPaintDetectionPlugin_SortAssetsNamesAlphabetically_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_VertexPaintDetectionPlugin_SortAssetsNamesAlphabetically_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_VertexPaintDetectionPlugin_SortAssetsNamesAlphabetically_Statics::Function_MetaDataParams) };
@@ -4048,9 +3954,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Utilities" },
 		{ "DisplayName", "Sort String Array Alphabetically" },
 		{ "ModuleRelativePath", "FunctionLibs/VertexPaintFunctionLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sorts an array of strings alphabetically" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintFunctionLibrary_VertexPaintDetectionPlugin_SortStringArrayAlphabetically_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintFunctionLibrary, nullptr, "VertexPaintDetectionPlugin_SortStringArrayAlphabetically", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintFunctionLibrary_VertexPaintDetectionPlugin_SortStringArrayAlphabetically_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_VertexPaintDetectionPlugin_SortStringArrayAlphabetically_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintFunctionLibrary_VertexPaintDetectionPlugin_SortStringArrayAlphabetically_Statics::VertexPaintFunctionLibrary_eventVertexPaintDetectionPlugin_SortStringArrayAlphabetically_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintFunctionLibrary_VertexPaintDetectionPlugin_SortStringArrayAlphabetically_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintFunctionLibrary_VertexPaintDetectionPlugin_SortStringArrayAlphabetically_Statics::Function_MetaDataParams) };
@@ -4086,63 +3990,63 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintFunctionLibrary_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UVertexPaintFunctionLibrary_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_AdjustBoxCollisionToFillAreaBetweenTwoLocations, "AdjustBoxCollisionToFillAreaBetweenTwoLocations" }, // 1701162511
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_CalcAABBWithoutUniformCheck, "CalcAABBWithoutUniformCheck" }, // 2736277428
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_AdjustBoxCollisionToFillAreaBetweenTwoLocations, "AdjustBoxCollisionToFillAreaBetweenTwoLocations" }, // 1462624700
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_CalcAABBWithoutUniformCheck, "CalcAABBWithoutUniformCheck" }, // 496462368
 		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_CollisionChannelToObjectType, "CollisionChannelToObjectType" }, // 2592680373
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_DoesPhysicsSurfaceBelongToPhysicsSurfaceFamily, "DoesPhysicsSurfaceBelongToPhysicsSurfaceFamily" }, // 2830894486
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_DrawPrimitiveComponentBoundsBox, "DrawPrimitiveComponentBoundsBox" }, // 4252263748
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllColorSnippetsUnderGroupSnippetAsString, "GetAllColorSnippetsUnderGroupSnippetAsString" }, // 3526744669
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsString_Wrapper, "GetAllMeshColorSnippetsAsString_Wrapper" }, // 3216081981
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsTags_Wrapper, "GetAllMeshColorSnippetsAsTags_Wrapper" }, // 1791201821
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsTagsUnderTagCategory_Wrapper, "GetAllMeshColorSnippetsTagsUnderTagCategory_Wrapper" }, // 3595033882
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_DoesPhysicsSurfaceBelongToPhysicsSurfaceFamily, "DoesPhysicsSurfaceBelongToPhysicsSurfaceFamily" }, // 1618413044
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_DrawPrimitiveComponentBoundsBox, "DrawPrimitiveComponentBoundsBox" }, // 2178045277
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllColorSnippetsUnderGroupSnippetAsString, "GetAllColorSnippetsUnderGroupSnippetAsString" }, // 3799397056
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsString_Wrapper, "GetAllMeshColorSnippetsAsString_Wrapper" }, // 2013061070
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsAsTags_Wrapper, "GetAllMeshColorSnippetsAsTags_Wrapper" }, // 1959121495
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllMeshColorSnippetsTagsUnderTagCategory_Wrapper, "GetAllMeshColorSnippetsTagsUnderTagCategory_Wrapper" }, // 1894511514
 		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllPhysicsSurfaces, "GetAllPhysicsSurfaces" }, // 1688716120
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllTagsUnderTagCategory, "GetAllTagsUnderTagCategory" }, // 2565016786
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllVertexColorChannelsPhysicsSurfaceIsRegisteredTo_Wrapper, "GetAllVertexColorChannelsPhysicsSurfaceIsRegisteredTo_Wrapper" }, // 3123916120
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllTagsUnderTagCategory, "GetAllTagsUnderTagCategory" }, // 128933237
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAllVertexColorChannelsPhysicsSurfaceIsRegisteredTo_Wrapper, "GetAllVertexColorChannelsPhysicsSurfaceIsRegisteredTo_Wrapper" }, // 105636333
 		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfLODsToPaintOn, "GetAmountOfLODsToPaintOn" }, // 1975385508
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannel, "GetAmountOfPaintedColorsForEachChannel" }, // 1876251956
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannelAsync, "GetAmountOfPaintedColorsForEachChannelAsync" }, // 3438934952
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetCalculateColorsDetectionTasksAmount_Wrapper, "GetCalculateColorsDetectionTasksAmount_Wrapper" }, // 3236813845
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetCalculateColorsPaintTasksAmount_Wrapper, "GetCalculateColorsPaintTasksAmount_Wrapper" }, // 4108902804
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetClothAssets, "GetClothAssets" }, // 2063524816
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetColorSnippetReferenceDataAsset, "GetColorSnippetReferenceDataAsset" }, // 2800594269
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetColorSnippetVertexColorsAsync, "GetColorSnippetVertexColorsAsync" }, // 475847418
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetColorsToApplyFromPhysicsSurface_Wrapper, "GetColorsToApplyFromPhysicsSurface_Wrapper" }, // 3259363320
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetComponentBoundsBottomWorldZ, "GetComponentBoundsBottomWorldZ" }, // 3666662127
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetComponentBoundsTopWorldZ, "GetComponentBoundsTopWorldZ" }, // 2557112542
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshColorSnippetsTagsInTagCategory_Wrapper, "GetMeshColorSnippetsTagsInTagCategory_Wrapper" }, // 3862186944
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshColorSnippetTagInGroup, "GetMeshColorSnippetTagInGroup" }, // 963456870
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentAmountOfVerticesOnLOD, "GetMeshComponentAmountOfVerticesOnLOD" }, // 165381
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannel, "GetAmountOfPaintedColorsForEachChannel" }, // 3398695233
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetAmountOfPaintedColorsForEachChannelAsync, "GetAmountOfPaintedColorsForEachChannelAsync" }, // 2011438680
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetCalculateColorsDetectionTasksAmount_Wrapper, "GetCalculateColorsDetectionTasksAmount_Wrapper" }, // 3484830356
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetCalculateColorsPaintTasksAmount_Wrapper, "GetCalculateColorsPaintTasksAmount_Wrapper" }, // 1169508410
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetClothAssets, "GetClothAssets" }, // 3443805178
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetColorSnippetReferenceDataAsset, "GetColorSnippetReferenceDataAsset" }, // 382290365
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetColorSnippetVertexColorsAsync, "GetColorSnippetVertexColorsAsync" }, // 3996753110
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetColorsToApplyFromPhysicsSurface_Wrapper, "GetColorsToApplyFromPhysicsSurface_Wrapper" }, // 2389891119
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetComponentBoundsBottomWorldZ, "GetComponentBoundsBottomWorldZ" }, // 1348088900
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetComponentBoundsTopWorldZ, "GetComponentBoundsTopWorldZ" }, // 1404880477
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshColorSnippetsTagsInTagCategory_Wrapper, "GetMeshColorSnippetsTagsInTagCategory_Wrapper" }, // 3240160484
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshColorSnippetTagInGroup, "GetMeshColorSnippetTagInGroup" }, // 365845994
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentAmountOfVerticesOnLOD, "GetMeshComponentAmountOfVerticesOnLOD" }, // 419598676
 		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentSourceMesh, "GetMeshComponentSourceMesh" }, // 106369273
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentVertexColors_Wrapper, "GetMeshComponentVertexColors_Wrapper" }, // 2464782895
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentVertexColorsAtLOD_Wrapper, "GetMeshComponentVertexColorsAtLOD_Wrapper" }, // 78467555
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetOptimizationDataAsset, "GetOptimizationDataAsset" }, // 3769116183
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetParentsOfPhysicsSurface_Wrapper, "GetParentsOfPhysicsSurface_Wrapper" }, // 3161697290
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetPhysicalMaterialUsingPhysicsSurface_Wrapper, "GetPhysicalMaterialUsingPhysicsSurface_Wrapper" }, // 1180245841
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetPhysicsSurfaceFamilies_Wrapper, "GetPhysicsSurfaceFamilies_Wrapper" }, // 124203702
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetPhysicsSurfacesRegisteredToMaterial, "GetPhysicsSurfacesRegisteredToMaterial" }, // 601244845
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentVertexColors_Wrapper, "GetMeshComponentVertexColors_Wrapper" }, // 715762783
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetMeshComponentVertexColorsAtLOD_Wrapper, "GetMeshComponentVertexColorsAtLOD_Wrapper" }, // 3077915449
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetOptimizationDataAsset, "GetOptimizationDataAsset" }, // 2136908799
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetParentsOfPhysicsSurface_Wrapper, "GetParentsOfPhysicsSurface_Wrapper" }, // 1083310775
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetPhysicalMaterialUsingPhysicsSurface_Wrapper, "GetPhysicalMaterialUsingPhysicsSurface_Wrapper" }, // 4008030233
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetPhysicsSurfaceFamilies_Wrapper, "GetPhysicsSurfaceFamilies_Wrapper" }, // 2976960290
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetPhysicsSurfacesRegisteredToMaterial, "GetPhysicsSurfacesRegisteredToMaterial" }, // 3439347851
 		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetSubstringAfterLastCharacter, "GetSubstringAfterLastCharacter" }, // 2417848998
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetTheMostDominantPhysicsSurface_Wrapper, "GetTheMostDominantPhysicsSurface_Wrapper" }, // 3780355835
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetVertexPaintMaterialDataAsset, "GetVertexPaintMaterialDataAsset" }, // 342132402
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetVertexPaintMaterialInterface_Wrapper, "GetVertexPaintMaterialInterface_Wrapper" }, // 1833606588
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_IsMaterialAddedToPaintOnMaterialDataAsset_Wrapper, "IsMaterialAddedToPaintOnMaterialDataAsset_Wrapper" }, // 82141366
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetTheMostDominantPhysicsSurface_Wrapper, "GetTheMostDominantPhysicsSurface_Wrapper" }, // 3721850349
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetVertexPaintMaterialDataAsset, "GetVertexPaintMaterialDataAsset" }, // 2282411767
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_GetVertexPaintMaterialInterface_Wrapper, "GetVertexPaintMaterialInterface_Wrapper" }, // 1123697336
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_IsMaterialAddedToPaintOnMaterialDataAsset_Wrapper, "IsMaterialAddedToPaintOnMaterialDataAsset_Wrapper" }, // 435770001
 		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_IsPlayInEditor, "IsPlayInEditor" }, // 1045336290
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_IsWorldValid, "IsWorldValid" }, // 272259225
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_MultiCapsuleTraceForClosestUniqueMeshes_Wrapper, "MultiCapsuleTraceForClosestUniqueMeshes_Wrapper" }, // 2840947387
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_IsWorldValid, "IsWorldValid" }, // 4285624294
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_MultiCapsuleTraceForClosestUniqueMeshes_Wrapper, "MultiCapsuleTraceForClosestUniqueMeshes_Wrapper" }, // 3636691803
 		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_ObjectTypeToCollisionChannel, "ObjectTypeToCollisionChannel" }, // 1211027856
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_ReliableFColorToFLinearColor, "ReliableFColorToFLinearColor" }, // 3582446645
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_ReliableFLinearToFColor, "ReliableFLinearToFColor" }, // 3801613484
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_ReliableFColorToFLinearColor, "ReliableFColorToFLinearColor" }, // 827834799
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_ReliableFLinearToFColor, "ReliableFLinearToFColor" }, // 3357306806
 		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_RemoveComponentFromDetectTaskQueue, "RemoveComponentFromDetectTaskQueue" }, // 1931029084
 		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_RemoveComponentFromPaintTaskQueue, "RemoveComponentFromPaintTaskQueue" }, // 1288739496
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetChaosClothPhysics, "SetChaosClothPhysics" }, // 1413181055
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetChaosWheeledVehicleFrictionMultiplier_Wrapper, "SetChaosWheeledVehicleFrictionMultiplier_Wrapper" }, // 861623448
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetMeshConstantVertexColorsAndEnablesThem, "SetMeshConstantVertexColorsAndEnablesThem" }, // 639109808
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetSkeletalMeshAndReleaseResources, "SetSkeletalMeshAndReleaseResources" }, // 4129443824
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetStaticMeshAndReleaseResources, "SetStaticMeshAndReleaseResources" }, // 2178019038
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_UpdateChaosClothPhysicsWithExistingColors, "UpdateChaosClothPhysicsWithExistingColors" }, // 937524920
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_UpdateChaosClothPhysicsWithExistingColorsAsync, "UpdateChaosClothPhysicsWithExistingColorsAsync" }, // 2528306883
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_VertexPaintDetectionPlugin_GetSkeletalMesh, "VertexPaintDetectionPlugin_GetSkeletalMesh" }, // 2137631725
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_VertexPaintDetectionPlugin_SortAssetsNamesAlphabetically, "VertexPaintDetectionPlugin_SortAssetsNamesAlphabetically" }, // 1259392534
-		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_VertexPaintDetectionPlugin_SortStringArrayAlphabetically, "VertexPaintDetectionPlugin_SortStringArrayAlphabetically" }, // 2266097163
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetChaosClothPhysics, "SetChaosClothPhysics" }, // 856153776
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetChaosWheeledVehicleFrictionMultiplier_Wrapper, "SetChaosWheeledVehicleFrictionMultiplier_Wrapper" }, // 1585255052
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetMeshConstantVertexColorsAndEnablesThem, "SetMeshConstantVertexColorsAndEnablesThem" }, // 3903163827
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetSkeletalMeshAndReleaseResources, "SetSkeletalMeshAndReleaseResources" }, // 408622167
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_SetStaticMeshAndReleaseResources, "SetStaticMeshAndReleaseResources" }, // 4012008265
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_UpdateChaosClothPhysicsWithExistingColors, "UpdateChaosClothPhysicsWithExistingColors" }, // 3547275411
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_UpdateChaosClothPhysicsWithExistingColorsAsync, "UpdateChaosClothPhysicsWithExistingColorsAsync" }, // 3126348688
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_VertexPaintDetectionPlugin_GetSkeletalMesh, "VertexPaintDetectionPlugin_GetSkeletalMesh" }, // 1297297370
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_VertexPaintDetectionPlugin_SortAssetsNamesAlphabetically, "VertexPaintDetectionPlugin_SortAssetsNamesAlphabetically" }, // 3328872357
+		{ &Z_Construct_UFunction_UVertexPaintFunctionLibrary_VertexPaintDetectionPlugin_SortStringArrayAlphabetically, "VertexPaintDetectionPlugin_SortStringArrayAlphabetically" }, // 2455312584
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintFunctionLibrary_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
@@ -4184,15 +4088,15 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintFunctionLibrary() {}
 	UVertexPaintFunctionLibrary::UVertexPaintFunctionLibrary(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UVertexPaintFunctionLibrary);
 	UVertexPaintFunctionLibrary::~UVertexPaintFunctionLibrary() {}
-	struct Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintFunctionLibrary_h_Statics
+	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintFunctionLibrary_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintFunctionLibrary_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UVertexPaintFunctionLibrary, UVertexPaintFunctionLibrary::StaticClass, TEXT("UVertexPaintFunctionLibrary"), &Z_Registration_Info_UClass_UVertexPaintFunctionLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UVertexPaintFunctionLibrary), 3923689649U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintFunctionLibrary_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UVertexPaintFunctionLibrary, UVertexPaintFunctionLibrary::StaticClass, TEXT("UVertexPaintFunctionLibrary"), &Z_Registration_Info_UClass_UVertexPaintFunctionLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UVertexPaintFunctionLibrary), 3571087397U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintFunctionLibrary_h_2127247392(TEXT("/Script/VertexPaintDetectionPlugin"),
-		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintFunctionLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintFunctionLibrary_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintFunctionLibrary_h_3650487476(TEXT("/Script/VertexPaintDetectionPlugin"),
+		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintFunctionLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_FunctionLibs_VertexPaintFunctionLibrary_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

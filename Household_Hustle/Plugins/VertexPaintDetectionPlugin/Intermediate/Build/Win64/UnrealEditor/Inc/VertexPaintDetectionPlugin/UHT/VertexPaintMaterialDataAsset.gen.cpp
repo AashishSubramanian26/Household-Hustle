@@ -154,7 +154,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintMaterialDataAsset() {}
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UVertexPaintMaterialDataAsset_AddPhysicsSurfaceFamily_Statics::NewProp_parentPhysicsSurface = { "parentPhysicsSurface", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintMaterialDataAsset_eventAddPhysicsSurfaceFamily_Parms, parentPhysicsSurface), Z_Construct_UEnum_PhysicsCore_EPhysicalSurface, METADATA_PARAMS(0, nullptr) }; // 2508321301
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVertexPaintMaterialDataAsset_AddPhysicsSurfaceFamily_Statics::NewProp_parentPhysicsSurfaceStruct = { "parentPhysicsSurfaceStruct", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintMaterialDataAsset_eventAddPhysicsSurfaceFamily_Parms, parentPhysicsSurfaceStruct), Z_Construct_UScriptStruct_FVertexPaintParentPhysicsSurfaceStruct, METADATA_PARAMS(0, nullptr) }; // 3835105565
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVertexPaintMaterialDataAsset_AddPhysicsSurfaceFamily_Statics::NewProp_parentPhysicsSurfaceStruct = { "parentPhysicsSurfaceStruct", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintMaterialDataAsset_eventAddPhysicsSurfaceFamily_Parms, parentPhysicsSurfaceStruct), Z_Construct_UScriptStruct_FVertexPaintParentPhysicsSurfaceStruct, METADATA_PARAMS(0, nullptr) }; // 367238135
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UVertexPaintMaterialDataAsset_AddPhysicsSurfaceFamily_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintMaterialDataAsset_AddPhysicsSurfaceFamily_Statics::NewProp_parentPhysicsSurface,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintMaterialDataAsset_AddPhysicsSurfaceFamily_Statics::NewProp_parentPhysicsSurfaceStruct,
@@ -162,13 +162,9 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintMaterialDataAsset() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UVertexPaintMaterialDataAsset_AddPhysicsSurfaceFamily_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// NOTE Doesn't have a .Contains check here because then we can't remove it if the material was Forced deleted and the TMap had null\n" },
-#endif
 		{ "ModuleRelativePath", "DataAssets/VertexPaintMaterialDataAsset.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "NOTE Doesn't have a .Contains check here because then we can't remove it if the material was Forced deleted and the TMap had null" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UVertexPaintMaterialDataAsset_AddPhysicsSurfaceFamily_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UVertexPaintMaterialDataAsset, nullptr, "AddPhysicsSurfaceFamily", nullptr, nullptr, Z_Construct_UFunction_UVertexPaintMaterialDataAsset_AddPhysicsSurfaceFamily_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintMaterialDataAsset_AddPhysicsSurfaceFamily_Statics::PropPointers), sizeof(Z_Construct_UFunction_UVertexPaintMaterialDataAsset_AddPhysicsSurfaceFamily_Statics::VertexPaintMaterialDataAsset_eventAddPhysicsSurfaceFamily_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x24020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexPaintMaterialDataAsset_AddPhysicsSurfaceFamily_Statics::Function_MetaDataParams), Z_Construct_UFunction_UVertexPaintMaterialDataAsset_AddPhysicsSurfaceFamily_Statics::Function_MetaDataParams) };
@@ -201,7 +197,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintMaterialDataAsset() {}
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
 	const UECodeGen_Private::FSoftObjectPropertyParams Z_Construct_UFunction_UVertexPaintMaterialDataAsset_AddToVertexPaintMaterialInterface_Statics::NewProp_material = { "material", nullptr, (EPropertyFlags)0x0014000000000080, UECodeGen_Private::EPropertyGenFlags::SoftObject, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintMaterialDataAsset_eventAddToVertexPaintMaterialInterface_Parms, material), Z_Construct_UClass_UMaterialInterface_NoRegister, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVertexPaintMaterialDataAsset_AddToVertexPaintMaterialInterface_Statics::NewProp_materialDataAssetStruct = { "materialDataAssetStruct", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintMaterialDataAsset_eventAddToVertexPaintMaterialInterface_Parms, materialDataAssetStruct), Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct, METADATA_PARAMS(0, nullptr) }; // 3512115456
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UVertexPaintMaterialDataAsset_AddToVertexPaintMaterialInterface_Statics::NewProp_materialDataAssetStruct = { "materialDataAssetStruct", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(VertexPaintMaterialDataAsset_eventAddToVertexPaintMaterialInterface_Parms, materialDataAssetStruct), Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct, METADATA_PARAMS(0, nullptr) }; // 3331871051
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UVertexPaintMaterialDataAsset_AddToVertexPaintMaterialInterface_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintMaterialDataAsset_AddToVertexPaintMaterialInterface_Statics::NewProp_material,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexPaintMaterialDataAsset_AddToVertexPaintMaterialInterface_Statics::NewProp_materialDataAssetStruct,
@@ -406,10 +402,10 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintMaterialDataAsset() {}
 		{ &Z_Construct_UFunction_UVertexPaintMaterialDataAsset_AddChildToPhysicsSurfaceFamily, "AddChildToPhysicsSurfaceFamily" }, // 1558008429
 #endif //WITH_EDITOR
 #if WITH_EDITOR
-		{ &Z_Construct_UFunction_UVertexPaintMaterialDataAsset_AddPhysicsSurfaceFamily, "AddPhysicsSurfaceFamily" }, // 1649066565
+		{ &Z_Construct_UFunction_UVertexPaintMaterialDataAsset_AddPhysicsSurfaceFamily, "AddPhysicsSurfaceFamily" }, // 2772044144
 #endif //WITH_EDITOR
 #if WITH_EDITOR
-		{ &Z_Construct_UFunction_UVertexPaintMaterialDataAsset_AddToVertexPaintMaterialInterface, "AddToVertexPaintMaterialInterface" }, // 1310168981
+		{ &Z_Construct_UFunction_UVertexPaintMaterialDataAsset_AddToVertexPaintMaterialInterface, "AddToVertexPaintMaterialInterface" }, // 1409763673
 #endif //WITH_EDITOR
 #if WITH_EDITOR
 		{ &Z_Construct_UFunction_UVertexPaintMaterialDataAsset_ClearAllPhysicsSurfaceFamilies, "ClearAllPhysicsSurfaceFamilies" }, // 2218660881
@@ -429,30 +425,24 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintMaterialDataAsset() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintMaterialDataAsset_Statics::Class_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n *\n */" },
-#endif
 		{ "IncludePath", "DataAssets/VertexPaintMaterialDataAsset.h" },
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "DataAssets/VertexPaintMaterialDataAsset.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UVertexPaintMaterialDataAsset_Statics::NewProp_vertexPaintMaterialInterfaces_ValueProp = { "vertexPaintMaterialInterfaces", nullptr, (EPropertyFlags)0x0000000000020001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct, METADATA_PARAMS(0, nullptr) }; // 3512115456
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UVertexPaintMaterialDataAsset_Statics::NewProp_vertexPaintMaterialInterfaces_ValueProp = { "vertexPaintMaterialInterfaces", nullptr, (EPropertyFlags)0x0000000000020001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct, METADATA_PARAMS(0, nullptr) }; // 3331871051
 	const UECodeGen_Private::FSoftObjectPropertyParams Z_Construct_UClass_UVertexPaintMaterialDataAsset_Statics::NewProp_vertexPaintMaterialInterfaces_Key_KeyProp = { "vertexPaintMaterialInterfaces_Key", nullptr, (EPropertyFlags)0x0004000000020001, UECodeGen_Private::EPropertyGenFlags::SoftObject, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UMaterialInterface_NoRegister, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintMaterialDataAsset_Statics::NewProp_vertexPaintMaterialInterfaces_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// TMap of All Materials that uses Vertex Colors\n" },
-#endif
 		{ "ModuleRelativePath", "DataAssets/VertexPaintMaterialDataAsset.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "TMap of All Materials that uses Vertex Colors" },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UVertexPaintMaterialDataAsset_Statics::NewProp_vertexPaintMaterialInterfaces = { "vertexPaintMaterialInterfaces", nullptr, (EPropertyFlags)0x0040000000020001, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVertexPaintMaterialDataAsset, vertexPaintMaterialInterfaces), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintMaterialDataAsset_Statics::NewProp_vertexPaintMaterialInterfaces_MetaData), Z_Construct_UClass_UVertexPaintMaterialDataAsset_Statics::NewProp_vertexPaintMaterialInterfaces_MetaData) }; // 3512115456
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UVertexPaintMaterialDataAsset_Statics::NewProp_physicsSurfaceFamilies_ValueProp = { "physicsSurfaceFamilies", nullptr, (EPropertyFlags)0x0000000000020001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FVertexPaintParentPhysicsSurfaceStruct, METADATA_PARAMS(0, nullptr) }; // 3835105565
+	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UVertexPaintMaterialDataAsset_Statics::NewProp_vertexPaintMaterialInterfaces = { "vertexPaintMaterialInterfaces", nullptr, (EPropertyFlags)0x0040000000020001, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVertexPaintMaterialDataAsset, vertexPaintMaterialInterfaces), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintMaterialDataAsset_Statics::NewProp_vertexPaintMaterialInterfaces_MetaData), Z_Construct_UClass_UVertexPaintMaterialDataAsset_Statics::NewProp_vertexPaintMaterialInterfaces_MetaData) }; // 3331871051
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UVertexPaintMaterialDataAsset_Statics::NewProp_physicsSurfaceFamilies_ValueProp = { "physicsSurfaceFamilies", nullptr, (EPropertyFlags)0x0000000000020001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FVertexPaintParentPhysicsSurfaceStruct, METADATA_PARAMS(0, nullptr) }; // 367238135
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_UVertexPaintMaterialDataAsset_Statics::NewProp_physicsSurfaceFamilies_Key_KeyProp = { "physicsSurfaceFamilies_Key", nullptr, (EPropertyFlags)0x0000000000020001, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UEnum_PhysicsCore_EPhysicalSurface, METADATA_PARAMS(0, nullptr) }; // 2508321301
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintMaterialDataAsset_Statics::NewProp_physicsSurfaceFamilies_MetaData[] = {
@@ -460,7 +450,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintMaterialDataAsset() {}
 		{ "ModuleRelativePath", "DataAssets/VertexPaintMaterialDataAsset.h" },
 	};
 #endif
-	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UVertexPaintMaterialDataAsset_Statics::NewProp_physicsSurfaceFamilies = { "physicsSurfaceFamilies", nullptr, (EPropertyFlags)0x0040000000020001, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVertexPaintMaterialDataAsset, physicsSurfaceFamilies), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintMaterialDataAsset_Statics::NewProp_physicsSurfaceFamilies_MetaData), Z_Construct_UClass_UVertexPaintMaterialDataAsset_Statics::NewProp_physicsSurfaceFamilies_MetaData) }; // 2508321301 3835105565
+	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UVertexPaintMaterialDataAsset_Statics::NewProp_physicsSurfaceFamilies = { "physicsSurfaceFamilies", nullptr, (EPropertyFlags)0x0040000000020001, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVertexPaintMaterialDataAsset, physicsSurfaceFamilies), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintMaterialDataAsset_Statics::NewProp_physicsSurfaceFamilies_MetaData), Z_Construct_UClass_UVertexPaintMaterialDataAsset_Statics::NewProp_physicsSurfaceFamilies_MetaData) }; // 2508321301 367238135
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UVertexPaintMaterialDataAsset_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintMaterialDataAsset_Statics::NewProp_vertexPaintMaterialInterfaces_ValueProp,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintMaterialDataAsset_Statics::NewProp_vertexPaintMaterialInterfaces_Key_KeyProp,
@@ -503,15 +493,15 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintMaterialDataAsset() {}
 	UVertexPaintMaterialDataAsset::UVertexPaintMaterialDataAsset(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UVertexPaintMaterialDataAsset);
 	UVertexPaintMaterialDataAsset::~UVertexPaintMaterialDataAsset() {}
-	struct Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_DataAssets_VertexPaintMaterialDataAsset_h_Statics
+	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_DataAssets_VertexPaintMaterialDataAsset_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_DataAssets_VertexPaintMaterialDataAsset_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UVertexPaintMaterialDataAsset, UVertexPaintMaterialDataAsset::StaticClass, TEXT("UVertexPaintMaterialDataAsset"), &Z_Registration_Info_UClass_UVertexPaintMaterialDataAsset, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UVertexPaintMaterialDataAsset), 181935948U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_DataAssets_VertexPaintMaterialDataAsset_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UVertexPaintMaterialDataAsset, UVertexPaintMaterialDataAsset::StaticClass, TEXT("UVertexPaintMaterialDataAsset"), &Z_Registration_Info_UClass_UVertexPaintMaterialDataAsset, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UVertexPaintMaterialDataAsset), 3313840308U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_DataAssets_VertexPaintMaterialDataAsset_h_4221270574(TEXT("/Script/VertexPaintDetectionPlugin"),
-		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_DataAssets_VertexPaintMaterialDataAsset_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_DataAssets_VertexPaintMaterialDataAsset_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_DataAssets_VertexPaintMaterialDataAsset_h_2090850877(TEXT("/Script/VertexPaintDetectionPlugin"),
+		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_DataAssets_VertexPaintMaterialDataAsset_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_DataAssets_VertexPaintMaterialDataAsset_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

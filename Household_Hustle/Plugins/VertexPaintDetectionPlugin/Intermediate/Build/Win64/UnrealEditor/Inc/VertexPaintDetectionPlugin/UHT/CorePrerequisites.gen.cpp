@@ -55,17 +55,13 @@ void EmptyLinkFunctionForGeneratedCodeCorePrerequisites() {}
 		{ "BlueChannel.DisplayName", "Blue Channel" },
 		{ "BlueChannel.Name", "EVertexColorChannel::BlueChannel" },
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Vertex Color Channel\n" },
-#endif
 		{ "GreenChannel.DisplayName", "Green Channel" },
 		{ "GreenChannel.Name", "EVertexColorChannel::GreenChannel" },
 		{ "ModuleRelativePath", "Prerequisites/CorePrerequisites.h" },
 		{ "RedChannel.DisplayName", "Red Channel" },
 		{ "RedChannel.Name", "EVertexColorChannel::RedChannel" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Vertex Color Channel" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumParams Z_Construct_UEnum_VertexPaintDetectionPlugin_EVertexColorChannel_Statics::EnumParams = {
@@ -123,9 +119,7 @@ void EmptyLinkFunctionForGeneratedCodeCorePrerequisites() {}
 		{ "BlueChannel.DisplayName", "Blue Channel" },
 		{ "BlueChannel.Name", "Enum_SurfaceAtChannel::BlueChannel" },
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Surface At Channel\n" },
-#endif
 		{ "Default.DisplayName", "Default" },
 		{ "Default.Name", "Enum_SurfaceAtChannel::Default" },
 		{ "GreenChannel.DisplayName", "Green Channel" },
@@ -133,9 +127,7 @@ void EmptyLinkFunctionForGeneratedCodeCorePrerequisites() {}
 		{ "ModuleRelativePath", "Prerequisites/CorePrerequisites.h" },
 		{ "RedChannel.DisplayName", "Red Channel" },
 		{ "RedChannel.Name", "Enum_SurfaceAtChannel::RedChannel" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Surface At Channel" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumParams Z_Construct_UEnum_VertexPaintDetectionPlugin_Enum_SurfaceAtChannel_Statics::EnumParams = {
@@ -189,13 +181,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintColorChannelsStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Vertex Color Channels Struct\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/CorePrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Vertex Color Channels Struct" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexPaintColorChannelsStruct_Statics::NewStructOps()
@@ -203,14 +191,14 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FVertexPaintColorChannelsStruct>();
 	}
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FVertexPaintColorChannelsStruct_Statics::NewProp_vertexColorChannels_Inner_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FVertexPaintColorChannelsStruct_Statics::NewProp_vertexColorChannels_Inner = { "vertexColorChannels", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UEnum_VertexPaintDetectionPlugin_EVertexColorChannel, METADATA_PARAMS(0, nullptr) }; // 790424670
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FVertexPaintColorChannelsStruct_Statics::NewProp_vertexColorChannels_Inner = { "vertexColorChannels", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UEnum_VertexPaintDetectionPlugin_EVertexColorChannel, METADATA_PARAMS(0, nullptr) }; // 1887483463
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintColorChannelsStruct_Statics::NewProp_vertexColorChannels_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/CorePrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FVertexPaintColorChannelsStruct_Statics::NewProp_vertexColorChannels = { "vertexColorChannels", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintColorChannelsStruct, vertexColorChannels), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintColorChannelsStruct_Statics::NewProp_vertexColorChannels_MetaData), Z_Construct_UScriptStruct_FVertexPaintColorChannelsStruct_Statics::NewProp_vertexColorChannels_MetaData) }; // 790424670
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FVertexPaintColorChannelsStruct_Statics::NewProp_vertexColorChannels = { "vertexColorChannels", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintColorChannelsStruct, vertexColorChannels), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintColorChannelsStruct_Statics::NewProp_vertexColorChannels_MetaData), Z_Construct_UScriptStruct_FVertexPaintColorChannelsStruct_Statics::NewProp_vertexColorChannels_MetaData) }; // 1887483463
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVertexPaintColorChannelsStruct_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexPaintColorChannelsStruct_Statics::NewProp_vertexColorChannels_Inner_Underlying,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexPaintColorChannelsStruct_Statics::NewProp_vertexColorChannels_Inner,
@@ -271,13 +259,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectSerializedColorsPerLODStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Serialized Colors Per LOD Struct \n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/CorePrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Serialized Colors Per LOD Struct" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectSerializedColorsPerLODStruct_Statics::NewStructOps()
@@ -294,13 +278,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectSerializedColorsPerLODStruct_Statics::NewProp_colorsAtLODAsJSonString_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/*VisibleAnywhere, */" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/CorePrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "VisibleAnywhere," },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FVertexDetectSerializedColorsPerLODStruct_Statics::NewProp_colorsAtLODAsJSonString = { "colorsAtLODAsJSonString", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectSerializedColorsPerLODStruct, colorsAtLODAsJSonString), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectSerializedColorsPerLODStruct_Statics::NewProp_colorsAtLODAsJSonString_MetaData), Z_Construct_UScriptStruct_FVertexDetectSerializedColorsPerLODStruct_Statics::NewProp_colorsAtLODAsJSonString_MetaData) };
@@ -382,13 +362,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Vertex Detect Mesh Data Per LOD Struct\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/CorePrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Vertex Detect Mesh Data Per LOD Struct" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct_Statics::NewStructOps()
@@ -414,33 +390,25 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct_Statics::NewProp_meshVertexColorsPerLODArray_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/CorePrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Only returns filled in the callback event if set to include vertex colors in the callback settings." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct_Statics::NewProp_meshVertexColorsPerLODArray = { "meshVertexColorsPerLODArray", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectMeshDataPerLODStruct, meshVertexColorsPerLODArray), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct_Statics::NewProp_meshVertexColorsPerLODArray_MetaData), Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct_Statics::NewProp_meshVertexColorsPerLODArray_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct_Statics::NewProp_serializedVertexColorsData_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/*VisibleAnywhere, */" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/CorePrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "VisibleAnywhere," },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct_Statics::NewProp_serializedVertexColorsData = { "serializedVertexColorsData", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectMeshDataPerLODStruct, serializedVertexColorsData), Z_Construct_UScriptStruct_FVertexDetectSerializedColorsPerLODStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct_Statics::NewProp_serializedVertexColorsData_MetaData), Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct_Statics::NewProp_serializedVertexColorsData_MetaData) }; // 4112502239
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct_Statics::NewProp_serializedVertexColorsData = { "serializedVertexColorsData", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectMeshDataPerLODStruct, serializedVertexColorsData), Z_Construct_UScriptStruct_FVertexDetectSerializedColorsPerLODStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct_Statics::NewProp_serializedVertexColorsData_MetaData), Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct_Statics::NewProp_serializedVertexColorsData_MetaData) }; // 2351485154
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct_Statics::NewProp_meshVertexPositionsInComponentSpacePerLODArray_Inner = { "meshVertexPositionsInComponentSpacePerLODArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct_Statics::NewProp_meshVertexPositionsInComponentSpacePerLODArray_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/CorePrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Only returns filled in the callback event if set to include vertex positions in the callback settings." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct_Statics::NewProp_meshVertexPositionsInComponentSpacePerLODArray = { "meshVertexPositionsInComponentSpacePerLODArray", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectMeshDataPerLODStruct, meshVertexPositionsInComponentSpacePerLODArray), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct_Statics::NewProp_meshVertexPositionsInComponentSpacePerLODArray_MetaData), Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct_Statics::NewProp_meshVertexPositionsInComponentSpacePerLODArray_MetaData) };
@@ -449,9 +417,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct_Statics::NewProp_meshVertexNormalsPerLODArray_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/CorePrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Only returns filled in the callback event if set to include vertex normals in the callback settings." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct_Statics::NewProp_meshVertexNormalsPerLODArray = { "meshVertexNormalsPerLODArray", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectMeshDataPerLODStruct, meshVertexNormalsPerLODArray), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct_Statics::NewProp_meshVertexNormalsPerLODArray_MetaData), Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct_Statics::NewProp_meshVertexNormalsPerLODArray_MetaData) };
@@ -526,13 +492,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Mesh Component Data Struct\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/CorePrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Mesh Component Data Struct" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct_Statics::NewStructOps()
@@ -543,9 +505,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct_Statics::NewProp_meshSource_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/CorePrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Skeletal or Static Mesh Source" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FSoftObjectPropertyParams Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct_Statics::NewProp_meshSource = { "meshSource", nullptr, (EPropertyFlags)0x0014000000020005, UECodeGen_Private::EPropertyGenFlags::SoftObject, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectMeshDataStruct, meshSource), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct_Statics::NewProp_meshSource_MetaData), Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct_Statics::NewProp_meshSource_MetaData) };
@@ -553,23 +513,19 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct_Statics::NewProp_meshComp_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/CorePrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Soft ptr to the Primitive Mesh Component" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FSoftObjectPropertyParams Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct_Statics::NewProp_meshComp = { "meshComp", nullptr, (EPropertyFlags)0x00140000000a000d, UECodeGen_Private::EPropertyGenFlags::SoftObject, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectMeshDataStruct, meshComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct_Statics::NewProp_meshComp_MetaData), Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct_Statics::NewProp_meshComp_MetaData) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct_Statics::NewProp_meshDataPerLOD_Inner = { "meshDataPerLOD", nullptr, (EPropertyFlags)0x0000000000020000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct, METADATA_PARAMS(0, nullptr) }; // 3111010087
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct_Statics::NewProp_meshDataPerLOD_Inner = { "meshDataPerLOD", nullptr, (EPropertyFlags)0x0000000000020000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct, METADATA_PARAMS(0, nullptr) }; // 3735622610
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct_Statics::NewProp_meshDataPerLOD_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/CorePrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Vertex Data Per LOD" },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct_Statics::NewProp_meshDataPerLOD = { "meshDataPerLOD", nullptr, (EPropertyFlags)0x0010000000020005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectMeshDataStruct, meshDataPerLOD), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct_Statics::NewProp_meshDataPerLOD_MetaData), Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct_Statics::NewProp_meshDataPerLOD_MetaData) }; // 3111010087
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct_Statics::NewProp_meshDataPerLOD = { "meshDataPerLOD", nullptr, (EPropertyFlags)0x0010000000020005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectMeshDataStruct, meshDataPerLOD), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct_Statics::NewProp_meshDataPerLOD_MetaData), Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct_Statics::NewProp_meshDataPerLOD_MetaData) }; // 3735622610
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct_Statics::NewProp_meshSource,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct_Statics::NewProp_meshComp,
@@ -598,23 +554,23 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		}
 		return Z_Registration_Info_UScriptStruct_VertexDetectMeshDataStruct.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_CorePrerequisites_h_Statics
+	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_CorePrerequisites_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_CorePrerequisites_h_Statics::EnumInfo[] = {
-		{ EVertexColorChannel_StaticEnum, TEXT("EVertexColorChannel"), &Z_Registration_Info_UEnum_EVertexColorChannel, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 790424670U) },
-		{ Enum_SurfaceAtChannel_StaticEnum, TEXT("Enum_SurfaceAtChannel"), &Z_Registration_Info_UEnum_Enum_SurfaceAtChannel, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 226719945U) },
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_CorePrerequisites_h_Statics::EnumInfo[] = {
+		{ EVertexColorChannel_StaticEnum, TEXT("EVertexColorChannel"), &Z_Registration_Info_UEnum_EVertexColorChannel, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1887483463U) },
+		{ Enum_SurfaceAtChannel_StaticEnum, TEXT("Enum_SurfaceAtChannel"), &Z_Registration_Info_UEnum_Enum_SurfaceAtChannel, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2259707496U) },
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_CorePrerequisites_h_Statics::ScriptStructInfo[] = {
-		{ FVertexPaintColorChannelsStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintColorChannelsStruct_Statics::NewStructOps, TEXT("VertexPaintColorChannelsStruct"), &Z_Registration_Info_UScriptStruct_VertexPaintColorChannelsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintColorChannelsStruct), 924234462U) },
-		{ FVertexDetectSerializedColorsPerLODStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectSerializedColorsPerLODStruct_Statics::NewStructOps, TEXT("VertexDetectSerializedColorsPerLODStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectSerializedColorsPerLODStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectSerializedColorsPerLODStruct), 4112502239U) },
-		{ FVertexDetectMeshDataPerLODStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct_Statics::NewStructOps, TEXT("VertexDetectMeshDataPerLODStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectMeshDataPerLODStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectMeshDataPerLODStruct), 3111010087U) },
-		{ FVertexDetectMeshDataStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct_Statics::NewStructOps, TEXT("VertexDetectMeshDataStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectMeshDataStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectMeshDataStruct), 674529102U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_CorePrerequisites_h_Statics::ScriptStructInfo[] = {
+		{ FVertexPaintColorChannelsStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintColorChannelsStruct_Statics::NewStructOps, TEXT("VertexPaintColorChannelsStruct"), &Z_Registration_Info_UScriptStruct_VertexPaintColorChannelsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintColorChannelsStruct), 3652056018U) },
+		{ FVertexDetectSerializedColorsPerLODStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectSerializedColorsPerLODStruct_Statics::NewStructOps, TEXT("VertexDetectSerializedColorsPerLODStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectSerializedColorsPerLODStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectSerializedColorsPerLODStruct), 2351485154U) },
+		{ FVertexDetectMeshDataPerLODStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct_Statics::NewStructOps, TEXT("VertexDetectMeshDataPerLODStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectMeshDataPerLODStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectMeshDataPerLODStruct), 3735622610U) },
+		{ FVertexDetectMeshDataStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct_Statics::NewStructOps, TEXT("VertexDetectMeshDataStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectMeshDataStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectMeshDataStruct), 3535704024U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_CorePrerequisites_h_527658289(TEXT("/Script/VertexPaintDetectionPlugin"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_CorePrerequisites_h_4288241961(TEXT("/Script/VertexPaintDetectionPlugin"),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_CorePrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_CorePrerequisites_h_Statics::ScriptStructInfo),
-		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_CorePrerequisites_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_CorePrerequisites_h_Statics::EnumInfo));
+		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_CorePrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_CorePrerequisites_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_CorePrerequisites_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_CorePrerequisites_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -54,13 +54,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsDampingSettingsStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Vertex Detect Cloth Physics - UChaosClothingInteractor::SetDamping()\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Vertex Detect Cloth Physics - UChaosClothingInteractor::SetDamping()" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectClothPhysicsDampingSettingsStruct_Statics::NewStructOps()
@@ -71,9 +67,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsDampingSettingsStruct_Statics::NewProp_SetDamping_dampingCoefficient_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The amount of global damping applied to the cloth velocities, also known as point damping. Point damping improves simulation stability, but can also cause an overall slow-down effect and therefore is best left to very small percentage amounts." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsDampingSettingsStruct_Statics::NewProp_SetDamping_dampingCoefficient = { "SetDamping_dampingCoefficient", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsDampingSettingsStruct, SetDamping_dampingCoefficient), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsDampingSettingsStruct_Statics::NewProp_SetDamping_dampingCoefficient_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsDampingSettingsStruct_Statics::NewProp_SetDamping_dampingCoefficient_MetaData) };
@@ -140,13 +134,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsGravitySettingsStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Vertex Detect Cloth Physics - UChaosClothingInteractor::SetGravity()\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Vertex Detect Cloth Physics - UChaosClothingInteractor::SetGravity()" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectClothPhysicsGravitySettingsStruct_Statics::NewStructOps()
@@ -157,9 +147,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsGravitySettingsStruct_Statics::NewProp_SetGravity_gravityScale_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Scale factor applied to the world gravity and also to the clothing simulation interactor gravity. Does not affect the gravity if set using the override below." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsGravitySettingsStruct_Statics::NewProp_SetGravity_gravityScale = { "SetGravity_gravityScale", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsGravitySettingsStruct, SetGravity_gravityScale), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsGravitySettingsStruct_Statics::NewProp_SetGravity_gravityScale_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsGravitySettingsStruct_Statics::NewProp_SetGravity_gravityScale_MetaData) };
@@ -167,9 +155,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsGravitySettingsStruct_Statics::NewProp_SetGravity_overrideGravity_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use the config gravity value instead of world gravity." },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectClothPhysicsGravitySettingsStruct_Statics::NewProp_SetGravity_overrideGravity_SetBit(void* Obj)
@@ -181,9 +167,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsGravitySettingsStruct_Statics::NewProp_SetGravity_gravityOverride_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The gravitational acceleration vector [cm/s^2]" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsGravitySettingsStruct_Statics::NewProp_SetGravity_gravityOverride = { "SetGravity_gravityOverride", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsGravitySettingsStruct, SetGravity_gravityOverride), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsGravitySettingsStruct_Statics::NewProp_SetGravity_gravityOverride_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsGravitySettingsStruct_Statics::NewProp_SetGravity_gravityOverride_MetaData) };
@@ -255,13 +239,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsWindSettingsStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Vertex Detect Cloth Physics - UChaosClothingInteractor::SetWind()\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Vertex Detect Cloth Physics - UChaosClothingInteractor::SetWind()" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectClothPhysicsWindSettingsStruct_Statics::NewStructOps()
@@ -272,9 +252,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsWindSettingsStruct_Statics::NewProp_SetWind_drag_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The aerodynamic coefficient of drag applying on each particle. If an enabled Weight Map (Mask with values in the range [0;1]) targeting the 'Drag' is added to the cloth, then both the Low and High values will be used in conjunction with the per particle Weight stored in the Weight Map to interpolate the final value from them. Otherwise only the Low value is meaningful and sufficient to set the aerodynamic drag." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsWindSettingsStruct_Statics::NewProp_SetWind_drag = { "SetWind_drag", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsWindSettingsStruct, SetWind_drag), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsWindSettingsStruct_Statics::NewProp_SetWind_drag_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsWindSettingsStruct_Statics::NewProp_SetWind_drag_MetaData) };
@@ -282,9 +260,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsWindSettingsStruct_Statics::NewProp_SetWind_lift_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The aerodynamic coefficient of lift applying on each particle. If an enabled Weight Map (Mask with values in the range [0;1]) targeting the 'Lift' is added to the cloth, then both the Low and High values will be used in conjunction with the per particle Weight stored in the Weight Map to interpolate the final value from them. Otherwise only the Low value is meaningful and sufficient to set the aerodynamic lift." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsWindSettingsStruct_Statics::NewProp_SetWind_lift = { "SetWind_lift", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsWindSettingsStruct, SetWind_lift), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsWindSettingsStruct_Statics::NewProp_SetWind_lift_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsWindSettingsStruct_Statics::NewProp_SetWind_lift_MetaData) };
@@ -363,13 +339,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsAnimDriveSettingsStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Vertex Detect Cloth Physics - UChaosClothingInteractor::SetAnimDrive()\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Vertex Detect Cloth Physics - UChaosClothingInteractor::SetAnimDrive()" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectClothPhysicsAnimDriveSettingsStruct_Statics::NewStructOps()
@@ -380,9 +352,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsAnimDriveSettingsStruct_Statics::NewProp_SetAnimDrive_Stiffness_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The strength of the constraint driving the cloth towards the animated goal mesh. If an enabled Weight Map (Mask with values in the range [0;1]) targeting the 'Anim Drive Stiffness' is added to the cloth, then both the Low and High values will be used in conjunction with the per particle Weight stored in the Weight Map to interpolate the final value from them. Otherwise only the Low value is meaningful and sufficient to enable this constraint." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsAnimDriveSettingsStruct_Statics::NewProp_SetAnimDrive_Stiffness = { "SetAnimDrive_Stiffness", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsAnimDriveSettingsStruct, SetAnimDrive_Stiffness), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsAnimDriveSettingsStruct_Statics::NewProp_SetAnimDrive_Stiffness_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsAnimDriveSettingsStruct_Statics::NewProp_SetAnimDrive_Stiffness_MetaData) };
@@ -390,9 +360,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsAnimDriveSettingsStruct_Statics::NewProp_SetAnimDrive_Damping_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The damping amount of the anim drive. If an enabled Weight Map (Mask with values in the range [0;1]) targeting the 'Anim Drive Damping' is added to the cloth, then both the Low and High values will be used in conjunction with the per particle Weight stored in the Weight Map to interpolate the final value from them. Otherwise only the Low value is sufficient to work on this constraint." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsAnimDriveSettingsStruct_Statics::NewProp_SetAnimDrive_Damping = { "SetAnimDrive_Damping", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsAnimDriveSettingsStruct, SetAnimDrive_Damping), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsAnimDriveSettingsStruct_Statics::NewProp_SetAnimDrive_Damping_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsAnimDriveSettingsStruct_Statics::NewProp_SetAnimDrive_Damping_MetaData) };
@@ -464,13 +432,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsCollisionSettingsStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Vertex Detect Cloth Physics - UChaosClothingInteractor::SetCollision()\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Vertex Detect Cloth Physics - UChaosClothingInteractor::SetCollision()" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectClothPhysicsCollisionSettingsStruct_Statics::NewStructOps()
@@ -481,9 +445,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsCollisionSettingsStruct_Statics::NewProp_SetCollision_CollisionThickness_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The added thickness of collision shapes." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsCollisionSettingsStruct_Statics::NewProp_SetCollision_CollisionThickness = { "SetCollision_CollisionThickness", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsCollisionSettingsStruct, SetCollision_CollisionThickness), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsCollisionSettingsStruct_Statics::NewProp_SetCollision_CollisionThickness_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsCollisionSettingsStruct_Statics::NewProp_SetCollision_CollisionThickness_MetaData) };
@@ -491,9 +453,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsCollisionSettingsStruct_Statics::NewProp_SetCollision_FrictionCoefficient_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Friction coefficient for cloth - collider interaction." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsCollisionSettingsStruct_Statics::NewProp_SetCollision_FrictionCoefficient = { "SetCollision_FrictionCoefficient", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsCollisionSettingsStruct, SetCollision_FrictionCoefficient), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsCollisionSettingsStruct_Statics::NewProp_SetCollision_FrictionCoefficient_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsCollisionSettingsStruct_Statics::NewProp_SetCollision_FrictionCoefficient_MetaData) };
@@ -501,9 +461,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsCollisionSettingsStruct_Statics::NewProp_SetCollision_UseCCD_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use continuous collision detection (CCD) to prevent any missed collisions between fast moving particles and colliders. This has a negative effect on performance compared to when resolving collision without using CCD." },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectClothPhysicsCollisionSettingsStruct_Statics::NewProp_SetCollision_UseCCD_SetBit(void* Obj)
@@ -515,9 +473,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsCollisionSettingsStruct_Statics::NewProp_SetCollision_SelfCollisionThickness_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Enable self collision." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsCollisionSettingsStruct_Statics::NewProp_SetCollision_SelfCollisionThickness = { "SetCollision_SelfCollisionThickness", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsCollisionSettingsStruct, SetCollision_SelfCollisionThickness), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsCollisionSettingsStruct_Statics::NewProp_SetCollision_SelfCollisionThickness_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsCollisionSettingsStruct_Statics::NewProp_SetCollision_SelfCollisionThickness_MetaData) };
@@ -582,13 +538,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsLongRangeAttachmentSettingsStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Vertex Detect Cloth Physics - UChaosClothingInteractor::SetLongRangeAttachment()\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Vertex Detect Cloth Physics - UChaosClothingInteractor::SetLongRangeAttachment()" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectClothPhysicsLongRangeAttachmentSettingsStruct_Statics::NewStructOps()
@@ -599,9 +551,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsLongRangeAttachmentSettingsStruct_Statics::NewProp_LongRangeAttachment_TetherThickness_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The tethers' stiffness of the long range attachment constraints. The long range attachment connects each of the cloth particles to its closest fixed point with a spring constraint. This can be used to compensate for a lack of stretch resistance when the iterations count is kept low for performance reasons. Can lead to an unnatural pull string puppet like behavior. If an enabled Weight Map (Mask with values in the range [0;1]) targeting the 'Tether Stiffness' is added to the cloth, then both the Low and High values will be used in conjunction with the per particle Weight stored in the Weight Map to interpolate the final value from them. Otherwise only the Low value is meaningful and sufficient to enable this constraint. Use 0, 0 to disable." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsLongRangeAttachmentSettingsStruct_Statics::NewProp_LongRangeAttachment_TetherThickness = { "LongRangeAttachment_TetherThickness", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsLongRangeAttachmentSettingsStruct, LongRangeAttachment_TetherThickness), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsLongRangeAttachmentSettingsStruct_Statics::NewProp_LongRangeAttachment_TetherThickness_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsLongRangeAttachmentSettingsStruct_Statics::NewProp_LongRangeAttachment_TetherThickness_MetaData) };
@@ -609,9 +559,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsLongRangeAttachmentSettingsStruct_Statics::NewProp_LongRangeAttachment_TetherScale_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The limit scale of the long range attachment constraints (aka tether limit). If an enabled Weight Map (Mask with values in the range [0;1]) targeting the 'Tether Scale' is added to the cloth, then both the Low and High values will be used in conjunction with the per particle Weight stored in the Weight Map to interpolate the final value from them. Otherwise only the Low value is meaningful and sufficient to set the tethers' scale." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsLongRangeAttachmentSettingsStruct_Statics::NewProp_LongRangeAttachment_TetherScale = { "LongRangeAttachment_TetherScale", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsLongRangeAttachmentSettingsStruct, LongRangeAttachment_TetherScale), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsLongRangeAttachmentSettingsStruct_Statics::NewProp_LongRangeAttachment_TetherScale_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsLongRangeAttachmentSettingsStruct_Statics::NewProp_LongRangeAttachment_TetherScale_MetaData) };
@@ -678,13 +626,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsMaterialSettingsStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Vertex Detect Cloth Physics - UChaosClothingInteractor::SetMaterial()\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Vertex Detect Cloth Physics - UChaosClothingInteractor::SetMaterial()" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectClothPhysicsMaterialSettingsStruct_Statics::NewStructOps()
@@ -695,9 +639,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsMaterialSettingsStruct_Statics::NewProp_Material_EdgeStiffness_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Stiffness of segments constraints. Increase the iteration count for stiffer materials. If an enabled Weight Map (Mask with values in the range [0;1]) targeting the 'Edge Stiffness' is added to the cloth, then both the Low and High values will be used in conjunction with the per particle Weight stored in the Weight Map to interpolate the final value from them. Otherwise only the Low value is meaningful and sufficient to enable this constraint." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsMaterialSettingsStruct_Statics::NewProp_Material_EdgeStiffness = { "Material_EdgeStiffness", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsMaterialSettingsStruct, Material_EdgeStiffness), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsMaterialSettingsStruct_Statics::NewProp_Material_EdgeStiffness_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsMaterialSettingsStruct_Statics::NewProp_Material_EdgeStiffness_MetaData) };
@@ -705,9 +647,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsMaterialSettingsStruct_Statics::NewProp_Material_BendingStiffness_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Stiffness of cross segments and bending elements constraints. Increase the iteration count for stiffer materials. If an enabled Weight Map (Mask with values in the range [0;1]) targeting the 'Bend Stiffness' is added to the cloth, then both the Low and High values will be used in conjunction with the per particle Weight stored in the Weight Map to interpolate the final value from them. Otherwise only the Low value is meaningful and sufficient to enable this constraint." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsMaterialSettingsStruct_Statics::NewProp_Material_BendingStiffness = { "Material_BendingStiffness", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsMaterialSettingsStruct, Material_BendingStiffness), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsMaterialSettingsStruct_Statics::NewProp_Material_BendingStiffness_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsMaterialSettingsStruct_Statics::NewProp_Material_BendingStiffness_MetaData) };
@@ -715,9 +655,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsMaterialSettingsStruct_Statics::NewProp_Material_AreaStiffness_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The stiffness of the surface area preservation constraints. Increase the iteration count for stiffer materials. If an enabled Weight Map (Mask with values in the range [0;1]) targeting the 'Bend Stiffness' is added to the cloth, then both the Low and High values will be used in conjunction with the per particle Weight stored in the Weight Map to interpolate the final value from them. Otherwise only the Low value is meaningful and sufficient to enable this constraint." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsMaterialSettingsStruct_Statics::NewProp_Material_AreaStiffness = { "Material_AreaStiffness", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsMaterialSettingsStruct, Material_AreaStiffness), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsMaterialSettingsStruct_Statics::NewProp_Material_AreaStiffness_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsMaterialSettingsStruct_Statics::NewProp_Material_AreaStiffness_MetaData) };
@@ -785,13 +723,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsVelocityScaleSettingsStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Vertex Detect Cloth Physics - UChaosClothingInteractor::SetVelocityScale()\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Vertex Detect Cloth Physics - UChaosClothingInteractor::SetVelocityScale()" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectClothPhysicsVelocityScaleSettingsStruct_Statics::NewStructOps()
@@ -802,9 +736,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsVelocityScaleSettingsStruct_Statics::NewProp_PhysicsVelocityScale_LinearVelocityScale_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The amount of linear velocities sent to the local cloth space from the reference bone (the closest bone to the root on which the cloth section has been skinned, or the root itself if the cloth isn't skinned)." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsVelocityScaleSettingsStruct_Statics::NewProp_PhysicsVelocityScale_LinearVelocityScale = { "PhysicsVelocityScale_LinearVelocityScale", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsVelocityScaleSettingsStruct, PhysicsVelocityScale_LinearVelocityScale), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsVelocityScaleSettingsStruct_Statics::NewProp_PhysicsVelocityScale_LinearVelocityScale_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsVelocityScaleSettingsStruct_Statics::NewProp_PhysicsVelocityScale_LinearVelocityScale_MetaData) };
@@ -812,9 +744,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsVelocityScaleSettingsStruct_Statics::NewProp_PhysicVelocityScale_AngularVelocityScale_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The amount of angular velocities sent to the local cloth space from the reference bone the closest bone to the root on which the cloth section has been skinned, or the root itself if the cloth isn't skinned)." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsVelocityScaleSettingsStruct_Statics::NewProp_PhysicVelocityScale_AngularVelocityScale = { "PhysicVelocityScale_AngularVelocityScale", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsVelocityScaleSettingsStruct, PhysicVelocityScale_AngularVelocityScale), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsVelocityScaleSettingsStruct_Statics::NewProp_PhysicVelocityScale_AngularVelocityScale_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsVelocityScaleSettingsStruct_Statics::NewProp_PhysicVelocityScale_AngularVelocityScale_MetaData) };
@@ -822,9 +752,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsVelocityScaleSettingsStruct_Statics::NewProp_PhysicsVelocityScale_FictitiousAngularVelocityScale_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The portion of the angular velocity that is used to calculate the strength of all fictitious forces (e.g. centrifugal force). This parameter is only having an effect on the portion of the reference bone's angular velocity that has been removed from the simulation via the Angular Velocity Scale parameter. This means it has no effect when AngularVelocityScale is set to 1 in which case the cloth is simulated with full world space angular velocitiesand subjected to the true physical world inertial forces. Values range from 0 to 2, with 0 showing no centrifugal effect, 1 full centrifugal effect, and 2 an overdriven centrifugal effect." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsVelocityScaleSettingsStruct_Statics::NewProp_PhysicsVelocityScale_FictitiousAngularVelocityScale = { "PhysicsVelocityScale_FictitiousAngularVelocityScale", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsVelocityScaleSettingsStruct, PhysicsVelocityScale_FictitiousAngularVelocityScale), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsVelocityScaleSettingsStruct_Statics::NewProp_PhysicsVelocityScale_FictitiousAngularVelocityScale_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsVelocityScaleSettingsStruct_Statics::NewProp_PhysicsVelocityScale_FictitiousAngularVelocityScale_MetaData) };
@@ -884,13 +812,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSetAirPressureStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Vertex Detect Cloth Physics - UChaosClothingInteractor::SetPressure()\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Vertex Detect Cloth Physics - UChaosClothingInteractor::SetPressure()" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSetAirPressureStruct_Statics::NewStructOps()
@@ -901,9 +825,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSetAirPressureStruct_Statics::NewProp_SetPressure_Pressure_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Pressure force strength applied in the normal direction(use negative value to push toward backface) If an enabled Weight Map (Mask with values in the range [0;1]) targeting the Pressure is added to the cloth, then both the Low and High values will be used in conjunction with the per particle Weight stored in the Weight Map to interpolate the final value from them. Otherwise only the Low value is meaningful and sufficient to set the pressure." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSetAirPressureStruct_Statics::NewProp_SetPressure_Pressure = { "SetPressure_Pressure", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSetAirPressureStruct, SetPressure_Pressure), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSetAirPressureStruct_Statics::NewProp_SetPressure_Pressure_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSetAirPressureStruct_Statics::NewProp_SetPressure_Pressure_MetaData) };
@@ -1074,13 +996,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Cloth Physics Settings At Vertex Color Struct\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Cloth Physics Settings At Vertex Color Struct" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewStructOps()
@@ -1090,13 +1008,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_SetDamping_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Damping\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Damping" },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_SetDamping_SetBit(void* Obj)
@@ -1110,24 +1024,20 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothDampingSettingsWithNoColorPaintedAtChannel = { "clothDampingSettingsWithNoColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothDampingSettingsWithNoColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsDampingSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothDampingSettingsWithNoColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothDampingSettingsWithNoColorPaintedAtChannel_MetaData) }; // 1526387855
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothDampingSettingsWithNoColorPaintedAtChannel = { "clothDampingSettingsWithNoColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothDampingSettingsWithNoColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsDampingSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothDampingSettingsWithNoColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothDampingSettingsWithNoColorPaintedAtChannel_MetaData) }; // 199161007
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothDampingSettingsWithFullColorPaintedAtChannel_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothDampingSettingsWithFullColorPaintedAtChannel = { "clothDampingSettingsWithFullColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothDampingSettingsWithFullColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsDampingSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothDampingSettingsWithFullColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothDampingSettingsWithFullColorPaintedAtChannel_MetaData) }; // 1526387855
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothDampingSettingsWithFullColorPaintedAtChannel = { "clothDampingSettingsWithFullColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothDampingSettingsWithFullColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsDampingSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothDampingSettingsWithFullColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothDampingSettingsWithFullColorPaintedAtChannel_MetaData) }; // 199161007
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_SetGravity_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Gravity\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gravity" },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_SetGravity_SetBit(void* Obj)
@@ -1141,24 +1051,20 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothGravitySettingsWithNoColorPaintedAtChannel = { "clothGravitySettingsWithNoColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothGravitySettingsWithNoColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsGravitySettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothGravitySettingsWithNoColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothGravitySettingsWithNoColorPaintedAtChannel_MetaData) }; // 1549901831
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothGravitySettingsWithNoColorPaintedAtChannel = { "clothGravitySettingsWithNoColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothGravitySettingsWithNoColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsGravitySettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothGravitySettingsWithNoColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothGravitySettingsWithNoColorPaintedAtChannel_MetaData) }; // 779070384
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothGravitySettingsWithFullColorPaintedAtChannel_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothGravitySettingsWithFullColorPaintedAtChannel = { "clothGravitySettingsWithFullColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothGravitySettingsWithFullColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsGravitySettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothGravitySettingsWithFullColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothGravitySettingsWithFullColorPaintedAtChannel_MetaData) }; // 1549901831
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothGravitySettingsWithFullColorPaintedAtChannel = { "clothGravitySettingsWithFullColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothGravitySettingsWithFullColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsGravitySettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothGravitySettingsWithFullColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothGravitySettingsWithFullColorPaintedAtChannel_MetaData) }; // 779070384
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_SetWind_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Wind\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Wind" },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_SetWind_SetBit(void* Obj)
@@ -1172,24 +1078,20 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothWindSettingsWithNoColorPaintedAtChannel = { "clothWindSettingsWithNoColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothWindSettingsWithNoColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsWindSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothWindSettingsWithNoColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothWindSettingsWithNoColorPaintedAtChannel_MetaData) }; // 2812292754
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothWindSettingsWithNoColorPaintedAtChannel = { "clothWindSettingsWithNoColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothWindSettingsWithNoColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsWindSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothWindSettingsWithNoColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothWindSettingsWithNoColorPaintedAtChannel_MetaData) }; // 4139874922
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothWindSettingsWithFullColorPaintedAtChannel_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothWindSettingsWithFullColorPaintedAtChannel = { "clothWindSettingsWithFullColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothWindSettingsWithFullColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsWindSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothWindSettingsWithFullColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothWindSettingsWithFullColorPaintedAtChannel_MetaData) }; // 2812292754
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothWindSettingsWithFullColorPaintedAtChannel = { "clothWindSettingsWithFullColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothWindSettingsWithFullColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsWindSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothWindSettingsWithFullColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothWindSettingsWithFullColorPaintedAtChannel_MetaData) }; // 4139874922
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_SetAnimDrive_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Anim Drive\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Anim Drive" },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_SetAnimDrive_SetBit(void* Obj)
@@ -1203,24 +1105,20 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothAnimDriveSettingsWithNoColorPaintedAtChannel = { "clothAnimDriveSettingsWithNoColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothAnimDriveSettingsWithNoColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsAnimDriveSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothAnimDriveSettingsWithNoColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothAnimDriveSettingsWithNoColorPaintedAtChannel_MetaData) }; // 2832298018
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothAnimDriveSettingsWithNoColorPaintedAtChannel = { "clothAnimDriveSettingsWithNoColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothAnimDriveSettingsWithNoColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsAnimDriveSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothAnimDriveSettingsWithNoColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothAnimDriveSettingsWithNoColorPaintedAtChannel_MetaData) }; // 4112595317
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothAnimDriveSettingsWithFullColorPaintedAtChannel_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothAnimDriveSettingsWithFullColorPaintedAtChannel = { "clothAnimDriveSettingsWithFullColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothAnimDriveSettingsWithFullColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsAnimDriveSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothAnimDriveSettingsWithFullColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothAnimDriveSettingsWithFullColorPaintedAtChannel_MetaData) }; // 2832298018
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothAnimDriveSettingsWithFullColorPaintedAtChannel = { "clothAnimDriveSettingsWithFullColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothAnimDriveSettingsWithFullColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsAnimDriveSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothAnimDriveSettingsWithFullColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothAnimDriveSettingsWithFullColorPaintedAtChannel_MetaData) }; // 4112595317
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_SetCollision_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Collision\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Collision" },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_SetCollision_SetBit(void* Obj)
@@ -1234,24 +1132,20 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothCollisionSettingsWithNoColorPaintedAtChannel = { "clothCollisionSettingsWithNoColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothCollisionSettingsWithNoColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsCollisionSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothCollisionSettingsWithNoColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothCollisionSettingsWithNoColorPaintedAtChannel_MetaData) }; // 3403926356
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothCollisionSettingsWithNoColorPaintedAtChannel = { "clothCollisionSettingsWithNoColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothCollisionSettingsWithNoColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsCollisionSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothCollisionSettingsWithNoColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothCollisionSettingsWithNoColorPaintedAtChannel_MetaData) }; // 3254248621
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothCollisionSettingsWithFullColorPaintedAtChannel_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothCollisionSettingsWithFullColorPaintedAtChannel = { "clothCollisionSettingsWithFullColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothCollisionSettingsWithFullColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsCollisionSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothCollisionSettingsWithFullColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothCollisionSettingsWithFullColorPaintedAtChannel_MetaData) }; // 3403926356
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothCollisionSettingsWithFullColorPaintedAtChannel = { "clothCollisionSettingsWithFullColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothCollisionSettingsWithFullColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsCollisionSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothCollisionSettingsWithFullColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothCollisionSettingsWithFullColorPaintedAtChannel_MetaData) }; // 3254248621
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_SetLongRangeAttachment_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Long Range Attachment\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Long Range Attachment" },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_SetLongRangeAttachment_SetBit(void* Obj)
@@ -1265,24 +1159,20 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothLongRangeAttachmentSettingsWithNoColorPaintedAtChannel = { "clothLongRangeAttachmentSettingsWithNoColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothLongRangeAttachmentSettingsWithNoColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsLongRangeAttachmentSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothLongRangeAttachmentSettingsWithNoColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothLongRangeAttachmentSettingsWithNoColorPaintedAtChannel_MetaData) }; // 525531841
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothLongRangeAttachmentSettingsWithNoColorPaintedAtChannel = { "clothLongRangeAttachmentSettingsWithNoColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothLongRangeAttachmentSettingsWithNoColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsLongRangeAttachmentSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothLongRangeAttachmentSettingsWithNoColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothLongRangeAttachmentSettingsWithNoColorPaintedAtChannel_MetaData) }; // 4085229375
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothLongRangeAttachmentSettingsWithFullColorPaintedAtChannel_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothLongRangeAttachmentSettingsWithFullColorPaintedAtChannel = { "clothLongRangeAttachmentSettingsWithFullColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothLongRangeAttachmentSettingsWithFullColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsLongRangeAttachmentSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothLongRangeAttachmentSettingsWithFullColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothLongRangeAttachmentSettingsWithFullColorPaintedAtChannel_MetaData) }; // 525531841
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothLongRangeAttachmentSettingsWithFullColorPaintedAtChannel = { "clothLongRangeAttachmentSettingsWithFullColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothLongRangeAttachmentSettingsWithFullColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsLongRangeAttachmentSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothLongRangeAttachmentSettingsWithFullColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothLongRangeAttachmentSettingsWithFullColorPaintedAtChannel_MetaData) }; // 4085229375
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_SetMaterial_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Material\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Material" },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_SetMaterial_SetBit(void* Obj)
@@ -1296,24 +1186,20 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothMaterialSettingsWithNoColorPaintedAtChannel = { "clothMaterialSettingsWithNoColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothMaterialSettingsWithNoColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsMaterialSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothMaterialSettingsWithNoColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothMaterialSettingsWithNoColorPaintedAtChannel_MetaData) }; // 1730790234
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothMaterialSettingsWithNoColorPaintedAtChannel = { "clothMaterialSettingsWithNoColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothMaterialSettingsWithNoColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsMaterialSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothMaterialSettingsWithNoColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothMaterialSettingsWithNoColorPaintedAtChannel_MetaData) }; // 1111049109
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothMaterialSettingsWithFullColorPaintedAtChannel_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothMaterialSettingsWithFullColorPaintedAtChannel = { "clothMaterialSettingsWithFullColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothMaterialSettingsWithFullColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsMaterialSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothMaterialSettingsWithFullColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothMaterialSettingsWithFullColorPaintedAtChannel_MetaData) }; // 1730790234
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothMaterialSettingsWithFullColorPaintedAtChannel = { "clothMaterialSettingsWithFullColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothMaterialSettingsWithFullColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsMaterialSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothMaterialSettingsWithFullColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothMaterialSettingsWithFullColorPaintedAtChannel_MetaData) }; // 1111049109
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_SetPhysicsVelocityScale_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Physics Velocity Scale\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Physics Velocity Scale" },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_SetPhysicsVelocityScale_SetBit(void* Obj)
@@ -1327,24 +1213,20 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothPhysicsVelocityScaleSettingsWithNoColorPaintedAtChannel = { "clothPhysicsVelocityScaleSettingsWithNoColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothPhysicsVelocityScaleSettingsWithNoColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsVelocityScaleSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothPhysicsVelocityScaleSettingsWithNoColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothPhysicsVelocityScaleSettingsWithNoColorPaintedAtChannel_MetaData) }; // 1442529521
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothPhysicsVelocityScaleSettingsWithNoColorPaintedAtChannel = { "clothPhysicsVelocityScaleSettingsWithNoColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothPhysicsVelocityScaleSettingsWithNoColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsVelocityScaleSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothPhysicsVelocityScaleSettingsWithNoColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothPhysicsVelocityScaleSettingsWithNoColorPaintedAtChannel_MetaData) }; // 2922041747
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothPhysicsVelocityScaleSettingsWithFullColorPaintedAtChannel_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothPhysicsVelocityScaleSettingsWithFullColorPaintedAtChannel = { "clothPhysicsVelocityScaleSettingsWithFullColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothPhysicsVelocityScaleSettingsWithFullColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsVelocityScaleSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothPhysicsVelocityScaleSettingsWithFullColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothPhysicsVelocityScaleSettingsWithFullColorPaintedAtChannel_MetaData) }; // 1442529521
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothPhysicsVelocityScaleSettingsWithFullColorPaintedAtChannel = { "clothPhysicsVelocityScaleSettingsWithFullColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothPhysicsVelocityScaleSettingsWithFullColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsVelocityScaleSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothPhysicsVelocityScaleSettingsWithFullColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothPhysicsVelocityScaleSettingsWithFullColorPaintedAtChannel_MetaData) }; // 2922041747
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_SetAirPressure_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Set Air Pressure\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set Air Pressure" },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_SetAirPressure_SetBit(void* Obj)
@@ -1358,14 +1240,14 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothPhysicssAirPressureWithNoColorPaintedAtChannel = { "clothPhysicssAirPressureWithNoColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothPhysicssAirPressureWithNoColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSetAirPressureStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothPhysicssAirPressureWithNoColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothPhysicssAirPressureWithNoColorPaintedAtChannel_MetaData) }; // 792935900
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothPhysicssAirPressureWithNoColorPaintedAtChannel = { "clothPhysicssAirPressureWithNoColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothPhysicssAirPressureWithNoColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSetAirPressureStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothPhysicssAirPressureWithNoColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothPhysicssAirPressureWithNoColorPaintedAtChannel_MetaData) }; // 721157892
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothPhysicssAirPressureWithFullColorPaintedAtChannel_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothPhysicssAirPressureWithFullColorPaintedAtChannel = { "clothPhysicssAirPressureWithFullColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothPhysicssAirPressureWithFullColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSetAirPressureStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothPhysicssAirPressureWithFullColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothPhysicssAirPressureWithFullColorPaintedAtChannel_MetaData) }; // 792935900
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothPhysicssAirPressureWithFullColorPaintedAtChannel = { "clothPhysicssAirPressureWithFullColorPaintedAtChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothPhysicsSettingsAtVertexColorStruct, clothPhysicssAirPressureWithFullColorPaintedAtChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSetAirPressureStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothPhysicssAirPressureWithFullColorPaintedAtChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothPhysicssAirPressureWithFullColorPaintedAtChannel_MetaData) }; // 721157892
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_SetDamping,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewProp_clothDampingSettingsWithNoColorPaintedAtChannel,
@@ -1458,13 +1340,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Cloth Settings Struct\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Cloth Settings Struct" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewStructOps()
@@ -1475,42 +1353,34 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtRedChannel_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "What the Cloth Physics Settings should be on the Red Channel. If Red is 0-1, how a cloths physics should get affected." },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtRedChannel = { "clothPhysicsSettingsAtRedChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothSettingsStruct, clothPhysicsSettingsAtRedChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtRedChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtRedChannel_MetaData) }; // 3118416223
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtRedChannel = { "clothPhysicsSettingsAtRedChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothSettingsStruct, clothPhysicsSettingsAtRedChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtRedChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtRedChannel_MetaData) }; // 2115907639
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtGreenChannel_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "What the Cloth Physics Settings should be on the Green Channel. If Red is 0-1, how a cloths physics should get affected." },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtGreenChannel = { "clothPhysicsSettingsAtGreenChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothSettingsStruct, clothPhysicsSettingsAtGreenChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtGreenChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtGreenChannel_MetaData) }; // 3118416223
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtGreenChannel = { "clothPhysicsSettingsAtGreenChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothSettingsStruct, clothPhysicsSettingsAtGreenChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtGreenChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtGreenChannel_MetaData) }; // 2115907639
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtBlueChannel_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "What the Cloth Physics Settings should be on the Blue Channel. If Red is 0-1, how a cloths physics should get affected." },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtBlueChannel = { "clothPhysicsSettingsAtBlueChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothSettingsStruct, clothPhysicsSettingsAtBlueChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtBlueChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtBlueChannel_MetaData) }; // 3118416223
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtBlueChannel = { "clothPhysicsSettingsAtBlueChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothSettingsStruct, clothPhysicsSettingsAtBlueChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtBlueChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtBlueChannel_MetaData) }; // 2115907639
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtAlphaChannel_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "What the Cloth Physics Settings should be on the Alpha Channel. If Red is 0-1, how a cloths physics should get affected." },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtAlphaChannel = { "clothPhysicsSettingsAtAlphaChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothSettingsStruct, clothPhysicsSettingsAtAlphaChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtAlphaChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtAlphaChannel_MetaData) }; // 3118416223
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtAlphaChannel = { "clothPhysicsSettingsAtAlphaChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectClothSettingsStruct, clothPhysicsSettingsAtAlphaChannel), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtAlphaChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtAlphaChannel_MetaData) }; // 2115907639
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtRedChannel,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewProp_clothPhysicsSettingsAtGreenChannel,
@@ -1645,13 +1515,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Cloth Physics Settings At Vertex Color Struct\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Cloth Physics Settings At Vertex Color Struct" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewStructOps()
@@ -1661,13 +1527,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_SetDamping_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Damping\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Damping" },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_SetDamping_SetBit(void* Obj)
@@ -1681,17 +1543,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothDampingSettings = { "clothDampingSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectChaosClothPhysicsSettings, clothDampingSettings), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsDampingSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothDampingSettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothDampingSettings_MetaData) }; // 1526387855
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothDampingSettings = { "clothDampingSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectChaosClothPhysicsSettings, clothDampingSettings), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsDampingSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothDampingSettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothDampingSettings_MetaData) }; // 199161007
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_SetGravity_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Gravity\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gravity" },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_SetGravity_SetBit(void* Obj)
@@ -1705,17 +1563,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothGravitySettings = { "clothGravitySettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectChaosClothPhysicsSettings, clothGravitySettings), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsGravitySettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothGravitySettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothGravitySettings_MetaData) }; // 1549901831
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothGravitySettings = { "clothGravitySettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectChaosClothPhysicsSettings, clothGravitySettings), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsGravitySettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothGravitySettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothGravitySettings_MetaData) }; // 779070384
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_SetWind_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Wind\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Wind" },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_SetWind_SetBit(void* Obj)
@@ -1729,17 +1583,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothWindSettings = { "clothWindSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectChaosClothPhysicsSettings, clothWindSettings), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsWindSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothWindSettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothWindSettings_MetaData) }; // 2812292754
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothWindSettings = { "clothWindSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectChaosClothPhysicsSettings, clothWindSettings), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsWindSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothWindSettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothWindSettings_MetaData) }; // 4139874922
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_SetAnimDrive_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Anim Drive\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Anim Drive" },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_SetAnimDrive_SetBit(void* Obj)
@@ -1753,17 +1603,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothAnimDriveSettings = { "clothAnimDriveSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectChaosClothPhysicsSettings, clothAnimDriveSettings), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsAnimDriveSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothAnimDriveSettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothAnimDriveSettings_MetaData) }; // 2832298018
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothAnimDriveSettings = { "clothAnimDriveSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectChaosClothPhysicsSettings, clothAnimDriveSettings), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsAnimDriveSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothAnimDriveSettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothAnimDriveSettings_MetaData) }; // 4112595317
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_SetCollision_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Collision\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Collision" },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_SetCollision_SetBit(void* Obj)
@@ -1777,17 +1623,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothCollisionSettings = { "clothCollisionSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectChaosClothPhysicsSettings, clothCollisionSettings), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsCollisionSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothCollisionSettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothCollisionSettings_MetaData) }; // 3403926356
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothCollisionSettings = { "clothCollisionSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectChaosClothPhysicsSettings, clothCollisionSettings), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsCollisionSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothCollisionSettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothCollisionSettings_MetaData) }; // 3254248621
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_SetLongRangeAttachment_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Long Range Attachment\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Long Range Attachment" },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_SetLongRangeAttachment_SetBit(void* Obj)
@@ -1801,17 +1643,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothLongRangeAttachmentSettings = { "clothLongRangeAttachmentSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectChaosClothPhysicsSettings, clothLongRangeAttachmentSettings), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsLongRangeAttachmentSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothLongRangeAttachmentSettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothLongRangeAttachmentSettings_MetaData) }; // 525531841
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothLongRangeAttachmentSettings = { "clothLongRangeAttachmentSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectChaosClothPhysicsSettings, clothLongRangeAttachmentSettings), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsLongRangeAttachmentSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothLongRangeAttachmentSettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothLongRangeAttachmentSettings_MetaData) }; // 4085229375
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_SetMaterial_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Material\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Material" },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_SetMaterial_SetBit(void* Obj)
@@ -1825,17 +1663,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothMaterialSettings = { "clothMaterialSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectChaosClothPhysicsSettings, clothMaterialSettings), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsMaterialSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothMaterialSettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothMaterialSettings_MetaData) }; // 1730790234
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothMaterialSettings = { "clothMaterialSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectChaosClothPhysicsSettings, clothMaterialSettings), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsMaterialSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothMaterialSettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothMaterialSettings_MetaData) }; // 1111049109
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_SetPhysicsVelocityScale_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Physics Velocity Scale\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Physics Velocity Scale" },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_SetPhysicsVelocityScale_SetBit(void* Obj)
@@ -1849,17 +1683,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothPhysicsVelocityScaleSettings = { "clothPhysicsVelocityScaleSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectChaosClothPhysicsSettings, clothPhysicsVelocityScaleSettings), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsVelocityScaleSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothPhysicsVelocityScaleSettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothPhysicsVelocityScaleSettings_MetaData) }; // 1442529521
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothPhysicsVelocityScaleSettings = { "clothPhysicsVelocityScaleSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectChaosClothPhysicsSettings, clothPhysicsVelocityScaleSettings), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsVelocityScaleSettingsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothPhysicsVelocityScaleSettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothPhysicsVelocityScaleSettings_MetaData) }; // 2922041747
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_SetAirPressure_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Air Pressure\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Air Pressure" },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_SetAirPressure_SetBit(void* Obj)
@@ -1873,7 +1703,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		{ "ModuleRelativePath", "Prerequisites/ChaosClothPhysicsPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothPhysicssAirPressureSettings = { "clothPhysicssAirPressureSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectChaosClothPhysicsSettings, clothPhysicssAirPressureSettings), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSetAirPressureStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothPhysicssAirPressureSettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothPhysicssAirPressureSettings_MetaData) }; // 792935900
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothPhysicssAirPressureSettings = { "clothPhysicssAirPressureSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectChaosClothPhysicsSettings, clothPhysicssAirPressureSettings), Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSetAirPressureStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothPhysicssAirPressureSettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothPhysicssAirPressureSettings_MetaData) }; // 721157892
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_SetDamping,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewProp_clothDampingSettings,
@@ -1916,26 +1746,26 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		}
 		return Z_Registration_Info_UScriptStruct_VertexDetectChaosClothPhysicsSettings.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_ChaosClothPhysicsPrerequisites_h_Statics
+	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_ChaosClothPhysicsPrerequisites_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_ChaosClothPhysicsPrerequisites_h_Statics::ScriptStructInfo[] = {
-		{ FVertexDetectClothPhysicsDampingSettingsStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClothPhysicsDampingSettingsStruct_Statics::NewStructOps, TEXT("VertexDetectClothPhysicsDampingSettingsStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClothPhysicsDampingSettingsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClothPhysicsDampingSettingsStruct), 1526387855U) },
-		{ FVertexDetectClothPhysicsGravitySettingsStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClothPhysicsGravitySettingsStruct_Statics::NewStructOps, TEXT("VertexDetectClothPhysicsGravitySettingsStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClothPhysicsGravitySettingsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClothPhysicsGravitySettingsStruct), 1549901831U) },
-		{ FVertexDetectClothPhysicsWindSettingsStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClothPhysicsWindSettingsStruct_Statics::NewStructOps, TEXT("VertexDetectClothPhysicsWindSettingsStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClothPhysicsWindSettingsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClothPhysicsWindSettingsStruct), 2812292754U) },
-		{ FVertexDetectClothPhysicsAnimDriveSettingsStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClothPhysicsAnimDriveSettingsStruct_Statics::NewStructOps, TEXT("VertexDetectClothPhysicsAnimDriveSettingsStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClothPhysicsAnimDriveSettingsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClothPhysicsAnimDriveSettingsStruct), 2832298018U) },
-		{ FVertexDetectClothPhysicsCollisionSettingsStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClothPhysicsCollisionSettingsStruct_Statics::NewStructOps, TEXT("VertexDetectClothPhysicsCollisionSettingsStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClothPhysicsCollisionSettingsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClothPhysicsCollisionSettingsStruct), 3403926356U) },
-		{ FVertexDetectClothPhysicsLongRangeAttachmentSettingsStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClothPhysicsLongRangeAttachmentSettingsStruct_Statics::NewStructOps, TEXT("VertexDetectClothPhysicsLongRangeAttachmentSettingsStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClothPhysicsLongRangeAttachmentSettingsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClothPhysicsLongRangeAttachmentSettingsStruct), 525531841U) },
-		{ FVertexDetectClothPhysicsMaterialSettingsStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClothPhysicsMaterialSettingsStruct_Statics::NewStructOps, TEXT("VertexDetectClothPhysicsMaterialSettingsStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClothPhysicsMaterialSettingsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClothPhysicsMaterialSettingsStruct), 1730790234U) },
-		{ FVertexDetectClothPhysicsVelocityScaleSettingsStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClothPhysicsVelocityScaleSettingsStruct_Statics::NewStructOps, TEXT("VertexDetectClothPhysicsVelocityScaleSettingsStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClothPhysicsVelocityScaleSettingsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClothPhysicsVelocityScaleSettingsStruct), 1442529521U) },
-		{ FVertexDetectClothPhysicsSetAirPressureStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSetAirPressureStruct_Statics::NewStructOps, TEXT("VertexDetectClothPhysicsSetAirPressureStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClothPhysicsSetAirPressureStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClothPhysicsSetAirPressureStruct), 792935900U) },
-		{ FVertexDetectClothPhysicsSettingsAtVertexColorStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewStructOps, TEXT("VertexDetectClothPhysicsSettingsAtVertexColorStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClothPhysicsSettingsAtVertexColorStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClothPhysicsSettingsAtVertexColorStruct), 3118416223U) },
-		{ FVertexDetectClothSettingsStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewStructOps, TEXT("VertexDetectClothSettingsStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClothSettingsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClothSettingsStruct), 2564330081U) },
-		{ FVertexDetectChaosClothPhysicsSettings::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewStructOps, TEXT("VertexDetectChaosClothPhysicsSettings"), &Z_Registration_Info_UScriptStruct_VertexDetectChaosClothPhysicsSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectChaosClothPhysicsSettings), 3419080287U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_ChaosClothPhysicsPrerequisites_h_Statics::ScriptStructInfo[] = {
+		{ FVertexDetectClothPhysicsDampingSettingsStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClothPhysicsDampingSettingsStruct_Statics::NewStructOps, TEXT("VertexDetectClothPhysicsDampingSettingsStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClothPhysicsDampingSettingsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClothPhysicsDampingSettingsStruct), 199161007U) },
+		{ FVertexDetectClothPhysicsGravitySettingsStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClothPhysicsGravitySettingsStruct_Statics::NewStructOps, TEXT("VertexDetectClothPhysicsGravitySettingsStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClothPhysicsGravitySettingsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClothPhysicsGravitySettingsStruct), 779070384U) },
+		{ FVertexDetectClothPhysicsWindSettingsStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClothPhysicsWindSettingsStruct_Statics::NewStructOps, TEXT("VertexDetectClothPhysicsWindSettingsStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClothPhysicsWindSettingsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClothPhysicsWindSettingsStruct), 4139874922U) },
+		{ FVertexDetectClothPhysicsAnimDriveSettingsStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClothPhysicsAnimDriveSettingsStruct_Statics::NewStructOps, TEXT("VertexDetectClothPhysicsAnimDriveSettingsStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClothPhysicsAnimDriveSettingsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClothPhysicsAnimDriveSettingsStruct), 4112595317U) },
+		{ FVertexDetectClothPhysicsCollisionSettingsStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClothPhysicsCollisionSettingsStruct_Statics::NewStructOps, TEXT("VertexDetectClothPhysicsCollisionSettingsStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClothPhysicsCollisionSettingsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClothPhysicsCollisionSettingsStruct), 3254248621U) },
+		{ FVertexDetectClothPhysicsLongRangeAttachmentSettingsStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClothPhysicsLongRangeAttachmentSettingsStruct_Statics::NewStructOps, TEXT("VertexDetectClothPhysicsLongRangeAttachmentSettingsStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClothPhysicsLongRangeAttachmentSettingsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClothPhysicsLongRangeAttachmentSettingsStruct), 4085229375U) },
+		{ FVertexDetectClothPhysicsMaterialSettingsStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClothPhysicsMaterialSettingsStruct_Statics::NewStructOps, TEXT("VertexDetectClothPhysicsMaterialSettingsStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClothPhysicsMaterialSettingsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClothPhysicsMaterialSettingsStruct), 1111049109U) },
+		{ FVertexDetectClothPhysicsVelocityScaleSettingsStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClothPhysicsVelocityScaleSettingsStruct_Statics::NewStructOps, TEXT("VertexDetectClothPhysicsVelocityScaleSettingsStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClothPhysicsVelocityScaleSettingsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClothPhysicsVelocityScaleSettingsStruct), 2922041747U) },
+		{ FVertexDetectClothPhysicsSetAirPressureStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSetAirPressureStruct_Statics::NewStructOps, TEXT("VertexDetectClothPhysicsSetAirPressureStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClothPhysicsSetAirPressureStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClothPhysicsSetAirPressureStruct), 721157892U) },
+		{ FVertexDetectClothPhysicsSettingsAtVertexColorStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics::NewStructOps, TEXT("VertexDetectClothPhysicsSettingsAtVertexColorStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClothPhysicsSettingsAtVertexColorStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClothPhysicsSettingsAtVertexColorStruct), 2115907639U) },
+		{ FVertexDetectClothSettingsStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics::NewStructOps, TEXT("VertexDetectClothSettingsStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectClothSettingsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectClothSettingsStruct), 289911299U) },
+		{ FVertexDetectChaosClothPhysicsSettings::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics::NewStructOps, TEXT("VertexDetectChaosClothPhysicsSettings"), &Z_Registration_Info_UScriptStruct_VertexDetectChaosClothPhysicsSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectChaosClothPhysicsSettings), 1205565192U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_ChaosClothPhysicsPrerequisites_h_2303488713(TEXT("/Script/VertexPaintDetectionPlugin"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_ChaosClothPhysicsPrerequisites_h_1375451825(TEXT("/Script/VertexPaintDetectionPlugin"),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_ChaosClothPhysicsPrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_ChaosClothPhysicsPrerequisites_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_ChaosClothPhysicsPrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_ChaosClothPhysicsPrerequisites_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

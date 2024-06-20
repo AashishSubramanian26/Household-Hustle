@@ -47,9 +47,7 @@ void EmptyLinkFunctionForGeneratedCodePaintWithinAreaPrerequisites() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_VertexPaintDetectionPlugin_EVertexPaintWithinAreaFallOffType_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Paint Within Area Falloff Type\n" },
-#endif
 		{ "GradiantDownward.DisplayName", "Gradiant Downward" },
 		{ "GradiantDownward.Name", "EVertexPaintWithinAreaFallOffType::GradiantDownward" },
 		{ "GradiantDownward.Tooltip", "Falloff from top Downward in World Space. " },
@@ -60,9 +58,7 @@ void EmptyLinkFunctionForGeneratedCodePaintWithinAreaPrerequisites() {}
 		{ "SphericalFromCenter.DisplayName", "Spherical From Center" },
 		{ "SphericalFromCenter.Name", "EVertexPaintWithinAreaFallOffType::SphericalFromCenter" },
 		{ "SphericalFromCenter.Tooltip", "Falloff from Center outward. " },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Paint Within Area Falloff Type" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumParams Z_Construct_UEnum_VertexPaintDetectionPlugin_EVertexPaintWithinAreaFallOffType_Statics::EnumParams = {
@@ -118,13 +114,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintWithinAreaFallOffSettings_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Paint Within Area FallOff Settings\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/PaintWithinAreaPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Paint Within Area FallOff Settings" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectPaintWithinAreaFallOffSettings_Statics::NewStructOps()
@@ -136,12 +128,10 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintWithinAreaFallOffSettings_Statics::NewProp_paintWithinAreaFallOffType_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintWithinAreaPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether we calculate the Falloff from the components center or from the components Z Height, so only the distance from the components Z will matter. This is great for large components like oceans if you want some falloff but the mesh being painted is very far from the components X and Y, but they won't matter since we only use the Z." },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintWithinAreaFallOffSettings_Statics::NewProp_paintWithinAreaFallOffType = { "paintWithinAreaFallOffType", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintWithinAreaFallOffSettings, paintWithinAreaFallOffType), Z_Construct_UEnum_VertexPaintDetectionPlugin_EVertexPaintWithinAreaFallOffType, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintWithinAreaFallOffSettings_Statics::NewProp_paintWithinAreaFallOffType_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintWithinAreaFallOffSettings_Statics::NewProp_paintWithinAreaFallOffType_MetaData) }; // 1558326763
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintWithinAreaFallOffSettings_Statics::NewProp_paintWithinAreaFallOffType = { "paintWithinAreaFallOffType", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintWithinAreaFallOffSettings, paintWithinAreaFallOffType), Z_Construct_UEnum_VertexPaintDetectionPlugin_EVertexPaintWithinAreaFallOffType, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintWithinAreaFallOffSettings_Statics::NewProp_paintWithinAreaFallOffType_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintWithinAreaFallOffSettings_Statics::NewProp_paintWithinAreaFallOffType_MetaData) }; // 2095504191
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVertexDetectPaintWithinAreaFallOffSettings_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexDetectPaintWithinAreaFallOffSettings_Statics::NewProp_paintWithinAreaFallOffType_Underlying,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexDetectPaintWithinAreaFallOffSettings_Statics::NewProp_paintWithinAreaFallOffType,
@@ -213,13 +203,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Vertex Paint On Mesh if within Area\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/PaintWithinAreaPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Vertex Paint On Mesh if within Area" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::NewStructOps()
@@ -230,19 +216,15 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::NewProp_withinAreaSettings_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintWithinAreaPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Within Area Settings such as the Primitive Components to check if within, for example a Cube, Rectangle, Sphere or even a Skeletal Mesh if you opt for Complex Shape, and if we should return any vertex data of the vertices that's within the area, and the colors of each channel info like average color, % etc." },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::NewProp_withinAreaSettings = { "withinAreaSettings", nullptr, (EPropertyFlags)0x0010008000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPainthWithinAreaStruct, withinAreaSettings), Z_Construct_UScriptStruct_FVertexPaintDetectWithinAreaSettings, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::NewProp_withinAreaSettings_MetaData), Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::NewProp_withinAreaSettings_MetaData) }; // 2887962516
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::NewProp_withinAreaSettings = { "withinAreaSettings", nullptr, (EPropertyFlags)0x0010008000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPainthWithinAreaStruct, withinAreaSettings), Z_Construct_UScriptStruct_FVertexPaintDetectWithinAreaSettings, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::NewProp_withinAreaSettings_MetaData), Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::NewProp_withinAreaSettings_MetaData) }; // 317522931
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::NewProp_getColorsWithinAreaCombo_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintWithinAreaPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Runs Get Colors Within Area as well, which will get the colors, amount of colors of each channel and % etc. within the area Before applying the colors from this paint within area. Useful if you want to see how much of a difference the Paint Within Area did." },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::NewProp_getColorsWithinAreaCombo_SetBit(void* Obj)
@@ -254,9 +236,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::NewProp_extraExtentToApplyPaintOn_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintWithinAreaPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Extra Extent to apply Paint, useful if for instance a character is standing in a body of water, and you want them to get wet slightly above where the water is as well, as if their clothes is soaking up the water. \nNOTE Only supports Square/Rectangle and Sphere Shapes, not Complex." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::NewProp_extraExtentToApplyPaintOn = { "extraExtentToApplyPaintOn", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPainthWithinAreaStruct, extraExtentToApplyPaintOn), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::NewProp_extraExtentToApplyPaintOn_MetaData), Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::NewProp_extraExtentToApplyPaintOn_MetaData) };
@@ -264,12 +244,10 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::NewProp_fallOffSettings_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintWithinAreaPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Paint Within Area supports Falloff as well, where you could have it so at the center of a Sphere/Cube you get more strength than at the edges. Can be useful if you have for instance a Torch that should Melt Snow with stronger effect at it's center, or some falloff on the topside of a lake so it looks like water is smoothly being soaked up to a characters clothes. \nNote that with Cube/Rectangle it will scale the falloff to the outmost corner of the rectangle if using Spherical From Center. If using Gradiant Upward/Downward then it will scale it just to the Z Extent of the Bounds (plus any Extra Extent of course)." },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::NewProp_fallOffSettings = { "fallOffSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPainthWithinAreaStruct, fallOffSettings), Z_Construct_UScriptStruct_FVertexDetectPaintWithinAreaFallOffSettings, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::NewProp_fallOffSettings_MetaData), Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::NewProp_fallOffSettings_MetaData) }; // 3037323460
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::NewProp_fallOffSettings = { "fallOffSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPainthWithinAreaStruct, fallOffSettings), Z_Construct_UScriptStruct_FVertexDetectPaintWithinAreaFallOffSettings, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::NewProp_fallOffSettings_MetaData), Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::NewProp_fallOffSettings_MetaData) }; // 134267808
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::NewProp_withinAreaSettings,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::NewProp_getColorsWithinAreaCombo,
@@ -298,20 +276,20 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 		}
 		return Z_Registration_Info_UScriptStruct_VertexPainthWithinAreaStruct.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintWithinAreaPrerequisites_h_Statics
+	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintWithinAreaPrerequisites_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintWithinAreaPrerequisites_h_Statics::EnumInfo[] = {
-		{ EVertexPaintWithinAreaFallOffType_StaticEnum, TEXT("EVertexPaintWithinAreaFallOffType"), &Z_Registration_Info_UEnum_EVertexPaintWithinAreaFallOffType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1558326763U) },
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintWithinAreaPrerequisites_h_Statics::EnumInfo[] = {
+		{ EVertexPaintWithinAreaFallOffType_StaticEnum, TEXT("EVertexPaintWithinAreaFallOffType"), &Z_Registration_Info_UEnum_EVertexPaintWithinAreaFallOffType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2095504191U) },
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintWithinAreaPrerequisites_h_Statics::ScriptStructInfo[] = {
-		{ FVertexDetectPaintWithinAreaFallOffSettings::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectPaintWithinAreaFallOffSettings_Statics::NewStructOps, TEXT("VertexDetectPaintWithinAreaFallOffSettings"), &Z_Registration_Info_UScriptStruct_VertexDetectPaintWithinAreaFallOffSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectPaintWithinAreaFallOffSettings), 3037323460U) },
-		{ FVertexPainthWithinAreaStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::NewStructOps, TEXT("VertexPainthWithinAreaStruct"), &Z_Registration_Info_UScriptStruct_VertexPainthWithinAreaStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPainthWithinAreaStruct), 1823502113U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintWithinAreaPrerequisites_h_Statics::ScriptStructInfo[] = {
+		{ FVertexDetectPaintWithinAreaFallOffSettings::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectPaintWithinAreaFallOffSettings_Statics::NewStructOps, TEXT("VertexDetectPaintWithinAreaFallOffSettings"), &Z_Registration_Info_UScriptStruct_VertexDetectPaintWithinAreaFallOffSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectPaintWithinAreaFallOffSettings), 134267808U) },
+		{ FVertexPainthWithinAreaStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics::NewStructOps, TEXT("VertexPainthWithinAreaStruct"), &Z_Registration_Info_UScriptStruct_VertexPainthWithinAreaStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPainthWithinAreaStruct), 958617516U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintWithinAreaPrerequisites_h_1681771722(TEXT("/Script/VertexPaintDetectionPlugin"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintWithinAreaPrerequisites_h_2258860728(TEXT("/Script/VertexPaintDetectionPlugin"),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintWithinAreaPrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintWithinAreaPrerequisites_h_Statics::ScriptStructInfo),
-		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintWithinAreaPrerequisites_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintWithinAreaPrerequisites_h_Statics::EnumInfo));
+		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintWithinAreaPrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintWithinAreaPrerequisites_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintWithinAreaPrerequisites_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintWithinAreaPrerequisites_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

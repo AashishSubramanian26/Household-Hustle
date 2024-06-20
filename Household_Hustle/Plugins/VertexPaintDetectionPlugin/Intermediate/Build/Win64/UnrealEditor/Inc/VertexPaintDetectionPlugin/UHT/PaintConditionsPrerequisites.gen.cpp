@@ -58,13 +58,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Paint Color Condition\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Paint Color Condition" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_Statics::NewStructOps()
@@ -75,9 +71,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_Statics::NewProp_hasToHaveConditionMetToApplyAnyColorsAtAll_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If this specific condition has to be true to apply anything at all. If this is false, then we can fall back to whatever float is set below. If there are several conditions used, and they all fail and want to fall back to another color strength, then the one that fails first will be the one used. The Conditions are checked in the order of IfAboveOrBelowWorldZ, WithinColorRange, IfBone, and lastly Line of Sight which is the one that takes longest if used since it does traces." },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_Statics::NewProp_hasToHaveConditionMetToApplyAnyColorsAtAll_SetBit(void* Obj)
@@ -89,9 +83,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_Statics::NewProp_colorStrengthIfThisConditionIsNotMet_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether we should Apply a Different Color Strength if this specific Condition Failed and the bool above is set to False. For instance if we want to Dry Mesh if in Line of Sight to a Sun, but it failed, the vertex is in a Shadow, then maybe we still want to Dry it, just by not as much." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_Statics::NewProp_colorStrengthIfThisConditionIsNotMet = { "colorStrengthIfThisConditionIsNotMet", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintColorCondition, colorStrengthIfThisConditionIsNotMet), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_Statics::NewProp_colorStrengthIfThisConditionIsNotMet_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_Statics::NewProp_colorStrengthIfThisConditionIsNotMet_MetaData) };
@@ -161,13 +153,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Only Affect Vertices With Direction To Actor Or Location\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Only Affect Vertices With Direction To Actor Or Location" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation_Statics::NewStructOps()
@@ -178,9 +166,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation_Statics::NewProp_actor_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If this is set then will use this Actors Location, otherwise the location." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation_Statics::NewProp_actor = { "actor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation, actor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation_Statics::NewProp_actor_MetaData), Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation_Statics::NewProp_actor_MetaData) };
@@ -188,9 +174,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation_Statics::NewProp_location_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If Actor is set then will use that, otherwise fall back to what is set here." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation_Statics::NewProp_location = { "location", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation, location), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation_Statics::NewProp_location_MetaData), Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation_Statics::NewProp_location_MetaData) };
@@ -198,9 +182,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation_Statics::NewProp_minDotProductToActorOrLocation_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If Vertex Normal to Actor or Location is at least above this Dot, only then the vertex will get included. It can be between -1 and 1, where -1 is the opposite (i.e. if set to -1 then all vertices will get affected), 0 is straight to the side, and 1 is straight toward the location. Depending on what you're doing you may want to adjust this, for instance a fire hose spraying a wide amount of water over a large mesh, then you want all of the vertices within the AoE to get affected which means this may have to be at min 0.5" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation_Statics::NewProp_minDotProductToActorOrLocation = { "minDotProductToActorOrLocation", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation, minDotProductToActorOrLocation), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation_Statics::NewProp_minDotProductToActorOrLocation_MetaData), Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation_Statics::NewProp_minDotProductToActorOrLocation_MetaData) };
@@ -275,13 +257,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Only Include Vertices Within Direction\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Only Include Vertices Within Direction" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation_Statics::NewStructOps()
@@ -292,9 +270,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation_Statics::NewProp_actor_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If this is set then will use this Actors Location, otherwise the location." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation_Statics::NewProp_actor = { "actor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation, actor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation_Statics::NewProp_actor_MetaData), Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation_Statics::NewProp_actor_MetaData) };
@@ -302,9 +278,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation_Statics::NewProp_location_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Location we want to check against, could for example be the Base of a Cone. Will use the Actors location if set, otherwise fallback to this one." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation_Statics::NewProp_location = { "location", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation, location), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation_Statics::NewProp_location_MetaData), Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation_Statics::NewProp_location_MetaData) };
@@ -312,9 +286,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation_Statics::NewProp_direction_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Direction we want to check against, if for example a cone, then the Direction the Cone is facing towards, i.e. the direction it expands out to." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation_Statics::NewProp_direction = { "direction", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation, direction), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation_Statics::NewProp_direction_MetaData), Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation_Statics::NewProp_direction_MetaData) };
@@ -322,9 +294,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation_Statics::NewProp_minDotProductToDirection_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Min Dot Product, of the Direction from the Location to the Vertex. If for example a Cone, that this should match the width of that cone, so if a very narrow cone then something closer to 1, if very wide then closer to 0. Should be between -1 and 1." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation_Statics::NewProp_minDotProductToDirection = { "minDotProductToDirection", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation, minDotProductToDirection), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation_Statics::NewProp_minDotProductToDirection_MetaData), Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation_Statics::NewProp_minDotProductToDirection_MetaData) };
@@ -393,13 +363,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IfAboveOrBelowWorldZ_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Paint Color Condition - Is Above/Below World Z\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Paint Color Condition - Is Above/Below World Z" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IfAboveOrBelowWorldZ_Statics::NewStructOps()
@@ -410,9 +376,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IfAboveOrBelowWorldZ_Statics::NewProp_ifVertexIsAboveOrBelowWorldZ_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The World Location Z value that we check if the Vertex Location Z is either equal/below, or if the bool is true, then it has to be equal/above." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IfAboveOrBelowWorldZ_Statics::NewProp_ifVertexIsAboveOrBelowWorldZ = { "ifVertexIsAboveOrBelowWorldZ", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintColorCondition_IfAboveOrBelowWorldZ, ifVertexIsAboveOrBelowWorldZ), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IfAboveOrBelowWorldZ_Statics::NewProp_ifVertexIsAboveOrBelowWorldZ_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IfAboveOrBelowWorldZ_Statics::NewProp_ifVertexIsAboveOrBelowWorldZ_MetaData) };
@@ -420,9 +384,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IfAboveOrBelowWorldZ_Statics::NewProp_checkIfAboveInsteadOfBelowZ_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If True then checks if the Vertex is Equal or Above the World Z height, instead of Equal or Below." },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IfAboveOrBelowWorldZ_Statics::NewProp_checkIfAboveInsteadOfBelowZ_SetBit(void* Obj)
@@ -501,13 +463,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsWithinColorRangeStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Paint Color Condition - Is Within Color Range\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Paint Color Condition - Is Within Color Range" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsWithinColorRangeStruct_Statics::NewStructOps()
@@ -518,9 +476,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsWithinColorRangeStruct_Statics::NewProp_ifChannelWithPhysicsSurfaceIsWithinColorRange_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If this is set to something other then Default, then we will for each Section/Material the Mesh is using, check if it's registered in the Editor Widget and what Physics Surface is set on each channel, then do the Within Color Range for whatever Channel that is. Very useful if several Materials might not be synched with eachother and have something like Puddle on different channels, so you don't have to remember which channel it's on." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsWithinColorRangeStruct_Statics::NewProp_ifChannelWithPhysicsSurfaceIsWithinColorRange = { "ifChannelWithPhysicsSurfaceIsWithinColorRange", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintColorCondition_IsWithinColorRangeStruct, ifChannelWithPhysicsSurfaceIsWithinColorRange), Z_Construct_UEnum_PhysicsCore_EPhysicalSurface, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsWithinColorRangeStruct_Statics::NewProp_ifChannelWithPhysicsSurfaceIsWithinColorRange_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsWithinColorRangeStruct_Statics::NewProp_ifChannelWithPhysicsSurfaceIsWithinColorRange_MetaData) }; // 2508321301
@@ -529,19 +485,15 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsWithinColorRangeStruct_Statics::NewProp_ifVertexColorChannelWithinColorRange_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If physicsSurfaceWithinColorRange is Default, then we will use this Color Channel is a certain Range. Gives the Developer more control of when paint is applied. Can for instance be used to Mask out Areas where you don't want it to be applied, like if it's Raining and you don't want the underside of Rooftops to get wet, then you can paint them with a channel the material isn't using, and have a condition that the channel has to be at 0 for the Wetness to be applied." },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsWithinColorRangeStruct_Statics::NewProp_ifVertexColorChannelWithinColorRange = { "ifVertexColorChannelWithinColorRange", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintColorCondition_IsWithinColorRangeStruct, ifVertexColorChannelWithinColorRange), Z_Construct_UEnum_VertexPaintDetectionPlugin_Enum_SurfaceAtChannel, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsWithinColorRangeStruct_Statics::NewProp_ifVertexColorChannelWithinColorRange_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsWithinColorRangeStruct_Statics::NewProp_ifVertexColorChannelWithinColorRange_MetaData) }; // 226719945
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsWithinColorRangeStruct_Statics::NewProp_ifVertexColorChannelWithinColorRange = { "ifVertexColorChannelWithinColorRange", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintColorCondition_IsWithinColorRangeStruct, ifVertexColorChannelWithinColorRange), Z_Construct_UEnum_VertexPaintDetectionPlugin_Enum_SurfaceAtChannel, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsWithinColorRangeStruct_Statics::NewProp_ifVertexColorChannelWithinColorRange_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsWithinColorRangeStruct_Statics::NewProp_ifVertexColorChannelWithinColorRange_MetaData) }; // 2259707496
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsWithinColorRangeStruct_Statics::NewProp_ifCurrentVertexColorValueIsHigherOrEqualThan_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If Current Vertex Color is >= than this. Gives the Developer more control of when paint is applied. Can for instance be used to Mask out Areas where you don't want it to be applied, like if it's Raining and you don't want the underside of Rooftops to get wet, then you can paint them with a channel the material isn't using, and have a condition that the channel has to be at 0 for the Wetness to be applied." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsWithinColorRangeStruct_Statics::NewProp_ifCurrentVertexColorValueIsHigherOrEqualThan = { "ifCurrentVertexColorValueIsHigherOrEqualThan", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintColorCondition_IsWithinColorRangeStruct, ifCurrentVertexColorValueIsHigherOrEqualThan), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsWithinColorRangeStruct_Statics::NewProp_ifCurrentVertexColorValueIsHigherOrEqualThan_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsWithinColorRangeStruct_Statics::NewProp_ifCurrentVertexColorValueIsHigherOrEqualThan_MetaData) };
@@ -549,9 +501,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsWithinColorRangeStruct_Statics::NewProp_ifCurrentVertexColorValueIsLessOrEqualThan_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If Current Vertex Color is <= than this. Gives the Developer more control of when paint is applied. Can for instance be used to Mask out Areas where you don't want it to be applied, like if it's Raining and you don't want the underside of Rooftops to get wet, then you can paint them with a channel the material isn't using, and have a condition that the channel has to be at 0 for the Wetness to be applied." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsWithinColorRangeStruct_Statics::NewProp_ifCurrentVertexColorValueIsLessOrEqualThan = { "ifCurrentVertexColorValueIsLessOrEqualThan", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintColorCondition_IsWithinColorRangeStruct, ifCurrentVertexColorValueIsLessOrEqualThan), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsWithinColorRangeStruct_Statics::NewProp_ifCurrentVertexColorValueIsLessOrEqualThan_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsWithinColorRangeStruct_Statics::NewProp_ifCurrentVertexColorValueIsLessOrEqualThan_MetaData) };
@@ -620,13 +570,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsBoneStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Paint Color Condition - Is Bone\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Paint Color Condition - Is Bone" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsBoneStruct_Statics::NewStructOps()
@@ -637,9 +583,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsBoneStruct_Statics::NewProp_ifVertexIsAtBone_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If Painting on Skeletal Mesh then can set to only Paint on specific Bone. If Static Mesh then we won't run this condition. Useful if you for instance have a Boss Fight and you should be able to Freeze exposed parts which could be just an Arm or a Leg etc." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsBoneStruct_Statics::NewProp_ifVertexIsAtBone = { "ifVertexIsAtBone", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintColorCondition_IsBoneStruct, ifVertexIsAtBone), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsBoneStruct_Statics::NewProp_ifVertexIsAtBone_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsBoneStruct_Statics::NewProp_ifVertexIsAtBone_MetaData) };
@@ -647,9 +591,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsBoneStruct_Statics::NewProp_minBoneWeight_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Min Amount of Bone Weight Required. If 0 then will always apply, but can be increase to for instance 0.5 if you don't want to affect any below that." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsBoneStruct_Statics::NewProp_minBoneWeight = { "minBoneWeight", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintColorCondition_IsBoneStruct, minBoneWeight), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsBoneStruct_Statics::NewProp_minBoneWeight_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsBoneStruct_Statics::NewProp_minBoneWeight_MetaData) };
@@ -739,13 +681,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Paint Color Condition - Has Line Of Sight\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Paint Color Condition - Has Line Of Sight" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct_Statics::NewStructOps()
@@ -756,9 +694,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct_Statics::NewProp_ifVertexHasLineOfSightToActor_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If Set to an Actor then will use this Actors Location at Task Creation." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct_Statics::NewProp_ifVertexHasLineOfSightToActor = { "ifVertexHasLineOfSightToActor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintColorCondition_HasLineOfSightStruct, ifVertexHasLineOfSightToActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct_Statics::NewProp_ifVertexHasLineOfSightToActor_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct_Statics::NewProp_ifVertexHasLineOfSightToActor_MetaData) };
@@ -766,9 +702,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct_Statics::NewProp_ifVertexHasLineOfSightToPosition_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If not set to use Line of Sight to Actor, then will use this." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct_Statics::NewProp_ifVertexHasLineOfSightToPosition = { "ifVertexHasLineOfSightToPosition", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintColorCondition_HasLineOfSightStruct, ifVertexHasLineOfSightToPosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct_Statics::NewProp_ifVertexHasLineOfSightToPosition_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct_Statics::NewProp_ifVertexHasLineOfSightToPosition_MetaData) };
@@ -776,9 +710,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct_Statics::NewProp_distanceFromVertexPositionToStartTrace_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "How far out from the vertex position we start the Trace toward the Position / Actor Location. If the Mesh Component you're trying to paint has collision that completely covers the Mesh and the Vertices, then this can be increased so you start tracing outside of that collision and doesn't hit itself. \nYou can also choose to ignore the Actor you're trying to paint, but then you may not get the desired result if the Position / Actor Location is on one side of the mesh component, and you expect only the vertices on that side of the mesh component to get painted. If ignoring then even the verts on the otherside will get painted since it can't hit itself." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct_Statics::NewProp_distanceFromVertexPositionToStartTrace = { "distanceFromVertexPositionToStartTrace", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintColorCondition_HasLineOfSightStruct, distanceFromVertexPositionToStartTrace), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct_Statics::NewProp_distanceFromVertexPositionToStartTrace_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct_Statics::NewProp_distanceFromVertexPositionToStartTrace_MetaData) };
@@ -787,9 +719,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct_Statics::NewProp_checkLineOfSightAgainstObjectTypes_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Object Types to Trace if we have Line of Sight." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct_Statics::NewProp_checkLineOfSightAgainstObjectTypes = { "checkLineOfSightAgainstObjectTypes", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintColorCondition_HasLineOfSightStruct, checkLineOfSightAgainstObjectTypes), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct_Statics::NewProp_checkLineOfSightAgainstObjectTypes_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct_Statics::NewProp_checkLineOfSightAgainstObjectTypes_MetaData) }; // 3930035403
@@ -797,9 +727,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct_Statics::NewProp_traceForComplex_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This can be very useful in case you have something in which it's simple collision isn't 100%, for example a if you only want to paint on something that has line of sight to a Light, and you run this to a location inside of a Lamp Shade, but the Lamp Shades collision has small gaps in it (which can occur easily if trying to build the collision using the editors solution). Then if this is true it will trace to the actual mesh and not the simple collision in it." },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct_Statics::NewProp_traceForComplex_SetBit(void* Obj)
@@ -811,9 +739,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct_Statics::NewProp_ignoreMeshActorTryingToApplyPaintOn_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If we should ignore the Actor we're trying to paint, useful if the location you want to check for may be on the other side of the mesh component and you don't want it to hit itself" },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct_Statics::NewProp_ignoreMeshActorTryingToApplyPaintOn_SetBit(void* Obj)
@@ -917,85 +843,69 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Paint Color Condition\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Paint Color Condition" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewStructOps()
 	{
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FVertexDetectPaintColorConditionStruct>();
 	}
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_onlyAffectVerticesWithDirectionToActorOrLocation_Inner = { "onlyAffectVerticesWithDirectionToActorOrLocation", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation, METADATA_PARAMS(0, nullptr) }; // 2834010241
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_onlyAffectVerticesWithDirectionToActorOrLocation_Inner = { "onlyAffectVerticesWithDirectionToActorOrLocation", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation, METADATA_PARAMS(0, nullptr) }; // 2031990328
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_onlyAffectVerticesWithDirectionToActorOrLocation_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Vertices with their Normal above a Min Dot toward an Actor or Location. \nMay be useful if you need a fast way to get control over on what side of a mesh to paint, like if you have a hose that is spraying water on a character, but you only want the part of the character that is facing the hose to get affected and not the backside. There is also an a Paint Condition with Line of Sight to an Actor and Location, the difference between that and this, is that it will trace and see if something is blocking, which will make the task take longer, where as this only does the dot check and is much faster." },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_onlyAffectVerticesWithDirectionToActorOrLocation = { "onlyAffectVerticesWithDirectionToActorOrLocation", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintColorConditionStruct, onlyAffectVerticesWithDirectionToActorOrLocation), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_onlyAffectVerticesWithDirectionToActorOrLocation_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_onlyAffectVerticesWithDirectionToActorOrLocation_MetaData) }; // 2834010241
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_onlyAffectVerticesWithinDirectionFromActorOrLocation_Inner = { "onlyAffectVerticesWithinDirectionFromActorOrLocation", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation, METADATA_PARAMS(0, nullptr) }; // 612288467
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_onlyAffectVerticesWithDirectionToActorOrLocation = { "onlyAffectVerticesWithDirectionToActorOrLocation", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintColorConditionStruct, onlyAffectVerticesWithDirectionToActorOrLocation), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_onlyAffectVerticesWithDirectionToActorOrLocation_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_onlyAffectVerticesWithDirectionToActorOrLocation_MetaData) }; // 2031990328
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_onlyAffectVerticesWithinDirectionFromActorOrLocation_Inner = { "onlyAffectVerticesWithinDirectionFromActorOrLocation", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation, METADATA_PARAMS(0, nullptr) }; // 3032637484
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_onlyAffectVerticesWithinDirectionFromActorOrLocation_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Vertices within a certain Direction's Dot. I.e. we get the Direction from the Location/Actor we set here, to each vertex location, and check that, with the Direction we set here, which could for instance be the direction of a Mesh like a downward direction of a cone, if you want to check if a vertex is within the cone direction. \nDepending on the use case you should tweak the dot product as well which should be from -1 to 1. With the cone example, the wider the cone, the closer to 0 we would want the min dot product, if it's very thin then closer to 1. \nUsed for instance in the Example Project to make a cheap Paint Within Area with Cone Example using Paint Within Area with Sphere Shape, and by utilizing this, we get the affect as if it was a cone." },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_onlyAffectVerticesWithinDirectionFromActorOrLocation = { "onlyAffectVerticesWithinDirectionFromActorOrLocation", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintColorConditionStruct, onlyAffectVerticesWithinDirectionFromActorOrLocation), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_onlyAffectVerticesWithinDirectionFromActorOrLocation_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_onlyAffectVerticesWithinDirectionFromActorOrLocation_MetaData) }; // 612288467
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexIsAboveOrBelowWorldZ_Inner = { "ifVertexIsAboveOrBelowWorldZ", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IfAboveOrBelowWorldZ, METADATA_PARAMS(0, nullptr) }; // 3787856511
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_onlyAffectVerticesWithinDirectionFromActorOrLocation = { "onlyAffectVerticesWithinDirectionFromActorOrLocation", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintColorConditionStruct, onlyAffectVerticesWithinDirectionFromActorOrLocation), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_onlyAffectVerticesWithinDirectionFromActorOrLocation_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_onlyAffectVerticesWithinDirectionFromActorOrLocation_MetaData) }; // 3032637484
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexIsAboveOrBelowWorldZ_Inner = { "ifVertexIsAboveOrBelowWorldZ", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IfAboveOrBelowWorldZ, METADATA_PARAMS(0, nullptr) }; // 1853451081
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexIsAboveOrBelowWorldZ_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If Vertex Location Z has to be Equal or Above, or Equal and below the given Z height for it to be painted." },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexIsAboveOrBelowWorldZ = { "ifVertexIsAboveOrBelowWorldZ", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintColorConditionStruct, ifVertexIsAboveOrBelowWorldZ), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexIsAboveOrBelowWorldZ_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexIsAboveOrBelowWorldZ_MetaData) }; // 3787856511
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexColorIsWithinRange_Inner = { "ifVertexColorIsWithinRange", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsWithinColorRangeStruct, METADATA_PARAMS(0, nullptr) }; // 1819466741
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexIsAboveOrBelowWorldZ = { "ifVertexIsAboveOrBelowWorldZ", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintColorConditionStruct, ifVertexIsAboveOrBelowWorldZ), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexIsAboveOrBelowWorldZ_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexIsAboveOrBelowWorldZ_MetaData) }; // 1853451081
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexColorIsWithinRange_Inner = { "ifVertexColorIsWithinRange", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsWithinColorRangeStruct, METADATA_PARAMS(0, nullptr) }; // 3156902327
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexColorIsWithinRange_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If Physics Surface or Color Channel is a certain Range. Gives the Developer more control of when paint is applied. Can for instance be used to Mask out Areas where you don't want it to be applied, like if it's Raining and you don't want the underside of Rooftops to get wet, then you can paint them with a channel the material isn't using, and have a condition that the channel has to be at 0 for the Wetness to be applied." },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexColorIsWithinRange = { "ifVertexColorIsWithinRange", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintColorConditionStruct, ifVertexColorIsWithinRange), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexColorIsWithinRange_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexColorIsWithinRange_MetaData) }; // 1819466741
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexIsOnBone_Inner = { "ifVertexIsOnBone", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsBoneStruct, METADATA_PARAMS(0, nullptr) }; // 3269858027
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexColorIsWithinRange = { "ifVertexColorIsWithinRange", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintColorConditionStruct, ifVertexColorIsWithinRange), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexColorIsWithinRange_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexColorIsWithinRange_MetaData) }; // 3156902327
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexIsOnBone_Inner = { "ifVertexIsOnBone", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsBoneStruct, METADATA_PARAMS(0, nullptr) }; // 1151756207
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexIsOnBone_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If Painting on Skeletal Mesh then can set to only Paint on specific Bone. Useful if you for instance have a Boss Fight and you should be able to Freeze exposed parts which could be just an Arm or a Leg etc." },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexIsOnBone = { "ifVertexIsOnBone", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintColorConditionStruct, ifVertexIsOnBone), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexIsOnBone_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexIsOnBone_MetaData) }; // 3269858027
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexHasLineOfSightTo_Inner = { "ifVertexHasLineOfSightTo", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct, METADATA_PARAMS(0, nullptr) }; // 507473926
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexIsOnBone = { "ifVertexIsOnBone", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintColorConditionStruct, ifVertexIsOnBone), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexIsOnBone_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexIsOnBone_MetaData) }; // 1151756207
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexHasLineOfSightTo_Inner = { "ifVertexHasLineOfSightTo", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct, METADATA_PARAMS(0, nullptr) }; // 3618246003
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexHasLineOfSightTo_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintConditionsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If Vertex has Line of Sight to something, for instance the Sun, then only Apply/Remove Colors then. Useful if you for instance only want to Dry a Mesh where the Sun is actually hitting the Mesh. \nThis will Trace to check if it has line of sight, so may make the Task take longer, especially if playing in the Editor." },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexHasLineOfSightTo = { "ifVertexHasLineOfSightTo", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintColorConditionStruct, ifVertexHasLineOfSightTo), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexHasLineOfSightTo_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexHasLineOfSightTo_MetaData) }; // 507473926
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexHasLineOfSightTo = { "ifVertexHasLineOfSightTo", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPaintColorConditionStruct, ifVertexHasLineOfSightTo), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexHasLineOfSightTo_MetaData), Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_ifVertexHasLineOfSightTo_MetaData) }; // 3618246003
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_onlyAffectVerticesWithDirectionToActorOrLocation_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewProp_onlyAffectVerticesWithDirectionToActorOrLocation,
@@ -1032,22 +942,22 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		}
 		return Z_Registration_Info_UScriptStruct_VertexDetectPaintColorConditionStruct.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintConditionsPrerequisites_h_Statics
+	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintConditionsPrerequisites_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintConditionsPrerequisites_h_Statics::ScriptStructInfo[] = {
-		{ FVertexDetectPaintColorCondition::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_Statics::NewStructOps, TEXT("VertexDetectPaintColorCondition"), &Z_Registration_Info_UScriptStruct_VertexDetectPaintColorCondition, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectPaintColorCondition), 2078179676U) },
-		{ FVertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation_Statics::NewStructOps, TEXT("VertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation"), &Z_Registration_Info_UScriptStruct_VertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation), 2834010241U) },
-		{ FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation_Statics::NewStructOps, TEXT("VertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation"), &Z_Registration_Info_UScriptStruct_VertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation), 612288467U) },
-		{ FVertexDetectPaintColorCondition_IfAboveOrBelowWorldZ::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IfAboveOrBelowWorldZ_Statics::NewStructOps, TEXT("VertexDetectPaintColorCondition_IfAboveOrBelowWorldZ"), &Z_Registration_Info_UScriptStruct_VertexDetectPaintColorCondition_IfAboveOrBelowWorldZ, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectPaintColorCondition_IfAboveOrBelowWorldZ), 3787856511U) },
-		{ FVertexDetectPaintColorCondition_IsWithinColorRangeStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsWithinColorRangeStruct_Statics::NewStructOps, TEXT("VertexDetectPaintColorCondition_IsWithinColorRangeStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectPaintColorCondition_IsWithinColorRangeStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectPaintColorCondition_IsWithinColorRangeStruct), 1819466741U) },
-		{ FVertexDetectPaintColorCondition_IsBoneStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsBoneStruct_Statics::NewStructOps, TEXT("VertexDetectPaintColorCondition_IsBoneStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectPaintColorCondition_IsBoneStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectPaintColorCondition_IsBoneStruct), 3269858027U) },
-		{ FVertexDetectPaintColorCondition_HasLineOfSightStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct_Statics::NewStructOps, TEXT("VertexDetectPaintColorCondition_HasLineOfSightStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectPaintColorCondition_HasLineOfSightStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectPaintColorCondition_HasLineOfSightStruct), 507473926U) },
-		{ FVertexDetectPaintColorConditionStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewStructOps, TEXT("VertexDetectPaintColorConditionStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectPaintColorConditionStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectPaintColorConditionStruct), 898813607U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintConditionsPrerequisites_h_Statics::ScriptStructInfo[] = {
+		{ FVertexDetectPaintColorCondition::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_Statics::NewStructOps, TEXT("VertexDetectPaintColorCondition"), &Z_Registration_Info_UScriptStruct_VertexDetectPaintColorCondition, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectPaintColorCondition), 3498486400U) },
+		{ FVertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation_Statics::NewStructOps, TEXT("VertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation"), &Z_Registration_Info_UScriptStruct_VertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintOnlyAffectVerticesWithDirectionToActorOrLocation), 2031990328U) },
+		{ FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation_Statics::NewStructOps, TEXT("VertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation"), &Z_Registration_Info_UScriptStruct_VertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintOnlyAffectVerticesWithinDirectionFromActorOrLocation), 3032637484U) },
+		{ FVertexDetectPaintColorCondition_IfAboveOrBelowWorldZ::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IfAboveOrBelowWorldZ_Statics::NewStructOps, TEXT("VertexDetectPaintColorCondition_IfAboveOrBelowWorldZ"), &Z_Registration_Info_UScriptStruct_VertexDetectPaintColorCondition_IfAboveOrBelowWorldZ, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectPaintColorCondition_IfAboveOrBelowWorldZ), 1853451081U) },
+		{ FVertexDetectPaintColorCondition_IsWithinColorRangeStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsWithinColorRangeStruct_Statics::NewStructOps, TEXT("VertexDetectPaintColorCondition_IsWithinColorRangeStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectPaintColorCondition_IsWithinColorRangeStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectPaintColorCondition_IsWithinColorRangeStruct), 3156902327U) },
+		{ FVertexDetectPaintColorCondition_IsBoneStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsBoneStruct_Statics::NewStructOps, TEXT("VertexDetectPaintColorCondition_IsBoneStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectPaintColorCondition_IsBoneStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectPaintColorCondition_IsBoneStruct), 1151756207U) },
+		{ FVertexDetectPaintColorCondition_HasLineOfSightStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct_Statics::NewStructOps, TEXT("VertexDetectPaintColorCondition_HasLineOfSightStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectPaintColorCondition_HasLineOfSightStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectPaintColorCondition_HasLineOfSightStruct), 3618246003U) },
+		{ FVertexDetectPaintColorConditionStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics::NewStructOps, TEXT("VertexDetectPaintColorConditionStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectPaintColorConditionStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectPaintColorConditionStruct), 1244830346U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintConditionsPrerequisites_h_4279290358(TEXT("/Script/VertexPaintDetectionPlugin"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintConditionsPrerequisites_h_3454029852(TEXT("/Script/VertexPaintDetectionPlugin"),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintConditionsPrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintConditionsPrerequisites_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintConditionsPrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintConditionsPrerequisites_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

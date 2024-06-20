@@ -58,13 +58,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataAtChannelStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Closest Vertex Physics Surface Data\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Closest Vertex Physics Surface Data" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataAtChannelStruct_Statics::NewStructOps()
@@ -162,13 +158,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Most Painted Surface \n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Most Painted Surface" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo_Statics::NewStructOps()
@@ -179,9 +171,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo_Statics::NewProp_mostDominantPhysicsSurface_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Which EPhysical Surface had the most Color Value. Based on what surfaces is registered in the Material Data Asset for RGBA" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo_Statics::NewProp_mostDominantPhysicsSurface = { "mostDominantPhysicsSurface", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectMostDominantPhysicsSurfaceInfo, mostDominantPhysicsSurface), Z_Construct_UEnum_PhysicsCore_EPhysicalSurface, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo_Statics::NewProp_mostDominantPhysicsSurface_MetaData), Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo_Statics::NewProp_mostDominantPhysicsSurface_MetaData) }; // 2508321301
@@ -196,24 +186,20 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo_Statics::NewProp_mostDominantPhysicstSurfaceValue_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Amount that the most painted color had" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo_Statics::NewProp_mostDominantPhysicstSurfaceValue = { "mostDominantPhysicstSurfaceValue", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectMostDominantPhysicsSurfaceInfo, mostDominantPhysicstSurfaceValue), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo_Statics::NewProp_mostDominantPhysicstSurfaceValue_MetaData), Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo_Statics::NewProp_mostDominantPhysicstSurfaceValue_MetaData) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo_Statics::NewProp_mostDominantPhysicsSurfaceAtVertexColorChannels_Inner_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo_Statics::NewProp_mostDominantPhysicsSurfaceAtVertexColorChannels_Inner = { "mostDominantPhysicsSurfaceAtVertexColorChannels", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UEnum_VertexPaintDetectionPlugin_Enum_SurfaceAtChannel, METADATA_PARAMS(0, nullptr) }; // 226719945
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo_Statics::NewProp_mostDominantPhysicsSurfaceAtVertexColorChannels_Inner = { "mostDominantPhysicsSurfaceAtVertexColorChannels", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UEnum_VertexPaintDetectionPlugin_Enum_SurfaceAtChannel, METADATA_PARAMS(0, nullptr) }; // 2259707496
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo_Statics::NewProp_mostDominantPhysicsSurfaceAtVertexColorChannels_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Which channel it was that had the most painted color, R, B, G or A. It can be multiple in case the Most Painted Surface was made up of blendade surfaces from different channels, then this will be from those channels" },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo_Statics::NewProp_mostDominantPhysicsSurfaceAtVertexColorChannels = { "mostDominantPhysicsSurfaceAtVertexColorChannels", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectMostDominantPhysicsSurfaceInfo, mostDominantPhysicsSurfaceAtVertexColorChannels), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo_Statics::NewProp_mostDominantPhysicsSurfaceAtVertexColorChannels_MetaData), Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo_Statics::NewProp_mostDominantPhysicsSurfaceAtVertexColorChannels_MetaData) }; // 226719945
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo_Statics::NewProp_mostDominantPhysicsSurfaceAtVertexColorChannels = { "mostDominantPhysicsSurfaceAtVertexColorChannels", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectMostDominantPhysicsSurfaceInfo, mostDominantPhysicsSurfaceAtVertexColorChannels), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo_Statics::NewProp_mostDominantPhysicsSurfaceAtVertexColorChannels_MetaData), Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo_Statics::NewProp_mostDominantPhysicsSurfaceAtVertexColorChannels_MetaData) }; // 2259707496
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo_Statics::NewProp_mostDominantPhysicsSurface,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo_Statics::NewProp_mostDominantPhysicsSurfaceAsString,
@@ -318,13 +304,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Closest Physics Surface Data\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Closest Physics Surface Data" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewStructOps()
@@ -335,9 +317,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurfaceSuccessfullyAcquired_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If we got the Physics Surface at Material" },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurfaceSuccessfullyAcquired_SetBit(void* Obj)
@@ -349,19 +329,15 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_mostDominantPhysicsSurfaceInfo_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Information about the Most painted surface" },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_mostDominantPhysicsSurfaceInfo = { "mostDominantPhysicsSurfaceInfo", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPhysicsSurfaceDataStruct, mostDominantPhysicsSurfaceInfo), Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_mostDominantPhysicsSurfaceInfo_MetaData), Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_mostDominantPhysicsSurfaceInfo_MetaData) }; // 1359226726
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_mostDominantPhysicsSurfaceInfo = { "mostDominantPhysicsSurfaceInfo", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPhysicsSurfaceDataStruct, mostDominantPhysicsSurfaceInfo), Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_mostDominantPhysicsSurfaceInfo_MetaData), Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_mostDominantPhysicsSurfaceInfo_MetaData) }; // 2353672735
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_materialRegisteredToIncludeDefaultChannel_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If the Material is registered in the Material Data Asset to Include Default Channel. The Default should be set to be the surface that is on the Material when no colors are painted, for example if Cobble is Default, and then you can paint grass and sand on top of it that blends into it then it should be included." },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_materialRegisteredToIncludeDefaultChannel_SetBit(void* Obj)
@@ -375,35 +351,35 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtDefault = { "physicsSurface_AtDefault", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPhysicsSurfaceDataStruct, physicsSurface_AtDefault), Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataAtChannelStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtDefault_MetaData), Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtDefault_MetaData) }; // 2229509164
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtDefault = { "physicsSurface_AtDefault", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPhysicsSurfaceDataStruct, physicsSurface_AtDefault), Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataAtChannelStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtDefault_MetaData), Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtDefault_MetaData) }; // 1399182569
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtRed_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtRed = { "physicsSurface_AtRed", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPhysicsSurfaceDataStruct, physicsSurface_AtRed), Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataAtChannelStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtRed_MetaData), Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtRed_MetaData) }; // 2229509164
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtRed = { "physicsSurface_AtRed", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPhysicsSurfaceDataStruct, physicsSurface_AtRed), Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataAtChannelStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtRed_MetaData), Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtRed_MetaData) }; // 1399182569
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtGreen_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtGreen = { "physicsSurface_AtGreen", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPhysicsSurfaceDataStruct, physicsSurface_AtGreen), Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataAtChannelStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtGreen_MetaData), Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtGreen_MetaData) }; // 2229509164
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtGreen = { "physicsSurface_AtGreen", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPhysicsSurfaceDataStruct, physicsSurface_AtGreen), Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataAtChannelStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtGreen_MetaData), Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtGreen_MetaData) }; // 1399182569
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtBlue_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtBlue = { "physicsSurface_AtBlue", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPhysicsSurfaceDataStruct, physicsSurface_AtBlue), Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataAtChannelStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtBlue_MetaData), Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtBlue_MetaData) }; // 2229509164
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtBlue = { "physicsSurface_AtBlue", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPhysicsSurfaceDataStruct, physicsSurface_AtBlue), Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataAtChannelStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtBlue_MetaData), Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtBlue_MetaData) }; // 1399182569
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtAlpha_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtAlpha = { "physicsSurface_AtAlpha", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPhysicsSurfaceDataStruct, physicsSurface_AtAlpha), Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataAtChannelStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtAlpha_MetaData), Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtAlpha_MetaData) }; // 2229509164
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtAlpha = { "physicsSurface_AtAlpha", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectPhysicsSurfaceDataStruct, physicsSurface_AtAlpha), Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataAtChannelStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtAlpha_MetaData), Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicsSurface_AtAlpha_MetaData) }; // 1399182569
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicalSurfacesAsArray_Inner = { "physicalSurfacesAsArray", nullptr, (EPropertyFlags)0x0000000000020000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UEnum_PhysicsCore_EPhysicalSurface, METADATA_PARAMS(0, nullptr) }; // 2508321301
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewProp_physicalSurfacesAsArray_MetaData[] = {
@@ -511,13 +487,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Hit Fundementals\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Hit Fundementals" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct_Statics::NewStructOps()
@@ -528,9 +500,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct_Statics::NewProp_hitLocation_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Important to calculate the distance etc. from vertices to this location." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct_Statics::NewProp_hitLocation = { "hitLocation", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAndPaintFundementalsStruct, hitLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct_Statics::NewProp_hitLocation_MetaData), Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct_Statics::NewProp_hitLocation_MetaData) };
@@ -545,9 +515,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct_Statics::NewProp_hitNormal_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Not necessary unless you're using VertexNormalToHitNormalMinimumDotProduct in the Area Settings." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct_Statics::NewProp_hitNormal = { "hitNormal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAndPaintFundementalsStruct, hitNormal), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct_Statics::NewProp_hitNormal_MetaData), Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct_Statics::NewProp_hitNormal_MetaData) };
@@ -555,9 +523,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct_Statics::NewProp_hitBone_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Not necessary, but if running Get Closest Vertex Data on Skeletal Mesh and haven't set to include colors, position etc. in the callback settings, i.e. we don't need to loop through all of the vertices, then with the bone we can make sure we only loop through the vertices on that section so the task will finish faster." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct_Statics::NewProp_hitBone = { "hitBone", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAndPaintFundementalsStruct, hitBone), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct_Statics::NewProp_hitBone_MetaData), Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct_Statics::NewProp_hitBone_MetaData) };
@@ -565,9 +531,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct_Statics::NewProp_runTaskFor_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "What it was Painted/Detected with, can be used when getting back the Result to do different things depending on what it was, for exampel Foot, Boot, Gunshot." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct_Statics::NewProp_runTaskFor = { "runTaskFor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAndPaintFundementalsStruct, runTaskFor), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct_Statics::NewProp_runTaskFor_MetaData), Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct_Statics::NewProp_runTaskFor_MetaData) };
@@ -642,13 +606,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationResultStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Estimated Color at Hit Location Result\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Estimated Color at Hit Location Result" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationResultStruct_Statics::NewStructOps()
@@ -659,9 +619,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationResultStruct_Statics::NewProp_estimatedColorAtHitLocationDataSuccessfullyAcquired_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If we successfully got an estimated color close or at the Hit Location." },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationResultStruct_Statics::NewProp_estimatedColorAtHitLocationDataSuccessfullyAcquired_SetBit(void* Obj)
@@ -673,9 +631,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationResultStruct_Statics::NewProp_estimatedColorAtHitLocation_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Estimated Color Close or At Hit Location. Could be useful if you want to run SFX or VFX, and the mesh has few vertices. If you have alot of vertices and the hit location is often very close to the closest vertex then you might not need to use this. \nThe way we calculate this is by getting the direction from the closest vertex to the hit location, and the nearest vertices around the hit location. Then when finished looping through LOD0 and we have them all and the closest vertex, we check, which of the nearby vertices has the best dot from to the direction from closest to hit location, i.e. which is the most optimal to scale toward." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationResultStruct_Statics::NewProp_estimatedColorAtHitLocation = { "estimatedColorAtHitLocation", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectEstimatedColorAtHitLocationResultStruct, estimatedColorAtHitLocation), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationResultStruct_Statics::NewProp_estimatedColorAtHitLocation_MetaData), Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationResultStruct_Statics::NewProp_estimatedColorAtHitLocation_MetaData) };
@@ -685,14 +641,12 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationResultStruct_Statics::NewProp_physicalSurfaceInfo = { "physicalSurfaceInfo", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectEstimatedColorAtHitLocationResultStruct, physicalSurfaceInfo), Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationResultStruct_Statics::NewProp_physicalSurfaceInfo_MetaData), Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationResultStruct_Statics::NewProp_physicalSurfaceInfo_MetaData) }; // 4173758171
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationResultStruct_Statics::NewProp_physicalSurfaceInfo = { "physicalSurfaceInfo", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectEstimatedColorAtHitLocationResultStruct, physicalSurfaceInfo), Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationResultStruct_Statics::NewProp_physicalSurfaceInfo_MetaData), Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationResultStruct_Statics::NewProp_physicalSurfaceInfo_MetaData) }; // 3059642996
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationResultStruct_Statics::NewProp_worldSpaceLocationWeEstimatedTheColorAt_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The location between the closest vertex and the optimal we scaled against to get the estimated color at hit location." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationResultStruct_Statics::NewProp_worldSpaceLocationWeEstimatedTheColorAt = { "worldSpaceLocationWeEstimatedTheColorAt", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectEstimatedColorAtHitLocationResultStruct, worldSpaceLocationWeEstimatedTheColorAt), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationResultStruct_Statics::NewProp_worldSpaceLocationWeEstimatedTheColorAt_MetaData), Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationResultStruct_Statics::NewProp_worldSpaceLocationWeEstimatedTheColorAt_MetaData) };
@@ -763,13 +717,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Estimated Color at Hit Location\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Estimated Color at Hit Location" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationStruct_Statics::NewStructOps()
@@ -780,9 +730,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationStruct_Statics::NewProp_getEstimatedColorAtHitLocation_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This will get the color as close to the actual Hit Location as possible, which is very useful if you have Meshes with few vertices and you want to run SFX or VFX based on the Color of the Hit location and not the closest vertex color in case there is a diff. \nThe task may take a bit longer to calculate if Mesh has alot of vertices, so you have the option to always get it, or only get it if the Mesh is below a certain amount of vertices." },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationStruct_Statics::NewProp_getEstimatedColorAtHitLocation_SetBit(void* Obj)
@@ -794,9 +742,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationStruct_Statics::NewProp_onlyGetIfMeshHasMaxAmountOfVertices_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If True and getEstimatedColorAtHitLocation is True, then will only get the estimated color at hit location if the Mesh has Max Amount of Vertices than what's set below." },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationStruct_Statics::NewProp_onlyGetIfMeshHasMaxAmountOfVertices_SetBit(void* Obj)
@@ -808,9 +754,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationStruct_Statics::NewProp_maxAmountOfVertices_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/HitLocationPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Will only get the estimated color if the mesh this max amount of vertices" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationStruct_Statics::NewProp_maxAmountOfVertices = { "maxAmountOfVertices", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectEstimatedColorAtHitLocationStruct, maxAmountOfVertices), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationStruct_Statics::NewProp_maxAmountOfVertices_MetaData), Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationStruct_Statics::NewProp_maxAmountOfVertices_MetaData) };
@@ -841,20 +785,20 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		}
 		return Z_Registration_Info_UScriptStruct_VertexDetectEstimatedColorAtHitLocationStruct.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_HitLocationPrerequisites_h_Statics
+	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_HitLocationPrerequisites_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_HitLocationPrerequisites_h_Statics::ScriptStructInfo[] = {
-		{ FVertexDetectPhysicsSurfaceDataAtChannelStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataAtChannelStruct_Statics::NewStructOps, TEXT("VertexDetectPhysicsSurfaceDataAtChannelStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectPhysicsSurfaceDataAtChannelStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectPhysicsSurfaceDataAtChannelStruct), 2229509164U) },
-		{ FVertexDetectMostDominantPhysicsSurfaceInfo::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo_Statics::NewStructOps, TEXT("VertexDetectMostDominantPhysicsSurfaceInfo"), &Z_Registration_Info_UScriptStruct_VertexDetectMostDominantPhysicsSurfaceInfo, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectMostDominantPhysicsSurfaceInfo), 1359226726U) },
-		{ FVertexDetectPhysicsSurfaceDataStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewStructOps, TEXT("VertexDetectPhysicsSurfaceDataStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectPhysicsSurfaceDataStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectPhysicsSurfaceDataStruct), 4173758171U) },
-		{ FVertexDetectAndPaintFundementalsStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct_Statics::NewStructOps, TEXT("VertexDetectAndPaintFundementalsStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectAndPaintFundementalsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectAndPaintFundementalsStruct), 3986548766U) },
-		{ FVertexDetectEstimatedColorAtHitLocationResultStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationResultStruct_Statics::NewStructOps, TEXT("VertexDetectEstimatedColorAtHitLocationResultStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectEstimatedColorAtHitLocationResultStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectEstimatedColorAtHitLocationResultStruct), 2875169408U) },
-		{ FVertexDetectEstimatedColorAtHitLocationStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationStruct_Statics::NewStructOps, TEXT("VertexDetectEstimatedColorAtHitLocationStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectEstimatedColorAtHitLocationStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectEstimatedColorAtHitLocationStruct), 4015115612U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_HitLocationPrerequisites_h_Statics::ScriptStructInfo[] = {
+		{ FVertexDetectPhysicsSurfaceDataAtChannelStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataAtChannelStruct_Statics::NewStructOps, TEXT("VertexDetectPhysicsSurfaceDataAtChannelStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectPhysicsSurfaceDataAtChannelStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectPhysicsSurfaceDataAtChannelStruct), 1399182569U) },
+		{ FVertexDetectMostDominantPhysicsSurfaceInfo::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo_Statics::NewStructOps, TEXT("VertexDetectMostDominantPhysicsSurfaceInfo"), &Z_Registration_Info_UScriptStruct_VertexDetectMostDominantPhysicsSurfaceInfo, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectMostDominantPhysicsSurfaceInfo), 2353672735U) },
+		{ FVertexDetectPhysicsSurfaceDataStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics::NewStructOps, TEXT("VertexDetectPhysicsSurfaceDataStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectPhysicsSurfaceDataStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectPhysicsSurfaceDataStruct), 3059642996U) },
+		{ FVertexDetectAndPaintFundementalsStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct_Statics::NewStructOps, TEXT("VertexDetectAndPaintFundementalsStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectAndPaintFundementalsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectAndPaintFundementalsStruct), 2674751082U) },
+		{ FVertexDetectEstimatedColorAtHitLocationResultStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationResultStruct_Statics::NewStructOps, TEXT("VertexDetectEstimatedColorAtHitLocationResultStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectEstimatedColorAtHitLocationResultStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectEstimatedColorAtHitLocationResultStruct), 824555151U) },
+		{ FVertexDetectEstimatedColorAtHitLocationStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationStruct_Statics::NewStructOps, TEXT("VertexDetectEstimatedColorAtHitLocationStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectEstimatedColorAtHitLocationStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectEstimatedColorAtHitLocationStruct), 4047601044U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_HitLocationPrerequisites_h_1655841987(TEXT("/Script/VertexPaintDetectionPlugin"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_HitLocationPrerequisites_h_2983601408(TEXT("/Script/VertexPaintDetectionPlugin"),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_HitLocationPrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_HitLocationPrerequisites_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_HitLocationPrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_HitLocationPrerequisites_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

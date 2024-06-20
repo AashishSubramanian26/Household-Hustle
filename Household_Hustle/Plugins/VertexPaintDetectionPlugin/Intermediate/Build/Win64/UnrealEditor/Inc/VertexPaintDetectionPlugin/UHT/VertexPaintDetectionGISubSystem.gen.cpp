@@ -61,19 +61,19 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintDetectionGISubSystem() {}
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::NewProp_taskResultInfo = { "taskResultInfo", nullptr, (EPropertyFlags)0x0010008008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexPaintTaskFinished_Parms, taskResultInfo), Z_Construct_UScriptStruct_FVertexDetectTaskResultInfo, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::NewProp_taskResultInfo_MetaData), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::NewProp_taskResultInfo_MetaData) }; // 1722933695
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::NewProp_taskResultInfo = { "taskResultInfo", nullptr, (EPropertyFlags)0x0010008008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexPaintTaskFinished_Parms, taskResultInfo), Z_Construct_UScriptStruct_FVertexDetectTaskResultInfo, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::NewProp_taskResultInfo_MetaData), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::NewProp_taskResultInfo_MetaData) }; // 3152737793
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::NewProp_paintTaskResultInfo_MetaData[] = {
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::NewProp_paintTaskResultInfo = { "paintTaskResultInfo", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexPaintTaskFinished_Parms, paintTaskResultInfo), Z_Construct_UScriptStruct_FVertexDetectPaintTaskResultInfo, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::NewProp_paintTaskResultInfo_MetaData), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::NewProp_paintTaskResultInfo_MetaData) }; // 224760213
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::NewProp_paintTaskResultInfo = { "paintTaskResultInfo", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexPaintTaskFinished_Parms, paintTaskResultInfo), Z_Construct_UScriptStruct_FVertexDetectPaintTaskResultInfo, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::NewProp_paintTaskResultInfo_MetaData), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::NewProp_paintTaskResultInfo_MetaData) }; // 3289238885
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::NewProp_additionalData_MetaData[] = {
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::NewProp_additionalData = { "additionalData", nullptr, (EPropertyFlags)0x0010008008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexPaintTaskFinished_Parms, additionalData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::NewProp_additionalData_MetaData), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::NewProp_additionalData_MetaData) }; // 3299054901
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::NewProp_additionalData = { "additionalData", nullptr, (EPropertyFlags)0x0010008008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexPaintTaskFinished_Parms, additionalData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::NewProp_additionalData_MetaData), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::NewProp_additionalData_MetaData) }; // 559155732
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::NewProp_taskResultInfo,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::NewProp_paintTaskResultInfo,
@@ -81,13 +81,9 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintDetectionGISubSystem() {}
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::Function_MetaDataParams[] = {
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Paint Job Delegates\n" },
-#endif
 		{ "ModuleRelativePath", "Subsystems/VertexPaintDetectionGISubSystem.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Paint Job Delegates" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_VertexPaintDetectionPlugin, nullptr, "VertexPaintTaskFinished__DelegateSignature", nullptr, nullptr, Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::PropPointers), sizeof(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::_Script_VertexPaintDetectionPlugin_eventVertexPaintTaskFinished_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::Function_MetaDataParams), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature_Statics::Function_MetaDataParams) };
@@ -142,26 +138,22 @@ void FVertexPaintTaskFinished_DelegateWrapper(const FMulticastScriptDelegate& Ve
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexDetectTaskFinished__DelegateSignature_Statics::NewProp_taskResultInfo = { "taskResultInfo", nullptr, (EPropertyFlags)0x0010008008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexDetectTaskFinished_Parms, taskResultInfo), Z_Construct_UScriptStruct_FVertexDetectTaskResultInfo, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexDetectTaskFinished__DelegateSignature_Statics::NewProp_taskResultInfo_MetaData), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexDetectTaskFinished__DelegateSignature_Statics::NewProp_taskResultInfo_MetaData) }; // 1722933695
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexDetectTaskFinished__DelegateSignature_Statics::NewProp_taskResultInfo = { "taskResultInfo", nullptr, (EPropertyFlags)0x0010008008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexDetectTaskFinished_Parms, taskResultInfo), Z_Construct_UScriptStruct_FVertexDetectTaskResultInfo, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexDetectTaskFinished__DelegateSignature_Statics::NewProp_taskResultInfo_MetaData), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexDetectTaskFinished__DelegateSignature_Statics::NewProp_taskResultInfo_MetaData) }; // 3152737793
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexDetectTaskFinished__DelegateSignature_Statics::NewProp_additionalData_MetaData[] = {
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexDetectTaskFinished__DelegateSignature_Statics::NewProp_additionalData = { "additionalData", nullptr, (EPropertyFlags)0x0010008008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexDetectTaskFinished_Parms, additionalData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexDetectTaskFinished__DelegateSignature_Statics::NewProp_additionalData_MetaData), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexDetectTaskFinished__DelegateSignature_Statics::NewProp_additionalData_MetaData) }; // 3299054901
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexDetectTaskFinished__DelegateSignature_Statics::NewProp_additionalData = { "additionalData", nullptr, (EPropertyFlags)0x0010008008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexDetectTaskFinished_Parms, additionalData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexDetectTaskFinished__DelegateSignature_Statics::NewProp_additionalData_MetaData), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexDetectTaskFinished__DelegateSignature_Statics::NewProp_additionalData_MetaData) }; // 559155732
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexDetectTaskFinished__DelegateSignature_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexDetectTaskFinished__DelegateSignature_Statics::NewProp_taskResultInfo,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexDetectTaskFinished__DelegateSignature_Statics::NewProp_additionalData,
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexDetectTaskFinished__DelegateSignature_Statics::Function_MetaDataParams[] = {
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Detection Job Delegates\n" },
-#endif
 		{ "ModuleRelativePath", "Subsystems/VertexPaintDetectionGISubSystem.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Detection Job Delegates" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexDetectTaskFinished__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_VertexPaintDetectionPlugin, nullptr, "VertexDetectTaskFinished__DelegateSignature", nullptr, nullptr, Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexDetectTaskFinished__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexDetectTaskFinished__DelegateSignature_Statics::PropPointers), sizeof(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexDetectTaskFinished__DelegateSignature_Statics::_Script_VertexPaintDetectionPlugin_eventVertexDetectTaskFinished_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexDetectTaskFinished__DelegateSignature_Statics::Function_MetaDataParams), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexDetectTaskFinished__DelegateSignature_Statics::Function_MetaDataParams) };
@@ -248,9 +240,7 @@ void FVertexDetectTaskFinished_DelegateWrapper(const FMulticastScriptDelegate& V
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::Class_MetaDataParams[] = {
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n *\n */" },
-#endif
 		{ "IncludePath", "Subsystems/VertexPaintDetectionGISubSystem.h" },
 		{ "ModuleRelativePath", "Subsystems/VertexPaintDetectionGISubSystem.h" },
 	};
@@ -259,22 +249,18 @@ void FVertexDetectTaskFinished_DelegateWrapper(const FMulticastScriptDelegate& V
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_vertexPaintTaskFinished_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Subsystems/VertexPaintDetectionGISubSystem.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Broadcasts when Finished a Paint Task." },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_vertexPaintTaskFinished = { "vertexPaintTaskFinished", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVertexPaintDetectionGISubSystem, vertexPaintTaskFinished), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_vertexPaintTaskFinished_MetaData), Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_vertexPaintTaskFinished_MetaData) }; // 1060707667
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_vertexPaintTaskFinished = { "vertexPaintTaskFinished", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVertexPaintDetectionGISubSystem, vertexPaintTaskFinished), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexPaintTaskFinished__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_vertexPaintTaskFinished_MetaData), Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_vertexPaintTaskFinished_MetaData) }; // 1229447643
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_vertexDetectTaskFinished_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Subsystems/VertexPaintDetectionGISubSystem.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Broadcasts when Finished a Detect Task." },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_vertexDetectTaskFinished = { "vertexDetectTaskFinished", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVertexPaintDetectionGISubSystem, vertexDetectTaskFinished), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexDetectTaskFinished__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_vertexDetectTaskFinished_MetaData), Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_vertexDetectTaskFinished_MetaData) }; // 754677714
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_vertexDetectTaskFinished = { "vertexDetectTaskFinished", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVertexPaintDetectionGISubSystem, vertexDetectTaskFinished), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexDetectTaskFinished__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_vertexDetectTaskFinished_MetaData), Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_vertexDetectTaskFinished_MetaData) }; // 882205021
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_cleanupOldVertexColorBufferTimers_Inner = { "cleanupOldVertexColorBufferTimers", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FTimerHandle, METADATA_PARAMS(0, nullptr) }; // 3999327403
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_cleanupOldVertexColorBufferTimers_MetaData[] = {
@@ -286,13 +272,9 @@ void FVertexDetectTaskFinished_DelegateWrapper(const FMulticastScriptDelegate& V
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_cachedPhysicalMaterialAssets_Key_KeyProp = { "cachedPhysicalMaterialAssets_Key", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UEnum_PhysicsCore_EPhysicalSurface, METADATA_PARAMS(0, nullptr) }; // 2508321301
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_cachedPhysicalMaterialAssets_MetaData[] = {
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Caches\n" },
-#endif
 		{ "ModuleRelativePath", "Subsystems/VertexPaintDetectionGISubSystem.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Caches" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_cachedPhysicalMaterialAssets = { "cachedPhysicalMaterialAssets", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVertexPaintDetectionGISubSystem, cachedPhysicalMaterialAssets), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_cachedPhysicalMaterialAssets_MetaData), Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_cachedPhysicalMaterialAssets_MetaData) }; // 2508321301
@@ -304,13 +286,9 @@ void FVertexDetectTaskFinished_DelegateWrapper(const FMulticastScriptDelegate& V
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_vertexPaintColorSnippetReferenceDataAssetCache = { "vertexPaintColorSnippetReferenceDataAssetCache", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVertexPaintDetectionGISubSystem, vertexPaintColorSnippetReferenceDataAssetCache), Z_Construct_UClass_UVertexPaintColorSnippetRefs_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_vertexPaintColorSnippetReferenceDataAssetCache_MetaData), Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_vertexPaintColorSnippetReferenceDataAssetCache_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_vertexPaintOptimizationDataAssetCache_MetaData[] = {
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Caches these so they're in memory at all time, so we don't have to worry about a use case where they may not be in memory when a asynctask has started, and that we will get a crash because we can't load them on the async thread\n" },
-#endif
 		{ "ModuleRelativePath", "Subsystems/VertexPaintDetectionGISubSystem.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Caches these so they're in memory at all time, so we don't have to worry about a use case where they may not be in memory when a asynctask has started, and that we will get a crash because we can't load them on the async thread" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_vertexPaintOptimizationDataAssetCache = { "vertexPaintOptimizationDataAssetCache", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVertexPaintDetectionGISubSystem, vertexPaintOptimizationDataAssetCache), Z_Construct_UClass_UVertexPaintOptimizationDataAsset_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_vertexPaintOptimizationDataAssetCache_MetaData), Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics::NewProp_vertexPaintOptimizationDataAssetCache_MetaData) };
@@ -373,15 +351,15 @@ void FVertexDetectTaskFinished_DelegateWrapper(const FMulticastScriptDelegate& V
 	UVertexPaintDetectionGISubSystem::UVertexPaintDetectionGISubSystem() {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UVertexPaintDetectionGISubSystem);
 	UVertexPaintDetectionGISubSystem::~UVertexPaintDetectionGISubSystem() {}
-	struct Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Subsystems_VertexPaintDetectionGISubSystem_h_Statics
+	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Subsystems_VertexPaintDetectionGISubSystem_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Subsystems_VertexPaintDetectionGISubSystem_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UVertexPaintDetectionGISubSystem, UVertexPaintDetectionGISubSystem::StaticClass, TEXT("UVertexPaintDetectionGISubSystem"), &Z_Registration_Info_UClass_UVertexPaintDetectionGISubSystem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UVertexPaintDetectionGISubSystem), 2769506398U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Subsystems_VertexPaintDetectionGISubSystem_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UVertexPaintDetectionGISubSystem, UVertexPaintDetectionGISubSystem::StaticClass, TEXT("UVertexPaintDetectionGISubSystem"), &Z_Registration_Info_UClass_UVertexPaintDetectionGISubSystem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UVertexPaintDetectionGISubSystem), 3649059936U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Subsystems_VertexPaintDetectionGISubSystem_h_813251512(TEXT("/Script/VertexPaintDetectionPlugin"),
-		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Subsystems_VertexPaintDetectionGISubSystem_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Subsystems_VertexPaintDetectionGISubSystem_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Subsystems_VertexPaintDetectionGISubSystem_h_3462483311(TEXT("/Script/VertexPaintDetectionPlugin"),
+		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Subsystems_VertexPaintDetectionGISubSystem_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Subsystems_VertexPaintDetectionGISubSystem_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

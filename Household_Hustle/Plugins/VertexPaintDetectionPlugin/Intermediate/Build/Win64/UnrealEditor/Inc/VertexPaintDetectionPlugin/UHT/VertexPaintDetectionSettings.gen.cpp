@@ -48,9 +48,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintDetectionSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_VertexPaintDetectionPlugin_ETVertexPaintThreadPriority_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Since the engines own EThreadPriority isn't blueprint type i had to make our own \n" },
-#endif
 		{ "Highest.DisplayName", "Highest" },
 		{ "Highest.Name", "ETVertexPaintThreadPriority::Highest" },
 		{ "ModuleRelativePath", "VertexPaintDetectionSettings.h" },
@@ -60,9 +58,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintDetectionSettings() {}
 		{ "Slowest.Name", "ETVertexPaintThreadPriority::Slowest" },
 		{ "TimeCritical.DisplayName", "Time Critical" },
 		{ "TimeCritical.Name", "ETVertexPaintThreadPriority::TimeCritical" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Since the engines own EThreadPriority isn't blueprint type i had to make our own" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumParams Z_Construct_UEnum_VertexPaintDetectionPlugin_ETVertexPaintThreadPriority_Statics::EnumParams = {
@@ -145,9 +141,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintDetectionSettings() {}
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::Class_MetaDataParams[] = {
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n *\n */" },
-#endif
 		{ "DisplayName", "Runtime Vertex Paint and Detection Plugin Settings" },
 		{ "IncludePath", "VertexPaintDetectionSettings.h" },
 		{ "ModuleRelativePath", "VertexPaintDetectionSettings.h" },
@@ -157,9 +151,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintDetectionSettings() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_OptimizationDataAssetToUse_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "VertexPaintDetectionSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Which Optimization Data Asset we should use when painting. Meshes that are registered in it are only painted on those amounts of LODs which can save alot of performance. \nThis can be changed in the Editor Widget." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FSoftObjectPropertyParams Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_OptimizationDataAssetToUse = { "vertexPaintAndDetectionPlugin_OptimizationDataAssetToUse", nullptr, (EPropertyFlags)0x0014000000024015, UECodeGen_Private::EPropertyGenFlags::SoftObject, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVertexPaintDetectionSettings, vertexPaintAndDetectionPlugin_OptimizationDataAssetToUse), Z_Construct_UClass_UVertexPaintOptimizationDataAsset_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_OptimizationDataAssetToUse_MetaData), Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_OptimizationDataAssetToUse_MetaData) };
@@ -167,9 +159,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintDetectionSettings() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_MaterialsDataAssetToUse_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "VertexPaintDetectionSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Which Vertex Paint Material Data Asset to use. This is the data asset you register your materials that use vertex colors that you want to detect what is on what channel etc. \nIf there is none set then you can't detect vertex data, you can only paint. \nThis can be changed in the Editor Widget." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FSoftObjectPropertyParams Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_MaterialsDataAssetToUse = { "vertexPaintAndDetectionPlugin_MaterialsDataAssetToUse", nullptr, (EPropertyFlags)0x0014000000024015, UECodeGen_Private::EPropertyGenFlags::SoftObject, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVertexPaintDetectionSettings, vertexPaintAndDetectionPlugin_MaterialsDataAssetToUse), Z_Construct_UClass_UVertexPaintMaterialDataAsset_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_MaterialsDataAssetToUse_MetaData), Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_MaterialsDataAssetToUse_MetaData) };
@@ -177,9 +167,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintDetectionSettings() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_ColorSnippetReferencesDataAssetToUse_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "VertexPaintDetectionSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Which Data Asset to store references to Color Snippet Data Assets. Used so we can more optimally get which color snippet data asset to bring into memory so we don't have to go through them all in order to find a stored snippet. \nThis can be changed in the Editor Widget." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FSoftObjectPropertyParams Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_ColorSnippetReferencesDataAssetToUse = { "vertexPaintAndDetectionPlugin_ColorSnippetReferencesDataAssetToUse", nullptr, (EPropertyFlags)0x0014000000024015, UECodeGen_Private::EPropertyGenFlags::SoftObject, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVertexPaintDetectionSettings, vertexPaintAndDetectionPlugin_ColorSnippetReferencesDataAssetToUse), Z_Construct_UClass_UVertexPaintColorSnippetRefs_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_ColorSnippetReferencesDataAssetToUse_MetaData), Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_ColorSnippetReferencesDataAssetToUse_MetaData) };
@@ -187,9 +175,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintDetectionSettings() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_EditorWidgetNotificationEnabled_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "VertexPaintDetectionSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If we should Show Notifications when making changes in the Editor Widget." },
-#endif
 	};
 #endif
 	void Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_EditorWidgetNotificationEnabled_SetBit(void* Obj)
@@ -201,9 +187,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintDetectionSettings() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_EditorWidgetNotificationDuration_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "VertexPaintDetectionSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Duration of the Notifications that pop up when making certain changes in  the editor widget." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_EditorWidgetNotificationDuration = { "vertexPaintAndDetectionPlugin_EditorWidgetNotificationDuration", nullptr, (EPropertyFlags)0x0010000000014001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVertexPaintDetectionSettings, vertexPaintAndDetectionPlugin_EditorWidgetNotificationDuration), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_EditorWidgetNotificationDuration_MetaData), Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_EditorWidgetNotificationDuration_MetaData) };
@@ -211,9 +195,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintDetectionSettings() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_MaxAmountOfAllowedTasksPerMesh_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "VertexPaintDetectionSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This is the Max Amount of Tasks a Mesh can have, any new Tasks will Declined. Don't recommend changing this too much since if the Task Queue grows to large, performance will be affected since the TMaps become much more heavier when you run .Add, .FindRef etc. For instance at 1000 Tasks you can drop to 20FPS. \nRecommend making sure you don't add more Tasks than you need, for instance adding the new task when the current task is finished instead of every frame. If the queue grows too large, paint jobs will feel unresponsive as well since it may take a while before it reaches the latest added task." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_MaxAmountOfAllowedTasksPerMesh = { "vertexPaintAndDetectionPlugin_MaxAmountOfAllowedTasksPerMesh", nullptr, (EPropertyFlags)0x0010000000014001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVertexPaintDetectionSettings, vertexPaintAndDetectionPlugin_MaxAmountOfAllowedTasksPerMesh), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_MaxAmountOfAllowedTasksPerMesh_MetaData), Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_MaxAmountOfAllowedTasksPerMesh_MetaData) };
@@ -222,19 +204,15 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintDetectionSettings() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_MultithreadPriority_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "VertexPaintDetectionSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Priority of the Thread Pool we're creating for Painting/Detecting." },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_MultithreadPriority = { "vertexPaintAndDetectionPlugin_MultithreadPriority", nullptr, (EPropertyFlags)0x0010000000014001, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVertexPaintDetectionSettings, vertexPaintAndDetectionPlugin_MultithreadPriority), Z_Construct_UEnum_VertexPaintDetectionPlugin_ETVertexPaintThreadPriority, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_MultithreadPriority_MetaData), Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_MultithreadPriority_MetaData) }; // 856546393
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_MultithreadPriority = { "vertexPaintAndDetectionPlugin_MultithreadPriority", nullptr, (EPropertyFlags)0x0010000000014001, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UVertexPaintDetectionSettings, vertexPaintAndDetectionPlugin_MultithreadPriority), Z_Construct_UEnum_VertexPaintDetectionPlugin_ETVertexPaintThreadPriority, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_MultithreadPriority_MetaData), Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_MultithreadPriority_MetaData) }; // 710913261
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_UseMaximumAmountOfCoresForMultithreading_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "VertexPaintDetectionSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Will get the Max amount of cores using FGenericPlatformMisc::NumberOfCoresIncludingHyperthreads() instead of the regular FGenericPlatformMisc::NumberOfWorkerThreadsToSpawn(). This may be useful if your game is all about the vertex painting/detection like a Tatoo game or something and you don't have any other heavy things that may require use of the threads." },
-#endif
 	};
 #endif
 	void Z_Construct_UClass_UVertexPaintDetectionSettings_Statics::NewProp_vertexPaintAndDetectionPlugin_UseMaximumAmountOfCoresForMultithreading_SetBit(void* Obj)
@@ -286,19 +264,19 @@ void EmptyLinkFunctionForGeneratedCodeVertexPaintDetectionSettings() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UVertexPaintDetectionSettings);
 	UVertexPaintDetectionSettings::~UVertexPaintDetectionSettings() {}
-	struct Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionSettings_h_Statics
+	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionSettings_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionSettings_h_Statics::EnumInfo[] = {
-		{ ETVertexPaintThreadPriority_StaticEnum, TEXT("ETVertexPaintThreadPriority"), &Z_Registration_Info_UEnum_ETVertexPaintThreadPriority, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 856546393U) },
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionSettings_h_Statics::EnumInfo[] = {
+		{ ETVertexPaintThreadPriority_StaticEnum, TEXT("ETVertexPaintThreadPriority"), &Z_Registration_Info_UEnum_ETVertexPaintThreadPriority, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 710913261U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionSettings_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UVertexPaintDetectionSettings, UVertexPaintDetectionSettings::StaticClass, TEXT("UVertexPaintDetectionSettings"), &Z_Registration_Info_UClass_UVertexPaintDetectionSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UVertexPaintDetectionSettings), 57215071U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionSettings_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UVertexPaintDetectionSettings, UVertexPaintDetectionSettings::StaticClass, TEXT("UVertexPaintDetectionSettings"), &Z_Registration_Info_UClass_UVertexPaintDetectionSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UVertexPaintDetectionSettings), 3961715873U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionSettings_h_1543786261(TEXT("/Script/VertexPaintDetectionPlugin"),
-		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionSettings_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionSettings_h_145090013(TEXT("/Script/VertexPaintDetectionPlugin"),
+		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionSettings_h_Statics::ClassInfo),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionSettings_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionSettings_h_Statics::EnumInfo));
+		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionSettings_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_VertexPaintDetectionSettings_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

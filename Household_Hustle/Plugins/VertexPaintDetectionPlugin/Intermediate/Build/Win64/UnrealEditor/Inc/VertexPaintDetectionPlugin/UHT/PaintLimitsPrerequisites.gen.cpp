@@ -49,13 +49,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintingLimitStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Vertex Paint On Mesh Limits\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/PaintLimitsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Vertex Paint On Mesh Limits" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexPaintingLimitStruct_Statics::NewStructOps()
@@ -66,9 +62,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintingLimitStruct_Statics::NewProp_usePaintLimits_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintLimitsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Paint Limits are useful if you have something like light Rain that should be able to make characters completely drenched but only a bit wet. Then you can use this to limit how much the Rain can paint on whatever Channel." },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexPaintingLimitStruct_Statics::NewProp_usePaintLimits_SetBit(void* Obj)
@@ -80,9 +74,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintingLimitStruct_Statics::NewProp_limitColorIfTheColorWasAlreadyOverTheLimit_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintLimitsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If the Color was already over the limit before we Applied any, then should we clamp that color or not. Should be false if you for instance have a water drop that paints with limit of 0.75, that goes over an already fully watered surface, then the drop shouldn't change and make the surface has less water." },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexPaintingLimitStruct_Statics::NewProp_limitColorIfTheColorWasAlreadyOverTheLimit_SetBit(void* Obj)
@@ -160,13 +152,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintingLimitRGBA_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Vertex Paint On Mesh Limits - RGBA\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/PaintLimitsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Vertex Paint On Mesh Limits - RGBA" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexPaintingLimitRGBA_Statics::NewStructOps()
@@ -261,13 +249,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintingLimitPhysicsSurface_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Vertex Paint On Mesh Limits - Physics Surface\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/PaintLimitsPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Vertex Paint On Mesh Limits - Physics Surface" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexPaintingLimitPhysicsSurface_Statics::NewStructOps()
@@ -306,17 +290,17 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 		}
 		return Z_Registration_Info_UScriptStruct_VertexPaintingLimitPhysicsSurface.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintLimitsPrerequisites_h_Statics
+	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintLimitsPrerequisites_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintLimitsPrerequisites_h_Statics::ScriptStructInfo[] = {
-		{ FVertexPaintingLimitStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintingLimitStruct_Statics::NewStructOps, TEXT("VertexPaintingLimitStruct"), &Z_Registration_Info_UScriptStruct_VertexPaintingLimitStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintingLimitStruct), 1728025902U) },
-		{ FVertexPaintingLimitRGBA::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintingLimitRGBA_Statics::NewStructOps, TEXT("VertexPaintingLimitRGBA"), &Z_Registration_Info_UScriptStruct_VertexPaintingLimitRGBA, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintingLimitRGBA), 3333450230U) },
-		{ FVertexPaintingLimitPhysicsSurface::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintingLimitPhysicsSurface_Statics::NewStructOps, TEXT("VertexPaintingLimitPhysicsSurface"), &Z_Registration_Info_UScriptStruct_VertexPaintingLimitPhysicsSurface, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintingLimitPhysicsSurface), 3229981721U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintLimitsPrerequisites_h_Statics::ScriptStructInfo[] = {
+		{ FVertexPaintingLimitStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintingLimitStruct_Statics::NewStructOps, TEXT("VertexPaintingLimitStruct"), &Z_Registration_Info_UScriptStruct_VertexPaintingLimitStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintingLimitStruct), 112908438U) },
+		{ FVertexPaintingLimitRGBA::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintingLimitRGBA_Statics::NewStructOps, TEXT("VertexPaintingLimitRGBA"), &Z_Registration_Info_UScriptStruct_VertexPaintingLimitRGBA, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintingLimitRGBA), 2970671258U) },
+		{ FVertexPaintingLimitPhysicsSurface::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintingLimitPhysicsSurface_Statics::NewStructOps, TEXT("VertexPaintingLimitPhysicsSurface"), &Z_Registration_Info_UScriptStruct_VertexPaintingLimitPhysicsSurface, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintingLimitPhysicsSurface), 153516782U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintLimitsPrerequisites_h_2719781669(TEXT("/Script/VertexPaintDetectionPlugin"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintLimitsPrerequisites_h_841675361(TEXT("/Script/VertexPaintDetectionPlugin"),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintLimitsPrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintLimitsPrerequisites_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintLimitsPrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintLimitsPrerequisites_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

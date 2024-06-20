@@ -44,16 +44,12 @@ void EmptyLinkFunctionForGeneratedCodeFallOffPrerequisites() {}
 		{ "BaseOfPaintShape.Name", "EVertexPaintStartFallOffDistanceFrom::BaseOfPaintShape" },
 		{ "BaseOfPaintShape.Tooltip", "This will base the Distance to Start FallOff From from the very Base off the Shape, for instance if Paint Within Area on a Cube/Rectangle Shpae then this will be from the bottom of the area. If paint at location then from the Center. " },
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Distance To Start Fall Off Types\n" },
-#endif
 		{ "EndOfPaintShape.DisplayName", "End Of Paint Shape" },
 		{ "EndOfPaintShape.Name", "EVertexPaintStartFallOffDistanceFrom::EndOfPaintShape" },
 		{ "EndOfPaintShape.Tooltip", "This will base the Distance to Start FallOff From from the very End off the Shape, for instance if Paint Within Area on a Cube/Rectangle then this will be from the Top. If paint at location then from the Edge of the Area of Effect. Useful for paint within area things like Lakes in combination with extra extent, where it will start the falloff at the top edge of the lake and go up toward the extra extent. " },
 		{ "ModuleRelativePath", "Prerequisites/FallOffPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Distance To Start Fall Off Types" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumParams Z_Construct_UEnum_VertexPaintDetectionPlugin_EVertexPaintStartFallOffDistanceFrom_Statics::EnumParams = {
@@ -123,13 +119,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectFallOffSettings_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "// FallOff Settings\n" },
-#endif
 		{ "ModuleRelativePath", "Prerequisites/FallOffPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "FallOff Settings" },
-#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectFallOffSettings_Statics::NewStructOps()
@@ -148,19 +140,15 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectFallOffSettings_Statics::NewProp_startFallOffDistanceFrom_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/FallOffPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "How we should base the Distance to Start the Fall Off From. For instance if Paint Within Area with Box, if we should start from the Base, i.e. the Bottom, or the End, i.e. the Top, or Sphere Shape from the Centre with Base or the Outer Edge with End. \n\nVery useful in instances like a Lake, where no matter the size of it you always want to start the falloff from the top." },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FVertexDetectFallOffSettings_Statics::NewProp_startFallOffDistanceFrom = { "startFallOffDistanceFrom", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectFallOffSettings, startFallOffDistanceFrom), Z_Construct_UEnum_VertexPaintDetectionPlugin_EVertexPaintStartFallOffDistanceFrom, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectFallOffSettings_Statics::NewProp_startFallOffDistanceFrom_MetaData), Z_Construct_UScriptStruct_FVertexDetectFallOffSettings_Statics::NewProp_startFallOffDistanceFrom_MetaData) }; // 1074685987
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FVertexDetectFallOffSettings_Statics::NewProp_startFallOffDistanceFrom = { "startFallOffDistanceFrom", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectFallOffSettings, startFallOffDistanceFrom), Z_Construct_UEnum_VertexPaintDetectionPlugin_EVertexPaintStartFallOffDistanceFrom, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectFallOffSettings_Statics::NewProp_startFallOffDistanceFrom_MetaData), Z_Construct_UScriptStruct_FVertexDetectFallOffSettings_Statics::NewProp_startFallOffDistanceFrom_MetaData) }; // 3552292866
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectFallOffSettings_Statics::NewProp_distanceToStartFallOffFrom_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/FallOffPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The distance from either the Base or the End of the Area to Start Fading in the Falloff. For example if Paint Within Area with Box, and it's set to EndOfFFallOffType, then this will be the distance downward from the Top where the fading will start. If it's set to be the Base, then the Distance upwards from the bottom. If Paint at Location with Base then will base it of the centre, if End then from the outer Edge. \n\nDepending on the FallOff type it has different use cases, for instance for Lakes in combination with Extra Extent then the End will be useful as the falloff will start at the Top." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexDetectFallOffSettings_Statics::NewProp_distanceToStartFallOffFrom = { "distanceToStartFallOffFrom", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectFallOffSettings, distanceToStartFallOffFrom), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectFallOffSettings_Statics::NewProp_distanceToStartFallOffFrom_MetaData), Z_Construct_UScriptStruct_FVertexDetectFallOffSettings_Statics::NewProp_distanceToStartFallOffFrom_MetaData) };
@@ -168,9 +156,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectFallOffSettings_Statics::NewProp_limitFallOffColor_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/FallOffPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Limits the Color Strength on the Channels we're trying to Apply, if not already over the limit, so we can always get a nice even falloff even though you keep painting. If Painting Using Physics Surface, then will limit the channels that has the physics surface, otherwise will limit the ones set below." },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectFallOffSettings_Statics::NewProp_limitFallOffColor_SetBit(void* Obj)
@@ -182,9 +168,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectFallOffSettings_Statics::NewProp_colorLimitAtFallOffEdge_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/FallOffPrerequisites.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Max Color between 0-1 at the very edge of the Falloff this paint job can reach. We start lerping toward this limit where the falloff starts, so you will always have a smooth falloff even though you continually run paint jobs with Add. Very useful for stuff like Lakes with some Extra Extent where if set to start the falloff at the End, so you always want a nice falloff at the top of the lake toward the extra extent and not a hard stop." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexDetectFallOffSettings_Statics::NewProp_colorLimitAtFallOffEdge = { "colorLimitAtFallOffEdge", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectFallOffSettings, colorLimitAtFallOffEdge), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectFallOffSettings_Statics::NewProp_colorLimitAtFallOffEdge_MetaData), Z_Construct_UScriptStruct_FVertexDetectFallOffSettings_Statics::NewProp_colorLimitAtFallOffEdge_MetaData) };
@@ -218,19 +202,19 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		}
 		return Z_Registration_Info_UScriptStruct_VertexDetectFallOffSettings.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_FallOffPrerequisites_h_Statics
+	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_FallOffPrerequisites_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_FallOffPrerequisites_h_Statics::EnumInfo[] = {
-		{ EVertexPaintStartFallOffDistanceFrom_StaticEnum, TEXT("EVertexPaintStartFallOffDistanceFrom"), &Z_Registration_Info_UEnum_EVertexPaintStartFallOffDistanceFrom, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1074685987U) },
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_FallOffPrerequisites_h_Statics::EnumInfo[] = {
+		{ EVertexPaintStartFallOffDistanceFrom_StaticEnum, TEXT("EVertexPaintStartFallOffDistanceFrom"), &Z_Registration_Info_UEnum_EVertexPaintStartFallOffDistanceFrom, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3552292866U) },
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_FallOffPrerequisites_h_Statics::ScriptStructInfo[] = {
-		{ FVertexDetectFallOffSettings::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectFallOffSettings_Statics::NewStructOps, TEXT("VertexDetectFallOffSettings"), &Z_Registration_Info_UScriptStruct_VertexDetectFallOffSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectFallOffSettings), 3462345100U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_FallOffPrerequisites_h_Statics::ScriptStructInfo[] = {
+		{ FVertexDetectFallOffSettings::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectFallOffSettings_Statics::NewStructOps, TEXT("VertexDetectFallOffSettings"), &Z_Registration_Info_UScriptStruct_VertexDetectFallOffSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectFallOffSettings), 721392175U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_FallOffPrerequisites_h_3150064442(TEXT("/Script/VertexPaintDetectionPlugin"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_FallOffPrerequisites_h_2109827675(TEXT("/Script/VertexPaintDetectionPlugin"),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_FallOffPrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_FallOffPrerequisites_h_Statics::ScriptStructInfo),
-		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_FallOffPrerequisites_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_FallOffPrerequisites_h_Statics::EnumInfo));
+		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_FallOffPrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_FallOffPrerequisites_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_FallOffPrerequisites_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_FallOffPrerequisites_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

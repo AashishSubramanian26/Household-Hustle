@@ -73,9 +73,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FAutoAddCo
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FAutoAddColorSettings_Statics::NewProp_delayBetweenTasks_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin|Auto Paint Component" },
 		{ "ModuleRelativePath", "Components/AutoAddColorComponent.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If we should have a delay until we start auto adding colors again. Useful if you're for instance drying a character but don't want it to dry too fast." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FAutoAddColorSettings_Statics::NewProp_delayBetweenTasks = { "delayBetweenTasks", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FAutoAddColorSettings, delayBetweenTasks), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAutoAddColorSettings_Statics::NewProp_delayBetweenTasks_MetaData), Z_Construct_UScriptStruct_FAutoAddColorSettings_Statics::NewProp_delayBetweenTasks_MetaData) };
@@ -83,9 +81,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FAutoAddCo
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FAutoAddColorSettings_Statics::NewProp_stopAutoPaintingMeshIfFullyPainted_MetaData[] = {
 		{ "Category", "Auto Paint|Optimization Settings" },
 		{ "ModuleRelativePath", "Components/AutoAddColorComponent.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If True then this will Stop Auto Painting the Mesh if it's Fully Painted of the Channels / Physics Surfaces we're Trying to Apply." },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FAutoAddColorSettings_Statics::NewProp_stopAutoPaintingMeshIfFullyPainted_SetBit(void* Obj)
@@ -97,9 +93,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FAutoAddCo
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FAutoAddColorSettings_Statics::NewProp_stopAutoPaintingMeshIfCompletelyEmpty_MetaData[] = {
 		{ "Category", "Auto Paint|Optimization Settings" },
 		{ "ModuleRelativePath", "Components/AutoAddColorComponent.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If True then this will Stop Auto Painting the Mesh if it's Completely Empty of the Channels / Physics Surfaces we're Trying to Remove. \nCan be useful if you have a centralized system, for example a Singleton that listens to Overlaps of Water Bodies and Starts Auto Paint Entire Mesh on them for Drying to make sure they all can Dry in sync. But if a Mesh leaves the water body and has become fully dried, then it can stop auto painting it, i.e. clean it out of it's list so it only has the relevant Meshes in it." },
-#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FAutoAddColorSettings_Statics::NewProp_stopAutoPaintingMeshIfCompletelyEmpty_SetBit(void* Obj)
@@ -412,9 +406,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FAutoPaint
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UAutoAddColorComponent_GetMeshesBeingAutoPainted_Statics::NewProp_ReturnValue_ValueProp = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FAutoAddColorSettings, METADATA_PARAMS(0, nullptr) }; // 2463745312
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UAutoAddColorComponent_GetMeshesBeingAutoPainted_Statics::NewProp_ReturnValue_ValueProp = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FAutoAddColorSettings, METADATA_PARAMS(0, nullptr) }; // 294965315
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UAutoAddColorComponent_GetMeshesBeingAutoPainted_Statics::NewProp_ReturnValue_Key_KeyProp = { "ReturnValue_Key", nullptr, (EPropertyFlags)0x0000000000080000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FMapPropertyParams Z_Construct_UFunction_UAutoAddColorComponent_GetMeshesBeingAutoPainted_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010008000000580, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AutoAddColorComponent_eventGetMeshesBeingAutoPainted_Parms, ReturnValue), EMapPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 2463745312
+	const UECodeGen_Private::FMapPropertyParams Z_Construct_UFunction_UAutoAddColorComponent_GetMeshesBeingAutoPainted_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010008000000580, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AutoAddColorComponent_eventGetMeshesBeingAutoPainted_Parms, ReturnValue), EMapPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 294965315
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UAutoAddColorComponent_GetMeshesBeingAutoPainted_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UAutoAddColorComponent_GetMeshesBeingAutoPainted_Statics::NewProp_ReturnValue_ValueProp,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UAutoAddColorComponent_GetMeshesBeingAutoPainted_Statics::NewProp_ReturnValue_Key_KeyProp,
@@ -469,19 +463,19 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FAutoPaint
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UAutoAddColorComponent_PaintTaskFinished_Statics::NewProp_taskResultInfo = { "taskResultInfo", nullptr, (EPropertyFlags)0x0010008008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AutoAddColorComponent_eventPaintTaskFinished_Parms, taskResultInfo), Z_Construct_UScriptStruct_FVertexDetectTaskResultInfo, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UAutoAddColorComponent_PaintTaskFinished_Statics::NewProp_taskResultInfo_MetaData), Z_Construct_UFunction_UAutoAddColorComponent_PaintTaskFinished_Statics::NewProp_taskResultInfo_MetaData) }; // 1722933695
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UAutoAddColorComponent_PaintTaskFinished_Statics::NewProp_taskResultInfo = { "taskResultInfo", nullptr, (EPropertyFlags)0x0010008008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AutoAddColorComponent_eventPaintTaskFinished_Parms, taskResultInfo), Z_Construct_UScriptStruct_FVertexDetectTaskResultInfo, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UAutoAddColorComponent_PaintTaskFinished_Statics::NewProp_taskResultInfo_MetaData), Z_Construct_UFunction_UAutoAddColorComponent_PaintTaskFinished_Statics::NewProp_taskResultInfo_MetaData) }; // 3152737793
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAutoAddColorComponent_PaintTaskFinished_Statics::NewProp_paintTaskResultInfo_MetaData[] = {
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UAutoAddColorComponent_PaintTaskFinished_Statics::NewProp_paintTaskResultInfo = { "paintTaskResultInfo", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AutoAddColorComponent_eventPaintTaskFinished_Parms, paintTaskResultInfo), Z_Construct_UScriptStruct_FVertexDetectPaintTaskResultInfo, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UAutoAddColorComponent_PaintTaskFinished_Statics::NewProp_paintTaskResultInfo_MetaData), Z_Construct_UFunction_UAutoAddColorComponent_PaintTaskFinished_Statics::NewProp_paintTaskResultInfo_MetaData) }; // 224760213
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UAutoAddColorComponent_PaintTaskFinished_Statics::NewProp_paintTaskResultInfo = { "paintTaskResultInfo", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AutoAddColorComponent_eventPaintTaskFinished_Parms, paintTaskResultInfo), Z_Construct_UScriptStruct_FVertexDetectPaintTaskResultInfo, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UAutoAddColorComponent_PaintTaskFinished_Statics::NewProp_paintTaskResultInfo_MetaData), Z_Construct_UFunction_UAutoAddColorComponent_PaintTaskFinished_Statics::NewProp_paintTaskResultInfo_MetaData) }; // 3289238885
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAutoAddColorComponent_PaintTaskFinished_Statics::NewProp_additionalData_MetaData[] = {
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UAutoAddColorComponent_PaintTaskFinished_Statics::NewProp_additionalData = { "additionalData", nullptr, (EPropertyFlags)0x0010008008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AutoAddColorComponent_eventPaintTaskFinished_Parms, additionalData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UAutoAddColorComponent_PaintTaskFinished_Statics::NewProp_additionalData_MetaData), Z_Construct_UFunction_UAutoAddColorComponent_PaintTaskFinished_Statics::NewProp_additionalData_MetaData) }; // 3299054901
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UAutoAddColorComponent_PaintTaskFinished_Statics::NewProp_additionalData = { "additionalData", nullptr, (EPropertyFlags)0x0010008008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AutoAddColorComponent_eventPaintTaskFinished_Parms, additionalData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UAutoAddColorComponent_PaintTaskFinished_Statics::NewProp_additionalData_MetaData), Z_Construct_UFunction_UAutoAddColorComponent_PaintTaskFinished_Statics::NewProp_additionalData_MetaData) }; // 559155732
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UAutoAddColorComponent_PaintTaskFinished_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UAutoAddColorComponent_PaintTaskFinished_Statics::NewProp_taskResultInfo,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UAutoAddColorComponent_PaintTaskFinished_Statics::NewProp_paintTaskResultInfo,
@@ -765,8 +759,8 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FAutoPaint
 		{ &Z_Construct_UFunction_UAutoAddColorComponent_AutoPaintDelayFinished, "AutoPaintDelayFinished" }, // 1195444138
 		{ &Z_Construct_UFunction_UAutoAddColorComponent_AutoPaintedActorDestroyed, "AutoPaintedActorDestroyed" }, // 3179176205
 		{ &Z_Construct_UFunction_UAutoAddColorComponent_GetIsAutoPainting, "GetIsAutoPainting" }, // 1632555966
-		{ &Z_Construct_UFunction_UAutoAddColorComponent_GetMeshesBeingAutoPainted, "GetMeshesBeingAutoPainted" }, // 4186364204
-		{ &Z_Construct_UFunction_UAutoAddColorComponent_PaintTaskFinished, "PaintTaskFinished" }, // 1769093195
+		{ &Z_Construct_UFunction_UAutoAddColorComponent_GetMeshesBeingAutoPainted, "GetMeshesBeingAutoPainted" }, // 2898552974
+		{ &Z_Construct_UFunction_UAutoAddColorComponent_PaintTaskFinished, "PaintTaskFinished" }, // 920732003
 		{ &Z_Construct_UFunction_UAutoAddColorComponent_PauseAutoPaintingMesh, "PauseAutoPaintingMesh" }, // 1536807072
 		{ &Z_Construct_UFunction_UAutoAddColorComponent_ResumeAutoPaintingMesh, "ResumeAutoPaintingMesh" }, // 1806189055
 		{ &Z_Construct_UFunction_UAutoAddColorComponent_StartNewRoundOfTasks, "StartNewRoundOfTasks" }, // 398988031
@@ -784,9 +778,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FAutoPaint
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_applyOneFrameDelayBetweenTasksForInstigatingComponent_MetaData[] = {
 		{ "Category", "Auto Paint|Fundemental Settings" },
 		{ "ModuleRelativePath", "Components/AutoAddColorComponent.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "When the Task is Finished, if the instigating auto paint component Shouldn't immediately queue up another task but instead do it after 0.01 seconds even if delay between tasks is set to 0. \nThis is very useful since if several auto paint components is working together, for example a Auto Within Area Component for a Lake, and a Auto Entire Mesh Component for Drying, then it works much better since they let each other jump in and queue up a new task since they're both listening for paint finish task event for that mesh component." },
-#endif
 	};
 #endif
 	void Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_applyOneFrameDelayBetweenTasksForInstigatingComponent_SetBit(void* Obj)
@@ -798,9 +790,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FAutoPaint
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_verifyMeshComponentsInterval_MetaData[] = {
 		{ "Category", "Auto Paint|Fundemental Settings" },
 		{ "ModuleRelativePath", "Components/AutoAddColorComponent.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If the Auto Paint isn't currently auto painting anything or waiting for a delay to finish to queue up something else, then we start a looping timer to verify the cached meshes so in case any gets destroyed they get cleaned up. Default to 60 which the default GC interval." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_verifyMeshComponentsInterval = { "verifyMeshComponentsInterval", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UAutoAddColorComponent, verifyMeshComponentsInterval), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_verifyMeshComponentsInterval_MetaData), Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_verifyMeshComponentsInterval_MetaData) };
@@ -808,9 +798,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FAutoPaint
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_onlyStartNewTaskIfChangeWasMade_MetaData[] = {
 		{ "Category", "Auto Paint|Optimization Settings" },
 		{ "ModuleRelativePath", "Components/AutoAddColorComponent.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Optional Optimization so we don't start another task if no change was made from the task that got finished. \nThis may be useful if you have several auto paint components that is working together since another component can run tasks and make another component check again if they should start auto painting. \nLike a Auto Paint Within Area for a Lake, and a Auto Paint Entire Mesh for Drying a Character. If this is true for the auto paint entire mesh drying component, then it won't continously attempt to Dry the character if there was no difference, for instance if the Mesh is completely under the water, or standing still in the water and the Mesh is completely dry above it. If the mesh moves, the auto paint within area component for the lake can trigger tasks will which make the entire mesh drying component check if it should start drying, so if they move up from the lake it can start drying the parts that are wet." },
-#endif
 	};
 #endif
 	void Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_onlyStartNewTaskIfChangeWasMade_SetBit(void* Obj)
@@ -822,9 +810,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FAutoPaint
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_onlyStartNewRoundOfTasksIfAllHasBeenFinished_MetaData[] = {
 		{ "Category", "Auto Paint|Rounds of Tasks Settings" },
 		{ "ModuleRelativePath", "Components/AutoAddColorComponent.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If all Tasks has to be Finished before we can Add new ones. This may be useful if this is something like Auto Paint Entire Mesh for Drying of Wet Characters and other Meshes that may have different amount of vertcies. Because then their tasks will not finish exactly the same, meaning they could get dried unevenly fast. \nBut with this, all of the Meshes will run the same amount of Tasks so they would Dry equally fast. \nIf this is true then the Delay Between Tasks set for the Mesh will be ignored since it has to wait for them all to finish, so the one set below will be used instead." },
-#endif
 	};
 #endif
 	void Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_onlyStartNewRoundOfTasksIfAllHasBeenFinished_SetBit(void* Obj)
@@ -836,9 +822,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FAutoPaint
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_minimumDurationOfRoundOfTasks_MetaData[] = {
 		{ "Category", "Auto Paint|Rounds of Tasks Settings" },
 		{ "ModuleRelativePath", "Components/AutoAddColorComponent.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If the Round of Tasks finishes before this duration, we can invoke a delay with the time left to this duration, so if the round has finished in 0.1 second, but you've set this to 0.3, then we will have a 0.2 second delay before the next round starts. \nThis is useful if for example if you have a centralized system that handles all Drying of meshes, but there is only 1 mesh being dried so the task and round finishes very quickly compared to if you're drying 20 meshes, meaning the mesh dries too fast. \nBut with this, you can have a minimum duration of the round, so things can't dry too fast. \nThe issue of uneven drying can still persist where if drying many and heavy meshes the round may take too long and the drying go to slow instead. This is something we can't do anything about, except simply recommending having lighter meshes, and atleast it's better with too slow and realistic drying instead of too fast." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_minimumDurationOfRoundOfTasks = { "minimumDurationOfRoundOfTasks", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UAutoAddColorComponent, minimumDurationOfRoundOfTasks), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_minimumDurationOfRoundOfTasks_MetaData), Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_minimumDurationOfRoundOfTasks_MetaData) };
@@ -846,9 +830,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FAutoPaint
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_isAllowedToAutoPaintAtBeginPlay_MetaData[] = {
 		{ "Category", "Auto Paint|Auto Paint Root Mesh at Begin Play" },
 		{ "ModuleRelativePath", "Components/AutoAddColorComponent.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Some children may not support auto painting at begin play, like Paint At Location since it requires a location. Had to be VisibleAnywhere for EditConditions to work." },
-#endif
 	};
 #endif
 	void Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_isAllowedToAutoPaintAtBeginPlay_SetBit(void* Obj)
@@ -861,9 +843,7 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FAutoPaint
 		{ "Category", "Auto Paint|Auto Paint Root Mesh at Begin Play" },
 		{ "EditCondition", "isAllowedToAutoPaintAtBeginPlay" },
 		{ "ModuleRelativePath", "Components/AutoAddColorComponent.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If the we should start Auto Painting the Root Component of the Actor this component is on on begin play, if the root comp is a Primitive Component, like static or skeletal mesh. \nThis is useful if the Actor may not be a Blueprint, but just a Static/Skeletal Mesh Actor in the level that you may want to Dry if they become Wet or something." },
-#endif
 	};
 #endif
 	void Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_autoPaintRootMeshAtBeginPlay_SetBit(void* Obj)
@@ -876,12 +856,10 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FAutoPaint
 		{ "Category", "Auto Paint|Auto Paint Root Mesh at Begin Play" },
 		{ "EditCondition", "isAllowedToAutoPaintAtBeginPlay" },
 		{ "ModuleRelativePath", "Components/AutoAddColorComponent.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Delay Settings when starting auto paint at begin play on the root mesh comp." },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_autoPaintRootMeshAtBeginPlay_DelaySettings = { "autoPaintRootMeshAtBeginPlay_DelaySettings", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UAutoAddColorComponent, autoPaintRootMeshAtBeginPlay_DelaySettings), Z_Construct_UScriptStruct_FAutoAddColorSettings, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_autoPaintRootMeshAtBeginPlay_DelaySettings_MetaData), Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_autoPaintRootMeshAtBeginPlay_DelaySettings_MetaData) }; // 2463745312
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_autoPaintRootMeshAtBeginPlay_DelaySettings = { "autoPaintRootMeshAtBeginPlay_DelaySettings", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UAutoAddColorComponent, autoPaintRootMeshAtBeginPlay_DelaySettings), Z_Construct_UScriptStruct_FAutoAddColorSettings, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_autoPaintRootMeshAtBeginPlay_DelaySettings_MetaData), Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_autoPaintRootMeshAtBeginPlay_DelaySettings_MetaData) }; // 294965315
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_printDebugLogsToScreen_MetaData[] = {
 		{ "Category", "Auto Paint|Debug Settings" },
@@ -911,14 +889,14 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FAutoPaint
 		((UAutoAddColorComponent*)Obj)->printDebugLogsToOutputLog = 1;
 	}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_printDebugLogsToOutputLog = { "printDebugLogsToOutputLog", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UAutoAddColorComponent), &Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_printDebugLogsToOutputLog_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_printDebugLogsToOutputLog_MetaData), Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_printDebugLogsToOutputLog_MetaData) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_autoPaintingMeshes_ValueProp = { "autoPaintingMeshes", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FAutoAddColorSettings, METADATA_PARAMS(0, nullptr) }; // 2463745312
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_autoPaintingMeshes_ValueProp = { "autoPaintingMeshes", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FAutoAddColorSettings, METADATA_PARAMS(0, nullptr) }; // 294965315
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_autoPaintingMeshes_Key_KeyProp = { "autoPaintingMeshes_Key", nullptr, (EPropertyFlags)0x0000000000080000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_autoPaintingMeshes_MetaData[] = {
 		{ "ModuleRelativePath", "Components/AutoAddColorComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_autoPaintingMeshes = { "autoPaintingMeshes", nullptr, (EPropertyFlags)0x0020088000000000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UAutoAddColorComponent, autoPaintingMeshes), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_autoPaintingMeshes_MetaData), Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_autoPaintingMeshes_MetaData) }; // 2463745312
+	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_autoPaintingMeshes = { "autoPaintingMeshes", nullptr, (EPropertyFlags)0x0020088000000000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UAutoAddColorComponent, autoPaintingMeshes), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_autoPaintingMeshes_MetaData), Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_autoPaintingMeshes_MetaData) }; // 294965315
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_onlyStartNewRoundOfTasksIfAllHasBeenFinished_CachedResults_Inner = { "onlyStartNewRoundOfTasksIfAllHasBeenFinished_CachedResults", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FAutoPaintTaskResults, METADATA_PARAMS(0, nullptr) }; // 1645833921
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAutoAddColorComponent_Statics::NewProp_onlyStartNewRoundOfTasksIfAllHasBeenFinished_CachedResults_MetaData[] = {
@@ -978,20 +956,20 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FAutoPaint
 	UAutoAddColorComponent::UAutoAddColorComponent() {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UAutoAddColorComponent);
 	UAutoAddColorComponent::~UAutoAddColorComponent() {}
-	struct Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_Statics
+	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_Statics::ScriptStructInfo[] = {
-		{ FAutoAddColorSettings::StaticStruct, Z_Construct_UScriptStruct_FAutoAddColorSettings_Statics::NewStructOps, TEXT("AutoAddColorSettings"), &Z_Registration_Info_UScriptStruct_AutoAddColorSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FAutoAddColorSettings), 2463745312U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_Statics::ScriptStructInfo[] = {
+		{ FAutoAddColorSettings::StaticStruct, Z_Construct_UScriptStruct_FAutoAddColorSettings_Statics::NewStructOps, TEXT("AutoAddColorSettings"), &Z_Registration_Info_UScriptStruct_AutoAddColorSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FAutoAddColorSettings), 294965315U) },
 		{ FAutoPaintTaskResults::StaticStruct, Z_Construct_UScriptStruct_FAutoPaintTaskResults_Statics::NewStructOps, TEXT("AutoPaintTaskResults"), &Z_Registration_Info_UScriptStruct_AutoPaintTaskResults, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FAutoPaintTaskResults), 1645833921U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UAutoAddColorComponent, UAutoAddColorComponent::StaticClass, TEXT("UAutoAddColorComponent"), &Z_Registration_Info_UClass_UAutoAddColorComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAutoAddColorComponent), 2287642858U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UAutoAddColorComponent, UAutoAddColorComponent::StaticClass, TEXT("UAutoAddColorComponent"), &Z_Registration_Info_UClass_UAutoAddColorComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAutoAddColorComponent), 68403804U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_8386806(TEXT("/Script/VertexPaintDetectionPlugin"),
-		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_Statics::ClassInfo),
-		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_Statics::ScriptStructInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_3813692802(TEXT("/Script/VertexPaintDetectionPlugin"),
+		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_Statics::ClassInfo),
+		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Components_AutoAddColorComponent_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
