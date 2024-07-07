@@ -2,14 +2,15 @@
 	"RemapUnityFiles": 
 	{
 		"Module.VertexPaintDetectionPlugin.1.cpp.obj": [
-			"VertexPaintCalculateColorsTask.cpp.obj",
 			"AdditionalDataPrerequisites.gen.cpp.obj",
 			"AutoAddColorComponent.gen.cpp.obj",
 			"AutoAddColorEntireMeshComponent.gen.cpp.obj",
 			"AutoAddColorPaintAtLocComponent.gen.cpp.obj",
 			"AutoAddColorWithinAreaComponent.gen.cpp.obj",
 			"CalculateColorsPrerequisites.gen.cpp.obj",
-			"ChaosClothPhysicsPrerequisites.gen.cpp.obj",
+			"ChaosClothPhysicsPrerequisites.gen.cpp.obj"
+		],
+		"Module.VertexPaintDetectionPlugin.2.cpp.obj": [
 			"ColorSnippetPrerequisites.gen.cpp.obj",
 			"CompareMeshColorsPrerequisites.gen.cpp.obj",
 			"CorePrerequisites.gen.cpp.obj",
@@ -19,34 +20,43 @@
 			"GetColorsOnlyPrerequisites.gen.cpp.obj",
 			"GetColorsWithinAreaPrerequisites.gen.cpp.obj",
 			"HitLocationPrerequisites.gen.cpp.obj",
-			"MaterialDataAssetPrerequisites.gen.cpp.obj",
+			"MaterialDataAssetPrerequisites.gen.cpp.obj"
+		],
+		"Module.VertexPaintDetectionPlugin.3.cpp.obj": [
 			"PaintAtLocationPrerequisites.gen.cpp.obj",
 			"PaintConditionsPrerequisites.gen.cpp.obj",
 			"PaintEntireMeshPrerequisites.gen.cpp.obj",
 			"PaintFundementalsPrerequisites.gen.cpp.obj",
 			"PaintLimitsPrerequisites.gen.cpp.obj",
 			"PaintSnippetsPrerequisites.gen.cpp.obj",
-			"PaintWithinAreaPrerequisites.gen.cpp.obj",
+			"PaintWithinAreaPrerequisites.gen.cpp.obj"
+		],
+		"Module.VertexPaintDetectionPlugin.4.cpp.obj": [
 			"SetColorsWithStringPrerequisites.gen.cpp.obj",
 			"SetMeshColorsPrerequisites.gen.cpp.obj",
 			"TaskResultsPrerequisites.gen.cpp.obj",
 			"VertexPaintClothOverlapComponent.gen.cpp.obj",
 			"VertexPaintColorSnippetDataAsset.gen.cpp.obj",
 			"VertexPaintColorSnippetRefs.gen.cpp.obj",
-			"VertexPaintDetectionComponent.gen.cpp.obj",
+			"VertexPaintDetectionComponent.gen.cpp.obj"
+		],
+		"Module.VertexPaintDetectionPlugin.5.cpp.obj": [
 			"VertexPaintDetectionGISubSystem.gen.cpp.obj",
 			"VertexPaintDetectionInterface.gen.cpp.obj",
 			"VertexPaintDetectionLog.gen.cpp.obj",
 			"VertexPaintDetectionPlugin.init.gen.cpp.obj",
 			"VertexPaintDetectionSettings.gen.cpp.obj",
 			"VertexPaintDetectionTaskQueue.gen.cpp.obj",
-			"VertexPaintFunctionLibrary.gen.cpp.obj",
+			"VertexPaintFunctionLibrary.gen.cpp.obj"
+		],
+		"Module.VertexPaintDetectionPlugin.6.cpp.obj": [
 			"VertexPaintMaterialDataAsset.gen.cpp.obj",
 			"VertexPaintOptimizationDataAsset.gen.cpp.obj",
 			"VertexPaintTasksFunctionLibrary.gen.cpp.obj",
-			"WithinAreaPrerequisites.gen.cpp.obj"
+			"WithinAreaPrerequisites.gen.cpp.obj",
+			"VertexPaintCalculateColorsTask.cpp.obj"
 		],
-		"Module.VertexPaintDetectionPlugin.2.cpp.obj": [
+		"Module.VertexPaintDetectionPlugin.7.cpp.obj": [
 			"VertexPaintDetectionTaskQueue.cpp.obj",
 			"AutoAddColorComponent.cpp.obj",
 			"AutoAddColorEntireMeshComponent.cpp.obj",
@@ -60,7 +70,7 @@
 			"VertexPaintOptimizationDataAsset.cpp.obj",
 			"VertexPaintFunctionLibrary.cpp.obj"
 		],
-		"Module.VertexPaintDetectionPlugin.3.cpp.obj": [
+		"Module.VertexPaintDetectionPlugin.8.cpp.obj": [
 			"VertexPaintTasksFunctionLibrary.cpp.obj",
 			"VertexPaintDetectionGISubSystem.cpp.obj",
 			"VertexPaintDetectionLog.cpp.obj",

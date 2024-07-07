@@ -2,12 +2,12 @@
 	"RemapUnityFiles": 
 	{
 		"Module.RVPDPEditor.cpp.obj": [
-			"RVPDPEditor.cpp.obj",
-			"RVPDPEditorSubsystem.cpp.obj",
-			"RVPDPUpdatePopUp.cpp.obj",
 			"RVPDPEditor.init.gen.cpp.obj",
 			"RVPDPEditorSubsystem.gen.cpp.obj",
-			"RVPDPUpdateConfig.gen.cpp.obj"
+			"RVPDPUpdateConfig.gen.cpp.obj",
+			"RVPDPEditor.cpp.obj",
+			"RVPDPEditorSubsystem.cpp.obj",
+			"RVPDPUpdatePopUp.cpp.obj"
 		]
 	}
 }
