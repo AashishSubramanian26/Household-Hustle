@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\joshj\\Documents\\GitHub\\Household-Hustle\\Household_Hustle\\Plugins\\VertexPaintDetectionPlugin\\Source\\RVPDPEditor\\RVPDPEditor.Build.cs",
+		"C:\\Users\\joshj\\Documents\\GitHub\\Household-Hustle\\Household_Hustle\\Plugins\\VertexPaintDetectionPlugin\\Source\\RVPDPRapidJson\\RVPDPRapidJson.Build.cs",
+		"C:\\Users\\joshj\\Documents\\GitHub\\Household-Hustle\\Household_Hustle\\Plugins\\VertexPaintDetectionPlugin\\Source\\RVPDPToolbarButton\\RVPDPToolbarButton.Build.cs",
+		"C:\\Users\\joshj\\Documents\\GitHub\\Household-Hustle\\Household_Hustle\\Plugins\\VertexPaintDetectionPlugin\\Source\\VertexPaintDetectionPlugin\\VertexPaintDetectionPlugin.Build.cs",
+		"C:\\Users\\joshj\\Documents\\GitHub\\Household-Hustle\\Household_Hustle\\Plugins\\VertexPaintDetectionPlugin\\Source\\VertexPaintDetection_Uncooked\\VertexPaintDetection_Uncooked.Build.cs"
+	],
+	"EngineVersion": "5.3.2"
+}
