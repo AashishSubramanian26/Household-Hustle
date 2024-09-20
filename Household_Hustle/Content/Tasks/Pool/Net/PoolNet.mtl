@@ -1,0 +1,6 @@
+# Made in Blockbench 4.10.4
+newmtl m_06898d84-533d-da1e-8cfb-3a4ae662ec6d
+map_Kd net_texture.png
+newmtl m_603d907b-8f7a-4aed-6c2b-d69648a1c0e3
+map_Kd pole_texture.png
+newmtl none
