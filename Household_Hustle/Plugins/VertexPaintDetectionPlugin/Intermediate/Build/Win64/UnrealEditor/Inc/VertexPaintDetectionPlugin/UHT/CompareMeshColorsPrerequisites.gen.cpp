@@ -74,9 +74,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Compare Mesh Colors To Color Array\n" },
+#endif
 		{ "ModuleRelativePath", "Prerequisites/CompareMeshColorsPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Compare Mesh Colors To Color Array" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewStructOps()
@@ -87,7 +91,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_compareMeshColorsToColorArrayAtLOD0_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/CompareMeshColorsPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If True and colorArrayToCompareWith is set, then in the Task Result Info struct we will fill a CompareMeshColorsToColorArrayResult where you can get the Matching Percent between the Meshes Current Vertex Colors (If paint job then colors after paint was applied) and the ones we send in here. \n\nThis is useful if you for instance have a Drawing Game, or a Tutorial where the player has to fill in a pattern that has been pre-filled, or just Mimick the pattern an AI is painting." },
+#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_compareMeshColorsToColorArrayAtLOD0_SetBit(void* Obj)
@@ -100,7 +106,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_colorArrayToCompareWith_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/CompareMeshColorsPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Color Array we will compare it to. Have to match the Vertex Color Array Amount of the Mesh we're going to Paint/Detect. You can get both the vertex color array from any paint or detect job if you set to include them in the callback settings, so you can get them from a mesh and store it for later use." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_colorArrayToCompareWith = { "colorArrayToCompareWith", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectCompareMeshColorsToColorArrayStruct, colorArrayToCompareWith), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_colorArrayToCompareWith_MetaData), Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_colorArrayToCompareWith_MetaData) };
@@ -108,7 +116,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_compareMeshColorsToStoredColorSnippet_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/CompareMeshColorsPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Compare using a color snippet tag instead of an array. If both this and compareMeshColorsToColorArrayAtLOD0 is True, it will prioritize this Color Snippet Variant. Useful if you've for instance have a Color Snippet of a Tatoo or a Pattern, and you want to check how close to it the player has painted." },
+#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_compareMeshColorsToStoredColorSnippet_SetBit(void* Obj)
@@ -120,7 +130,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_compareWithColorsSnippetTag_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/CompareMeshColorsPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Color Snippet we will compare to. Useful if you've for instance have a Color Snippet of a Tatoo or a Pattern, and you want to check how close to it the player has painted." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_compareWithColorsSnippetTag = { "compareWithColorsSnippetTag", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectCompareMeshColorsToColorArrayStruct, compareWithColorsSnippetTag), Z_Construct_UScriptStruct_FGameplayTag, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_compareWithColorsSnippetTag_MetaData), Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_compareWithColorsSnippetTag_MetaData) }; // 2083603574
@@ -128,7 +140,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_skipEmptyVertices_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/CompareMeshColorsPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If True then will only Compare against those Vertices in the compare array that actually has any colors instead of All of them. For instance if you have a floor and comparing to an array where its a circle in the middle, then only painting/removing colors at the circle will actually make the % go up and down. Otherwise if this is false, then all vertices around the circle will affect the % as well." },
+#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_skipEmptyVertices_SetBit(void* Obj)
@@ -140,7 +154,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_comparisonErrorTolerance_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/CompareMeshColorsPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "When we Compare we run a Float Nearly Equal Check for every Vertex Channel on the Compare Vertex Colors and Mesh Vertex Colors. This is the Error Tolerance of that check, meaning every Vertex Channel has to be within this range close to eachother on both the compare and mesh vertex colors." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_comparisonErrorTolerance = { "comparisonErrorTolerance", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectCompareMeshColorsToColorArrayStruct, comparisonErrorTolerance), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_comparisonErrorTolerance_MetaData), Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_comparisonErrorTolerance_MetaData) };
@@ -148,10 +164,12 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_compareWithColorsSnippetDataAssetInfo_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/CompareMeshColorsPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Color Snippet Tag but in FString Format and the Data Asset the snippet is stored on." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_compareWithColorsSnippetDataAssetInfo = { "compareWithColorsSnippetDataAssetInfo", nullptr, (EPropertyFlags)0x0010000000000014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectCompareMeshColorsToColorArrayStruct, compareWithColorsSnippetDataAssetInfo), Z_Construct_UScriptStruct_FVertexPaintColorSnippetDataAssetInfo, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_compareWithColorsSnippetDataAssetInfo_MetaData), Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_compareWithColorsSnippetDataAssetInfo_MetaData) }; // 1971015773
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_compareWithColorsSnippetDataAssetInfo = { "compareWithColorsSnippetDataAssetInfo", nullptr, (EPropertyFlags)0x0010000000000014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectCompareMeshColorsToColorArrayStruct, compareWithColorsSnippetDataAssetInfo), Z_Construct_UScriptStruct_FVertexPaintColorSnippetDataAssetInfo, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_compareWithColorsSnippetDataAssetInfo_MetaData), Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_compareWithColorsSnippetDataAssetInfo_MetaData) }; // 590143139
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_compareMeshColorsToColorArrayAtLOD0,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewProp_colorArrayToCompareWith_Inner,
@@ -184,15 +202,15 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		}
 		return Z_Registration_Info_UScriptStruct_VertexDetectCompareMeshColorsToColorArrayStruct.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_CompareMeshColorsPrerequisites_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_CompareMeshColorsPrerequisites_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_CompareMeshColorsPrerequisites_h_Statics::ScriptStructInfo[] = {
-		{ FVertexDetectCompareMeshColorsToColorArrayStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewStructOps, TEXT("VertexDetectCompareMeshColorsToColorArrayStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectCompareMeshColorsToColorArrayStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectCompareMeshColorsToColorArrayStruct), 2401451574U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_CompareMeshColorsPrerequisites_h_Statics::ScriptStructInfo[] = {
+		{ FVertexDetectCompareMeshColorsToColorArrayStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectCompareMeshColorsToColorArrayStruct_Statics::NewStructOps, TEXT("VertexDetectCompareMeshColorsToColorArrayStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectCompareMeshColorsToColorArrayStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectCompareMeshColorsToColorArrayStruct), 570099249U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_CompareMeshColorsPrerequisites_h_1499471010(TEXT("/Script/VertexPaintDetectionPlugin"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_CompareMeshColorsPrerequisites_h_824889493(TEXT("/Script/VertexPaintDetectionPlugin"),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_CompareMeshColorsPrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_CompareMeshColorsPrerequisites_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_CompareMeshColorsPrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_CompareMeshColorsPrerequisites_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

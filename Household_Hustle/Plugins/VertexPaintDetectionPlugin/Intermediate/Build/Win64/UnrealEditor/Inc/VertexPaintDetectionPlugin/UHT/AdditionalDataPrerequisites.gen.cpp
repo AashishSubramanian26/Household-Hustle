@@ -177,9 +177,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Additional Data To Pass Through\n" },
+#endif
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Additional Data To Pass Through" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewStructOps()
@@ -190,7 +194,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Actor1_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Actor1 = { "passThrough_Actor1", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_Actor1), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Actor1_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Actor1_MetaData) };
@@ -198,7 +204,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Actor2_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Actor2 = { "passThrough_Actor2", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_Actor2), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Actor2_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Actor2_MetaData) };
@@ -207,7 +215,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_PrimitiveComponent1 = { "passThrough_PrimitiveComponent1", nullptr, (EPropertyFlags)0x001000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_PrimitiveComponent1), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_PrimitiveComponent1_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_PrimitiveComponent1_MetaData) };
@@ -216,7 +226,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_PrimitiveComponent2 = { "passThrough_PrimitiveComponent2", nullptr, (EPropertyFlags)0x001000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_PrimitiveComponent2), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_PrimitiveComponent2_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_PrimitiveComponent2_MetaData) };
@@ -224,7 +236,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Bool1_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Bool1_SetBit(void* Obj)
@@ -236,7 +250,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Bool2_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Bool2_SetBit(void* Obj)
@@ -248,7 +264,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Bool3_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Bool3_SetBit(void* Obj)
@@ -260,7 +278,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Byte1_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Byte1 = { "passThrough_Byte1", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_Byte1), nullptr, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Byte1_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Byte1_MetaData) };
@@ -268,7 +288,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Byte2_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Byte2 = { "passThrough_Byte2", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_Byte2), nullptr, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Byte2_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Byte2_MetaData) };
@@ -276,7 +298,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Float1_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Float1 = { "passThrough_Float1", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_Float1), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Float1_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Float1_MetaData) };
@@ -284,7 +308,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Float2_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Float2 = { "passThrough_Float2", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_Float2), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Float2_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Float2_MetaData) };
@@ -292,7 +318,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Float3_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Float3 = { "passThrough_Float3", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_Float3), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Float3_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Float3_MetaData) };
@@ -300,7 +328,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Float4_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Float4 = { "passThrough_Float4", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_Float4), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Float4_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Float4_MetaData) };
@@ -308,7 +338,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Int1_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Int1 = { "passThrough_Int1", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_Int1), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Int1_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Int1_MetaData) };
@@ -316,7 +348,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Int2_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Int2 = { "passThrough_Int2", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_Int2), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Int2_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Int2_MetaData) };
@@ -324,7 +358,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Vector1_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished. \nThis could for instance Location, Direction, Velocity, Normal etc." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Vector1 = { "passThrough_Vector1", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_Vector1), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Vector1_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Vector1_MetaData) };
@@ -332,7 +368,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Vector2_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished. \nThis could for instance Location, Direction, Velocity etc." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Vector2 = { "passThrough_Vector2", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_Vector2), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Vector2_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Vector2_MetaData) };
@@ -340,7 +378,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Vector3_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished. \nThis could for instance Location, Direction, Velocity etc." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Vector3 = { "passThrough_Vector3", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_Vector3), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Vector3_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Vector3_MetaData) };
@@ -348,7 +388,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Vector4_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished. \nThis could for instance Location, Direction, Velocity etc." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Vector4 = { "passThrough_Vector4", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_Vector4), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Vector4_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Vector4_MetaData) };
@@ -356,7 +398,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Rotator1_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Rotator1 = { "passThrough_Rotator1", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_Rotator1), Z_Construct_UScriptStruct_FRotator, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Rotator1_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Rotator1_MetaData) };
@@ -364,7 +408,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Rotator2_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Rotator2 = { "passThrough_Rotator2", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_Rotator2), Z_Construct_UScriptStruct_FRotator, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Rotator2_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Rotator2_MetaData) };
@@ -372,7 +418,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_String1_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_String1 = { "passThrough_String1", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_String1), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_String1_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_String1_MetaData) };
@@ -380,7 +428,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_String2_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_String2 = { "passThrough_String2", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_String2), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_String2_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_String2_MetaData) };
@@ -388,7 +438,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Name1_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Name1 = { "passThrough_Name1", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_Name1), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Name1_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Name1_MetaData) };
@@ -396,7 +448,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Name2_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Name2 = { "passThrough_Name2", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_Name2), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Name2_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_Name2_MetaData) };
@@ -404,7 +458,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_PhysicsSurface1_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_PhysicsSurface1 = { "passThrough_PhysicsSurface1", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_PhysicsSurface1), Z_Construct_UEnum_PhysicsCore_EPhysicalSurface, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_PhysicsSurface1_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_PhysicsSurface1_MetaData) }; // 2508321301
@@ -412,7 +468,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_PhysicsSurface2_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_PhysicsSurface2 = { "passThrough_PhysicsSurface2", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_PhysicsSurface2), Z_Construct_UEnum_PhysicsCore_EPhysicalSurface, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_PhysicsSurface2_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_PhysicsSurface2_MetaData) }; // 2508321301
@@ -420,7 +478,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_PhysicalMaterial1_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_PhysicalMaterial1 = { "passThrough_PhysicalMaterial1", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_PhysicalMaterial1), Z_Construct_UClass_UPhysicalMaterial_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_PhysicalMaterial1_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_PhysicalMaterial1_MetaData) };
@@ -428,7 +488,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_ObjectCollisionChannel_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_ObjectCollisionChannel = { "passThrough_ObjectCollisionChannel", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_ObjectCollisionChannel), Z_Construct_UEnum_Engine_ECollisionChannel, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_ObjectCollisionChannel_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_ObjectCollisionChannel_MetaData) }; // 1822723181
@@ -436,7 +498,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_ObjectType_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_ObjectType = { "passThrough_ObjectType", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_ObjectType), Z_Construct_UEnum_Engine_EObjectTypeQuery, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_ObjectType_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_ObjectType_MetaData) }; // 3930035403
@@ -444,7 +508,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_UObject1_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_UObject1 = { "passThrough_UObject1", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_UObject1), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_UObject1_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_UObject1_MetaData) };
@@ -452,7 +518,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_UObject2_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/AdditionalDataPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These can be used effectively if several tasks is dependent on the results of eachother, so you don't have to cache global variables but can just pass through the ones you want when the task is finished." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_UObject2 = { "passThrough_UObject2", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectAdditionalDataToPassThrough, passThrough_UObject2), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_UObject2_MetaData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewProp_passThrough_UObject2_MetaData) };
@@ -512,15 +580,15 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		}
 		return Z_Registration_Info_UScriptStruct_VertexDetectAdditionalDataToPassThrough.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_AdditionalDataPrerequisites_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_AdditionalDataPrerequisites_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_AdditionalDataPrerequisites_h_Statics::ScriptStructInfo[] = {
-		{ FVertexDetectAdditionalDataToPassThrough::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewStructOps, TEXT("VertexDetectAdditionalDataToPassThrough"), &Z_Registration_Info_UScriptStruct_VertexDetectAdditionalDataToPassThrough, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectAdditionalDataToPassThrough), 559155732U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_AdditionalDataPrerequisites_h_Statics::ScriptStructInfo[] = {
+		{ FVertexDetectAdditionalDataToPassThrough::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics::NewStructOps, TEXT("VertexDetectAdditionalDataToPassThrough"), &Z_Registration_Info_UScriptStruct_VertexDetectAdditionalDataToPassThrough, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectAdditionalDataToPassThrough), 3299054901U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_AdditionalDataPrerequisites_h_4027546845(TEXT("/Script/VertexPaintDetectionPlugin"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_AdditionalDataPrerequisites_h_969367968(TEXT("/Script/VertexPaintDetectionPlugin"),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_AdditionalDataPrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_AdditionalDataPrerequisites_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_AdditionalDataPrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_AdditionalDataPrerequisites_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

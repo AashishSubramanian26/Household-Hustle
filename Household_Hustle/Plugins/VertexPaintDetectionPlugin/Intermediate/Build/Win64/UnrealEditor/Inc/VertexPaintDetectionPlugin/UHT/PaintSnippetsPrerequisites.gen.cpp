@@ -71,9 +71,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Paint Color Snippet\n" },
+#endif
 		{ "ModuleRelativePath", "Prerequisites/PaintSnippetsPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Paint Color Snippet" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewStructOps()
@@ -84,7 +88,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewProp_colorSnippetTag_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintSnippetsPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Color Snippet Tag To Paint, should be left to Default if you want to Randomize. Color Snippets can be created in the Editor Widget is very useful for Storing a snippet of exactly how a Skeletal or Static Mesh should look for later use, For instance Variations of Weapon Skins, Zombies, Military or even your Main Character and how they should look in a certain Level or Cutscene." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewProp_colorSnippetTag = { "colorSnippetTag", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintColorSnippetStruct, colorSnippetTag), Z_Construct_UScriptStruct_FGameplayTag, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewProp_colorSnippetTag_MetaData), Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewProp_colorSnippetTag_MetaData) }; // 2083603574
@@ -93,15 +99,19 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewProp_paintColorSnippetSetting_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintSnippetsPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Different types of Color Snippet Settings available." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewProp_paintColorSnippetSetting = { "paintColorSnippetSetting", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintColorSnippetStruct, paintColorSnippetSetting), Z_Construct_UEnum_VertexPaintDetectionPlugin_EVertexPaintPaintColorSnippetSetting, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewProp_paintColorSnippetSetting_MetaData), Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewProp_paintColorSnippetSetting_MetaData) }; // 3010838445
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewProp_paintColorSnippetSetting = { "paintColorSnippetSetting", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintColorSnippetStruct, paintColorSnippetSetting), Z_Construct_UEnum_VertexPaintDetectionPlugin_EVertexPaintPaintColorSnippetSetting, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewProp_paintColorSnippetSetting_MetaData), Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewProp_paintColorSnippetSetting_MetaData) }; // 2449233250
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewProp_randomizeSnippetUnderChosenTagCategory_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintSnippetsPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Randomize a Snippet from under the choosen Tag Category that is Registered to the Mesh, if there are any. For instance Zombies.Sewer to Randomize a Snippet under the Zombies Sewer Category. You can select the Top Level Category if you want to randomize between All of the Available Snippets the Mesh has." },
+#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewProp_randomizeSnippetUnderChosenTagCategory_SetBit(void* Obj)
@@ -115,7 +125,9 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Prerequisites/PaintSnippetsPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Meshes associated with the Group Snippet, for example if the Group Snippet is made up of several Skeletal Mesh Components if they've been split up where arms and body are different, but the snippet covers both, then both should be put here. For a group snippet to be painted correctly the relative location of the meshes to each has to be the same as when the snippet was created, otherwise it won't get painted." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewProp_paintGroupSnippetMeshes = { "paintGroupSnippetMeshes", nullptr, (EPropertyFlags)0x001000800002001d, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintColorSnippetStruct, paintGroupSnippetMeshes), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewProp_paintGroupSnippetMeshes_MetaData), Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewProp_paintGroupSnippetMeshes_MetaData) };
@@ -123,10 +135,12 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewProp_colorSnippetDataAssetInfo_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/PaintSnippetsPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Color Snippet Tag but in FString Format and the Data Asset the snippet is stored on." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewProp_colorSnippetDataAssetInfo = { "colorSnippetDataAssetInfo", nullptr, (EPropertyFlags)0x0010000000000014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintColorSnippetStruct, colorSnippetDataAssetInfo), Z_Construct_UScriptStruct_FVertexPaintColorSnippetDataAssetInfo, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewProp_colorSnippetDataAssetInfo_MetaData), Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewProp_colorSnippetDataAssetInfo_MetaData) }; // 1971015773
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewProp_colorSnippetDataAssetInfo = { "colorSnippetDataAssetInfo", nullptr, (EPropertyFlags)0x0010000000000014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexPaintColorSnippetStruct, colorSnippetDataAssetInfo), Z_Construct_UScriptStruct_FVertexPaintColorSnippetDataAssetInfo, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewProp_colorSnippetDataAssetInfo_MetaData), Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewProp_colorSnippetDataAssetInfo_MetaData) }; // 590143139
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewProp_colorSnippetTag,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewProp_paintColorSnippetSetting_Underlying,
@@ -185,9 +199,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexPaintGroupSnippetStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Paint Group Snippet\n" },
+#endif
 		{ "ModuleRelativePath", "Prerequisites/PaintSnippetsPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Paint Group Snippet" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexPaintGroupSnippetStruct_Statics::NewStructOps()
@@ -215,16 +233,16 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexPai
 		}
 		return Z_Registration_Info_UScriptStruct_VertexPaintGroupSnippetStruct.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintSnippetsPrerequisites_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintSnippetsPrerequisites_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintSnippetsPrerequisites_h_Statics::ScriptStructInfo[] = {
-		{ FVertexPaintColorSnippetStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewStructOps, TEXT("VertexPaintColorSnippetStruct"), &Z_Registration_Info_UScriptStruct_VertexPaintColorSnippetStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintColorSnippetStruct), 1699173422U) },
-		{ FVertexPaintGroupSnippetStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintGroupSnippetStruct_Statics::NewStructOps, TEXT("VertexPaintGroupSnippetStruct"), &Z_Registration_Info_UScriptStruct_VertexPaintGroupSnippetStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintGroupSnippetStruct), 3428602239U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintSnippetsPrerequisites_h_Statics::ScriptStructInfo[] = {
+		{ FVertexPaintColorSnippetStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics::NewStructOps, TEXT("VertexPaintColorSnippetStruct"), &Z_Registration_Info_UScriptStruct_VertexPaintColorSnippetStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintColorSnippetStruct), 1875440727U) },
+		{ FVertexPaintGroupSnippetStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexPaintGroupSnippetStruct_Statics::NewStructOps, TEXT("VertexPaintGroupSnippetStruct"), &Z_Registration_Info_UScriptStruct_VertexPaintGroupSnippetStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexPaintGroupSnippetStruct), 4029233977U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintSnippetsPrerequisites_h_2422501094(TEXT("/Script/VertexPaintDetectionPlugin"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintSnippetsPrerequisites_h_3382671699(TEXT("/Script/VertexPaintDetectionPlugin"),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintSnippetsPrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintSnippetsPrerequisites_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintSnippetsPrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_PaintSnippetsPrerequisites_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

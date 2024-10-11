@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Household_Hustle.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Household_Hustle.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Household_HustleEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VertexPaintDetectionPlugin">
+      <UniqueIdentifier>{F541638A-573E-3673-8560-512516C8E277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VertexPaintDetectionPlugin\Source">
+      <UniqueIdentifier>{DC060539-F495-3311-AE0C-978EDC09FD76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VertexPaintDetectionPlugin\Source\RVPDPEditor">
+      <UniqueIdentifier>{7131FBD7-0577-326B-A2FB-0F795F275257}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPEditor\RVPDPEditor.Build.cs">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPEditor</Filter>
+    </None>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPEditor\RVPDPEditor.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPEditor\RVPDPEditor.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPEditor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPEditor\RVPDPEditorSubsystem.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPEditor\RVPDPEditorSubsystem.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPEditor\RVPDPUpdateConfig.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPEditor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPEditor\RVPDPUpdatePopUp.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPEditor\RVPDPUpdatePopUp.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPEditor</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\VertexPaintDetectionPlugin\VertexPaintDetectionPlugin.uplugin">
+      <Filter>Plugins\VertexPaintDetectionPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\VertexPaintDetectionPlugin\Config">
+      <UniqueIdentifier>{940E6AD5-B39E-3560-AB84-816026355528}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VertexPaintDetectionPlugin\Config\FilterPlugin.ini">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Config</Filter>
+    </None>
+    <None Include="..\..\Plugins\VertexPaintDetectionPlugin\Config\UpdateConfig.ini">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Config</Filter>
+    </None>
+    <Filter Include="Plugins\VertexPaintDetectionPlugin\Resources">
+      <UniqueIdentifier>{670B06EC-495B-3419-B15D-AFFCA6C2A7FC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VertexPaintDetectionPlugin\Resources\Icon128.png">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\VertexPaintDetectionPlugin\Resources\VertexPaintPluginIcon.png">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson">
+      <UniqueIdentifier>{A5845CEC-327F-3C78-8926-0831E3B6DF51}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\RVPDPRapidJson.Build.cs">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson</Filter>
+    </None>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\RVPDPRapidJson.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\RVPDPRapidJson.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\RVPDPRapidJsonDeserializer.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\RVPDPRapidJsonDeserializer.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\RVPDPRapidJsonFunctionLibrary.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\RVPDPRapidJsonFunctionLibrary.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\RVPDPRapidJsonLatentActionBase.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\RVPDPRapidJsonSerializer.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\RVPDPRapidJsonSerializer.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\RVPDPRapidJsonStructExample.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\RVPDPRapidJsonStructExample.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\RVPDPSerializationAsyncTask.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty">
+      <UniqueIdentifier>{7575BE58-B257-3322-8F3E-8E2E59C72999}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\license.txt">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty</Filter>
+    </None>
+    <Filter Include="Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson">
+      <UniqueIdentifier>{57F14383-4F20-3802-AE22-16130D396A97}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\allocators.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\cursorstreamwrapper.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\document.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\encodedstream.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\encodings.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\filereadstream.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\filewritestream.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\fwd.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\istreamwrapper.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\memorybuffer.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\memorystream.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\ostreamwrapper.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\pointer.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\prettywriter.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\rapidjson.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\reader.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\schema.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\stream.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\stringbuffer.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\uri.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\writer.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\error">
+      <UniqueIdentifier>{49DC3541-B6A0-3B61-B322-28E0D95A7E39}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\error\en.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\error</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\error\error.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\error</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal">
+      <UniqueIdentifier>{CE4253E9-D1F6-3FEA-BA35-3F34E68D7E19}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal\biginteger.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal\clzll.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal\diyfp.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal\dtoa.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal\ieee754.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal\itoa.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal\meta.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal\pow10.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal\regex.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal\stack.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal\strfunc.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal\strtod.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal\swap.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\internal</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\msinttypes">
+      <UniqueIdentifier>{1D3C0B6A-E5A6-37FD-90D0-2680B12FA60D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\msinttypes\inttypes.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\msinttypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\msinttypes\stdint.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPRapidJson\ThirdParty\rapidjson\msinttypes</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VertexPaintDetectionPlugin\Source\RVPDPToolbarButton">
+      <UniqueIdentifier>{A923154B-92B7-3E53-B64C-C1E105F9FE4B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPToolbarButton\RVPDPToolbarButton.Build.cs">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPToolbarButton</Filter>
+    </None>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPToolbarButton\RVPDPToolbarButton.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPToolbarButton</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPToolbarButton\RVPDPToolbarButton.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPToolbarButton</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPToolbarButton\RVPDPToolbarButtonCommands.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPToolbarButton</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPToolbarButton\RVPDPToolbarButtonCommands.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPToolbarButton</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPToolbarButton\RVPDPToolbarButtonStyle.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPToolbarButton</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\RVPDPToolbarButton\RVPDPToolbarButtonStyle.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\RVPDPToolbarButton</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin">
+      <UniqueIdentifier>{1598E555-9D0A-38B7-8400-0CA592B1CDC0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\VertexPaintDetectionInterface.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\VertexPaintDetectionInterface.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\VertexPaintDetectionPlugin.Build.cs">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin</Filter>
+    </None>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\VertexPaintDetectionPlugin.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\VertexPaintDetectionPlugin.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\VertexPaintDetectionSettings.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\VertexPaintDetectionSettings.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Async">
+      <UniqueIdentifier>{23130050-E71B-3B82-9648-75FD0C8AA3A6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Async\ColorsOfEachChannelAsyncTask.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Async</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Async\ColorsOfEachChannelLatentAction.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Async</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Async\GetColorSnippetColorsLatentAction.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Async</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Async\UpdateClothPhysicsAsyncTask.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Async</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Async\UpdateClothPhysicsLatentAction.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Async</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Async\VertexPaintBaseLatentAction.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Async</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Async\VertexPaintCalculateColorsTask.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Async</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Async\VertexPaintCalculateColorsTask.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Async</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Async\VertexPaintDetectionTaskQueue.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Async</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Async\VertexPaintDetectionTaskQueue.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Async</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Components">
+      <UniqueIdentifier>{101B07AD-DE96-367D-98FD-7155F65DD7DC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Components\AutoAddColorComponent.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Components\AutoAddColorComponent.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Components\AutoAddColorEntireMeshComponent.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Components\AutoAddColorEntireMeshComponent.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Components\AutoAddColorPaintAtLocComponent.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Components\AutoAddColorPaintAtLocComponent.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Components\AutoAddColorWithinAreaComponent.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Components\AutoAddColorWithinAreaComponent.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Components\VertexPaintClothOverlapComponent.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Components\VertexPaintClothOverlapComponent.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Components\VertexPaintDetectionComponent.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Components\VertexPaintDetectionComponent.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Components</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\DataAssets">
+      <UniqueIdentifier>{5CC13D17-B4DC-34D8-AC99-B895C01146E8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\DataAssets\VertexPaintColorSnippetDataAsset.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\DataAssets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\DataAssets\VertexPaintColorSnippetDataAsset.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\DataAssets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\DataAssets\VertexPaintColorSnippetRefs.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\DataAssets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\DataAssets\VertexPaintColorSnippetRefs.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\DataAssets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\DataAssets\VertexPaintMaterialDataAsset.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\DataAssets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\DataAssets\VertexPaintMaterialDataAsset.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\DataAssets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\DataAssets\VertexPaintOptimizationDataAsset.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\DataAssets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\DataAssets\VertexPaintOptimizationDataAsset.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\DataAssets</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\FunctionLibs">
+      <UniqueIdentifier>{7C4AE765-F446-3967-8B32-67B6782F0153}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\FunctionLibs\VertexPaintFunctionLibrary.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\FunctionLibs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\FunctionLibs\VertexPaintFunctionLibrary.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\FunctionLibs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\FunctionLibs\VertexPaintTasksFunctionLibrary.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\FunctionLibs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\FunctionLibs\VertexPaintTasksFunctionLibrary.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\FunctionLibs</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites">
+      <UniqueIdentifier>{88980A9E-AEB1-31DE-8AFF-35BBE2736508}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites\AdditionalDataPrerequisites.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites\CalculateColorsPrerequisites.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites\ChaosClothPhysicsPrerequisites.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites\ColorSnippetPrerequisites.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites\CompareMeshColorsPrerequisites.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites\CorePrerequisites.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites\FallOffPrerequisites.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites\FundementalsPrerequisites.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites\GetClosestVertexDataPrerequisites.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites\GetColorsOnlyPrerequisites.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites\GetColorsWithinAreaPrerequisites.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites\HitLocationPrerequisites.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites\MaterialDataAssetPrerequisites.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites\PaintAtLocationPrerequisites.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites\PaintConditionsPrerequisites.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites\PaintEntireMeshPrerequisites.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites\PaintFundementalsPrerequisites.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites\PaintLimitsPrerequisites.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites\PaintSnippetsPrerequisites.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites\PaintWithinAreaPrerequisites.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites\SetColorsWithStringPrerequisites.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites\SetMeshColorsPrerequisites.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites\TaskResultsPrerequisites.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites\WithinAreaPrerequisites.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Prerequisites</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Subsystems">
+      <UniqueIdentifier>{8CA95096-C4E9-3410-B73C-42C10DC039B8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Subsystems\VertexPaintDetectionGISubSystem.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Subsystems</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Subsystems\VertexPaintDetectionGISubSystem.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Subsystems</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Utility">
+      <UniqueIdentifier>{53231008-A68B-3FB6-94E1-0702B58C5F00}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Utility\VertexPaintDetectionLog.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Utility</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Utility\VertexPaintDetectionLog.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetectionPlugin\Utility</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked">
+      <UniqueIdentifier>{71C0C23B-B58F-3D7B-8603-78B969868AA2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetAllColorSnippetsForMeshNode.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetAllColorSnippetsForMeshNode.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetAllColorSnippetTagsForMesh.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetAllColorSnippetTagsForMesh.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetAllVertexColorsOnlyNode.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetAllVertexColorsOnlyNode.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetCalculateColorsTasksAmount.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetCalculateColorsTasksAmount.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetChannelSurfaceIsRegisteredTo.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetChannelSurfaceIsRegisteredTo.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetClosestVertexDataOnMeshNode.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetClosestVertexDataOnMeshNode.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetColorsDetectionTasksAmount.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetColorsDetectionTasksAmount.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetColorSnippetTagsInCategory.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetColorSnippetTagsInCategory.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetColorSnippetTagsUnderCategory.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetColorSnippetTagsUnderCategory.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetColorsToApplyFromPhysMat.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetColorsToApplyFromPhysMat.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetColorsWithinAreaNode.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetColorsWithinAreaNode.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetMeshComponentVertexColorsNode.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetMeshComponentVertexColorsNode.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetMeshVertexColorsAtLODNode.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetMeshVertexColorsAtLODNode.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetMostDominantPhysicsSurface.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetMostDominantPhysicsSurface.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetPhysMatUsingPhysicsSurface.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\GetPhysMatUsingPhysicsSurface.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\MultiCapsuleTraceForUniqueMeshes.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\MultiCapsuleTraceForUniqueMeshes.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\PaintAtLocationNode.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\PaintAtLocationNode.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\PaintColorSnippetOnMeshNode.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\PaintColorSnippetOnMeshNode.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\PaintGroupSnippetOnMeshNode.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\PaintGroupSnippetOnMeshNode.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\PaintOnEntireMeshNode.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\PaintOnEntireMeshNode.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\PaintWithinAreaNode.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\PaintWithinAreaNode.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\SetChaosVehicleFrictionMultiplier.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\SetChaosVehicleFrictionMultiplier.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\SetMeshComponentColorsSerialized.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\SetMeshComponentColorsSerialized.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\SetMeshComponentVertexColorsNode.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\SetMeshComponentVertexColorsNode.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\VertexPaintDetectionOnMeshNode.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\VertexPaintDetectionOnMeshNode.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\VertexPaintDetectionWithComp.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\VertexPaintDetectionWithComp.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\VertexPaintDetection_Uncooked.Build.cs">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </None>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\VertexPaintDetection_Uncooked.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\VertexPaintDetection_Uncooked.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\VertexPaintFunctionWrapper.cpp">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked\VertexPaintFunctionWrapper.h">
+      <Filter>Plugins\VertexPaintDetectionPlugin\Source\VertexPaintDetection_Uncooked</Filter>
+    </ClInclude>
+    <Filter Include="Source\Household_Hustle">
+      <UniqueIdentifier>{00A6356F-25AA-31A8-B69E-077A28466A4B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Household_Hustle\Household_Hustle.Build.cs">
+      <Filter>Source\Household_Hustle</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Household_Hustle\Household_Hustle.cpp">
+      <Filter>Source\Household_Hustle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Household_Hustle\Household_Hustle.h">
+      <Filter>Source\Household_Hustle</Filter>
+    </ClInclude>
+    <Filter Include="Source\Household_Hustle\Private">
+      <UniqueIdentifier>{F8FA09C9-E2F2-358E-86B4-94A11F3EF122}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Household_Hustle\Private\PoolWater.cpp">
+      <Filter>Source\Household_Hustle\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Household_Hustle\Private\PoolTrashItem.cpp">
+      <Filter>Source\Household_Hustle\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Household_Hustle\Public">
+      <UniqueIdentifier>{67B5B658-2F63-38F3-8760-ED89E9EB3A22}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Household_Hustle\Public\PoolWater.h">
+      <Filter>Source\Household_Hustle\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Household_Hustle\Public\PoolTrashItem.h">
+      <Filter>Source\Household_Hustle\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

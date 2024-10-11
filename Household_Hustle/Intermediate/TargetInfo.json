@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Household_Hustle",
+			"Path": "..\\Source\\Household_Hustle.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Household_HustleEditor",
+			"Path": "..\\Source\\Household_HustleEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

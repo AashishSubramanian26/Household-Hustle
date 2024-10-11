@@ -1,0 +1,13 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\Kuba\\Documents\\GitHub\\Household-Hustle\\Household_Hustle\\Source\\Household_Hustle\\Household_Hustle.Build.cs",
+		"C:\\Users\\Kuba\\Documents\\GitHub\\Household-Hustle\\Household_Hustle\\Plugins\\VertexPaintDetectionPlugin\\Source\\RVPDPEditor\\RVPDPEditor.Build.cs",
+		"C:\\Users\\Kuba\\Documents\\GitHub\\Household-Hustle\\Household_Hustle\\Plugins\\VertexPaintDetectionPlugin\\Source\\RVPDPRapidJson\\RVPDPRapidJson.Build.cs",
+		"C:\\Users\\Kuba\\Documents\\GitHub\\Household-Hustle\\Household_Hustle\\Plugins\\VertexPaintDetectionPlugin\\Source\\RVPDPToolbarButton\\RVPDPToolbarButton.Build.cs",
+		"C:\\Users\\Kuba\\Documents\\GitHub\\Household-Hustle\\Household_Hustle\\Plugins\\VertexPaintDetectionPlugin\\Source\\VertexPaintDetectionPlugin\\VertexPaintDetectionPlugin.Build.cs",
+		"C:\\Users\\Kuba\\Documents\\GitHub\\Household-Hustle\\Household_Hustle\\Plugins\\VertexPaintDetectionPlugin\\Source\\VertexPaintDetection_Uncooked\\VertexPaintDetection_Uncooked.Build.cs",
+		"C:\\Users\\Kuba\\Documents\\GitHub\\Household-Hustle\\Household_Hustle\\Source\\Household_Hustle.Target.cs",
+		"C:\\Users\\Kuba\\Documents\\GitHub\\Household-Hustle\\Household_Hustle\\Source\\Household_HustleEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}

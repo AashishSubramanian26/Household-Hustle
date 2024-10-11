@@ -47,9 +47,13 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectGetColorsWithinAreaStruct_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Get Colors Within Area\n" },
+#endif
 		{ "ModuleRelativePath", "Prerequisites/GetColorsWithinAreaPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get Colors Within Area" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FVertexDetectGetColorsWithinAreaStruct_Statics::NewStructOps()
@@ -60,10 +64,12 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVertexDetectGetColorsWithinAreaStruct_Statics::NewProp_withinAreaSettings_MetaData[] = {
 		{ "Category", "Runtime Vertex Paint and Detection Plugin" },
 		{ "ModuleRelativePath", "Prerequisites/GetColorsWithinAreaPrerequisites.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Within Area Settings such as the Primitive Components to check if within, for example a Cube, Rectangle, Sphere or even a Skeletal Mesh if you opt for Complex Shape, and if we should return any vertex data of the vertices that's within the area, and the colors of each channel info like average color, % etc." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectGetColorsWithinAreaStruct_Statics::NewProp_withinAreaSettings = { "withinAreaSettings", nullptr, (EPropertyFlags)0x0010008000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectGetColorsWithinAreaStruct, withinAreaSettings), Z_Construct_UScriptStruct_FVertexPaintDetectWithinAreaSettings, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectGetColorsWithinAreaStruct_Statics::NewProp_withinAreaSettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectGetColorsWithinAreaStruct_Statics::NewProp_withinAreaSettings_MetaData) }; // 317522931
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVertexDetectGetColorsWithinAreaStruct_Statics::NewProp_withinAreaSettings = { "withinAreaSettings", nullptr, (EPropertyFlags)0x0010008000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVertexDetectGetColorsWithinAreaStruct, withinAreaSettings), Z_Construct_UScriptStruct_FVertexPaintDetectWithinAreaSettings, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVertexDetectGetColorsWithinAreaStruct_Statics::NewProp_withinAreaSettings_MetaData), Z_Construct_UScriptStruct_FVertexDetectGetColorsWithinAreaStruct_Statics::NewProp_withinAreaSettings_MetaData) }; // 2887962516
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVertexDetectGetColorsWithinAreaStruct_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVertexDetectGetColorsWithinAreaStruct_Statics::NewProp_withinAreaSettings,
 	};
@@ -89,15 +95,15 @@ template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<FVertexDet
 		}
 		return Z_Registration_Info_UScriptStruct_VertexDetectGetColorsWithinAreaStruct.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_GetColorsWithinAreaPrerequisites_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_GetColorsWithinAreaPrerequisites_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_GetColorsWithinAreaPrerequisites_h_Statics::ScriptStructInfo[] = {
-		{ FVertexDetectGetColorsWithinAreaStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectGetColorsWithinAreaStruct_Statics::NewStructOps, TEXT("VertexDetectGetColorsWithinAreaStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectGetColorsWithinAreaStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectGetColorsWithinAreaStruct), 2501455522U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_GetColorsWithinAreaPrerequisites_h_Statics::ScriptStructInfo[] = {
+		{ FVertexDetectGetColorsWithinAreaStruct::StaticStruct, Z_Construct_UScriptStruct_FVertexDetectGetColorsWithinAreaStruct_Statics::NewStructOps, TEXT("VertexDetectGetColorsWithinAreaStruct"), &Z_Registration_Info_UScriptStruct_VertexDetectGetColorsWithinAreaStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVertexDetectGetColorsWithinAreaStruct), 1638630243U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_GetColorsWithinAreaPrerequisites_h_3341278309(TEXT("/Script/VertexPaintDetectionPlugin"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_GetColorsWithinAreaPrerequisites_h_954228477(TEXT("/Script/VertexPaintDetectionPlugin"),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_GetColorsWithinAreaPrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_GetColorsWithinAreaPrerequisites_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_GetColorsWithinAreaPrerequisites_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Kuba_Documents_GitHub_Household_Hustle_Household_Hustle_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Prerequisites_GetColorsWithinAreaPrerequisites_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

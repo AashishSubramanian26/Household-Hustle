@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\kuba\\documents\\github\\household-hustle\\household_hustle\\intermediate\\build\\win64\\unrealeditor\\inc\\household_hustle\\uht\\poolwater.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\kuba\\documents\\github\\household-hustle\\household_hustle\\intermediate\\build\\win64\\x64\\household_hustleeditor\\development\\engine\\sharedpch.engine.cpp20.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\users\\kuba\\documents\\github\\household-hustle\\household_hustle\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\household_hustle\\definitions.household_hustle.h",
+            "c:\\users\\kuba\\documents\\github\\household-hustle\\household_hustle\\source\\household_hustle\\public\\poolwater.h",
+            "c:\\users\\kuba\\documents\\github\\household-hustle\\household_hustle\\source\\household_hustle\\public\\pooltrashitem.h",
+            "c:\\users\\kuba\\documents\\github\\household-hustle\\household_hustle\\intermediate\\build\\win64\\unrealeditor\\inc\\household_hustle\\uht\\pooltrashitem.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\boxcomponent.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\boxcomponent.generated.h",
+            "c:\\users\\kuba\\documents\\github\\household-hustle\\household_hustle\\intermediate\\build\\win64\\unrealeditor\\inc\\household_hustle\\uht\\poolwater.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
